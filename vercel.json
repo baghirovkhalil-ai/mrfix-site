@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "echo 'no install'",
+  "buildCommand": "python3 build.py || echo 'Python tapılmadı — hazır _site istifadə olunur'",
+  "outputDirectory": "_site",
+  "trailingSlash": true,
+  "headers": [
+    {
+      "source": "/(css|js|assets)/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }]
+    }
+  ]
+}

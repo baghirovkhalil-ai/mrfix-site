@@ -1,0 +1,10 @@
+[
+ {"name": "Ağ", "hex": "#F4F3EF"}, {"name": "Boz", "hex": "#9A9B99"}, {"name": "Bakı boz", "hex": "#B6B1A6"}, {"name": "Satin boz", "hex": "#C6C5C0"},
+ {"name": "Bakı bej", "hex": "#D8C7A6"}, {"name": "Fildişi", "hex": "#EDE3CC"}, {"name": "Milet qəhvəyi", "hex": "#8A6A52"}, {"name": "Tünd qəhvəyi", "hex": "#4E3527"},
+ {"name": "Südlü qəhvəyi", "hex": "#A68464"}, {"name": "Qəhvəyi", "hex": "#6E4B33"}, {"name": "Kotto", "hex": "#B8653D"}, {"name": "Somon", "hex": "#E3A07F"},
+ {"name": "Xəzər mavi", "hex": "#5E8FB0"}, {"name": "Ege mavi", "hex": "#7FB3D1"}, {"name": "Ağdəniz mavi", "hex": "#3F78A6"}, {"name": "Okean mavi", "hex": "#1F4E79"},
+ {"name": "Firuzə", "hex": "#3FB5B0"}, {"name": "Yaşıl", "hex": "#4E8A4A"}, {"name": "Badam yaşıl", "hex": "#A9C08A"}, {"name": "Buz yaşıl", "hex": "#CFE3D6"},
+ {"name": "Sarı", "hex": "#F2C230"}, {"name": "Xardal sarı", "hex": "#C9A227"}, {"name": "Satin sarı", "hex": "#EFDCA0"}, {"name": "Bakı sarı", "hex": "#E3BE6A"},
+ {"name": "Bənövşə", "hex": "#7D5BA6"}, {"name": "Manolya", "hex": "#E9D8C8"}, {"name": "Didim bej", "hex": "#CDB592"}, {"name": "Gül qurusu", "hex": "#C49A98"},
+ {"name": "Çəhrayı", "hex": "#EBA9B8"}, {"name": "Sigan çəhrayı", "hex": "#D98E9E"}, {"name": "Qırmızı", "hex": "#B3302B"}, {"name": "Qara", "hex": "#1D1D1F"}
+]

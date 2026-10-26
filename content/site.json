@@ -1,0 +1,45 @@
+{
+ "name": "Mr.Fix",
+ "company": "Kartaş MMC",
+ "tagline": "Tikinti kimyəviləri · 2000-ci ildən",
+ "url": "https://mrfix.az",
+ "base_path": "/",
+ "cname": "",
+ "contact": {
+  "address": "Bakı şəhəri, Nərimanov rayonu, Xətai prospekti 43",
+  "map": "https://www.google.com/maps/search/?api=1&query=X%C9%99tai+prospekti+43+Bak%C4%B1",
+  "phones": ["+994 12 310 88 55", "+994 10 347 00 10"],
+  "email": "info@mrfix.az",
+  "whatsapp": "994103470010",
+  "hours": "B.e. – Cümə · 09:00 – 18:00"
+ },
+ "social": {
+  "instagram": "https://www.instagram.com/mrfix.az/",
+  "facebook": "https://www.facebook.com/mrfix.constructionchemicals",
+  "youtube": "https://www.youtube.com/channel/UCRzthUAO4FycwkFY5lpAw4g",
+  "twitter": "https://twitter.com/mrfixaz"
+ },
+ "stats": [
+  {"value": 25, "suffix": "+", "label": "il tikinti kimyəviləri təcrübəsi"},
+  {"value": 13, "suffix": "", "label": "məhsul kateqoriyası"},
+  {"value": 130, "suffix": "+", "label": "məhsul çeşidi"},
+  {"value": 150, "suffix": "+", "label": "diler və satış nöqtəsi"}
+ ],
+ "export": ["Azərbaycan", "Gürcüstan", "Qırğızıstan", "Özbəkistan", "Türkiyə"],
+ "about": [
+  "Kartaş MMC 2000-ci ildə Azərbaycanda yaradılıb və Mr.Fix brendi ilə tikinti kimyəviləri istehsalına başlayıb. Şirkət ölkənin bu sahədə fəaliyyət göstərən ən qabaqcıl istehsalçılarından biridir və mövcud məhsulların təkmilləşdirilməsini, çeşidin genişləndirilməsini daim diqqətdə saxlayır.",
+  "Müəssisə kafel və keramika yapışdırıcıları, dərz dolğuları, hidroizolyasiya məhsulları, hazır suvaqlar, təmir məhlulları, döşəmə materialları, beton qatqıları, sement üyüdmə qatqıları və istilik izolyasiya materialları istehsal edir.",
+  "Məhsullar ən son texnoloji avadanlıqlarla, tam avtomatlaşdırılmış şəraitdə hazırlanır və Mr.Fix keyfiyyətə nəzarət laboratoriyalarında mütəmadi yoxlanılır. Şirkət ISO 9001 keyfiyyət idarəetmə sistemi ilə fəaliyyət göstərir, bütün məhsullar Avropa standartlarının tələbləri nəzərə alınaraq istehsal olunur."
+ ],
+ "values": [
+  {"title": "Keyfiyyət", "text": "Hər partiya laboratoriyada yoxlanılır. ISO 9001 və Avropa EN standartları əsas meyarımızdır."},
+  {"title": "Etibarlılıq", "text": "Hər bina insanların rahatlığı və təhlükəsizliyi deməkdir. Məhsullarımız onilliklər üçün hazırlanır."},
+  {"title": "Peşəkar dəstək", "text": "Ustalara, layihəçilərə və podratçılara texniki məsləhət və sistem həlləri təqdim edirik."},
+  {"title": "Ekoloji məsuliyyət", "text": "Gələcək nəsillərin daha təmiz məkanlarda yaşaması üçün istehsalı davamlı şəkildə inkişaf etdiririk."}
+ ],
+ "career": {
+  "intro": "Komandamızın bir hissəsi olun. Qarşılıqlı hörmət və etimadı, iştirakı və müxtəlifliyi, işçilərimizin davamlı inkişafını və motivasiyasını dəyərləndiririk.",
+  "email": "info@mrfix.az",
+  "openings": []
+ }
+}

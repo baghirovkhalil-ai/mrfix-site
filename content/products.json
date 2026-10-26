@@ -1,0 +1,3291 @@
+[
+ {
+  "slug": "ceramax-standard",
+  "name": "CERAMAX® STANDARD",
+  "cat": "yapisdirici",
+  "group": "Sement əsaslı",
+  "short": "Sement əsaslı keramika yapışdırıcısı (C1TE)",
+  "image": "https://mrfix.az/site/assets/files/1041/ceramax_standard-2.png",
+  "featured": true,
+  "standard": "EN 12004-1 · C1TE",
+  "classes": [
+   [
+    "C1",
+    "Normal performanslı sement əsaslı yapışdırıcı"
+   ],
+   [
+    "T",
+    "Sürüşməsi azaldılmış"
+   ],
+   [
+    "E",
+    "Uzadılmış açıq gözləmə müddəti"
+   ]
+  ],
+  "desc": "CERAMAX® Standard sement əsaslı, standart performanslı keramika yapışdırıcısıdır. Sürüşməsi azaldılmış və açıq gözləmə müddəti uzadılmışdır.",
+  "areas": [
+   "Daxili məkanlarda, üfüqi və şaquli səthlərdə",
+   "Kiçik və orta ölçülü kafel və keramika tətbiqlərində",
+   "Hamam, mətbəx, dəhliz kimi sahələrdə",
+   "Sement əsaslı suvaq, şap və beton səthlər üzərində",
+   "Xarici mühitdə və ağır şəraitdə CERAMAX® Addmix ilə istifadə tövsiyə olunur"
+  ],
+  "features": [
+   "Yüksək yapışma performansı",
+   "Tiksotropik quruluş sayəsində şaquli səthlərdə sürüşmür",
+   "Uzadılmış açıq gözləmə müddəti ilə rahat tətbiq",
+   "Asan hazırlanır və tətbiq olunur",
+   "Homogen və stabil quruluş"
+  ],
+  "tech": [
+   [
+    "Tərkib",
+    "Mineral doldurucu, sement, xüsusi kimyəvi qatqılar"
+   ],
+   [
+    "Görünüş",
+    "Boz rəngli toz"
+   ],
+   [
+    "Sıxlıq",
+    "~1,82 kq/l"
+   ],
+   [
+    "Başlanğıc yapışma (EN 12004-2)",
+    "≥ 0,5 N/mm²"
+   ],
+   [
+    "Suya daldırmadan sonra",
+    "≥ 0,5 N/mm²"
+   ],
+   [
+    "İstilik yaşlandırmasından sonra",
+    "≥ 0,5 N/mm²"
+   ],
+   [
+    "Donma-ərimədən sonra",
+    "≥ 0,5 N/mm²"
+   ],
+   [
+    "Açıq gözləmə (30 dəq)",
+    "≥ 0,5 N/mm²"
+   ],
+   [
+    "Sürüşmə",
+    "≤ 0,5 mm"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +35°C"
+   ],
+   [
+    "İstismar temperaturu",
+    "−20°C / +80°C"
+   ],
+   [
+    "Qarışım nisbəti",
+    "6,5–7 litr su / 25 kq"
+   ],
+   [
+    "Qarışığın istifadə müddəti",
+    "~2 saat"
+   ],
+   [
+    "Düzəliş müddəti",
+    "~10–15 dəq"
+   ],
+   [
+    "Dərz dolğu müddəti",
+    "24 saat"
+   ],
+   [
+    "İstismara açılma",
+    "Divarda 24, zəmində 48 saat"
+   ],
+   [
+    "Yanğına reaksiya (EN 13501-1)",
+    "A1"
+   ]
+  ],
+  "consumption": "~5–6 kq/m²",
+  "tds": "https://mrfix.az/site/assets/files/1041/tmf-041_ceramax_standard_tds_az.pdf",
+  "sds": "https://mrfix.az/site/assets/files/1041/001_ceramax_stand__msds.pdf",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "ceramax-standard-white",
+  "name": "CERAMAX® STANDARD WHITE",
+  "cat": "yapisdirici",
+  "group": "Sement əsaslı",
+  "short": "Ağ sement əsaslı keramika yapışdırıcısı (C1TE)",
+  "image": "https://mrfix.az/site/assets/files/1185/ceramax_standard_white-1.png",
+  "featured": false
+ },
+ {
+  "slug": "ceramax-rapid",
+  "name": "CERAMAX® RAPID",
+  "cat": "yapisdirici",
+  "group": "Sement əsaslı",
+  "short": "Tez bərkiyən keramika yapışdırıcısı (C1TF)",
+  "image": "https://mrfix.az/site/assets/files/1189/ceramax_rapid.png",
+  "featured": true,
+  "standard": "EN 12004-1 · C1FT",
+  "classes": [
+   [
+    "C1",
+    "Standart performanslı sement əsaslı yapışdırıcı"
+   ],
+   [
+    "F",
+    "Tez bərkiyən"
+   ],
+   [
+    "T",
+    "Sürüşməsi azaldılmış"
+   ]
+  ],
+  "desc": "CERAMAX® Rapid sürətli bərkiyən sement əsaslı keramika yapışdırıcısıdır. Mineral doldurucu, xüsusi sement və kimyəvi əlavələrdən hazırlanır.",
+  "areas": [
+   "Qısa müddətdə istifadəyə verilməli olan sahələr",
+   "Daxili və xarici məkanlar, üfüqi və şaquli səthlər",
+   "Keramika, qranit, mərmər, təbii daş və dekorativ kərpic",
+   "İntensiv piyada və yük hərəkəti olan sahələr"
+  ],
+  "features": [
+   "6 saatdan sonra yüngül istismara açılır",
+   "Yüksək yapışma performansı",
+   "Tiksotrop quruluş, şaquli səthlərdə sürüşmür",
+   "Hazırlanması və tətbiqi asandır",
+   "Yüksək stabillik və möhkəmlik"
+  ],
+  "tech": [
+   [
+    "Tərkib",
+    "Mineral doldurucu, xüsusi sement, kimyəvi qatqılar"
+   ],
+   [
+    "Görünüş",
+    "Boz rəngli toz"
+   ],
+   [
+    "Sıxlıq",
+    "~1,79 kq/l"
+   ],
+   [
+    "Erkən yapışma (6 saat)",
+    "≥ 0,5 N/mm²"
+   ],
+   [
+    "Başlanğıc yapışma",
+    "≥ 0,5 N/mm²"
+   ],
+   [
+    "Suya daldırmadan sonra",
+    "≥ 0,5 N/mm²"
+   ],
+   [
+    "Donma-ərimədən sonra",
+    "≥ 0,5 N/mm²"
+   ],
+   [
+    "Açıq gözləmə (10 dəq)",
+    "≥ 0,5 N/mm²"
+   ],
+   [
+    "Sürüşmə",
+    "≤ 0,5 mm"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +35°C"
+   ],
+   [
+    "Qarışım nisbəti",
+    "6,5–7 litr su / 25 kq"
+   ],
+   [
+    "Qarışığın istifadə müddəti",
+    "~45 dəq"
+   ],
+   [
+    "Düzəliş müddəti",
+    "~3–5 dəq"
+   ],
+   [
+    "Dərz dolğu müddəti",
+    "6 saat"
+   ],
+   [
+    "Yüngül istismara açılma",
+    "6 saat"
+   ],
+   [
+    "Yanğına reaksiya (EN 13501-1)",
+    "A1"
+   ]
+  ],
+  "consumption": "~5–6 kq/m²",
+  "tds": "https://mrfix.az/site/assets/files/1189/tmf-049__ceramax_rapid_tds_az.pdf",
+  "sds": "https://mrfix.az/site/assets/files/1189/007_ceramax_rapid_msds.pdf",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "ceramax-pro",
+  "name": "CERAMAX® PRO",
+  "cat": "yapisdirici",
+  "group": "Sement əsaslı",
+  "short": "Yüksək performanslı keramika yapışdırıcısı (C2T)",
+  "image": "https://mrfix.az/site/assets/files/1191/ceramax_pro-3.png",
+  "featured": true,
+  "standard": "EN 12004-1 · C2T",
+  "classes": [
+   [
+    "C2",
+    "İnkişaf etdirilmiş sement əsaslı yapışdırıcı"
+   ],
+   [
+    "T",
+    "Sürüşməsi azaldılmış"
+   ]
+  ],
+  "desc": "CERAMAX® PRO mərmər, qranit və keramika üçün yüksək performanslı, sürüşməsi azaldılmış sement əsaslı yapışdırıcıdır.",
+  "areas": [
+   "Daxili və xarici məkanlarda, üfüqi və şaquli səthlərdə",
+   "Orta və böyük ölçülü keramika, qranit və mərmər",
+   "Təbii daş və dekorativ kərpic",
+   "Temperatur fərqlərinə məruz qalan sement əsaslı səthlər",
+   "Keramika üzərinə keramika",
+   "Üzgüçülük hovuzları və iri su anbarları",
+   "Teras və balkonlar",
+   "İntensiv piyada və yük hərəkəti olan sahələr"
+  ],
+  "features": [
+   "Yüksək yapışma performansı",
+   "Tiksotropik quruluş, şaquli səthlərdə sürüşmür",
+   "Yüksək stabillik və möhkəmlik",
+   "Asan hazırlanır və tətbiq olunur"
+  ],
+  "tech": [
+   [
+    "Tərkib",
+    "Mineral doldurucu, sement, xüsusi kimyəvi qatqılar"
+   ],
+   [
+    "Görünüş",
+    "Boz rəngli toz"
+   ],
+   [
+    "Sıxlıq",
+    "~1,79 kq/l"
+   ],
+   [
+    "Başlanğıc yapışma",
+    "≥ 1,0 N/mm²"
+   ],
+   [
+    "Suya daldırmadan sonra",
+    "≥ 1,0 N/mm²"
+   ],
+   [
+    "İstilik yaşlandırmasından sonra",
+    "≥ 1,0 N/mm²"
+   ],
+   [
+    "Donma-ərimədən sonra",
+    "≥ 1,0 N/mm²"
+   ],
+   [
+    "Açıq gözləmə (20 dəq)",
+    "≥ 0,5 N/mm²"
+   ],
+   [
+    "Sürüşmə",
+    "≤ 0,5 mm"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +35°C"
+   ],
+   [
+    "İstismar temperaturu",
+    "−20°C / +80°C"
+   ],
+   [
+    "Qarışım nisbəti",
+    "6,5–7 litr su / 25 kq"
+   ],
+   [
+    "Qarışığın istifadə müddəti",
+    "~2 saat"
+   ],
+   [
+    "Dərz dolğu müddəti",
+    "24 saat"
+   ],
+   [
+    "İstismara açılma",
+    "Divarda 24, zəmində 48 saat"
+   ],
+   [
+    "Yanğına reaksiya (EN 13501-1)",
+    "A1"
+   ]
+  ],
+  "consumption": "~5–6 kq/m²",
+  "tds": "https://mrfix.az/site/assets/files/1191/tmf-043_ceramax_pro_tds_az.pdf",
+  "sds": "https://mrfix.az/site/assets/files/1191/005_ceramax_pro_msds.pdf",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "ceramax-ultra",
+  "name": "CERAMAX® ULTRA",
+  "cat": "yapisdirici",
+  "group": "Sement əsaslı",
+  "short": "Yüksək performanslı keramika yapışdırıcısı (C2TE)",
+  "image": "https://mrfix.az/site/assets/files/1193/ceramax_ultra-2.png",
+  "featured": true,
+  "standard": "EN 12004-1 · C2TE",
+  "classes": [
+   [
+    "C2",
+    "Təkmilləşdirilmiş sement əsaslı yapışdırıcı"
+   ],
+   [
+    "T",
+    "Sürüşməsi azaldılmış"
+   ],
+   [
+    "E",
+    "Uzadılmış açıq gözləmə müddəti"
+   ]
+  ],
+  "desc": "CERAMAX® ULTRA yüksək performanslı, sürüşməsi azaldılmış və açıq gözləmə müddəti uzadılmış mərmər, qranit və keramika yapışdırıcısıdır.",
+  "areas": [
+   "Daxili və xarici məkanda, üfüqi və şaquli səthlərdə",
+   "Orta və böyük ölçülü keramika, qranit və mərmər",
+   "Təbii daş və dekorativ kərpic",
+   "Keramika üzərinə keramika",
+   "Hovuzlar və böyük su çənləri",
+   "Teras və balkonlar",
+   "İntensiv piyada və yük hərəkəti olan sahələr"
+  ],
+  "features": [
+   "Yüksək yapışma performansı",
+   "Şaquli səthlərdə sürüşmür",
+   "Uzadılmış açıq gözləmə müddəti",
+   "Yüksək stabillik və davamlılıq",
+   "Asan hazırlanır və tətbiq olunur"
+  ],
+  "tech": [
+   [
+    "Tərkib",
+    "Mineral doldurucu, sement, xüsusi kimyəvi qatqılar"
+   ],
+   [
+    "Görünüş",
+    "Boz rəngli toz"
+   ],
+   [
+    "Sıxlıq",
+    "~1,82 kq/l"
+   ],
+   [
+    "Başlanğıc yapışma",
+    "≥ 1,0 N/mm²"
+   ],
+   [
+    "Suya daldırmadan sonra",
+    "≥ 1,0 N/mm²"
+   ],
+   [
+    "Donma-ərimədən sonra",
+    "≥ 1,0 N/mm²"
+   ],
+   [
+    "Açıq gözləmə (30 dəq)",
+    "≥ 0,5 N/mm²"
+   ],
+   [
+    "Sürüşmə",
+    "≤ 0,5 mm"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +35°C"
+   ],
+   [
+    "İstismar temperaturu",
+    "−20°C / +80°C"
+   ],
+   [
+    "Qarışım nisbəti",
+    "6,5–7 litr su / 25 kq"
+   ],
+   [
+    "Qarışığın istifadə müddəti",
+    "~2 saat"
+   ],
+   [
+    "İstismara açılma",
+    "Divarda 24, zəmində 48 saat"
+   ],
+   [
+    "Yanğına reaksiya (EN 13501-1)",
+    "A1"
+   ]
+  ],
+  "consumption": "~5–6 kq/m²",
+  "tds": "https://mrfix.az/site/assets/files/1193/tmf-044__ceramax_ultra_tds_az.pdf",
+  "sds": "https://mrfix.az/site/assets/files/1193/006_ceramax_ultra_msds.pdf",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "ceramax-flex",
+  "name": "CERAMAX® FLEX",
+  "cat": "yapisdirici",
+  "group": "Sement əsaslı",
+  "short": "Elastik keramika yapışdırıcısı (C2TE S1)",
+  "image": "https://mrfix.az/site/assets/files/1195/ceramax_flex-3.png",
+  "featured": true,
+  "standard": "EN 12004-1 · C2TE S1",
+  "classes": [
+   [
+    "C2",
+    "Təkmilləşdirilmiş sement əsaslı yapışdırıcı"
+   ],
+   [
+    "T",
+    "Sürüşməsi azaldılmış"
+   ],
+   [
+    "E",
+    "Uzadılmış açıq gözləmə müddəti"
+   ],
+   [
+    "S1",
+    "Elastik yapışdırıcı"
+   ]
+  ],
+  "desc": "CERAMAX® FLEX mərmər, qranit və keramika üçün yüksək performanslı, elastik sement əsaslı yapışdırıcıdır. Sürüşməsi azaldılmış, açıq gözləmə müddəti uzadılmışdır.",
+  "areas": [
+   "Daxili və xarici, üfüqi və şaquli səthlər",
+   "Orta və böyük ölçülü keramika, qranit, mərmər, təbii daş və mozaika",
+   "Dekorativ kərpic",
+   "Keramika üzərinə keramika",
+   "Hovuzlar, termal hovuzlar və su anbarları",
+   "Soyuducu kameralar",
+   "Yerdən isitmə sistemləri",
+   "Teras və balkonlar",
+   "Uyğun astarla hazırlanmış alçıpan"
+  ],
+  "features": [
+   "Yüksək yapışma performansı",
+   "Şaquli səthlərdə sürüşmür",
+   "Uzun açıq gözləmə müddəti",
+   "Elastik, deformasiyalara davamlı",
+   "Temperatur genləşmə və büzülmələrinə davamlı",
+   "Vibrasiyaya davamlı",
+   "Donma-ərimə dövrlərinə davamlı"
+  ],
+  "tech": [
+   [
+    "Tərkib",
+    "Mineral doldurucu, sement, xüsusi kimyəvi qatqılar"
+   ],
+   [
+    "Görünüş",
+    "Boz rəngli toz"
+   ],
+   [
+    "Sıxlıq",
+    "~1,87 kq/l"
+   ],
+   [
+    "Başlanğıc yapışma (EN 12004-2)",
+    "≥ 1,0 N/mm²"
+   ],
+   [
+    "Suya daldırmadan sonra",
+    "≥ 1,0 N/mm²"
+   ],
+   [
+    "İstilik yaşlandırmasından sonra",
+    "≥ 1,0 N/mm²"
+   ],
+   [
+    "Donma-ərimədən sonra",
+    "≥ 1,0 N/mm²"
+   ],
+   [
+    "Açıq gözləmə (30 dəq)",
+    "≥ 0,5 N/mm²"
+   ],
+   [
+    "Sürüşmə",
+    "≤ 0,5 mm"
+   ],
+   [
+    "Elastiklik",
+    "≥ 2,5 mm (S1)"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +35°C"
+   ],
+   [
+    "İstismar temperaturu",
+    "−20°C / +80°C"
+   ],
+   [
+    "Qarışım nisbəti",
+    "6,5–7 litr su / 25 kq"
+   ],
+   [
+    "Qarışığın istifadə müddəti",
+    "~3 saat"
+   ],
+   [
+    "Düzəliş müddəti",
+    "~10–15 dəq"
+   ],
+   [
+    "Dərz dolğu müddəti",
+    "24 saat"
+   ],
+   [
+    "İstismara açılma",
+    "Divarda 24, zəmində 48 saat"
+   ],
+   [
+    "Yanğına reaksiya (EN 13501-1)",
+    "A1"
+   ]
+  ],
+  "consumption": "~5–6 kq/m²",
+  "tds": "https://mrfix.az/site/assets/files/1195/tmf-045_ceramax_flex_tds_az.pdf",
+  "sds": "https://mrfix.az/site/assets/files/1195/003_ceramax_flex__msds.pdf",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "ceramax-flex-white",
+  "name": "CERAMAX® FLEX WHITE",
+  "cat": "yapisdirici",
+  "group": "Sement əsaslı",
+  "short": "Ağ elastik keramika yapışdırıcısı (C2TE S1)",
+  "image": "https://mrfix.az/site/assets/files/1197/ceramax_flex_white-2.png",
+  "featured": false
+ },
+ {
+  "slug": "ceramax-maxi",
+  "name": "CERAMAX® Maxi",
+  "cat": "yapisdirici",
+  "group": "Sement əsaslı",
+  "short": "Yüksək elastik keramika yapışdırıcısı (C2TE S2)",
+  "image": "https://mrfix.az/site/assets/files/3061/ceramax_maxi_lime.png",
+  "featured": true,
+  "standard": "EN 12004-1 · C2TE S2",
+  "classes": [
+   [
+    "C2",
+    "Təkmilləşdirilmiş sement əsaslı yapışdırıcı"
+   ],
+   [
+    "T",
+    "Sürüşməsi azaldılmış"
+   ],
+   [
+    "E",
+    "Uzadılmış açıq gözləmə müddəti"
+   ],
+   [
+    "S2",
+    "Yüksək elastiklikli yapışdırıcı"
+   ]
+  ],
+  "desc": "CERAMAX® Maxi mərmər, qranit və keramika üçün yüksək performanslı və yüksək elastik yapışdırıcıdır. Böyük və çox böyük formatlı plitələr üçün nəzərdə tutulub.",
+  "areas": [
+   "Daxili və xarici, üfüqi və şaquli səthlər",
+   "Böyük və çox böyük formatlı keramika, qranit, mərmər",
+   "Keramika üzərinə keramika",
+   "Hovuz, hamam, sauna və su anbarları",
+   "Soyuducu kameralar",
+   "Yerdən isitmə sistemləri",
+   "Teras və balkonlar",
+   "Uyğun astarla hazırlanmış alçıpan"
+  ],
+  "features": [
+   "Yüksək yapışma performansı",
+   "Şaquli səthlərdə sürüşmür",
+   "Uzadılmış açıq gözləmə müddəti",
+   "Yüksək elastiklik, deformasiyalara davamlı",
+   "Temperatur genləşmələrinə davamlı",
+   "Vibrasiyaya davamlı",
+   "Donma-ərimə dövrlərinə davamlı"
+  ],
+  "tech": [
+   [
+    "Tərkib",
+    "Mineral doldurucu, sement, xüsusi kimyəvi qatqılar"
+   ],
+   [
+    "Görünüş",
+    "Boz rəngli toz"
+   ],
+   [
+    "Sıxlıq",
+    "~1,80 kq/l"
+   ],
+   [
+    "Başlanğıc yapışma",
+    "≥ 1,0 N/mm²"
+   ],
+   [
+    "Donma-ərimədən sonra",
+    "≥ 1,0 N/mm²"
+   ],
+   [
+    "Açıq gözləmə (30 dəq)",
+    "≥ 0,5 N/mm²"
+   ],
+   [
+    "Sürüşmə",
+    "≤ 0,5 mm"
+   ],
+   [
+    "Elastiklik (EN 12004-2)",
+    "≥ 5 mm (S2)"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +35°C"
+   ],
+   [
+    "İstismar temperaturu",
+    "−20°C / +80°C"
+   ],
+   [
+    "Qarışım nisbəti",
+    "6,5–7 litr su / 25 kq"
+   ],
+   [
+    "Qarışığın istifadə müddəti",
+    "~3 saat"
+   ],
+   [
+    "İstismara açılma",
+    "Divarda 24, zəmində 48 saat"
+   ],
+   [
+    "Yanğına reaksiya (EN 13501-1)",
+    "A1"
+   ]
+  ],
+  "consumption": "~5–6 kq/m²",
+  "tds": "https://mrfix.az/site/assets/files/3061/tmf-047__ceramax_maxi_tds_az.pdf",
+  "sds": "",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "ceramax-maxi-white",
+  "name": "CERAMAX® Maxi White",
+  "cat": "yapisdirici",
+  "group": "Sement əsaslı",
+  "short": "Ağ yüksək elastik keramika yapışdırıcısı (C2TE S2)",
+  "image": "https://mrfix.az/site/assets/files/3069/ceramax_maxi.png",
+  "featured": false
+ },
+ {
+  "slug": "ceramax-addmix",
+  "name": "CERAMAX® ADDMIX",
+  "cat": "yapisdirici",
+  "group": "Qatqı",
+  "short": "Keramika yapışdırıcıları üçün performans artırıcı qatqı",
+  "image": "https://mrfix.az/site/assets/files/1199/ceramax_addmix.png",
+  "featured": false
+ },
+ {
+  "slug": "fugamax-colorful",
+  "name": "FUGAMAX® COLORFUL",
+  "cat": "derz",
+  "group": "Sement əsaslı",
+  "short": "Silikonlu 1–6 mm dərz dolğusu (CG2 W)",
+  "image": "https://mrfix.az/site/assets/files/1137/colorful.png",
+  "featured": true,
+  "standard": "EN 13888 · CG2 W",
+  "classes": [
+   [
+    "CG",
+    "Sement əsaslı dərz dolğusu"
+   ],
+   [
+    "2",
+    "Təkmilləşdirilmiş"
+   ],
+   [
+    "W",
+    "Az su udma"
+   ]
+  ],
+  "desc": "FUGAMAX® Colorful silikon əlavəli, yüksək göstəricili, sement əsaslı rəngli dərz dolğusudur.",
+  "areas": [
+   "Daxili və xarici, üfüqi və şaquli səthlər",
+   "Keramika, qranit, mərmər və mozaikanın 1–6 mm dərzləri",
+   "Mətbəx, hamam və dəhliz"
+  ],
+  "features": [
+   "Antibakterial, kif və göbələyin qarşısını alır",
+   "Silikon əlavəsi ilə az su udur",
+   "Keramika kənarlarına çatlamadan yapışır",
+   "Rəngini uzun müddət saxlayır",
+   "Həssas səthləri cızmır",
+   "32 rəng seçimi"
+  ],
+  "tech": [
+   [
+    "Tərkib",
+    "Mineral doldurucular, sement, silikon, kimyəvi əlavələr"
+   ],
+   [
+    "Görünüş",
+    "Ağ və ya rəngli narın toz"
+   ],
+   [
+    "Sıxlıq",
+    "~1,65 kq/l"
+   ],
+   [
+    "Təzyiq müqaviməti (EN 12808)",
+    "≥ 15 N/mm²"
+   ],
+   [
+    "Əyilmə müqaviməti",
+    "≥ 2,5 N/mm²"
+   ],
+   [
+    "Aşınma",
+    "≤ 2000 mm³"
+   ],
+   [
+    "Büzülmə",
+    "≤ 3 mm/m"
+   ],
+   [
+    "Su əmmə",
+    "30 dəq ≤ 2 q · 240 dəq ≤ 5 q"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +35°C"
+   ],
+   [
+    "Qarışım nisbəti",
+    "~0,30–0,33 l su / 1 kq"
+   ],
+   [
+    "İşlənmə müddəti",
+    "~1 saat"
+   ],
+   [
+    "İstifadəyə verilmə",
+    "24 saat"
+   ],
+   [
+    "Dərz eni",
+    "1–6 mm"
+   ],
+   [
+    "Yanğına reaksiya (EN 13501-1)",
+    "A1"
+   ]
+  ],
+  "consumption": "Kafel ölçüsü və dərz enindən asılıdır — hesablayıcıdan istifadə edin",
+  "tds": "https://mrfix.az/site/assets/files/1137/fugamax_colorful_tds_az.pdf",
+  "sds": "https://mrfix.az/site/assets/files/1137/055_fugamax_colorful_msds.pdf",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "fugamax-flex",
+  "name": "FUGAMAX® FLEX",
+  "cat": "derz",
+  "group": "Sement əsaslı",
+  "short": "Yüksək performanslı, silikonlu 1–8 mm dərz dolğusu (CG2 WA)",
+  "image": "https://mrfix.az/site/assets/files/1201/flex-2.png",
+  "featured": true,
+  "standard": "EN 13888 · CG2 WA",
+  "classes": [
+   [
+    "CG",
+    "Sement əsaslı dərz dolğusu"
+   ],
+   [
+    "2",
+    "Təkmilləşdirilmiş"
+   ],
+   [
+    "W",
+    "Az su udma"
+   ],
+   [
+    "A",
+    "Yüksək aşınma müqaviməti"
+   ]
+  ],
+  "desc": "FUGAMAX® Flex silikon əlavəli, yüksək performanslı, sement əsaslı, rəngli və elastik dərz dolğusudur.",
+  "areas": [
+   "Daxili və xarici, üfüqi və şaquli səthlər",
+   "1–8 mm enli keramika, qranit, mərmər və mozaika dərzləri",
+   "Hamam, tualet, balkon və teras kimi nəmli sahələr",
+   "Yerdən isitmə olan məkanlar",
+   "Soyuducu anbarlar",
+   "Hovuzlar və su çənləri"
+  ],
+  "features": [
+   "Antibakterial, kif və göbələyin qarşısını alır",
+   "Az su udur",
+   "Elastikdir",
+   "Rəngini uzun müddət saxlayır",
+   "Donma-ərimə dövrlərinə davamlı",
+   "32 rəng seçimi"
+  ],
+  "tech": [
+   [
+    "Tərkib",
+    "Mineral doldurucular, sement, silikon, kimyəvi əlavələr"
+   ],
+   [
+    "Sıxlıq",
+    "~1,55 kq/l"
+   ],
+   [
+    "Təzyiq müqaviməti (EN 12808)",
+    "≥ 25 N/mm²"
+   ],
+   [
+    "Əyilmə müqaviməti",
+    "≥ 5 N/mm²"
+   ],
+   [
+    "Aşınma",
+    "≤ 1000 mm³"
+   ],
+   [
+    "Büzülmə",
+    "≤ 3 mm/m"
+   ],
+   [
+    "Su əmmə",
+    "30 dəq ≤ 2 q · 240 dəq ≤ 5 q"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +35°C"
+   ],
+   [
+    "Qarışım nisbəti",
+    "~0,30–0,33 l su / 1 kq"
+   ],
+   [
+    "İşlənmə müddəti",
+    "~1 saat"
+   ],
+   [
+    "İstifadəyə verilmə",
+    "24 saat"
+   ],
+   [
+    "Dərz eni",
+    "1–8 mm"
+   ],
+   [
+    "Yanğına reaksiya (EN 13501-1)",
+    "A1"
+   ]
+  ],
+  "consumption": "Kafel ölçüsü və dərz enindən asılıdır — hesablayıcıdan istifadə edin",
+  "tds": "https://mrfix.az/site/assets/files/1201/fugamax_flex_tds_az.pdf",
+  "sds": "https://mrfix.az/site/assets/files/1201/057_fugamax_flex_msds.pdf",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "fugamax-cotto",
+  "name": "FUGAMAX® COTTO",
+  "cat": "derz",
+  "group": "Sement əsaslı",
+  "short": "3–20 mm geniş dərz dolğusu (CG2 WA)",
+  "image": "https://mrfix.az/site/assets/files/1415/cotto-2.png",
+  "featured": true,
+  "standard": "EN 13888 · CG2 WA",
+  "classes": [
+   [
+    "CG",
+    "Sement əsaslı dərz dolğusu"
+   ],
+   [
+    "2",
+    "İnkişaf etdirilmiş"
+   ],
+   [
+    "W",
+    "Az su udma"
+   ],
+   [
+    "A",
+    "Yüksək aşınma davamlılığı"
+   ]
+  ],
+  "desc": "FUGAMAX® Cotto silikon qatqılı, sement əsaslı dərz dolğusudur. Daxili və xarici məkanlarda 20 mm-ə qədər dərzlər üçündür.",
+  "areas": [
+   "Daxili və xarici, üfüqi və şaquli səthlər",
+   "Keramika, qranit, mərmər, təbii daş, kərpic və şüşə kərpicin 3–20 mm dərzləri",
+   "Mətbəx, hamam və dəhliz",
+   "İntensiv piyada və yük hərəkəti olan sahələr"
+  ],
+  "features": [
+   "Az su udur",
+   "Çatlamadan yapışır",
+   "Uzun işləmə müddəti",
+   "Aşınmaya davamlı",
+   "Rəngini uzun müddət qoruyur",
+   "Donma-ərimə dövrlərinə davamlı"
+  ],
+  "tech": [
+   [
+    "Sıxlıq",
+    "~1,70 kq/l"
+   ],
+   [
+    "Təzyiq müqaviməti (EN 12808)",
+    "≥ 25 N/mm²"
+   ],
+   [
+    "Əyilmə müqaviməti",
+    "≥ 5 N/mm²"
+   ],
+   [
+    "Aşınma",
+    "≤ 1000 mm³"
+   ],
+   [
+    "Büzülmə",
+    "≤ 3 mm/m"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +35°C"
+   ],
+   [
+    "Qarışım nisbəti",
+    "~0,22–0,24 l su / 1 kq"
+   ],
+   [
+    "İşlənmə müddəti",
+    "~1 saat"
+   ],
+   [
+    "İstifadəyə verilmə",
+    "24 saat"
+   ],
+   [
+    "Dərz eni",
+    "3–20 mm"
+   ],
+   [
+    "Yanğına reaksiya (EN 13501-1)",
+    "A1"
+   ]
+  ],
+  "consumption": "Kafel ölçüsü və dərz enindən asılıdır — hesablayıcıdan istifadə edin",
+  "tds": "https://mrfix.az/site/assets/files/1415/fugamax_flex_tds_az.pdf",
+  "sds": "https://mrfix.az/site/assets/files/1415/056_fugamax_cotto_msds.pdf",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "fugamax-floor",
+  "name": "FUGAMAX® FLOOR",
+  "cat": "derz",
+  "group": "Sement əsaslı",
+  "short": "Yüksək performanslı 3–20 mm geniş dərz dolğusu (CG2 WA)",
+  "image": "https://mrfix.az/site/assets/files/1421/floor.png",
+  "featured": true,
+  "standard": "EN 13888 · CG2 WA",
+  "classes": [
+   [
+    "CG",
+    "Sement əsaslı dərz dolğusu"
+   ],
+   [
+    "2",
+    "İnkişaf etdirilmiş"
+   ],
+   [
+    "W",
+    "Az su udma"
+   ],
+   [
+    "A",
+    "Yüksək aşınma davamlılığı"
+   ]
+  ],
+  "desc": "FUGAMAX® Floor sement əsaslı, axıcı dərz dolğusudur. 20 mm-ə qədər dərzlər üçündür, təmizləyici kimyəvi maddələrə və yüksək mexaniki yükə davamlıdır.",
+  "areas": [
+   "Daxili və xarici üfüqi səthlər",
+   "3–20 mm keramika, qranit, mərmər və təbii daş dərzləri",
+   "Mexaniki və kimyəvi təmizlənən səthlər",
+   "Soyuq anbarlar, peşəkar mətbəxlər, satış salonları",
+   "İntensiv yük hərəkəti olan sahələr"
+  ],
+  "features": [
+   "Turşu əsaslı təmizləyicilərə yüksək müqavimət",
+   "Neytral və qələvi təmizləyicilərə davamlı",
+   "Mexaniki yüklərə yaxşı dözür",
+   "150°C-yə qədər isti, təzyiqli su ilə yuyulmağa davamlı",
+   "Donma-ərimə dövrlərinə davamlı"
+  ],
+  "tech": [
+   [
+    "Sıxlıq",
+    "~1,95 kq/l"
+   ],
+   [
+    "Təzyiq müqaviməti (EN 12808)",
+    "≥ 35 N/mm²"
+   ],
+   [
+    "Əyilmə müqaviməti",
+    "≥ 5 N/mm²"
+   ],
+   [
+    "Aşınma",
+    "≤ 1000 mm³"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +35°C"
+   ],
+   [
+    "Qarışım (üfüqi)",
+    "~0,17 l su / 1 kq"
+   ],
+   [
+    "Qarışım (şaquli)",
+    "~0,14 l su / 1 kq"
+   ],
+   [
+    "İşlənmə müddəti",
+    "~1 saat"
+   ],
+   [
+    "İstifadəyə verilmə",
+    "24 saat"
+   ],
+   [
+    "Dərz eni",
+    "3–20 mm"
+   ],
+   [
+    "Yanğına reaksiya (EN 13501-1)",
+    "A1"
+   ]
+  ],
+  "consumption": "Kafel ölçüsü və dərz enindən asılıdır — hesablayıcıdan istifadə edin",
+  "tds": "https://mrfix.az/site/assets/files/1421/fugamax_colorful_tds_az.pdf",
+  "sds": "https://mrfix.az/site/assets/files/1421/058_fugamax_floor_msds.pdf",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "tamcrete-crm-50",
+  "name": "TAMCRETE® CRM 50",
+  "cat": "temir",
+  "group": "Sement əsaslı",
+  "short": "Sement əsaslı təmir materialı (R2)",
+  "image": "https://mrfix.az/site/assets/files/1207/crm_50.png",
+  "featured": true,
+  "standard": "EN 1504-3 · R2",
+  "classes": [
+   [
+    "R2",
+    "Konstruktiv olmayan təmir məhsulu"
+   ]
+  ],
+  "desc": "TAMCRETE® CRM 50 sement əsaslı, polimerlə gücləndirilmiş, büzülməyən səth hamarlama və təmir materialıdır.",
+  "areas": [
+   "Keramika, izolyasiya və boyadan əvvəl səthin hamarlanması",
+   "Beton və suvaqda nazik çatların doldurulması",
+   "Zədələnmiş beton və suvaq səthlərin təmiri"
+  ],
+  "features": [
+   "Yüksək yapışma",
+   "Hamar və möhkəm səth",
+   "Liflər çatlamanın qarşısını alır",
+   "Büzülmür",
+   "Donma-ərimə dövrlərinə davamlı"
+  ],
+  "tech": [
+   [
+    "Sıxlıq",
+    "~1,70 kq/l"
+   ],
+   [
+    "Maks. dənə",
+    "≤ 1 mm"
+   ],
+   [
+    "Təzyiq müqaviməti (28 gün)",
+    "≥ 15 MPa"
+   ],
+   [
+    "Betona yapışma (EN 1542)",
+    "≥ 0,8 N/mm²"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +35°C"
+   ],
+   [
+    "Qarışım",
+    "5,5–6 l su / 25 kq"
+   ],
+   [
+    "İşlənmə müddəti",
+    "~60 dəq"
+   ],
+   [
+    "Tətbiq qalınlığı",
+    "2–10 mm"
+   ],
+   [
+    "Yanğına reaksiya",
+    "A1"
+   ]
+  ],
+  "consumption": "~1,70 kq/m² · 1 mm",
+  "tds": "https://mrfix.az/site/assets/files/1207/tamcrete_crm50_tds_az.pdf",
+  "sds": "https://mrfix.az/site/assets/files/1207/059_tamcrete_crm_50_msds.pdf",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "tamcrete-crm-100",
+  "name": "TAMCRETE® CRM 100",
+  "cat": "temir",
+  "group": "Sement əsaslı",
+  "short": "Sement əsaslı struktural təmir materialı (R4)",
+  "image": "https://mrfix.az/site/assets/files/1211/tamcrete_crm_100-1.png",
+  "featured": true,
+  "standard": "EN 1504-3 · R4",
+  "classes": [
+   [
+    "R4",
+    "Struktural təmir materialı"
+   ]
+  ],
+  "desc": "TAMCRETE® CRM 100 polimer və lif gücləndirməli, yüksək möhkəmlikli, büzülməyən struktural təmir materialıdır.",
+  "areas": [
+   "Dəmir-beton konstruksiyaların struktural təmiri",
+   "Prekast beton elementlər",
+   "Sulfat və xlora məruz betonlar",
+   "Dəniz və aqressiv mühit tikililəri",
+   "Yüngül və orta trafik sahələri"
+  ],
+  "features": [
+   "Beton və armaturaya yüksək yapışma",
+   "Büzülmür",
+   "Yüksək mexaniki möhkəmlik",
+   "Sulfat və xlora davamlı",
+   "Aşağı su keçiriciliyi"
+  ],
+  "tech": [
+   [
+    "Sıxlıq",
+    "~2,20 kq/l"
+   ],
+   [
+    "Maks. dənə",
+    "≤ 3 mm"
+   ],
+   [
+    "Təzyiq müqaviməti",
+    "≥ 50 MPa (7 gün) · ≥ 60 MPa (28 gün)"
+   ],
+   [
+    "Əyilmə müqaviməti",
+    "≥ 9 N/mm²"
+   ],
+   [
+    "Betona yapışma",
+    "≥ 2,0 N/mm²"
+   ],
+   [
+    "Qarışım",
+    "3,5–4 l su / 25 kq"
+   ],
+   [
+    "İşlənmə müddəti",
+    "~45 dəq"
+   ],
+   [
+    "Tətbiq qalınlığı",
+    "10–40 mm"
+   ],
+   [
+    "Yanğına reaksiya",
+    "A1"
+   ]
+  ],
+  "consumption": "~18–20 kq/m² · 10 mm",
+  "tds": "https://mrfix.az/site/assets/files/1211/tamcrete_crm100_tds_az.pdf",
+  "sds": "https://mrfix.az/site/assets/files/1211/060_tamcrete_crm_100_msds.pdf",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "tamcrete-crm-100-tx",
+  "name": "TAMCRETE® CRM 100 TX",
+  "cat": "temir",
+  "group": "Sement əsaslı",
+  "short": "Tiksotrop struktural təmir materialı (R4)",
+  "image": "https://mrfix.az/site/assets/files/1685/tamcrete_crm_100_tx.png",
+  "featured": false
+ },
+ {
+  "slug": "tamcrete-crm-rapid",
+  "name": "TAMCRETE® CRM RAPID",
+  "cat": "temir",
+  "group": "Sement əsaslı",
+  "short": "Ani bərkiyən təmir və tıxac materialı (R2)",
+  "image": "https://mrfix.az/site/assets/files/1213/tamcrete_crm_rapid.png",
+  "featured": false
+ },
+ {
+  "slug": "tamcrete-grout-c-320",
+  "name": "TAMCRETE® GROUT C 320",
+  "cat": "temir",
+  "group": "Grout",
+  "short": "Yüksək möhkəmlikli grout materialı (R4)",
+  "image": "https://mrfix.az/site/assets/files/1209/tamcrete_grout_c_320.png",
+  "featured": false
+ },
+ {
+  "slug": "tamcrete-erm-75",
+  "name": "TAMCRETE® ERM 75",
+  "cat": "temir",
+  "group": "Epoksid əsaslı",
+  "short": "Epoksid əsaslı təmir materialı (R4)",
+  "image": "https://mrfix.az/site/assets/files/1215/tamcrete_erm_75.png",
+  "featured": true,
+  "standard": "EN 1504-3 · EN 1504-6",
+  "classes": [],
+  "desc": "TAMCRETE® ERM 75 epoksid əsaslı, iki komponentli, solventsiz yapışdırıcı, ankerləmə və struktural təmir materialıdır. Nəmə tolerantdır.",
+  "areas": [
+   "Beton və daşda ankerləmə və montaj",
+   "Armatur əkilməsi",
+   "Geniş çatların doldurulması",
+   "Struktural beton təmirləri",
+   "Polad–beton birləşmələri"
+  ],
+  "features": [
+   "Yüksək mexaniki möhkəmlik",
+   "Tiksotrop, axmır",
+   "Büzülmədən bərkiyir",
+   "Kimyəvi maddələrə davamlı",
+   "Nəmə tolerant",
+   "Solventsiz"
+  ],
+  "tech": [
+   [
+    "Sıxlıq (qarışıq)",
+    "~1,77 kq/l"
+   ],
+   [
+    "Təzyiq müqaviməti",
+    "≥ 30 N/mm² (1 gün) · ≥ 75 N/mm² (7 gün)"
+   ],
+   [
+    "Betona yapışma",
+    "≥ 3,0 N/mm²"
+   ],
+   [
+    "Metala yapışma",
+    "≥ 3,5 N/mm²"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+10°C / +30°C"
+   ],
+   [
+    "Qarışım",
+    "A 3,75 kq / B 1,25 kq"
+   ],
+   [
+    "İşlənmə müddəti",
+    "~40 dəq"
+   ],
+   [
+    "Tətbiq qalınlığı",
+    "2–30 mm"
+   ],
+   [
+    "Tam sərtləşmə",
+    "7 gün"
+   ]
+  ],
+  "consumption": "~1,7 kq/m² · 1 mm",
+  "tds": "https://mrfix.az/site/assets/files/1215/tamcrete_erm75_tds_az.pdf",
+  "sds": "https://mrfix.az/site/assets/files/1215/064_tamcrete_erm_75_msds.pdf",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "pratix-y",
+  "name": "PRATİX® Y",
+  "cat": "suvaq",
+  "group": "Suvaq və hörgü",
+  "short": "Suvaq və hörgü məhsulu",
+  "image": "https://mrfix.az/site/assets/files/1219/pratix_y.png",
+  "featured": false
+ },
+ {
+  "slug": "pratix-s",
+  "name": "PRATİX® S",
+  "cat": "suvaq",
+  "group": "Suvaq və hörgü",
+  "short": "Suvaq və hörgü məhsulu",
+  "image": "https://mrfix.az/site/assets/files/1221/pratix_s.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-c-40",
+  "name": "IZOMAX® C 40",
+  "cat": "izolyasiya",
+  "group": "Sement əsaslı",
+  "short": "Yarımelastik su izolyasiya materialı (CMO1P)",
+  "image": "https://mrfix.az/site/assets/files/1441/c_40.png",
+  "featured": true,
+  "standard": "EN 14891 · CM O1P",
+  "classes": [
+   [
+    "CM",
+    "Sement əsaslı maye su izolyasiyası"
+   ],
+   [
+    "O1",
+    "−5°C-də çat körpüləmə"
+   ],
+   [
+    "P",
+    "Xlorlu suya davamlı yapışma"
+   ]
+  ],
+  "desc": "IZOMAX® C 40 sement və polimer emulsiya əsaslı, iki komponentli, elastik su izolyasiya materialıdır.",
+  "areas": [
+   "Daxili və xarici, şaquli və üfüqi səthlər",
+   "Keramika altı su izolyasiyası",
+   "İstinad, təməl və pərdə divarları",
+   "Orta ölçülü hovuzlar və su anbarları",
+   "Hamam, mətbəx, teras və balkon",
+   "Soyuq hava anbarları"
+  ],
+  "features": [
+   "Fırça, mala və ya püskürtücü ilə tətbiq",
+   "Fasiləsiz elastik örtük",
+   "Suyu itələyir, buxarı keçirir",
+   "Büzülmür və çatlamır",
+   "4 bar su təzyiqinə davamlı",
+   "Donma-ərimə dövrlərinə davamlı"
+  ],
+  "tech": [
+   [
+    "Tərkib",
+    "Xüsusi sement, mineral doldurucular, maye polimer emulsiya"
+   ],
+   [
+    "Görünüş",
+    "Boz"
+   ],
+   [
+    "Sıxlıq (qarışıq)",
+    "~1,90 kq/l"
+   ],
+   [
+    "Başlanğıc yapışma (EN 14891)",
+    "≥ 0,50 N/mm²"
+   ],
+   [
+    "Xlorlu sudan sonra yapışma",
+    "≥ 0,50 N/mm²"
+   ],
+   [
+    "Çat körpüləmə +20°C / −5°C",
+    "≥ 0,75 mm"
+   ],
+   [
+    "Su keçirməzlik",
+    "150 kPa / 7 gün"
+   ],
+   [
+    "Su təzyiqinə davamlılıq",
+    "≥ 4 bar (müsbət)"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +35°C"
+   ],
+   [
+    "Qarışıq nisbəti",
+    "25 kq toz / 10 kq maye"
+   ],
+   [
+    "Qarışığın istifadə müddəti",
+    "~2 saat"
+   ],
+   [
+    "Qatlar arası gözləmə",
+    "min. 5 saat"
+   ],
+   [
+    "Keramika üçün gözləmə",
+    "min. 1 gün"
+   ],
+   [
+    "Qat sayı",
+    "2–3"
+   ]
+  ],
+  "consumption": "1,20–1,40 kq/m² (hər qat)",
+  "tds": "https://mrfix.az/site/assets/files/1441/izomax_c40_tds_az_rev_01.pdf",
+  "sds": "",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "izomax-c60-n",
+  "name": "IZOMAX® C60 N",
+  "cat": "izolyasiya",
+  "group": "Sement əsaslı",
+  "short": "Mənfi və müsbət su təzyiqinə davamlı tam elastik izolyasiya (CMO2P)",
+  "image": "https://mrfix.az/site/assets/files/1233/c_60_n.png",
+  "featured": true,
+  "standard": "EN 14891 · CM O2P",
+  "classes": [
+   [
+    "CM",
+    "Sement əsaslı maye su izolyasiyası"
+   ],
+   [
+    "O2",
+    "−20°C-də çat körpüləmə"
+   ],
+   [
+    "P",
+    "Xlorlu suya davamlı yapışma"
+   ]
+  ],
+  "desc": "IZOMAX® C60 N sement və polimer emulsiya əsaslı, iki komponentli, tam elastik su izolyasiyasıdır. Həm müsbət, həm mənfi tərəfdən su təsirinə qarşı istifadə olunur.",
+  "areas": [
+   "Bina təməlləri, istinad divarları, beton qurğular",
+   "Tunellər",
+   "Hamam, mətbəx, teras, balkon",
+   "Üzgüçülük hovuzları, içməli su anbarları",
+   "Betonun karbonlaşma və xlordan qorunması"
+  ],
+  "features": [
+   "Tam elastik",
+   "Mənfi və müsbət su təzyiqinə davamlı",
+   "Su keçirməz, buxar keçirən",
+   "7 bar su təzyiqinə davamlı",
+   "Donma-ərimə, karbon qazı və xlora davamlı"
+  ],
+  "tech": [
+   [
+    "Sıxlıq (qarışıq)",
+    "~1,98 kq/l"
+   ],
+   [
+    "Başlanğıc yapışma (EN 14891)",
+    "≥ 0,50 N/mm²"
+   ],
+   [
+    "Çat körpüləmə +20°C",
+    "≥ 1,50 mm"
+   ],
+   [
+    "Çat körpüləmə −20°C",
+    "≥ 1,00 mm"
+   ],
+   [
+    "Su keçirməzlik",
+    "150 kPa / 7 gün"
+   ],
+   [
+    "Su təzyiqinə davamlılıq",
+    "≥ 7 bar (müsbət)"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +30°C"
+   ],
+   [
+    "Servis temperaturu",
+    "−20°C / +80°C"
+   ],
+   [
+    "Qarışıq nisbəti",
+    "25 kq toz + 2 kq B komponenti + 5–5,5 l su"
+   ],
+   [
+    "Qarışığın istifadə müddəti",
+    "~1 saat"
+   ],
+   [
+    "Qatlar arası gözləmə",
+    "min. 5 saat"
+   ],
+   [
+    "Qat sayı",
+    "2–3"
+   ]
+  ],
+  "consumption": "1,20–1,30 kq/m² (hər qat)",
+  "tds": "https://mrfix.az/site/assets/files/1233/izomax_c60_n_tds_az_rev_01.pdf",
+  "sds": "",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "izomax-c70-uv",
+  "name": "IZOMAX® C70 UV",
+  "cat": "izolyasiya",
+  "group": "Sement əsaslı",
+  "short": "UV-yə davamlı, tam elastik, iki komponentli izolyasiya",
+  "image": "https://mrfix.az/site/assets/files/1453/c_70_uv.png",
+  "featured": true,
+  "standard": "EN 14891 · CM O2P",
+  "classes": [
+   [
+    "CM",
+    "Sement əsaslı maye su izolyasiyası"
+   ],
+   [
+    "O2",
+    "−20°C-də çat körpüləmə"
+   ],
+   [
+    "P",
+    "Xlorlu suya davamlı yapışma"
+   ]
+  ],
+  "desc": "IZOMAX® C70 UV iki komponentli, tam elastik, UV-yə davamlı ağ rəngli su izolyasiya materialıdır. Açıq havada örtüksüz qala bilər.",
+  "areas": [
+   "Yüngül yük altında açıq teraslar",
+   "Təməl və istinad divarları",
+   "Hamam, mətbəx, teras, balkon",
+   "Üzgüçülük hovuzları",
+   "İçməli su çənləri",
+   "Dəniz suyu kanalları"
+  ],
+  "features": [
+   "UV-yə davamlı, örtüksüz istifadə oluna bilər",
+   "7 bar su təzyiqinə davamlı",
+   "İçməli su çənlərinə uyğun",
+   "Yeni betona bir neçə saat sonra tətbiq oluna bilər",
+   "Su keçirmir, buxar keçirir"
+  ],
+  "tech": [
+   [
+    "Rəng",
+    "Ağ"
+   ],
+   [
+    "Sıxlıq (qarışıq)",
+    "~1,80 kq/l"
+   ],
+   [
+    "Çat körpüləmə +20°C",
+    "≥ 1,50 mm"
+   ],
+   [
+    "Çat körpüləmə −20°C",
+    "≥ 1,00 mm"
+   ],
+   [
+    "Su təzyiqinə davamlılıq",
+    "≥ 7 bar"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +30°C"
+   ],
+   [
+    "Qarışıq nisbəti",
+    "25 kq toz / 8 kq maye"
+   ],
+   [
+    "Qarışığın istifadə müddəti",
+    "~2 saat"
+   ],
+   [
+    "Qat sayı",
+    "2–3"
+   ]
+  ],
+  "consumption": "1,00–1,50 kq/m² (hər qat)",
+  "tds": "https://mrfix.az/site/assets/files/1453/izomax_c70_uv_tds_az_rev_01.pdf",
+  "sds": "",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "izomax-c75-flex",
+  "name": "IZOMAX® C75 Flex",
+  "cat": "izolyasiya",
+  "group": "Sement əsaslı",
+  "short": "İki komponentli, tam elastik su izolyasiya materialı",
+  "image": "https://mrfix.az/site/assets/files/1459/c75_flex.png",
+  "featured": true,
+  "standard": "EN 14891 · CM O2P",
+  "classes": [
+   [
+    "CM",
+    "Sement əsaslı maye su izolyasiyası"
+   ],
+   [
+    "O2",
+    "−20°C-də çat körpüləmə"
+   ],
+   [
+    "P",
+    "Xlorlu suya davamlı yapışma"
+   ]
+  ],
+  "desc": "IZOMAX® C75 Flex temperatur dəyişikliyi və su təzyiqi altında işləyən iki komponentli, tam elastik su izolyasiya materialıdır.",
+  "areas": [
+   "Daxili və xarici, üfüqi və şaquli səthlər",
+   "Hamam, mətbəx, teras və balkon",
+   "Hovuzlar və su anbarları",
+   "Soyuq hava anbarları",
+   "Keramika altı izolyasiya",
+   "Təməl və istinad divarları"
+  ],
+  "features": [
+   "Tam elastik, çəkilmir və çatlamır",
+   "7 bar su təzyiqinə davamlı",
+   "Fırça, mala və ya püskürtücü ilə tətbiq",
+   "Su keçirmir, buxar keçirir",
+   "Donma-ərimə dövrlərinə davamlı"
+  ],
+  "tech": [
+   [
+    "Görünüş",
+    "Tünd boz"
+   ],
+   [
+    "Sıxlıq (qarışıq)",
+    "~1,70 kq/l"
+   ],
+   [
+    "Çat körpüləmə +20°C",
+    "≥ 1,50 mm"
+   ],
+   [
+    "Çat körpüləmə −20°C",
+    "≥ 1,00 mm"
+   ],
+   [
+    "Su təzyiqinə davamlılıq",
+    "≥ 7 bar"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +30°C"
+   ],
+   [
+    "Qarışıq nisbəti",
+    "20 kq toz / 10 kq maye"
+   ],
+   [
+    "Qarışığın istifadə müddəti",
+    "~2 saat"
+   ],
+   [
+    "Qat sayı",
+    "2–3"
+   ]
+  ],
+  "consumption": "1,00–1,20 kq/m² (hər qat)",
+  "tds": "https://mrfix.az/site/assets/files/1459/izomax_c75_flex_tds_az_rev_01.pdf",
+  "sds": "",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "izomax-c-25-kapiler",
+  "name": "IZOMAX® C 25 KAPİLER",
+  "cat": "izolyasiya",
+  "group": "Sement əsaslı",
+  "short": "Kristallaşan su izolyasiya materialı",
+  "image": "https://mrfix.az/site/assets/files/1447/c25_kapiler.png",
+  "featured": true,
+  "standard": "Kristallaşan kapilyar izolyasiya",
+  "classes": [],
+  "desc": "IZOMAX® C 25 KAPİLER beton tikililərdə səth sularına qarşı kapilyar təsirli su izolyasiya materialıdır. Müsbət və mənfi tərəfdən tətbiq edilə bilir.",
+  "areas": [
+   "Təməl və pərdə divarları",
+   "Su anbarları",
+   "Zirzəmi divarları",
+   "Tunellər",
+   "Lift boşluqları"
+  ],
+  "features": [
+   "Fırça ilə tətbiq edilir",
+   "Suda həll olunmayan kristallarla kapilyar boşluqları doldurur",
+   "Betonu və armaturu suyun korroziyasından qoruyur"
+  ],
+  "tech": [
+   [
+    "Tərkib",
+    "Xüsusi qatqılar, mineral dolğular, sement"
+   ],
+   [
+    "Rəng",
+    "Boz"
+   ],
+   [
+    "Səth temperaturu",
+    "+5°C / +25°C"
+   ],
+   [
+    "Qarışığın istifadə müddəti",
+    "20 dəq"
+   ],
+   [
+    "Su təzyiqinə davamlılıq",
+    "0,5 bar (müsbət)"
+   ],
+   [
+    "Üzərinin örtülməsi",
+    "3 gün"
+   ],
+   [
+    "Qarışığın sıxlığı",
+    "1,37 kq/l"
+   ]
+  ],
+  "consumption": "",
+  "tds": "https://mrfix.az/site/assets/files/1447/izomax_c_25_kapiler_tds_az.pdf",
+  "sds": "",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "izomax-b-670",
+  "name": "IZOMAX® B 670",
+  "cat": "izolyasiya",
+  "group": "Bitum əsaslı",
+  "short": "Bitum-kauçuk əsaslı, birkomponentli su izolyasiyası",
+  "image": "https://mrfix.az/site/assets/files/1477/670.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-b-772",
+  "name": "IZOMAX® B 772",
+  "cat": "izolyasiya",
+  "group": "Bitum əsaslı",
+  "short": "Bitum-kauçuk və sement əsaslı, ikikomponentli elastik izolyasiya",
+  "image": "https://mrfix.az/site/assets/files/1483/772.png",
+  "featured": true,
+  "standard": "EN 15814 · PMBC",
+  "classes": [
+   [
+    "PMBC",
+    "Polimerlə modifikasiya olunmuş bitumlu qalın örtük"
+   ]
+  ],
+  "desc": "İki komponentli, tam elastik, polimer modifikasiyalı bitum-kauçuk və xüsusi sement əsaslı su izolyasiyası. Təzyiq altında və daimi su ilə təmasda olan konstruksiyalar üçündür.",
+  "areas": [
+   "Dərin təməl və pərdə divarları",
+   "Su təzyiqinə məruz konstruksiyalar",
+   "Dayaq divarları",
+   "Yeraltı dayanacaqların üstü və bağça terasları",
+   "Hamam, balkon və teras"
+  ],
+  "features": [
+   "Qızdırma tələb etmir",
+   "Tikişsiz, bütöv örtük",
+   "Elastik, bina oturduqda çatlamır",
+   "Həlledicisiz",
+   "7 bar su təzyiqinə davamlı",
+   "Torpaq kimyəvi maddələrinə davamlı",
+   "UV-yə davamlı deyil — qoruyucu təbəqə ilə örtülməlidir"
+  ],
+  "tech": [
+   [
+    "Görünüş",
+    "Qəhvəyi (quruduqdan sonra qara)"
+   ],
+   [
+    "Sıxlıq",
+    "1,14 kq/l"
+   ],
+   [
+    "Su keçirməzlik (EN 15820)",
+    "W2A"
+   ],
+   [
+    "Çat körpüləmə (EN 15814)",
+    "CB2"
+   ],
+   [
+    "Su təzyiqinə davamlılıq",
+    "≥ 7 bar (4–6 mm)"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +35°C"
+   ],
+   [
+    "Qarışım",
+    "A 24 kq / B 8 kq"
+   ],
+   [
+    "İşlənmə müddəti",
+    "1–2 saat"
+   ],
+   [
+    "Torpaq doldurulması",
+    "3 gün"
+   ],
+   [
+    "Yanğına reaksiya (EN 13501-1)",
+    "E"
+   ]
+  ],
+  "consumption": "3–6 kq/m² (2–4 mm quru təbəqə, 2 qat)",
+  "tds": "https://mrfix.az/site/assets/files/1483/izomax_b772_tds_az.pdf",
+  "sds": "",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "izomax-s-420",
+  "name": "IZOMAX® S 420",
+  "cat": "izolyasiya",
+  "group": "Silikon əsaslı",
+  "short": "Silan-siloksan əsaslı impreqnasiya materialı",
+  "image": "https://mrfix.az/site/assets/files/1465/420.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-s-440",
+  "name": "IZOMAX® S 440",
+  "cat": "izolyasiya",
+  "group": "Silikon əsaslı",
+  "short": "Silan-siloksan əsaslı impreqnasiya materialı",
+  "image": "https://mrfix.az/site/assets/files/1471/440.png",
+  "featured": true,
+  "standard": "Silan-siloksan impreqnasiya",
+  "classes": [],
+  "desc": "IZOMAX® S 440 silan-siloksan əsaslı impreqnasiya materialıdır. Səthə nüfuz edərək su itələyici təsir yaradır və rəngini dəyişmir.",
+  "areas": [
+   "Xarici yer döşəmələri",
+   "Mərmər, qranit kimi az əmici səthlər",
+   "Kərpic, qazbeton, traverten kimi əmici səthlər",
+   "Tarixi abidələrin qorunması"
+  ],
+  "features": [
+   "Yüksək nüfuzetmə",
+   "Film yaratmır, görünüşü dəyişmir",
+   "Qələvilərə və UV-yə davamlı",
+   "Buxar keçirir",
+   "Solventsiz"
+  ],
+  "tech": [
+   [
+    "Tərkib",
+    "Silan-siloksan"
+   ],
+   [
+    "pH",
+    "7,2"
+   ],
+   [
+    "Sıxlıq",
+    "0,93 kq/l"
+   ],
+   [
+    "Səth temperaturu",
+    "+5°C / +25°C"
+   ],
+   [
+    "Xidmət temperaturu",
+    "−20°C / +80°C"
+   ],
+   [
+    "Quruma müddəti",
+    "24 saat"
+   ]
+  ],
+  "consumption": "",
+  "tds": "https://mrfix.az/site/assets/files/1471/izomax_s_440_tds_az.pdf",
+  "sds": "",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "izomax-f-tec",
+  "name": "IZOMAX® F-tec",
+  "cat": "izolyasiya",
+  "group": "Membranlar",
+  "short": "Keramika altı su izolyasiya membranı",
+  "image": "https://mrfix.az/site/assets/files/3126/izomax_r_-f-tec.png",
+  "featured": true,
+  "standard": "DIN 18534 · W1-I, W2-I",
+  "classes": [],
+  "desc": "IZOMAX® F-tec keramika və təbii daş altında istifadə olunan üç qatlı hidroizolyasiya membranıdır. 0,5 mm qalınlığı ilə döşəmə səviyyəsini qaldırmır.",
+  "areas": [
+   "Vanna, duş və sanitar qovşaqlar",
+   "Keramika altında döşəmə və divarlar",
+   "Çat körpüləmə tələb edən beton və şap",
+   "Mətbəx və paltaryuma otaqları",
+   "İsidilən döşəmələr",
+   "Alçıpan və qazbeton səthlər"
+  ],
+  "features": [
+   "Cəmi 0,50 mm qalınlıq",
+   "Çatları körpüləyir",
+   "24 saat sonra keramika döşənə bilər",
+   "Künc və manjet elementləri ilə tam sistem"
+  ],
+  "tech": [
+   [
+    "Quruluş",
+    "PP keçə / LDPE membran / PP keçə"
+   ],
+   [
+    "Qalınlıq",
+    "0,50 mm"
+   ],
+   [
+    "Vahid çəki",
+    "200 q/m²"
+   ],
+   [
+    "Su təzyiqinə davamlılıq (EN 1928)",
+    "≥ 1,5 bar"
+   ],
+   [
+    "Qopma yükü (uzununa / eninə)",
+    "270 / 170 N/50 mm"
+   ],
+   [
+    "Temperatur davamlılığı",
+    "−30°C / +90°C"
+   ],
+   [
+    "Yapışdırıcı",
+    "ən azı EN 12004-1 C2"
+   ],
+   [
+    "Daraq dişi",
+    "6 × 6 mm"
+   ]
+  ],
+  "consumption": "",
+  "tds": "https://mrfix.az/site/assets/files/3126/izomax_ftec_tds_az.pdf",
+  "sds": "",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "izomax-st-75-gr",
+  "name": "IZOMAX® ST 75 gr",
+  "cat": "izolyasiya",
+  "group": "Montaj aksesuarları",
+  "short": "Su izolyasiyası üçün setka",
+  "image": "https://mrfix.az/site/assets/files/1535/thermomax-st75l.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-band-w",
+  "name": "IZOMAX® Band W",
+  "cat": "izolyasiya",
+  "group": "Montaj aksesuarları",
+  "short": "Polyester setka daşıyıcılı elastik TPE hidroizolyasiya bantı",
+  "image": "https://mrfix.az/site/assets/files/1249/izomax--band-w-12070.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-band-w-daxili-kunc",
+  "name": "IZOMAX® Band W Daxili Künc",
+  "cat": "izolyasiya",
+  "group": "Montaj aksesuarları",
+  "short": "Hidroizolyasiya bantının daxili künc elementi",
+  "image": "https://mrfix.az/site/assets/files/1251/izomax_band_w_daxili_kos.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-band-w-xarici-kunc",
+  "name": "IZOMAX® Band W Xarici Künc",
+  "cat": "izolyasiya",
+  "group": "Montaj aksesuarları",
+  "short": "Hidroizolyasiya bantının xarici künc elementi",
+  "image": "https://mrfix.az/site/assets/files/1253/izomax_r_-band-w-xarici-kos-1.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-band-zemin-manseti",
+  "name": "IZOMAX® Band Zəmin Manşeti",
+  "cat": "izolyasiya",
+  "group": "Montaj aksesuarları",
+  "short": "Döşəmə trapı üçün hidroizolyasiya manşeti",
+  "image": "https://mrfix.az/site/assets/files/1255/izomax_band_zemin_manseti.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-band-f",
+  "name": "IZOMAX® Band F",
+  "cat": "izolyasiya",
+  "group": "Montaj aksesuarları",
+  "short": "Keçə örtüklü elastik TPE hidroizolyasiya bantı",
+  "image": "https://mrfix.az/site/assets/files/1257/izomax_band_f_120.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-band-f-corner-in",
+  "name": "IZOMAX® Band F Corner In",
+  "cat": "izolyasiya",
+  "group": "Montaj aksesuarları",
+  "short": "Keçə örtüklü elastik TPE daxili künc elementi",
+  "image": "https://mrfix.az/site/assets/files/1259/izomax_band_f_daxili_kose.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-band-f-corner-out",
+  "name": "IZOMAX® Band F Corner Out",
+  "cat": "izolyasiya",
+  "group": "Montaj aksesuarları",
+  "short": "Keçə örtüklü elastik TPE xarici künc elementi",
+  "image": "https://mrfix.az/site/assets/files/1261/izomax_band_f_xarici_kose.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-band-f-collar-pipe",
+  "name": "IZOMAX® Band F Collar Pipe",
+  "cat": "izolyasiya",
+  "group": "Montaj aksesuarları",
+  "short": "Elastik zolaqlı boru keçid manjeti",
+  "image": "https://mrfix.az/site/assets/files/1263/izomax_r_-band-divar-manseti.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-band-d-tpe",
+  "name": "IZOMAX® Band D-TPE",
+  "cat": "izolyasiya",
+  "group": "Montaj aksesuarları",
+  "short": "TPE əsaslı dilatasiya bantı",
+  "image": "https://mrfix.az/site/assets/files/2920/izomax_band_d-tpe.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-stb-pvc-a",
+  "name": "IZOMAX® STB PVC-A",
+  "cat": "izolyasiya",
+  "group": "Su tutucu bantlar",
+  "short": "Beton daxili genişlənmə dərzi üçün PVC su tutucu bant",
+  "image": "https://mrfix.az/site/assets/files/1495/a.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-stb-pvc-ak",
+  "name": "IZOMAX® STB PVC-AK",
+  "cat": "izolyasiya",
+  "group": "Su tutucu bantlar",
+  "short": "Beton daxili inşaat dərzi üçün PVC su tutucu bant",
+  "image": "https://mrfix.az/site/assets/files/1903/ak.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-stb-pvc-b",
+  "name": "IZOMAX® STB PVC-B",
+  "cat": "izolyasiya",
+  "group": "Su tutucu bantlar",
+  "short": "Beton daxili inşaat dərzi üçün PVC su tutucu bant",
+  "image": "https://mrfix.az/site/assets/files/1909/b.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-stb-pvc-di",
+  "name": "IZOMAX® STB PVC-DI",
+  "cat": "izolyasiya",
+  "group": "Su tutucu bantlar",
+  "short": "Beton səthi inşaat dərzi üçün PVC su tutucu bant",
+  "image": "https://mrfix.az/site/assets/files/1915/di-1.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-stb-pvc-do",
+  "name": "IZOMAX® STB PVC-DO",
+  "cat": "izolyasiya",
+  "group": "Su tutucu bantlar",
+  "short": "Beton səthi genişlənmə dərzi üçün PVC su tutucu bant",
+  "image": "https://mrfix.az/site/assets/files/1921/do.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-stb-pvc-dt",
+  "name": "IZOMAX® STB PVC-DT",
+  "cat": "izolyasiya",
+  "group": "Su tutucu bantlar",
+  "short": "Beton səthi tikinti dərzi üçün PVC su tutucu bant",
+  "image": "https://mrfix.az/site/assets/files/1927/dt.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-stb-pvc-i",
+  "name": "IZOMAX® STB PVC-I",
+  "cat": "izolyasiya",
+  "group": "Su tutucu bantlar",
+  "short": "Beton daxili inşaat dərzi üçün PVC su tutucu bant",
+  "image": "https://mrfix.az/site/assets/files/1933/i.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-stb-pvc-m",
+  "name": "IZOMAX® STB PVC-M",
+  "cat": "izolyasiya",
+  "group": "Su tutucu bantlar",
+  "short": "Beton daxili genişlənmə dərzi üçün PVC su tutucu bant",
+  "image": "https://mrfix.az/site/assets/files/1939/m.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-stb-pvc-o",
+  "name": "IZOMAX® STB PVC-O",
+  "cat": "izolyasiya",
+  "group": "Su tutucu bantlar",
+  "short": "Beton daxili genişlənmə dərzi üçün PVC su tutucu bant",
+  "image": "https://mrfix.az/site/assets/files/1945/o.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-stb-pvc-ol",
+  "name": "IZOMAX® STB PVC-OL",
+  "cat": "izolyasiya",
+  "group": "Su tutucu bantlar",
+  "short": "Beton daxili genişlənmə dərzi üçün PVC su tutucu bant",
+  "image": "https://mrfix.az/site/assets/files/1951/ol.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-stb-pvc-v",
+  "name": "IZOMAX® STB PVC-V",
+  "cat": "izolyasiya",
+  "group": "Su tutucu bantlar",
+  "short": "Beton daxili inşaat dərzi üçün PVC su tutucu bant",
+  "image": "https://mrfix.az/site/assets/files/1957/v.png",
+  "featured": false
+ },
+ {
+  "slug": "izomax-stb-sw",
+  "name": "IZOMAX® STB-SW",
+  "cat": "izolyasiya",
+  "group": "Su tutucu bantlar",
+  "short": "Hidrofilik termoplastik əsaslı şişən su saxlayıcı bant",
+  "image": "https://mrfix.az/site/assets/files/3132/sw-swelling-tape.png",
+  "featured": false
+ },
+ {
+  "slug": "polyboard-eps",
+  "name": "POLYBOARD® EPS",
+  "cat": "istilik",
+  "group": "İzolyasiya lövhələri",
+  "short": "Aşağı sıxlıqlı genişləndirilmiş polistirol lövhə",
+  "image": "https://mrfix.az/site/assets/files/2010/polyboard.png",
+  "featured": false
+ },
+ {
+  "slug": "thermomax-eps",
+  "name": "THERMOMAX® EPS",
+  "cat": "istilik",
+  "group": "İzolyasiya lövhələri",
+  "short": "İstilik izolyasiyası üçün EPS lövhə",
+  "image": "https://mrfix.az/site/assets/files/1265/eps.png",
+  "featured": false
+ },
+ {
+  "slug": "thermomax-eps-carbon",
+  "name": "THERMOMAX® EPS CARBON",
+  "cat": "istilik",
+  "group": "İzolyasiya lövhələri",
+  "short": "Qrafit qatqılı EPS istilik izolyasiya lövhəsi",
+  "image": "https://mrfix.az/site/assets/files/1505/eps_karbon.png",
+  "featured": true,
+  "standard": "EN 13163 · EPS 50 / 90 / 120",
+  "classes": [],
+  "desc": "Qrafit qatqılı EPS istilik izolyasiya lövhəsi. Qrafit istilik şüalanmasını əks etdirir, buna görə eyni sıxlıqda ağ EPS-dən təxminən 20% az istilik keçirir.",
+  "areas": [
+   "ETICS (mantolama) fasad sistemləri",
+   "Qalınlığı məhdud fasad sahələri",
+   "Daxili divar izolyasiyası",
+   "Dam və dam altı",
+   "Zirzəmi və qaraj tavanı",
+   "Şap altı döşəmə"
+  ],
+  "features": [
+   "Nazik lövhə ilə eyni izolyasiya",
+   "Yüngül",
+   "Ölçü sabitliyi yüksək",
+   "Asan kəsilir",
+   "Çürümür, kiflənmir",
+   "Birbaşa günəş altında qızmağa həssasdır — kölgələmə şəbəkəsi tövsiyə olunur"
+  ],
+  "tech": [
+   [
+    "Lövhə ölçüsü",
+    "50 × 100 sm"
+   ],
+   [
+    "Qalınlıq",
+    "5, 6, 8, 10 sm"
+   ],
+   [
+    "Sıxlıq",
+    "15 / 18 / 21 kq/m³"
+   ],
+   [
+    "λD (EN 12667)",
+    "0,033 / 0,032 / 0,031 W/mK"
+   ],
+   [
+    "CS(10) (EN 826)",
+    "≥ 50 / 90 / 120 kPa"
+   ],
+   [
+    "İstismar temperaturu",
+    "−50°C / +75°C"
+   ],
+   [
+    "Yanğına reaksiya",
+    "E"
+   ]
+  ],
+  "consumption": "",
+  "tds": "https://mrfix.az/site/assets/files/1505/thermomax_eps_carbon_tds_az.pdf",
+  "sds": "https://mrfix.az/site/assets/files/1505/073_thermomax_karbonlu_eps_msds.pdf",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "polyboard-floor",
+  "name": "POLYBOARD® FLOOR",
+  "cat": "istilik",
+  "group": "İzolyasiya lövhələri",
+  "short": "Döşəmə üçün izolyasiya lövhəsi",
+  "image": "https://mrfix.az/site/assets/files/2016/polyboard_floor-2.png",
+  "featured": false
+ },
+ {
+  "slug": "thermomax-bond-40",
+  "name": "THERMOMAX® BOND 40",
+  "cat": "istilik",
+  "group": "Sement əsaslı",
+  "short": "İzolyasiya lövhələri üçün sement əsaslı yapışdırıcı",
+  "image": "https://mrfix.az/site/assets/files/1511/thermomax_yapisidirici.png",
+  "featured": true,
+  "standard": "EAD 040083-00-0404 (ETAG 004)",
+  "classes": [],
+  "desc": "Sement əsaslı, polimer qatqılı ETICS lövhə yapışdırıcısı. EPS, XPS və daş yunu lövhələri mineral səthlərə bərkidir.",
+  "areas": [
+   "Fasad ETICS sistemləri",
+   "Daxili divar izolyasiyası",
+   "Zirzəmi və qaraj tavanı",
+   "EPS, XPS və daş yunu montajı"
+  ],
+  "features": [
+   "İzolyasiya lövhələrinə yüksək yapışma",
+   "Elastik, istilik deformasiyalarına uyğunlaşır",
+   "Yüksək buxar keçiriciliyi",
+   "Tətbiqdə sürüşmür",
+   "Donma-əriməyə davamlı"
+  ],
+  "tech": [
+   [
+    "Görünüş",
+    "Boz toz"
+   ],
+   [
+    "Sıxlıq",
+    "~1,84 kq/dm³"
+   ],
+   [
+    "Betona yapışma",
+    "≥ 0,50 N/mm²"
+   ],
+   [
+    "EPS-ə yapışma",
+    "≥ 0,08 N/mm²"
+   ],
+   [
+    "Qarışım",
+    "6,25–6,75 l su / 25 kq"
+   ],
+   [
+    "Qabda istifadə",
+    "~2 saat"
+   ],
+   [
+    "Dübelləmə",
+    "ən azı 24 saat sonra"
+   ],
+   [
+    "Suvağa keçid",
+    "ən azı 3 gün"
+   ],
+   [
+    "Yanğına reaksiya",
+    "A2-s1,d0"
+   ]
+  ],
+  "consumption": "4,5–6,0 kq/m²",
+  "tds": "https://mrfix.az/site/assets/files/1511/thermomax_bond_40_tds_az-1.pdf",
+  "sds": "",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "thermomax-plast-65",
+  "name": "THERMOMAX® PLAST 65",
+  "cat": "istilik",
+  "group": "Sement əsaslı",
+  "short": "İzolyasiya lövhələri üçün lif təchizatlı suvaq",
+  "image": "https://mrfix.az/site/assets/files/1517/thermomax_suvaq.png",
+  "featured": true,
+  "standard": "EAD 040083-00-0404 (ETAG 004)",
+  "classes": [],
+  "desc": "Polimer və mikro lif qatqılı sement əsaslı suvaq. ETICS sistemlərində izolyasiya lövhələrinin üzərinə setka ilə tətbiq olunur.",
+  "areas": [
+   "ETICS fasad sistemlərində armaturlu suvaq",
+   "Suvaq setkasının yerləşdirilməsi",
+   "Dekorativ son qat üçün daşıyıcı təbəqə",
+   "Daxili divar izolyasiyası"
+  ],
+  "features": [
+   "Mikro lif çatlama riskini azaldır",
+   "Elastik",
+   "Su itələyici",
+   "Yüksək buxar keçiriciliyi",
+   "Donma-əriməyə davamlı"
+  ],
+  "tech": [
+   [
+    "Sıxlıq",
+    "~1,75 kq/dm³"
+   ],
+   [
+    "Zərbə davamlılığı (EN 13497)",
+    "≥ 3 J"
+   ],
+   [
+    "Kapilyar su əmmə",
+    "≤ 0,5 kq/m²·h⁰·⁵"
+   ],
+   [
+    "Qarışım",
+    "5,5–6 l su / 25 kq"
+   ],
+   [
+    "Tətbiq qalınlığı",
+    "4–5 mm (setka ilə)"
+   ],
+   [
+    "Setka",
+    "160 q/m², qələviyə davamlı"
+   ],
+   [
+    "Son qata keçid",
+    "ən azı 7 gün"
+   ],
+   [
+    "Yanğına reaksiya",
+    "A2-s1,d0"
+   ]
+  ],
+  "consumption": "5,5–6,5 kq/m² (4–5 mm)",
+  "tds": "https://mrfix.az/site/assets/files/1517/thermomax_plast_65_tds_az.pdf",
+  "sds": "",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "thermomax-classic",
+  "name": "THERMOMAX® CLASSIC",
+  "cat": "istilik",
+  "group": "Sement əsaslı",
+  "short": "İstilik izolyasiya sistemi materialı",
+  "image": "https://mrfix.az/site/assets/files/1523/thermomax_classic-1.png",
+  "featured": false
+ },
+ {
+  "slug": "thermomax-universal",
+  "name": "THERMOMAX® UNIVERSAL",
+  "cat": "istilik",
+  "group": "Sement əsaslı",
+  "short": "İstilik izolyasiya sistemi materialı",
+  "image": "https://mrfix.az/site/assets/files/1529/thermomax_universal.png",
+  "featured": false
+ },
+ {
+  "slug": "thermomax-universal-narin",
+  "name": "THERMOMAX® UNIVERSAL NARIN",
+  "cat": "istilik",
+  "group": "Sement əsaslı",
+  "short": "İstilik izolyasiya sistemi materialı (narın)",
+  "image": "https://mrfix.az/site/assets/files/2036/thermomax_universal.png",
+  "featured": false
+ },
+ {
+  "slug": "thermomax-rm-160",
+  "name": "THERMOMAX® RM 160",
+  "cat": "istilik",
+  "group": "Setkalar",
+  "short": "Qələviyə davamlı şüşə lifli suvaq setkası",
+  "image": "https://mrfix.az/site/assets/files/1547/thermomax_st.png",
+  "featured": false
+ },
+ {
+  "slug": "thermomax-st-140-gr",
+  "name": "THERMOMAX® ST 140 gr",
+  "cat": "istilik",
+  "group": "Montaj aksesuarları",
+  "short": "Suvaq setkası",
+  "image": "https://mrfix.az/site/assets/files/1541/thermomax_st.png",
+  "featured": false
+ },
+ {
+  "slug": "thermomax-fp",
+  "name": "THERMOMAX® FP",
+  "cat": "istilik",
+  "group": "Montaj aksesuarları",
+  "short": "Fasad profili",
+  "image": "https://mrfix.az/site/assets/files/2024/thermomax-fp-1.png",
+  "featured": false
+ },
+ {
+  "slug": "thermomax-fpm",
+  "name": "THERMOMAX® FPM",
+  "cat": "istilik",
+  "group": "Montaj aksesuarları",
+  "short": "Setkalı PVC fuqa profili",
+  "image": "https://mrfix.az/site/assets/files/2167/thermomax-ffp.png",
+  "featured": false
+ },
+ {
+  "slug": "thermomax-fkp",
+  "name": "THERMOMAX® FKP",
+  "cat": "istilik",
+  "group": "Montaj aksesuarları",
+  "short": "Fasad künc profili",
+  "image": "https://mrfix.az/site/assets/files/1967/thermomax-fkp-orange.png",
+  "featured": false
+ },
+ {
+  "slug": "thermomax-sp",
+  "name": "THERMOMAX® SP",
+  "cat": "istilik",
+  "group": "Montaj aksesuarları",
+  "short": "Fasad montaj profili",
+  "image": "https://mrfix.az/site/assets/files/2032/thermomax-sp-2.png",
+  "featured": false
+ },
+ {
+  "slug": "steelcoat-primer-u1",
+  "name": "Steelcoat Primer U1",
+  "cat": "coatix",
+  "group": "Astar",
+  "short": "Metal səthlər üçün astar",
+  "image": "https://mrfix.az/site/assets/files/3013/steelcoat-primer-u1-list-image.png",
+  "featured": false
+ },
+ {
+  "slug": "steelcoat-primer-m50",
+  "name": "Steelcoat Primer M50",
+  "cat": "coatix",
+  "group": "Astar",
+  "short": "Metal səthlər üçün astar",
+  "image": "https://mrfix.az/site/assets/files/2997/steelcoat-primer--m50-list-image-1.png",
+  "featured": false
+ },
+ {
+  "slug": "steelcoat-finish-p430",
+  "name": "Steelcoat Finish P430",
+  "cat": "coatix",
+  "group": "Poliuretan həllər",
+  "short": "Poliuretan əsaslı son qat örtüyü",
+  "image": "https://mrfix.az/site/assets/files/3023/steelcoat-finish-p430-list-image.png",
+  "featured": false
+ },
+ {
+  "slug": "steelcoat-finish-p445",
+  "name": "Steelcoat Finish P445",
+  "cat": "coatix",
+  "group": "Poliuretan həllər",
+  "short": "Poliuretan əsaslı son qat örtüyü",
+  "image": "https://mrfix.az/site/assets/files/2988/steelcoat-finish-p445--list-image-1.png",
+  "featured": false
+ },
+ {
+  "slug": "flomax-sh-500",
+  "name": "FLOMAX® SH 500",
+  "cat": "zemin",
+  "group": "Sement əsaslı",
+  "short": "Sement əsaslı zəmin materialı",
+  "image": "https://mrfix.az/site/assets/files/1279/sh_500.png",
+  "featured": false
+ },
+ {
+  "slug": "flomax-sh-550-k",
+  "name": "FLOMAX® SH 550 K",
+  "cat": "zemin",
+  "group": "Sement əsaslı",
+  "short": "Sement əsaslı zəmin materialı",
+  "image": "https://mrfix.az/site/assets/files/1281/sh_550_k-1.png",
+  "featured": false
+ },
+ {
+  "slug": "flomax-sl-212",
+  "name": "FLOMAX® SL 212",
+  "cat": "zemin",
+  "group": "Sement əsaslı",
+  "short": "Özü yayılan zəmin şapı",
+  "image": "https://mrfix.az/site/assets/files/1283/sl_212.png",
+  "featured": true,
+  "standard": "Özü yayılan döşəmə şapı",
+  "classes": [],
+  "desc": "Sement əsaslı, özü axaraq səthi düzləşdirən döşəmə məhlulu. Nazik örtüklərdən əvvəl qeyri-bərabər səthləri hamarlayır.",
+  "areas": [
+   "Keramika, mərmər, parket, xalça və PVC altı",
+   "Ev, ofis və xəstəxanalar",
+   "Təhsil binaları və otellər",
+   "Ticarət mərkəzləri"
+  ],
+  "features": [
+   "Yalnız su ilə qarışdırılır",
+   "Özü yayılır",
+   "Aşınmaya davamlı",
+   "Əl ilə və ya pompa ilə tətbiq"
+  ],
+  "tech": [
+   [
+    "Rəng",
+    "Boz"
+   ],
+   [
+    "Təzyiq müqaviməti",
+    "23 N/mm² (7 gün) · 30 N/mm² (28 gün)"
+   ],
+   [
+    "Səth temperaturu",
+    "+5°C / +25°C"
+   ],
+   [
+    "İş müddəti",
+    "~35 dəq"
+   ],
+   [
+    "İstifadəyə açılma",
+    "24 saat"
+   ],
+   [
+    "Digər material üçün gözləmə",
+    "3 gün"
+   ]
+  ],
+  "consumption": "8,75 kq/m² · 5 mm",
+  "tds": "https://mrfix.az/site/assets/files/1283/flomax_sl_212_tds_aze.pdf",
+  "sds": "",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "flomax-sl-220-flex",
+  "name": "FLOMAX® SL 220 FLEX",
+  "cat": "zemin",
+  "group": "Sement əsaslı",
+  "short": "Polad lifli, sənaye tipli özü yayılan döşəmə",
+  "image": "https://mrfix.az/site/assets/files/1285/sl_220_flex-1.png",
+  "featured": true,
+  "standard": "Sənaye tipli özü yayılan döşəmə",
+  "classes": [],
+  "desc": "Sement və akril əsaslı, polad lifli, iki komponentli sənaye tipli özü yayılan döşəmə materialı.",
+  "areas": [
+   "Fabrik, sənaye və anbar döşəmələri",
+   "Avtodayanacaq və qarajlar",
+   "Yükləmə platformaları",
+   "Köhnəlmiş sənaye döşəmələrinin bərpası"
+  ],
+  "features": [
+   "4–8 mm qalınlıqda tətbiq",
+   "Aşınma və təzyiqə yüksək davamlılıq",
+   "Tozsuz və uzunömürlü",
+   "Zərbə və temperatur dəyişmələrinə davamlı"
+  ],
+  "tech": [
+   [
+    "Təzyiq müqaviməti",
+    "13 N/mm² (7 gün) · 21 N/mm² (28 gün)"
+   ],
+   [
+    "Əyilmə müqaviməti (28 gün)",
+    "8,8 N/mm²"
+   ],
+   [
+    "Qopma müqaviməti",
+    "2,0 N/mm²"
+   ],
+   [
+    "İstifadə müddəti",
+    "30 dəq"
+   ],
+   [
+    "Piyada hərəkəti",
+    "48 saat"
+   ],
+   [
+    "Maşın hərəkəti",
+    "72 saat"
+   ]
+  ],
+  "consumption": "",
+  "tds": "https://mrfix.az/site/assets/files/1285/flomax_sl_220_flex_tds_aze.pdf",
+  "sds": "",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "flomax-sl-therma",
+  "name": "FLOMAX® SL THERMA",
+  "cat": "zemin",
+  "group": "Sement əsaslı",
+  "short": "Özü yayılan zəmin materialı",
+  "image": "https://mrfix.az/site/assets/files/1901/therma-01.png",
+  "featured": false
+ },
+ {
+  "slug": "flomax-sh-cure",
+  "name": "FLOMAX® SH CURE",
+  "cat": "zemin",
+  "group": "Kür",
+  "short": "Zəmin kür materialı",
+  "image": "https://mrfix.az/site/assets/files/1829/flomax_sh_cure.png",
+  "featured": false
+ },
+ {
+  "slug": "flomax-sl-primer",
+  "name": "FLOMAX® SL PRIMER",
+  "cat": "zemin",
+  "group": "Astar",
+  "short": "Əmici səthlər üçün akril əsaslı astar",
+  "image": "https://mrfix.az/site/assets/files/1287/sl_primer.png",
+  "featured": true,
+  "standard": "Akril əsaslı astar",
+  "classes": [],
+  "desc": "Akril kopolimer əsaslı astar. Əmici səthlərin əmiciliyini azaldır və üzərinə gələn materialın yapışmasını artırır.",
+  "areas": [
+   "Özü yayılan döşəmələrdən əvvəl",
+   "İzolyasiya işlərindən əvvəl",
+   "Qazbeton, alçıpan, gips suvaq kimi əmici səthlər",
+   "Kafel yapışdırıcısından əvvəl"
+  ],
+  "features": [
+   "Suyun tez itməsini və çatlamanı azaldır",
+   "Səthi rütubətdən qoruyur",
+   "Yapışmanı artırır",
+   "Solventsiz"
+  ],
+  "tech": [
+   [
+    "Tərkib",
+    "Akril polimer dispersiya"
+   ],
+   [
+    "Rəng",
+    "Ağ"
+   ],
+   [
+    "Sıxlıq",
+    "~1,003 kq/l"
+   ],
+   [
+    "Səth temperaturu",
+    "+5°C / +30°C"
+   ],
+   [
+    "2-ci qat",
+    "2 saat sonra"
+   ],
+   [
+    "Digər tətbiqlər",
+    "24 saat sonra"
+   ]
+  ],
+  "consumption": "",
+  "tds": "https://mrfix.az/site/assets/files/1287/flomax_sl_primer.pdf",
+  "sds": "",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "geotekstil-kece-200-pe",
+  "name": "GEOTEKSTİL KEÇƏ® 200 PE",
+  "cat": "zemin",
+  "group": "Geotekstil",
+  "short": "Geotekstil keçə",
+  "image": "https://mrfix.az/site/assets/files/2088/geotekstil-kec.png",
+  "featured": false
+ },
+ {
+  "slug": "geotekstil-kece-200-pg",
+  "name": "GEOTEKSTİL KEÇƏ® 200 PG",
+  "cat": "zemin",
+  "group": "Geotekstil",
+  "short": "Geotekstil keçə",
+  "image": "https://mrfix.az/site/assets/files/2108/geotekstil-kec-1.png",
+  "featured": false
+ },
+ {
+  "slug": "geotekstil-kece-300-pe",
+  "name": "GEOTEKSTİL KEÇƏ® 300 PE",
+  "cat": "zemin",
+  "group": "Geotekstil",
+  "short": "Geotekstil keçə",
+  "image": "https://mrfix.az/site/assets/files/2102/geotekstil-kec-1.png",
+  "featured": false
+ },
+ {
+  "slug": "geotekstil-kece-300-pg",
+  "name": "GEOTEKSTİL KEÇƏ® 300 PG",
+  "cat": "zemin",
+  "group": "Geotekstil",
+  "short": "Geotekstil keçə",
+  "image": "https://mrfix.az/site/assets/files/2082/geotekstil-kec.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-hp-460",
+  "name": "BETONMIX® HP 460",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı",
+  "image": "https://mrfix.az/site/assets/files/1318/hp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-hp-461",
+  "name": "BETONMIX® HP 461",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı",
+  "image": "https://mrfix.az/site/assets/files/2366/hp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-hp-555",
+  "name": "BETONMIX® HP 555",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı",
+  "image": "https://mrfix.az/site/assets/files/1316/hp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-hp-575",
+  "name": "BETONMIX® HP 575",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı",
+  "image": "https://mrfix.az/site/assets/files/1314/hp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-hp-1204",
+  "name": "BETONMIX® HP 1204",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı",
+  "image": "https://mrfix.az/site/assets/files/2372/hp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-hp-1205",
+  "name": "BETONMIX® HP 1205",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı",
+  "image": "https://mrfix.az/site/assets/files/2378/hp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-hp-1211-a",
+  "name": "BETONMIX® HP 1211 A",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı",
+  "image": "https://mrfix.az/site/assets/files/1585/hp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-hp-1212",
+  "name": "BETONMIX® HP 1212",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı",
+  "image": "https://mrfix.az/site/assets/files/2384/hp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-hp-1275",
+  "name": "BETONMIX® HP 1275",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı",
+  "image": "https://mrfix.az/site/assets/files/1310/hp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-tbp-15",
+  "name": "BETONMIX® TBP 15",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı",
+  "image": "https://mrfix.az/site/assets/files/1354/tpb.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-tbp-100",
+  "name": "BETONMIX® TBP 100",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı",
+  "image": "https://mrfix.az/site/assets/files/1356/tpb.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-sp-100-s",
+  "name": "BETONMIX® SP 100 S",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı (superplastifikator)",
+  "image": "https://mrfix.az/site/assets/files/1346/sp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-sp-100-k",
+  "name": "BETONMIX® SP 100 K",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı (superplastifikator)",
+  "image": "https://mrfix.az/site/assets/files/1591/sp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-sp-150-s",
+  "name": "BETONMIX® SP 150 S",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı (superplastifikator)",
+  "image": "https://mrfix.az/site/assets/files/1342/sp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-sp-150-k",
+  "name": "BETONMIX® SP 150 K",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı (superplastifikator)",
+  "image": "https://mrfix.az/site/assets/files/1344/sp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-sp-165",
+  "name": "BETONMIX® SP 165",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı (superplastifikator)",
+  "image": "https://mrfix.az/site/assets/files/1326/sp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-sp-200-s",
+  "name": "BETONMIX® SP 200 S",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı (superplastifikator)",
+  "image": "https://mrfix.az/site/assets/files/1336/sp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-sp-200-k",
+  "name": "BETONMIX® SP 200 K",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı (superplastifikator)",
+  "image": "https://mrfix.az/site/assets/files/1338/sp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-sp-278",
+  "name": "BETONMIX® SP 278",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı (superplastifikator)",
+  "image": "https://mrfix.az/site/assets/files/1324/sp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-sp-300",
+  "name": "BETONMIX® SP 300",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı (superplastifikator)",
+  "image": "https://mrfix.az/site/assets/files/1340/sp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-sp-420-k",
+  "name": "BETONMIX® SP 420 K",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı (superplastifikator)",
+  "image": "https://mrfix.az/site/assets/files/1334/sp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-sp-420-s",
+  "name": "BETONMIX® SP 420 S",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı (superplastifikator)",
+  "image": "https://mrfix.az/site/assets/files/1332/sp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-sp-907-k",
+  "name": "BETONMIX® SP 907 K",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı (superplastifikator)",
+  "image": "https://mrfix.az/site/assets/files/1330/sp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-sp-907-s",
+  "name": "BETONMIX® SP 907 S",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı (superplastifikator)",
+  "image": "https://mrfix.az/site/assets/files/1328/sp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-sp-1000-k",
+  "name": "BETONMIX® SP 1000 K",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı (superplastifikator)",
+  "image": "https://mrfix.az/site/assets/files/1322/sp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-sp-1000-s",
+  "name": "BETONMIX® SP 1000 S",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı (superplastifikator)",
+  "image": "https://mrfix.az/site/assets/files/1320/sp.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-proofing",
+  "name": "BETONMIX® PROOFING",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı (su keçirməzlik)",
+  "image": "https://mrfix.az/site/assets/files/1348/prf-1.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-antifreeze-1",
+  "name": "BETONMIX® ANTIFREEZE 1",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı (soyuq hava betonlaması)",
+  "image": "https://mrfix.az/site/assets/files/1350/antifreeze_1.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-air-80",
+  "name": "BETONMIX® AIR 80",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı (hava sürükləyici)",
+  "image": "https://mrfix.az/site/assets/files/1352/air.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-rca",
+  "name": "BETONMIX® RCA",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı",
+  "image": "https://mrfix.az/site/assets/files/1358/rca.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-rpd",
+  "name": "BETONMIX® RPD",
+  "cat": "qatqi",
+  "group": "Beton qatqıları",
+  "short": "Beton qatqısı",
+  "image": "https://mrfix.az/site/assets/files/1360/rpd.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-shotcrete-212-al",
+  "name": "BETONMIX® SHOTCRETE 212 AL",
+  "cat": "qatqi",
+  "group": "Yeraltı kimyəviləri",
+  "short": "Torkret beton qatqısı",
+  "image": "https://mrfix.az/site/assets/files/1362/shortcrete.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-shotcrete-224-al",
+  "name": "BETONMIX® SHOTCRETE 224 AL",
+  "cat": "qatqi",
+  "group": "Yeraltı kimyəviləri",
+  "short": "Torkret beton qatqısı",
+  "image": "https://mrfix.az/site/assets/files/1364/shortcrete.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-shotcrete-225-al",
+  "name": "BETONMIX® SHOTCRETE 225 AL",
+  "cat": "qatqi",
+  "group": "Yeraltı kimyəviləri",
+  "short": "Torkret beton qatqısı",
+  "image": "https://mrfix.az/site/assets/files/2390/shortcrete.png",
+  "featured": false
+ },
+ {
+  "slug": "betonmix-shotcrete-310-af",
+  "name": "BETONMIX® SHOTCRETE 310 AF",
+  "cat": "qatqi",
+  "group": "Yeraltı kimyəviləri",
+  "short": "Torkret beton qatqısı",
+  "image": "https://mrfix.az/site/assets/files/1366/shortcrete.png",
+  "featured": false
+ },
+ {
+  "slug": "asfamix-em-140",
+  "name": "ASFAMIX® EM 140",
+  "cat": "qatqi",
+  "group": "Asfalt qatqıları",
+  "short": "Asfalt qatqısı",
+  "image": "https://mrfix.az/site/assets/files/1864/asfamix.png",
+  "featured": false
+ },
+ {
+  "slug": "asfamix-em-160",
+  "name": "ASFAMIX® EM 160",
+  "cat": "qatqi",
+  "group": "Asfalt qatqıları",
+  "short": "Asfalt qatqısı",
+  "image": "https://mrfix.az/site/assets/files/1870/asfamix.png",
+  "featured": false
+ },
+ {
+  "slug": "asfamix-em-180",
+  "name": "ASFAMIX® EM 180",
+  "cat": "qatqi",
+  "group": "Asfalt qatqıları",
+  "short": "Asfalt qatqısı",
+  "image": "https://mrfix.az/site/assets/files/1876/asfamix.png",
+  "featured": false
+ },
+ {
+  "slug": "asfamix-210-an",
+  "name": "ASFAMIX® 210 AN",
+  "cat": "qatqi",
+  "group": "Asfalt qatqıları",
+  "short": "Asfalt qatqısı",
+  "image": "https://mrfix.az/site/assets/files/1852/asfamix.png",
+  "featured": false
+ },
+ {
+  "slug": "asfamix-240-an",
+  "name": "ASFAMIX® 240 AN",
+  "cat": "qatqi",
+  "group": "Asfalt qatqıları",
+  "short": "Asfalt qatqısı",
+  "image": "https://mrfix.az/site/assets/files/1882/asfamix.png",
+  "featured": false
+ },
+ {
+  "slug": "asfamix-270-an",
+  "name": "ASFAMIX® 270 AN",
+  "cat": "qatqi",
+  "group": "Asfalt qatqıları",
+  "short": "Asfalt qatqısı",
+  "image": "https://mrfix.az/site/assets/files/1888/asfamix.png",
+  "featured": false
+ },
+ {
+  "slug": "asfamix-280-fe",
+  "name": "ASFAMIX® 280 FE",
+  "cat": "qatqi",
+  "group": "Asfalt qatqıları",
+  "short": "Asfalt qatqısı",
+  "image": "https://mrfix.az/site/assets/files/1858/asfamix.png",
+  "featured": false
+ },
+ {
+  "slug": "cemix-em-1",
+  "name": "Cemix® EM 1",
+  "cat": "qatqi",
+  "group": "Sement qatqıları",
+  "short": "Sement üyüdmə qatqısı",
+  "image": "https://mrfix.az/site/assets/files/2149/cemix_em_1-1.png",
+  "featured": false
+ },
+ {
+  "slug": "kratos-pp-54",
+  "name": "Kratos PP 54+",
+  "cat": "qatqi",
+  "group": "Beton lifləri",
+  "short": "Sintetik makro beton lifi",
+  "image": "https://mrfix.az/site/assets/files/2459/kratos-pp54-1.png",
+  "featured": false
+ },
+ {
+  "slug": "kratos-12mm",
+  "name": "Kratos 12mm",
+  "cat": "qatqi",
+  "group": "Beton lifləri",
+  "short": "Sintetik beton lifi",
+  "image": "https://mrfix.az/site/assets/files/2463/kratos-12mm.png",
+  "featured": false
+ },
+ {
+  "slug": "kemerix-kmx-65-60-bg",
+  "name": "Kemerix KMX 65/60 BG",
+  "cat": "qatqi",
+  "group": "Beton lifləri",
+  "short": "Polad beton lifi",
+  "image": "https://mrfix.az/site/assets/files/2469/kemerix_s.png",
+  "featured": false
+ },
+ {
+  "slug": "formax-ka-101",
+  "name": "FORMAX® KA 101",
+  "cat": "qelib",
+  "group": "Qəlib yağları",
+  "short": "Qəlib yağı",
+  "image": "https://mrfix.az/site/assets/files/1299/barrel.png",
+  "featured": false
+ },
+ {
+  "slug": "formax-ka-121",
+  "name": "FORMAX® KA 121",
+  "cat": "qelib",
+  "group": "Qəlib yağları",
+  "short": "Qəlib yağı",
+  "image": "https://mrfix.az/site/assets/files/2451/barrel_121_k-1.png",
+  "featured": false
+ },
+ {
+  "slug": "universal-astar",
+  "name": "UNİVERSAL ASTAR",
+  "cat": "astar",
+  "group": "Astarlar",
+  "short": "Universal astar",
+  "image": "https://mrfix.az/site/assets/files/1289/universal_astar.png",
+  "featured": false
+ },
+ {
+  "slug": "kontakt-astar",
+  "name": "KONTAKT ASTAR®",
+  "cat": "astar",
+  "group": "Astarlar",
+  "short": "Hamar səthlər üçün kontakt astar",
+  "image": "https://mrfix.az/site/assets/files/1291/kontakt_astar.png",
+  "featured": false
+ },
+ {
+  "slug": "supermix",
+  "name": "SUPERMİX",
+  "cat": "astar",
+  "group": "Harç qatqıları",
+  "short": "Harç qatqısı",
+  "image": "https://mrfix.az/site/assets/files/1293/supermix.png",
+  "featured": false
+ },
+ {
+  "slug": "cure-acr",
+  "name": "CURE® ACR",
+  "cat": "kur",
+  "group": "Beton kürləri",
+  "short": "Akril əsaslı beton kürü",
+  "image": "https://mrfix.az/site/assets/files/1295/cure.png",
+  "featured": false
+ },
+ {
+  "slug": "cure-prf",
+  "name": "CURE® PRF",
+  "cat": "kur",
+  "group": "Beton kürləri",
+  "short": "Beton kürü",
+  "image": "https://mrfix.az/site/assets/files/1297/cure.png",
+  "featured": false
+ },
+ {
+  "slug": "puraseal-150",
+  "name": "PURASEAL 150",
+  "cat": "mastik",
+  "group": "Poliuretan",
+  "short": "Poliuretan əsaslı, tam elastik mastik",
+  "image": "https://mrfix.az/site/assets/files/1717/puraseal.png",
+  "featured": true,
+  "standard": "Poliuretan mastik · ISO 8339",
+  "classes": [],
+  "desc": "Beton və temperatur dərzlərinin doldurulması və yapışdırma işləri üçün yüksək performanslı, tam elastik, tək komponentli poliuretan mastik.",
+  "areas": [
+   "Beton və temperatur dərzləri",
+   "Daş, keramika, taxta, alüminium, şüşə yapışdırılması",
+   "Dam və su izolyasiyası detalları",
+   "Pilləkən, eşik və süpürgəliklərin montajı"
+  ],
+  "features": [
+   "İstifadəyə hazırdır",
+   "Yüksək elastiklik, 25% hərəkət udma",
+   "Axmır",
+   "Hava şəraitinə davamlı",
+   "Əlavə ankrajsız yaxşı yapışır"
+  ],
+  "tech": [
+   [
+    "Rəng",
+    "Ağ, boz, qara"
+   ],
+   [
+    "Shore A (ISO 868)",
+    "30–40"
+   ],
+   [
+    "Hərəkət udma",
+    "25%"
+   ],
+   [
+    "Elastiklik həddi (ASTM D412)",
+    "600%"
+   ],
+   [
+    "Qabıqlanma müddəti",
+    "90 dəq"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +40°C"
+   ],
+   [
+    "İstifadə temperaturu",
+    "−30°C / +80°C"
+   ]
+  ],
+  "consumption": "",
+  "tds": "https://mrfix.az/site/assets/files/1717/purseal_150.pdf",
+  "sds": "",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ }
+]

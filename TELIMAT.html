@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="az">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mr.Fix Sayt Təlimatı</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="static/assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@700;800&family=Inter:wght@400;600&family=JetBrains+Mono:wght@500;600&display=swap">
+<style>
+:root{--bg:#F5F6F8;--white:#fff;--ink:#0D1520;--ink2:#344050;--muted:#5F6B7A;--line:#E3E6EB;--navy:#0B1626;--navy2:#A7B3C4;--yellow:#FFC21A;--blue:#1F5FBF;
+--fd:"Inter Tight",system-ui,sans-serif;--fb:Inter,system-ui,sans-serif;--fm:"JetBrains Mono",ui-monospace,monospace;color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.65 var(--fb)}
+.wrap{max-width:900px;margin:0 auto;padding-left:max(18px, env(safe-area-inset-left, 0px));padding-right:max(18px, env(safe-area-inset-right, 0px))}
+header{background:var(--navy);color:#EEF2F7;padding-block:40px 48px}
+header img{height:30px;width:auto}
+h1{font:800 clamp(34px,6vw,54px)/1.02 var(--fd);letter-spacing:-.03em;margin:26px 0 12px;text-wrap:balance}
+header p{margin:0;color:var(--navy2);max-width:62ch}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
+.toc a{color:#EEF2F7;text-decoration:none;border:1px solid #2A3A52;border-radius:999px;padding:8px 14px;font-size:14px}
+.toc a:hover{border-color:var(--yellow)}
+main{padding-block:20px 80px}
+section{background:var(--white);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,4vw,36px);margin-top:18px}
+h2{font:800 28px/1.15 var(--fd);letter-spacing:-.02em;margin:0 0 8px;display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+h2 span{font:600 13px/1 var(--fm);color:var(--blue)}
+h3{font:700 19px/1.3 var(--fd);margin:26px 0 6px}
+p{margin:8px 0} ol,ul{padding-left:22px} li{margin:6px 0}
+code{font:500 14px/1.5 var(--fm);background:var(--bg);padding:2px 6px;border-radius:5px}
+pre{background:var(--navy);color:#E8ECF2;padding:16px;border-radius:12px;overflow-x:auto;font:500 13.5px/1.6 var(--fm)}
+.note{border:1px solid var(--line);border-left:5px solid var(--yellow);border-radius:10px;padding:12px 16px;background:#FFFBEB;margin:16px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;margin-top:12px}
+.card{border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.card b{display:block;font:700 15.5px/1.3 var(--fd)}
+.card p{font-size:14.5px;color:var(--muted);margin:4px 0 0}
+.card code{font-size:12.5px}
+table{width:100%;border-collapse:collapse;font-size:15px}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:12px;margin-top:12px}
+th,td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:600 12px/1.2 var(--fm);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);background:var(--bg)}
+.check{list-style:none;padding-left:0}
+.check li::before{content:"☐  ";font-family:var(--fm);color:var(--blue)}
+a{color:var(--blue)}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<img src="static/assets/logo-white.svg" alt="mr.fix">
+<h1>Yeni saytın təlimatı</h1>
+<p>Mr.Fix komandası üçün: saytda nə var, müştəri onu necə istifadə edir, məzmun necə yenilənir və sayt GitHub-da necə yayımlanır.</p>
+<nav class="toc" aria-label="Bölmələr"><a href="#sehifeler">1. Səhifələr</a><a href="#funksiyalar">2. Funksiyalar</a><a href="#redakte">3. Məzmunu yeniləmək</a><a href="#github">4. GitHub-da yayım</a><a href="#domen">5. mrfix.az domeni</a><a href="#yoxla">6. Yoxlama siyahısı</a></nav>
+</div></header>
+<main class="wrap">
+
+<section id="sehifeler">
+<h2><span>01</span>Saytın səhifələri</h2>
+<p>Sayt 181 ayrıca səhifədən ibarətdir. Hər məhsulun, hər həllin və hər məqalənin öz ünvanı var — Google-da ayrıca tapılır.</p>
+<div class="tbl"><table>
+<thead><tr><th>Bölmə</th><th>Ünvan</th><th>Nə var</th></tr></thead>
+<tbody>
+<tr><td>Ana səhifə</td><td><code>/</code></td><td>Animasiyalı giriş, rəqəmlər, kateqoriyalar, həllər, seçilmiş məhsullar, layihələr, bloq</td></tr>
+<tr><td>Məhsul kataloqu</td><td><code>/mehsullar/</code></td><td>138 məhsul, axtarış, 13 kateqoriya üzrə ayrıca səhifə və alt qrup filtri</td></tr>
+<tr><td>Məhsul səhifəsi</td><td><code>/mehsul/ceramax-flex/</code></td><td>Standart və sinif izahı, əsas göstəricilər, tətbiq sahələri, üstünlüklər, texniki cədvəl, TDS/SDS, oxşar məhsullar, aid olduğu sistemlər</td></tr>
+<tr><td>Həll yolları</td><td><code>/hell-yollari/hamam/</code></td><td>7 sistem: qat-qat kəsik, addım-addım tətbiq, usta məsləhəti, sifariş düyməsi</td></tr>
+<tr><td>Hesablayıcı</td><td><code>/hesablayici/</code></td><td>Dərz, yapışdırıcı, su izolyasiyası, şap və təmir — kq və kisə sayı</td></tr>
+<tr><td>Dərz rəngləri</td><td><code>/reng-secimi/</code></td><td>32 rəsmi rəng, kafel rəngi və düzülüşü ilə canlı önizləmə</td></tr>
+<tr><td>Bloq</td><td><code>/bloq/</code></td><td>6 bələdçi məqalə (SEO üçün), kateqoriya filtri, oxu irəliləmə xətti</td></tr>
+<tr><td>Layihələr</td><td><code>/referanslar/</code></td><td>25 referans layihə, növ filtri</td></tr>
+<tr><td>Dilerlər</td><td><code>/dilerler/</code></td><td>4 ölkədə 150+ diler, axtarış, xəritə linki, diler olmaq üçün müraciət</td></tr>
+<tr><td>Texniki sənədlər</td><td><code>/senedler/</code></td><td>Bütün TDS və SDS faylları bir cədvəldə</td></tr>
+<tr><td>Haqqımızda, Xəbərlər, Karyera, Əlaqə</td><td><code>/haqqimizda/</code> və s.</td><td>Tarixçə, dəyərlər, xəbər səhifələri, CV, sorğu forması və xəritə</td></tr>
+</tbody></table></div>
+</section>
+
+<section id="funksiyalar">
+<h2><span>02</span>Müştəri saytı necə istifadə edir</h2>
+<div class="grid">
+<div class="card"><b>Axtarış (Ctrl + K)</b><p>Yuxarıdakı böyüdücü. Məhsul adı, standart (C2TE, R4), səth (hamam) və ya məqalə tapır.</p></div>
+<div class="card"><b>Məhsul köməkçisi</b><p>Sağ aşağıdakı düymə. "Hamamda su sızır" yazanda uyğun sistemi və məhsulları göstərir, tapmasa WhatsApp-a yönləndirir.</p></div>
+<div class="card"><b>Sifariş düymələri</b><p>Məhsul, həll və hesablayıcıdakı düymələr hazır mətnlə WhatsApp-a gedir: məhsul adı, miqdar, sahə.</p></div>
+<div class="card"><b>Sistem seçici</b><p>Hər həll səhifəsində qatlar məhsul səhifələrinə bağlıdır. "Siyahını kopyala" ustaya göndərmək üçündür.</p></div>
+<div class="card"><b>Hesablayıcı</b><p>4 növ material. Nəticə kq, kisə sayı və tövsiyə olunan məhsuldur.</p></div>
+<div class="card"><b>Əlaqə forması</b><p>Server lazım deyil: mesaj WhatsApp-da və ya e-poçt proqramında hazırlanır, müştəri göndərir.</p></div>
+</div>
+<div class="note"><b>WhatsApp nömrəsi:</b> <code>content/site.json</code> faylında <code>"whatsapp"</code> sahəsi. Hazırda <code>994103470010</code> yazılıb — rəsmi nömrəni təsdiqləyin.</div>
+</section>
+
+<section id="redakte">
+<h2><span>03</span>Məzmunu yeniləmək</h2>
+<p>Dizayna toxunmadan bütün məzmun <code>content/</code> qovluğundakı fayllarda dəyişdirilir. GitHub-da fayla klikləyin, qələm (Edit) işarəsini basın, dəyişin və <b>Commit changes</b> edin. 1–2 dəqiqə sonra sayt özü yenidən yığılır.</p>
+<div class="grid">
+<div class="card"><b><code>site.json</code></b><p>Telefon, e-poçt, ünvan, WhatsApp, sosial şəbəkələr, haqqımızda mətni, vakansiyalar</p></div>
+<div class="card"><b><code>products.json</code></b><p>Bütün məhsullar: ad, təsvir, tətbiq sahələri, texniki cədvəl, TDS/SDS linkləri</p></div>
+<div class="card"><b><code>categories.json</code></b><p>Kateqoriya adları, təsvirləri və rəngləri</p></div>
+<div class="card"><b><code>systems.json</code></b><p>Həll yolları: qatlar, addımlar, köməkçinin açar sözləri</p></div>
+<div class="card"><b><code>dealers.json</code></b><p>Dilerlər ölkə üzrə: ad və ünvan</p></div>
+<div class="card"><b><code>news.json</code></b><p>Xəbərlər (ən yenisi yuxarıda)</p></div>
+<div class="card"><b><code>references.json</code></b><p>Referans layihələr</p></div>
+<div class="card"><b><code>grouts.json</code></b><p>32 dərz rəngi (ad və ekran rəngi)</p></div>
+<div class="card"><b><code>blog/*.md</code></b><p>Bloq məqalələri, sadə mətn formatında</p></div>
+</div>
+<h3>Yeni məhsul əlavə etmək</h3>
+<p><code>products.json</code>-da mövcud məhsulun blokunu kopyalayın və dəyişin. Qısa forma:</p>
+<pre>{
+ "slug": "izomax-yeni",
+ "name": "IZOMAX® YENİ",
+ "cat": "izolyasiya",
+ "group": "Sement əsaslı",
+ "short": "Qısa təsvir",
+ "image": "https://.../sekil.png",
+ "featured": false
+},</pre>
+<p><code>slug</code> səhifənin ünvanıdır (kiçik hərf, tire ilə). <code>cat</code> kateqoriya kodudur: <code>yapisdirici</code>, <code>derz</code>, <code>izolyasiya</code>, <code>temir</code>, <code>istilik</code>, <code>zemin</code>, <code>suvaq</code>, <code>coatix</code>, <code>qatqi</code>, <code>qelib</code>, <code>astar</code>, <code>kur</code>, <code>mastik</code>. Tam məlumat üçün <code>"featured": true</code> yazıb <code>standard</code>, <code>classes</code>, <code>desc</code>, <code>areas</code>, <code>features</code>, <code>tech</code>, <code>consumption</code>, <code>tds</code>, <code>sds</code> sahələrini əlavə edin (CERAMAX® FLEX nümunəsinə baxın).</p>
+<h3>Yeni bloq məqaləsi</h3>
+<p><code>content/blog/</code> qovluğunda yeni fayl yaradın, məsələn <code>yeni-meqale.md</code>:</p>
+<pre>---
+title: Məqalənin başlığı
+date: 2026-11-01
+category: Bələdçi
+excerpt: Bir-iki cümləlik qısa təsvir.
+products: CERAMAX® FLEX, FUGAMAX® FLEX
+---
+
+Giriş abzası.
+
+## Alt başlıq
+
+Mətn. **Qalın söz**, siyahı:
+
+- birinci
+- ikinci</pre>
+<p><code>products</code> sətrindəki məhsullar məqalənin yanında kart kimi görünür və mətndə avtomatik link olur.</p>
+<h3>Xəbər və diler</h3>
+<pre>// news.json — siyahının ən başına
+{"slug": "yeni-xeber", "date": "2026-11-01", "tag": "Şirkət", "title": "Başlıq",
+ "image": "", "body": ["Birinci abzas.", "İkinci abzas."]},
+
+// dealers.json — "Azərbaycan" siyahısına
+["Mağaza adı", "Ünvan"],</pre>
+<div class="note">Səhv edib sayt yığılmasa, GitHub-da <b>Actions</b> bölməsində qırmızı xəta görünəcək. Faylın <b>History</b> bölməsindən əvvəlki versiyaya qayıtmaq olar. Ən çox rast gəlinən səhv: silinmiş vergül və ya dırnaq.</div>
+</section>
+
+<section id="github">
+<h2><span>04</span>GitHub-da yayımlamaq</h2>
+<h3>A. Tövsiyə olunan: avtomatik yığılma</h3>
+<ol>
+<li><a href="https://github.com/new" target="_blank" rel="noopener">github.com/new</a> — repozitoriya yaradın, məsələn <code>mrfix-site</code>.</li>
+<li>ZIP-i açın. <b>mrfix-web</b> qovluğunun içindəki hər şeyi (<code>.github</code> qovluğu daxil) repozitoriyaya yükləyin.</li>
+<li><b>Settings → Pages → Source</b>: <b>GitHub Actions</b> seçin.</li>
+<li><b>Actions</b> bölməsində "Saytı yığ və yayımla" işi yaşıl olanda sayt açılır: <code>https://İSTİFADƏÇİ.github.io/mrfix-site/</code></li>
+</ol>
+<p>Bundan sonra <code>content/</code>-da hər dəyişiklik saytı avtomatik yeniləyir.</p>
+<p>Terminal ilə:</p>
+<pre>cd mrfix-web
+git init
+git add .
+git commit -m "Mr.Fix yeni sayt"
+git branch -M main
+git remote add origin https://github.com/İSTİFADƏÇİ/mrfix-site.git
+git push -u origin main</pre>
+<div class="note"><code>.github</code> qovluğu nöqtə ilə başladığı üçün bəzi kompüterlərdə gizli görünür. Brauzerdən yükləyəndə görünmürsə, terminal üsulundan istifadə edin.</div>
+<h3>B. Sadə: hazır faylları yükləmək</h3>
+<p>ZIP-dəki <code>_site</code> qovluğu artıq yığılmış saytdır. Onun içindəkiləri boş repozitoriyaya yükləyin və <b>Settings → Pages → Deploy from a branch → main / root</b> seçin. Bu üsulda məzmun dəyişəndə saytı kompüterdə <code>python3 build.py</code> ilə yenidən yığmaq lazımdır.</p>
+<h3>404 səhifəsi</h3>
+<p>Sayt <code>github.io/mrfix-site/</code> ünvanında olarkən <code>site.json</code>-da <code>"base_path": "/mrfix-site/"</code> yazın. mrfix.az domeninə keçəndə yenidən <code>"/"</code> edin.</p>
+</section>
+
+<section id="domen">
+<h2><span>05</span>mrfix.az domenini bağlamaq</h2>
+<div class="note"><b>Əvvəlcə şəkilləri endirin.</b> Məhsul və layihə şəkilləri hazırda köhnə saytdan (mrfix.az/site/assets/…) yüklənir. Domen dəyişəndə o ünvanlar işləməyəcək. Domeni keçirməzdən əvvəl kompüterdə <code>python3 tools/download_images.py</code> işə salın və yaranan <code>static/img</code> qovluğunu GitHub-a yükləyin. TDS/SDS PDF-lərini də yeni yerə köçürüb <code>products.json</code>-dakı linkləri yeniləyin.</div>
+<ol>
+<li><code>site.json</code>-da <code>"cname": "mrfix.az"</code> və <code>"base_path": "/"</code> yazın.</li>
+<li>GitHub: <b>Settings → Pages → Custom domain</b> → <code>mrfix.az</code>.</li>
+<li>Domen panelində (DNS):
+<pre>A      @    185.199.108.153
+A      @    185.199.109.153
+A      @    185.199.110.153
+A      @    185.199.111.153
+CNAME  www  İSTİFADƏÇİ.github.io</pre></li>
+<li>DNS yenilənəndən sonra (bir neçə saat) <b>Enforce HTTPS</b> qutusunu işarələyin.</li>
+<li>Google Search Console-da <code>https://mrfix.az/sitemap.xml</code> faylını təqdim edin.</li>
+</ol>
+</section>
+
+<section id="yoxla">
+<h2><span>06</span>Yayımdan əvvəl yoxlama siyahısı</h2>
+<ul class="check">
+<li>Həll yollarındakı məhsul birləşmələrini və addımları texniki şöbə təsdiqlədi</li>
+<li>WhatsApp nömrəsi və iş saatları düzgündür</li>
+<li>Dərz rənglərinin ekran tonları rəng kartı ilə müqayisə olundu (<code>grouts.json</code>)</li>
+<li>Hesablayıcıdakı sərfiyyat dəyərləri texniki vərəqələrlə uyğundur</li>
+<li>25 kq qablaşdırma bütün toz məhsullar üçün doğrudur</li>
+<li>Bloq məqalələri texniki şöbə tərəfindən oxundu</li>
+<li>Məhsul şəkilləri endirildi (<code>tools/download_images.py</code>)</li>
+<li>Rəsmi loqo faylı varsa, <code>static/assets/logo.svg</code> və <code>logo-white.svg</code> ilə əvəz olundu</li>
+<li>EN, RU, TR, UZ versiyaları üçün qərar verildi (hazırda yalnız AZ)</li>
+<li>Telefonda və kompüterdə bütün səhifələr açılıb yoxlandı</li>
+</ul>
+</section>
+
+</main>
+</body>
+</html>

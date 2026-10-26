@@ -1,0 +1,93 @@
+[
+ {
+  "id": "yapisdirici",
+  "slug": "keramika-yapisdiricilari",
+  "name": "Keramika yapışdırıcıları",
+  "desc": "EN 12004 standartlı, C1-dən C2TE S2-yə qədər sement əsaslı kafel və təbii daş yapışdırıcıları.",
+  "color": "#1F5FBF"
+ },
+ {
+  "id": "derz",
+  "slug": "derz-dolgulari",
+  "name": "Dərz dolğuları",
+  "desc": "32 rəngdə, silikonlu və antibakterial sement əsaslı dərz dolğuları — 1 mm-dən 20 mm-ə qədər.",
+  "color": "#0F8B8D"
+ },
+ {
+  "id": "izolyasiya",
+  "slug": "su-izolyasiyasi",
+  "name": "Su izolyasiya sistemləri",
+  "desc": "Sement, bitum və silikon əsaslı izolyasiyalar, membranlar, bantlar və su tutucu profillər.",
+  "color": "#24548C"
+ },
+ {
+  "id": "temir",
+  "slug": "temir-ve-guclendirme",
+  "name": "Təmir və gücləndirmə",
+  "desc": "EN 1504-3 standartlı R2 və R4 sinif təmir məhlulları, grout və epoksid sistemlər.",
+  "color": "#B23A2E"
+ },
+ {
+  "id": "istilik",
+  "slug": "istilik-izolyasiyasi",
+  "name": "İstilik izolyasiya sistemləri",
+  "desc": "ETICS fasad sistemi: EPS lövhələr, yapışdırıcı, suvaq, setka və profillər.",
+  "color": "#D9662B"
+ },
+ {
+  "id": "zemin",
+  "slug": "zemin-materiallari",
+  "name": "Zəmin materialları",
+  "desc": "Özü yayılan şaplar, sənaye döşəmələri, astar və geotekstillər.",
+  "color": "#5B6676"
+ },
+ {
+  "id": "suvaq",
+  "slug": "suvaq-ve-horgu",
+  "name": "Suvaq və hörgü materialları",
+  "desc": "Hazır suvaq və hörgü məhlulları.",
+  "color": "#8A7A63"
+ },
+ {
+  "id": "coatix",
+  "slug": "coatix",
+  "name": "Coatix örtük sistemləri",
+  "desc": "Metal konstruksiyalar üçün astar və poliuretan son qat örtükləri.",
+  "color": "#4B5DA8"
+ },
+ {
+  "id": "qatqi",
+  "slug": "qatqilar",
+  "name": "Qatqılar",
+  "desc": "Beton, asfalt və sement qatqıları, torkret kimyəviləri və beton lifləri.",
+  "color": "#3C6E57"
+ },
+ {
+  "id": "qelib",
+  "slug": "qelib-yaglari",
+  "name": "Qəlib yağları",
+  "desc": "Beton qəlibləri üçün ayırıcı yağlar.",
+  "color": "#7A6A3A"
+ },
+ {
+  "id": "astar",
+  "slug": "harc-qatqilari-ve-astarlar",
+  "name": "Harç qatqıları və astarlar",
+  "desc": "Universal və kontakt astarlar, harç qatqıları.",
+  "color": "#6A7F99"
+ },
+ {
+  "id": "kur",
+  "slug": "beton-kurleri",
+  "name": "Beton kürləri",
+  "desc": "Təzə betonu tez qurumaqdan qoruyan kür materialları.",
+  "color": "#4F7C8A"
+ },
+ {
+  "id": "mastik",
+  "slug": "silikon-ve-mastikler",
+  "name": "Silikon və mastiklər",
+  "desc": "Elastik poliuretan dərz mastikləri.",
+  "color": "#6B5B8C"
+ }
+]

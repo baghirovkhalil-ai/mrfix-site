@@ -1,0 +1,127 @@
+[
+ {"id": "hamam", "name": "Hamam və duş", "short": "Yaş zonalar üçün tam su izolyasiyası və elastik kafel sistemi.",
+  "image": "https://mrfix.az/site/assets/files/1051/pexels-jean-van-der-meulen-1454804.jpg",
+  "keywords": ["hamam","duş","vanna","sanuzel","tualet","yaş","su sızır"],
+  "intro": "Hamam evin ən çox nəmə məruz qalan otağıdır. Su izolyasiyası olmadan kafelin arxasına keçən su zamanla qonşu otağa, aşağı mərtəbəyə və konstruksiyaya ziyan vurur. Doğru sistem: künclərdə bant, iki qat elastik izolyasiya, elastik yapışdırıcı və az su udan dərz.",
+  "layers": [
+   {"role": "Dərz dolğusu", "product": "FUGAMAX® COLORFUL"},
+   {"role": "Kafel yapışdırıcısı", "product": "CERAMAX® FLEX"},
+   {"role": "Su izolyasiyası (2 qat)", "product": "IZOMAX® C 40"},
+   {"role": "Künc və boru keçidləri", "product": "IZOMAX® Band W"},
+   {"role": "Səth hamarlama", "product": "TAMCRETE® CRM 50"}
+  ],
+  "steps": [
+   "Səthi tozdan, yağdan və köhnə boya qalıqlarından təmizləyin. Çuxur və çatları TAMCRETE® CRM 50 ilə doldurun.",
+   "Divar-döşəmə künclərinə, boru keçidlərinə və trapa IZOMAX® Band W bantlarını ilk qat izolyasiyanın içinə yerləşdirin.",
+   "IZOMAX® C 40-ı fırça ilə iki qat çəkin. Qatlar arası ən azı 5 saat gözləyin, duş zonasında izolyasiyanı divarda ən azı 2 m hündürlüyə qaldırın.",
+   "Ən azı 1 gün sonra kafeli CERAMAX® FLEX ilə döşəyin.",
+   "24 saat sonra dərzləri FUGAMAX® COLORFUL ilə doldurun, vanna və duş kənarlarını mastiklə bağlayın."
+  ],
+  "tip": "Su izolyasiyası yalnız duş zonasında deyil, bütün hamam döşəməsində və divarın aşağı 20 sm-ində olmalıdır."},
+ {"id": "teras", "name": "Teras və balkon", "short": "Günəş, şaxta və yağışa davamlı açıq hava sistemi.",
+  "image": "https://mrfix.az/site/assets/files/1169/luxury-terrace-4-1.jpg",
+  "keywords": ["teras","eyvan","balkon","açıq","qopur"],
+  "intro": "Açıq terasda kafel gündə onlarla dərəcə temperatur fərqi yaşayır. Sərt yapışdırıcı ilə döşənmiş kafel bir-iki qışdan sonra qopur. Burada yüksək elastik (S2) yapışdırıcı, tam elastik izolyasiya və geniş dərz lazımdır.",
+  "layers": [
+   {"role": "Geniş dərz", "product": "FUGAMAX® FLOOR"},
+   {"role": "Kafel yapışdırıcısı", "product": "CERAMAX® Maxi"},
+   {"role": "Su izolyasiyası (2 qat)", "product": "IZOMAX® C75 Flex"},
+   {"role": "Künc bantı", "product": "IZOMAX® Band W"},
+   {"role": "Dilatasiya dərzləri", "product": "PURASEAL 150"}
+  ],
+  "steps": [
+   "Səthdə suyun axması üçün ən azı 1,5% meyl olduğunu yoxlayın.",
+   "Künc və divar birləşmələrinə IZOMAX® Band W yerləşdirin.",
+   "IZOMAX® C75 Flex-i iki qat tətbiq edin, qatlar arası ən azı 5 saat gözləyin.",
+   "Kafeli CERAMAX® Maxi ilə tam yataq (kafelin arxasına da yapışdırıcı sürtməklə) döşəyin, boşluq qalmamalıdır.",
+   "Dərzləri FUGAMAX® FLOOR ilə doldurun, hər 3–4 m-dən bir dilatasiya dərzini PURASEAL 150 ilə bağlayın."
+  ],
+  "tip": "Tətbiqi günün sərin saatlarında edin. +30°C-dən yuxarı temperaturda yapışdırıcının açıq vaxtı kəskin qısalır."},
+ {"id": "hovuz", "name": "Hovuz və su çəni", "short": "Daimi su təzyiqi altında işləyən izolyasiya sistemi.",
+  "image": "https://mrfix.az/site/assets/files/1168/pexels-jonathan-borba-6110594.jpg",
+  "keywords": ["hovuz","basseyn","su çəni","fəvvarə","anbar"],
+  "intro": "Hovuzda izolyasiya həm su təzyiqinə, həm də xlorlu suya davam gətirməlidir. Təmir qatından dərzə qədər bütün sistem uyğunlaşdırılmalıdır.",
+  "layers": [
+   {"role": "Dərz dolğusu", "product": "FUGAMAX® FLEX"},
+   {"role": "Kafel yapışdırıcısı", "product": "CERAMAX® ULTRA"},
+   {"role": "Su izolyasiyası (2–3 qat)", "product": "IZOMAX® C60 N"},
+   {"role": "Səth təmiri", "product": "TAMCRETE® CRM 50"}
+  ],
+  "steps": [
+   "Betonu ən azı 28 gün saxlayın, səthi yuyun və zəif hissələri təmizləyin.",
+   "Çuxur və təmir yerlərini TAMCRETE® CRM 50 ilə bərpa edin.",
+   "IZOMAX® C60 N-i 2–3 qat tətbiq edin, künclərdə bant istifadə edin.",
+   "Ən azı 1 gün sonra kafeli CERAMAX® ULTRA ilə döşəyin.",
+   "Dərzləri FUGAMAX® FLEX ilə doldurun. Hovuzu doldurmazdan əvvəl ən azı 14 gün gözləyin."
+  ],
+  "tip": "Su ilə doldurmadan əvvəl hovuzu 48 saat boyunca sızma testindən keçirin."},
+ {"id": "metbex", "name": "Mətbəx", "short": "Gündəlik yuyulan səthlər üçün gigiyenik dərz sistemi.",
+  "image": "https://mrfix.az/site/assets/files/1170/c4e4c4c8d4e6b.jpg",
+  "keywords": ["mətbəx","metbex","fartuk","tezgah"],
+  "intro": "Mətbəxdə əsas tələb gigiyenadır. Yağ və su udan dərz tez qaralır. Silikonlu, antibakterial dərz və künclərdə elastik mastik uzun müddət təmiz qalır.",
+  "layers": [
+   {"role": "Künc mastiki", "product": "PURASEAL 150"},
+   {"role": "Dərz dolğusu", "product": "FUGAMAX® COLORFUL"},
+   {"role": "Kafel yapışdırıcısı", "product": "CERAMAX® STANDARD"},
+   {"role": "Astar", "product": "FLOMAX® SL PRIMER"}
+  ],
+  "steps": [
+   "Alçıpan və ya gips səthləri FLOMAX® SL PRIMER ilə astarlayın.",
+   "Kafeli CERAMAX® STANDARD ilə döşəyin; böyük formatlı plitələr üçün CERAMAX® FLEX seçin.",
+   "24 saat sonra dərzləri FUGAMAX® COLORFUL ilə doldurun.",
+   "Tezgah və divar birləşməsini PURASEAL 150 ilə bağlayın."
+  ],
+  "tip": "Ağ və açıq dərzlər mətbəxdə daha tez çirklənir. Bakı boz və ya Satin boz kimi orta tonlar praktikdir."},
+ {"id": "fasad", "name": "Fasad istilik izolyasiyası", "short": "ETICS (mantolama) sistemi ilə enerji qənaəti.",
+  "image": "https://mrfix.az/site/assets/files/1171/pexels-graphicgumcom-1115804.jpg",
+  "keywords": ["fasad","divar","istilik","izolyasiya","köpük","penoplast","eps","mantolama","soyuq"],
+  "intro": "Binanın istiliyinin böyük hissəsi divarlardan itir. ETICS sistemi fasadı xaricdən izolyasiya edir: lövhə yapışdırılır, dübellənir, setkalı suvaqla örtülür.",
+  "layers": [
+   {"role": "Su itələyici impreqnasiya", "product": "IZOMAX® S 440"},
+   {"role": "Armaturlu suvaq", "product": "THERMOMAX® PLAST 65"},
+   {"role": "Suvaq setkası", "product": "THERMOMAX® RM 160"},
+   {"role": "İzolyasiya lövhəsi", "product": "THERMOMAX® EPS CARBON"},
+   {"role": "Lövhə yapışdırıcısı", "product": "THERMOMAX® BOND 40"}
+  ],
+  "steps": [
+   "Divarı təmizləyin, köhnə boya və zəif suvağı götürün.",
+   "Lövhələri THERMOMAX® BOND 40 ilə kənar zolaq və nöqtələr üsulu ilə yapışdırın, dərzləri sürüşdürərək düzün.",
+   "24 saat sonra dübelləyin.",
+   "THERMOMAX® PLAST 65-in birinci qatına THERMOMAX® RM 160 setkasını basın, ikinci qatla örtün (cəmi 4–5 mm).",
+   "Ən azı 7 gün sonra dekorativ son qatı tətbiq edin."
+  ],
+  "tip": "Qrafitli EPS günəşdə qızır. İş zamanı fasadda kölgələmə şəbəkəsi istifadə edin."},
+ {"id": "zemin", "name": "Döşəmə və zəmin", "short": "Düz şapdan iri formatlı plitəyə qədər.",
+  "image": "https://mrfix.az/site/assets/files/1172/imgp0064.jpg",
+  "keywords": ["zəmin","zemin","döşəmə","pol","şap","styajka","parket"],
+  "intro": "İri formatlı plitə yalnız tam düz səthdə düzgün oturur. Özü yayılan şap səthi düzləşdirir, C2 yapışdırıcı isə ağır yükə davam gətirir.",
+  "layers": [
+   {"role": "Geniş dərz", "product": "FUGAMAX® COTTO"},
+   {"role": "Kafel yapışdırıcısı", "product": "CERAMAX® PRO"},
+   {"role": "Özü yayılan şap", "product": "FLOMAX® SL 212"},
+   {"role": "Astar", "product": "FLOMAX® SL PRIMER"}
+  ],
+  "steps": [
+   "Səthi tozsuzlaşdırın və FLOMAX® SL PRIMER ilə astarlayın.",
+   "FLOMAX® SL 212-ni tökün və iynəli valikla havasını alın.",
+   "3 gün sonra plitəni CERAMAX® PRO ilə döşəyin.",
+   "Dərzləri FUGAMAX® COTTO ilə doldurun."
+  ],
+  "tip": "Yerdən isitmə varsa CERAMAX® FLEX və ya CERAMAX® Maxi seçin."},
+ {"id": "zirzemi", "name": "Zirzəmi və bünövrə", "short": "Torpaq rütubəti və qrunt suyuna qarşı qoruma.",
+  "image": "https://mrfix.az/site/assets/files/1173/download.jpg",
+  "keywords": ["zirzəmi","zirzemi","podval","bünövrə","fundament","rütubət","nəm","qrunt"],
+  "intro": "Zirzəmidə su həm torpaq tərəfdən, həm içəridən gələ bilər. Tikinti mərhələsində xaricdən bitum izolyasiyası, mövcud binada isə içəridən kristallaşan izolyasiya tətbiq olunur.",
+  "layers": [
+   {"role": "Xarici izolyasiya", "product": "IZOMAX® B 772"},
+   {"role": "Kristallaşan qat", "product": "IZOMAX® C 25 KAPİLER"},
+   {"role": "Beton dərz bantı", "product": "IZOMAX® STB-SW"}
+  ],
+  "steps": [
+   "Betonlama zamanı iş dərzlərinə IZOMAX® STB-SW şişən bantını yerləşdirin.",
+   "Səthi nəmləndirin və IZOMAX® C 25 KAPİLER-i fırça ilə tətbiq edin.",
+   "Torpaq tərəfdən IZOMAX® B 772-ni 2 qat (2–4 mm) çəkin.",
+   "3 gün sonra izolyasiyanı qoruyucu lövhə ilə örtüb torpağı doldurun."
+  ],
+  "tip": "Mövcud zirzəmidə su axırsa, əvvəlcə axını TAMCRETE® CRM RAPID ilə tıxayın."}
+]
