@@ -1,4 +1,4 @@
-name: Panel kodunu götür (müvəqqəti)
+name: Panel kodunu götür (şifrəli)
 
 on:
   workflow_dispatch:
@@ -6,16 +6,35 @@ on:
     branches: [main]
     paths: [".github/workflows/panel-fetch.yml"]
 
+permissions:
+  contents: write
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          mkdir panel && cd panel
+          mkdir -p work && cd work
           curl -sSfL https://mrfixdigital.netlify.app/ -o index.html
-          ls -la
-      - uses: actions/upload-artifact@v4
-        with:
-          name: panel
-          path: panel
-          retention-days: 1
+          cat > pub.pem <<'PEM'
+          -----BEGIN PUBLIC KEY-----
+          MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA0aUJ4ExZZRNzla9tHG74
+          b04/KOTbJkDjSEc57EUmFGhH90z2wvFtq//FkgvVXGzcIoTYHa9vPGFYE1sa5Vkr
+          KrvDGjTFqUQhBY5ARwANwSYcZjkyo3uvvB5rhitVD/wFMqco9u9a4x5F1ja1ZCor
+          PC0YRaVdArQYBA6QAxPA90T3uRNgY3SEB2jFDPnGhHQPlBvWbsAlUr7pQwy1Psjx
+          ouzGd0xkfsGKeT4nOCuFL0UKupeq7rk65S2NuJNoCav3bnnkWsc3r/c6rrhAekAL
+          QsjkDT0WbHtnpRe2kYjoHlRIFhSIkZ2QfOt7e958MyAa8ot//QlDtGvUUrXXQLaq
+          9OQpGuIOcjqNbMnWT5AjsK2thUigGJE1IP+3xZGbh799DoNGZhhz1n9kic0OTAIk
+          qMBXDHgahxQ85/G3wH8Q/rmMRIpvJQMYADicZgshopI/4aPd/lVskKHk5wEvYR1U
+          bohHUwy4V43ZNw890rzMRI0jQb9+XjJRGnz4XJTvClPHAgMBAAE=
+          -----END PUBLIC KEY-----
+          PEM
+          sed -i 's/^ *//' pub.pem
+          openssl rand -hex 32 > k
+          openssl enc -aes-256-cbc -pbkdf2 -salt -in index.html -out index.html.enc -pass file:k
+          openssl pkeyutl -encrypt -pubin -inkey pub.pem -in k -out k.enc
+          rm k index.html
+          git init -q . && git checkout -q -b panel-enc
+          git config user.name "github-actions[bot]" && git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git add index.html.enc k.enc && git commit -q -m "şifrəli panel kodu"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" panel-enc
