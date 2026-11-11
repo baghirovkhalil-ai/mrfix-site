@@ -2,6 +2,9 @@
 # Domen yeni sayta keçəndə Google-dakı və paylaşılmış köhnə linklər 404 verməsin deyə.
 import json, os, re
 BASE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+REFS = {r["old"]: r for r in json.load(open(os.path.join(BASE, "content/references.json"), encoding="utf-8")) if r.get("old")}
+TR = str.maketrans({"ə":"e","Ə":"e","ı":"i","İ":"i","ö":"o","Ö":"o","ü":"u","Ü":"u","ş":"s","Ş":"s","ç":"c","Ç":"c","ğ":"g","Ğ":"g"})
+slugify = lambda s: re.sub(r"[^a-z0-9]+", "-", s.replace("®", " ").translate(TR).lower()).strip("-")
 NEW = {p["slug"] for p in json.load(open(os.path.join(BASE, "content/products.json"), encoding="utf-8"))}
 CAT = {"beton-qoruyucu-materiallari": "beton-kurleri", "coatix": "coatix", "kafel-ve-keramika-derz-dolgulari": "derz-dolgulari",
        "kafel-ve-keramika-yapisdiricilari": "keramika-yapisdiricilari", "q-lib-yaglari": "qelib-yaglari",
@@ -34,7 +37,9 @@ def target(u):
     if seg[0] == "hell-yollari" and len(seg) > 1: return f"/hell-yollari/{SOL[seg[1]]}/"
     if seg[0] == "news": return "/xeberler/"
     if seg[0] == "kataloqlar": return "/senedler/"
-    if seg[0] == "referanslar" and len(seg) > 1: return "/referanslar/"
+    if seg[0] == "referanslar" and len(seg) > 1:
+        r = REFS.get(seg[1])
+        return f"/referanslar/{r.get('slug') or slugify(r['name'])}/" if r else "/referanslar/"
     return None
 rules, report = [], {"mehsul": 0, "kateqoriya": 0, "diger": 0}
 for u in open(os.path.join(BASE, "tools/old_urls.txt")).read().split():

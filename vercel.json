@@ -1288,128 +1288,48 @@
       "permanent": true
     },
     {
-      "source": "/referanslar/agilli-kend/",
-      "destination": "/referanslar/",
-      "permanent": true
-    },
-    {
-      "source": "/referanslar/alov-qulleleri/",
-      "destination": "/referanslar/",
-      "permanent": true
-    },
-    {
-      "source": "/referanslar/basqal-resort-spa/",
-      "destination": "/referanslar/",
-      "permanent": true
-    },
-    {
       "source": "/referanslar/boulevard-hotel/",
-      "destination": "/referanslar/",
-      "permanent": true
-    },
-    {
-      "source": "/referanslar/cebrayil-zengilan-agbend-tunelleri/",
-      "destination": "/referanslar/",
-      "permanent": true
-    },
-    {
-      "source": "/referanslar/fuzuli-susa-avtomobil-yolu/",
-      "destination": "/referanslar/",
+      "destination": "/referanslar/baku-marriott-hotel/",
       "permanent": true
     },
     {
       "source": "/referanslar/havalimani-korpusu/",
-      "destination": "/referanslar/",
+      "destination": "/referanslar/heyder-eliyev-beynelxalq-hava-limani-korpusu/",
       "permanent": true
     },
     {
       "source": "/referanslar/heyder-eliyev-merkezi-1/",
-      "destination": "/referanslar/",
-      "permanent": true
-    },
-    {
-      "source": "/referanslar/heyder-eliyev-merkezi/",
-      "destination": "/referanslar/",
-      "permanent": true
-    },
-    {
-      "source": "/referanslar/iqtisadiyyat-nazirliyi/",
-      "destination": "/referanslar/",
-      "permanent": true
-    },
-    {
-      "source": "/referanslar/kelbecer-lacin-tuneli/",
-      "destination": "/referanslar/",
-      "permanent": true
-    },
-    {
-      "source": "/referanslar/lacin-hotel/",
-      "destination": "/referanslar/",
+      "destination": "/referanslar/h-eliyev-adina-muasir-tehsil-kompleksi/",
       "permanent": true
     },
     {
       "source": "/referanslar/muganli-i-smayilli-q-b-l-yolu/",
-      "destination": "/referanslar/",
-      "permanent": true
-    },
-    {
-      "source": "/referanslar/murovdag-tuneli/",
-      "destination": "/referanslar/",
+      "destination": "/referanslar/muganli-ismayilli-qebele-yolu/",
       "permanent": true
     },
     {
       "source": "/referanslar/qala-alti-hotel-spa/",
-      "destination": "/referanslar/",
-      "permanent": true
-    },
-    {
-      "source": "/referanslar/qarabag-hotel/",
-      "destination": "/referanslar/",
+      "destination": "/referanslar/qalaalti-hotel-spa/",
       "permanent": true
     },
     {
       "source": "/referanslar/qelebe-meydani-tuneli/",
-      "destination": "/referanslar/",
-      "permanent": true
-    },
-    {
-      "source": "/referanslar/qubadli-lacin-tuneli/",
-      "destination": "/referanslar/",
-      "permanent": true
-    },
-    {
-      "source": "/referanslar/sea-breeze-resort/",
-      "destination": "/referanslar/",
-      "permanent": true
-    },
-    {
-      "source": "/referanslar/serq-bazari/",
-      "destination": "/referanslar/",
+      "destination": "/referanslar/qelebe-meydani-tunel-tipli-yol-qovsagi/",
       "permanent": true
     },
     {
       "source": "/referanslar/shabran-recreation-complex/",
-      "destination": "/referanslar/",
-      "permanent": true
-    },
-    {
-      "source": "/referanslar/vaqif-turbesi/",
-      "destination": "/referanslar/",
-      "permanent": true
-    },
-    {
-      "source": "/referanslar/xaribulbul-otel/",
-      "destination": "/referanslar/",
+      "destination": "/referanslar/shabran-wellbeing-resort/",
       "permanent": true
     },
     {
       "source": "/referanslar/xeyal-adalari/",
-      "destination": "/referanslar/",
+      "destination": "/referanslar/dreamland/",
       "permanent": true
     },
     {
       "source": "/referanslar/yelken-towers/",
-      "destination": "/referanslar/",
+      "destination": "/referanslar/the-ritz-carlton/",
       "permanent": true
     },
     {

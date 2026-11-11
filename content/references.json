@@ -168,10 +168,12 @@
     "slug": "betonmix-antifreeze-1"
    },
    {
-    "name": "IZOMAX® STB A"
+    "name": "IZOMAX® STB A",
+    "slug": "izomax-stb-pvc-a"
    },
    {
-    "name": "IZOMAX® STB B"
+    "name": "IZOMAX® STB B",
+    "slug": "izomax-stb-pvc-b"
    }
   ]
  },
@@ -425,7 +427,8 @@
     "slug": "fugamax-colorful"
    },
    {
-    "name": "PRATIX® Y"
+    "name": "PRATIX® Y",
+    "slug": "pratix-y"
    },
    {
     "name": "FLOMAX® SL 212",

@@ -553,3 +553,8 @@ input[type=range]{width:100%;accent-color:var(--blue);height:30px}
 .mini-prod .bag-body,.mini .bag-body{padding:8%}
 .tile-mini i{display:block;aspect-ratio:1/1;border-radius:3px}
 .sol-card.rv,.ref-card.rv{will-change:transform}
+.ref-card .cover{position:absolute;inset:0;z-index:3}
+.ref-card .ref-n{justify-self:start;font:600 11.5px/1 var(--f-mono);background:var(--coral-deep);color:#fff;padding:6px 9px;border-radius:999px;margin-top:2px}
+.ref-card:has(.cover):hover h3{text-decoration:underline;text-underline-offset:4px}
+.ref-hero{min-height:440px}
+.cta-band .btn-ghost{--fg:#fff;border-color:rgba(255,255,255,.3)}.cta-band .btn-ghost:hover{border-color:#fff}

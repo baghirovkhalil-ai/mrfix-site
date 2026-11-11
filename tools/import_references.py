@@ -10,7 +10,7 @@ ALIAS = {"THERMOMAX YAPIŞDIRICI": "thermomax-bond-40", "THERMOMAX SUVAQ": "ther
          "IZOMAX C 40": "izomax-c-40", "IZOMAX C70": "izomax-c70-uv", "IZOMAX C 70 UV": "izomax-c70-uv", "IZOMAX C 75 FLEX": "izomax-c75-flex",
          "KONTAKT ASTAR": "kontakt-astar", "BETONMIX SP SHOTCRETE 224 AL": "betonmix-shotcrete-224-al", "BETONMIX HP 1000 K": "betonmix-sp-1000-k",
          "BETONMIX HP 1000 S": "betonmix-sp-1000-s", "THERMOMAX ST 160": "thermomax-rm-160", "FLOMAX SL 220 PRIMER": "flomax-sl-primer",
-         "TAMCRETE CRM 100TX": "tamcrete-crm-100-tx"}
+         "TAMCRETE CRM 100TX": "tamcrete-crm-100-tx", "IZOMAX STB A": "izomax-stb-pvc-a", "IZOMAX STB B": "izomax-stb-pvc-b", "PRATIX Y": "pratix-y"}
 T = lambda s: re.sub(r"\s+", " ", s or "").strip()
 N = lambda s: re.sub(r"[^A-Z0-9ƏÖÜĞIŞÇ]", "", s.replace("®", "").upper())
 prods = json.load(open(os.path.join(BASE, "content/products.json"), encoding="utf-8"))
