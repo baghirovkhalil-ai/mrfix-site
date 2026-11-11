@@ -156,7 +156,7 @@ def header(root, active):
     return f'''<a class="skip" href="#main">Məzmuna keç</a>
 <div class="topbar"><div class="wrap"><span class="hide-sm">{e(SITE["tagline"])} · ISO 9001</span><div class="row"><a href="tel:{ct["phones"][0].replace(" ","")}">{e(ct["phones"][0])}</a><a class="hide-sm" href="mailto:{ct["email"]}">{ct["email"]}</a><a href="{L(root,"dilerler/")}">Diler tap</a></div></div></div>
 <header class="header"><div class="wrap">
-<a class="logo" href="{L(root)}" aria-label="Mr.Fix ana səhifə"><img src="{root}assets/logo.svg" alt="mr.fix" width="120" height="30"></a>
+<a class="logo" href="{L(root)}" aria-label="Mr.Fix ana səhifə"><img src="{root}assets/logo.svg" alt="mr.fix" width="114" height="34"></a>
 <nav aria-label="Əsas menyu"><ul class="nav">{"".join(items)}</ul></nav>
 <div class="header-actions">
 <button class="icon-btn" type="button" data-search-open aria-label="Axtarış (Ctrl+K)">{I["search"]}</button>
@@ -164,7 +164,7 @@ def header(root, active):
 <button class="icon-btn burger" type="button" data-drawer-open aria-label="Menyu">{I["menu"]}</button>
 </div></div></header>
 <div class="drawer" id="drawer" aria-hidden="true"><div class="drawer-bg" data-drawer-close></div><div class="drawer-panel" role="dialog" aria-label="Menyu">
-<div class="drawer-head"><img src="{root}assets/logo.svg" alt="mr.fix" width="110" height="28" style="height:28px;width:auto"><button class="icon-btn drawer-close" type="button" data-drawer-close aria-label="Bağla">{I["close"]}</button></div>
+<div class="drawer-head"><img src="{root}assets/logo.svg" alt="mr.fix" width="94" height="28" style="height:28px;width:auto"><button class="icon-btn drawer-close" type="button" data-drawer-close aria-label="Bağla">{I["close"]}</button></div>
 <nav>{drawer}</nav><div class="drawer-cta"><a class="btn btn-yellow" href="{L(root,"dilerler/")}">Diler tap</a><a class="btn btn-ghost" href="tel:{ct["phones"][0].replace(" ","")}">{e(ct["phones"][0])}</a></div></div></div>'''
 
 def footer(root):
@@ -222,7 +222,7 @@ def page(path, title, desc, body, active=None, tools=False, jsonld=None, progres
 <meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{e(canon)}">
 <meta property="og:type" content="website"><meta property="og:title" content="{e(t)}"><meta property="og:description" content="{e(desc)}">{OG}<meta property="og:locale" content="az_AZ">
-<meta name="theme-color" content="#0B1626">
+<meta name="theme-color" content="#EA5B5F">
 <link rel="icon" href="{root}assets/icon.svg" type="image/svg+xml">{APPLE(root)}
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap">
@@ -326,7 +326,7 @@ PAT = ["#1F5FBF", "#0F8B8D", "#D9662B", "#24548C", "#B23A2E", "#5B6676"]
 def post_card(p, root, i=0):
     h = sum(ord(ch) for ch in p["slug"]) % len(PAT)
     pat = f'<svg class="pattern" viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="400" height="225" fill="#0B1626"/>' + "".join(
-        f'<rect x="{x*44+180}" y="{y*44-10}" width="38" height="38" rx="4" fill="{PAT[h] if (x+y+h)%4==0 else ("#FFC21A" if (x*y+h)%7==0 else "#1A2A42")}"/>' for x in range(6) for y in range(6)) + '</svg>'
+        f'<rect x="{x*44+180}" y="{y*44-10}" width="38" height="38" rx="4" fill="{PAT[h] if (x+y+h)%4==0 else ("#EA5B5F" if (x*y+h)%7==0 else "#1A2A42")}"/>' for x in range(6) for y in range(6)) + '</svg>'
     return f'''<article class="card post-card rv" data-k="{e(p["title"]+" "+p["excerpt"]+" "+p["category"])}" data-g="{e(slugify(p["category"]))}"><div class="thumb">{pat}<span class="tag tag-y" style="position:relative">{e(p["category"])}</span></div>
 <div class="body"><h3>{e(p["title"])}</h3><p>{e(p["excerpt"])}</p><div class="meta"><span>{dt(p["date"])}</span><span>· {p["minutes"]} dəq oxu</span></div></div>
 <a class="cover" href="{L(root,"bloq/"+p["slug"]+"/")}" aria-label="{e(p["title"])}"></a></article>'''

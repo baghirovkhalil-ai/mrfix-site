@@ -264,22 +264,22 @@
     },
     {
       "source": "/products/coatix/astarlar/coatix-ep-1130-primer/",
-      "destination": "/mehsullar/coatix/",
+      "destination": "/mehsul/coatix-ep-1130-primer/",
       "permanent": true
     },
     {
       "source": "/products/coatix/astarlar/coatix-ep-1150-primer/",
-      "destination": "/mehsullar/coatix/",
+      "destination": "/mehsul/coatix-ep-1150-primer/",
       "permanent": true
     },
     {
       "source": "/products/coatix/astarlar/coatix-ep-1220-primer/",
-      "destination": "/mehsullar/coatix/",
+      "destination": "/mehsul/coatix-ep-1220-primer/",
       "permanent": true
     },
     {
       "source": "/products/coatix/astarlar/coatix-ep-1260-primer/",
-      "destination": "/mehsullar/coatix/",
+      "destination": "/mehsul/coatix-ep-1260-primer/",
       "permanent": true
     },
     {
@@ -289,27 +289,27 @@
     },
     {
       "source": "/products/coatix/epoksid-sasli-ortukl-r/coatix-ep-3248-self-leveling/",
-      "destination": "/mehsullar/coatix/",
+      "destination": "/mehsul/coatix-ep-3248-self-leveling/",
       "permanent": true
     },
     {
       "source": "/products/coatix/epoksid-sasli-ortukl-r/coatix-ep-3565-self-leveling/",
-      "destination": "/mehsullar/coatix/",
+      "destination": "/mehsul/coatix-ep-3565-self-leveling/",
       "permanent": true
     },
     {
       "source": "/products/coatix/epoksid-sasli-ortukl-r/coatix-ep-4085-top-coat/",
-      "destination": "/mehsullar/coatix/",
+      "destination": "/mehsul/coatix-ep-4085-top-coat/",
       "permanent": true
     },
     {
       "source": "/products/coatix/epoksid-sasli-ortukl-r/coatix-ep-4090-thixotropic-top-coat/",
-      "destination": "/mehsullar/coatix/",
+      "destination": "/mehsul/coatix-ep-4090-thixotropic-top-coat/",
       "permanent": true
     },
     {
       "source": "/products/coatix/epoksid-sasli-ortukl-r/coatix-ep-4565-top-coat/",
-      "destination": "/mehsullar/coatix/",
+      "destination": "/mehsul/coatix-ep-4565-top-coat/",
       "permanent": true
     },
     {
@@ -319,7 +319,7 @@
     },
     {
       "source": "/products/coatix/hibrid-poliuretan-sement-ortukl-r/coatix-pc-7210-polyurethane-cement/",
-      "destination": "/mehsullar/coatix/",
+      "destination": "/mehsul/coatix-pc-7210-polyurethane-cement/",
       "permanent": true
     },
     {
@@ -354,7 +354,7 @@
     },
     {
       "source": "/products/kafel-ve-keramika-derz-dolgulari/epoksid-sasli-keramika-yapisdiricilari/ceramax-ep-300/",
-      "destination": "/mehsullar/derz-dolgulari/",
+      "destination": "/mehsul/ceramax-ep-300/",
       "permanent": true
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "source": "/products/kafel-ve-keramika-yapisdiricilari/epoksi-esasli/ceramax-ep-300/",
-      "destination": "/mehsullar/keramika-yapisdiricilari/",
+      "destination": "/mehsul/ceramax-ep-300/",
       "permanent": true
     },
     {
@@ -779,7 +779,7 @@
     },
     {
       "source": "/products/su-izolyasiya-materiallari/akril-sasli-su-i-zolyasiya-materiallari/izomax-aqualastic/",
-      "destination": "/mehsullar/su-izolyasiyasi/",
+      "destination": "/mehsul/izomax-aqualastic/",
       "permanent": true
     },
     {
@@ -804,7 +804,7 @@
     },
     {
       "source": "/products/su-izolyasiya-materiallari/montaj-aksesuarlari/izomax-band-divar-manseti/",
-      "destination": "/mehsullar/su-izolyasiyasi/",
+      "destination": "/mehsul/izomax-band-f-collar-pipe/",
       "permanent": true
     },
     {
@@ -849,7 +849,7 @@
     },
     {
       "source": "/products/su-izolyasiya-materiallari/sement-esasli/izomax-c-20/",
-      "destination": "/mehsullar/su-izolyasiyasi/",
+      "destination": "/mehsul/izomax-c10-rapid/",
       "permanent": true
     },
     {
@@ -979,7 +979,7 @@
     },
     {
       "source": "/products/suvaq-ve-horgu-mehsullari/astarlar/pratix-kontakt/",
-      "destination": "/mehsullar/suvaq-ve-horgu/",
+      "destination": "/mehsul/pratix-kontakt/",
       "permanent": true
     },
     {
@@ -989,7 +989,7 @@
     },
     {
       "source": "/products/suvaq-ve-horgu-mehsullari/horgu-materiallari/pratix-aero-bond/",
-      "destination": "/mehsullar/suvaq-ve-horgu/",
+      "destination": "/mehsul/pratix-aero-bond/",
       "permanent": true
     },
     {
@@ -1009,7 +1009,7 @@
     },
     {
       "source": "/products/suvaq-ve-horgu-mehsullari/suvaq-setkalari/pratix-rm-75/",
-      "destination": "/mehsullar/suvaq-ve-horgu/",
+      "destination": "/mehsul/pratix-rm-75/",
       "permanent": true
     },
     {
@@ -1019,17 +1019,17 @@
     },
     {
       "source": "/products/suvaq-ve-horgu-mehsullari/suvaqlar-1/pratix-aero-plast/",
-      "destination": "/mehsullar/suvaq-ve-horgu/",
+      "destination": "/mehsul/pratix-aero-plast/",
       "permanent": true
     },
     {
       "source": "/products/suvaq-ve-horgu-mehsullari/suvaqlar-1/pratix-hp-30/",
-      "destination": "/mehsullar/suvaq-ve-horgu/",
+      "destination": "/mehsul/pratix-hp-30/",
       "permanent": true
     },
     {
       "source": "/products/suvaq-ve-horgu-mehsullari/suvaqlar-1/pratix-mp-40/",
-      "destination": "/mehsullar/suvaq-ve-horgu/",
+      "destination": "/mehsul/pratix-mp-40/",
       "permanent": true
     },
     {
@@ -1089,12 +1089,12 @@
     },
     {
       "source": "/products/termo-izolyasiya-materiallari/dubell-r/thermomax-dbl-60/",
-      "destination": "/mehsullar/istilik-izolyasiyasi/",
+      "destination": "/mehsul/thermomax-dbl-60p/",
       "permanent": true
     },
     {
       "source": "/products/termo-izolyasiya-materiallari/dubell-r/thermomax-dbl-80/",
-      "destination": "/mehsullar/istilik-izolyasiyasi/",
+      "destination": "/mehsul/thermomax-dbl-80m/",
       "permanent": true
     },
     {
@@ -1134,12 +1134,12 @@
     },
     {
       "source": "/products/termo-izolyasiya-materiallari/montaj-aksessuarlari/thermomax-cp/",
-      "destination": "/mehsullar/istilik-izolyasiyasi/",
+      "destination": "/mehsul/thermomax-cp/",
       "permanent": true
     },
     {
       "source": "/products/termo-izolyasiya-materiallari/montaj-aksessuarlari/thermomax-ffp/",
-      "destination": "/mehsullar/istilik-izolyasiyasi/",
+      "destination": "/mehsul/thermomax-fpm/",
       "permanent": true
     },
     {
@@ -1174,7 +1174,7 @@
     },
     {
       "source": "/products/termo-izolyasiya-materiallari/setkalar/thermomax-st-160/",
-      "destination": "/mehsullar/istilik-izolyasiyasi/",
+      "destination": "/mehsul/thermomax-rm-160/",
       "permanent": true
     },
     {
@@ -1279,7 +1279,7 @@
     },
     {
       "source": "/products/zemin-materiallari/sement-esasli/flomax-sl-214-alfa/",
-      "destination": "/mehsullar/zemin-materiallari/",
+      "destination": "/mehsul/flomax-sl-therma/",
       "permanent": true
     },
     {

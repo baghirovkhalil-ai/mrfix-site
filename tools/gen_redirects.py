@@ -15,7 +15,9 @@ ALIAS = {"ceramax-standart-white": "ceramax-standard-white", "izomax-c-60-n": "i
          "izomax-band-f-120": "izomax-band-f", "izomax-band-f-daxili-kose": "izomax-band-f-corner-in", "izomax-band-f-xarici-kose": "izomax-band-f-corner-out",
          "izomax-band-w-120-70": "izomax-band-w", "tpe-dilatasiya-banti": "izomax-band-d-tpe", "thermomax-karbonlu-eps": "thermomax-eps-carbon",
          "thermomax-yapisdirici": "thermomax-bond-40", "thermomax-suvaq": "thermomax-plast-65", "betonmix-air": "betonmix-air-80",
-         "flomax-sh-501": "flomax-sh-cure", "betonmix-shotcrete-2310-af": "betonmix-shotcrete-310-af"}
+         "flomax-sh-501": "flomax-sh-cure", "betonmix-shotcrete-2310-af": "betonmix-shotcrete-310-af",
+         "izomax-band-divar-manseti": "izomax-band-f-collar-pipe", "thermomax-ffp": "thermomax-fpm", "thermomax-st-160": "thermomax-rm-160",
+         "flomax-sl-214-alfa": "flomax-sl-therma", "izomax-c-20": "izomax-c10-rapid", "thermomax-dbl-60": "thermomax-dbl-60p", "thermomax-dbl-80": "thermomax-dbl-80m"}
 FIXED = {"/about/": "/haqqimizda/", "/cedvel/": "/hesablayici/", "/dealers/": "/dilerler/", "/derz-reng-secimi/": "/reng-secimi/",
          "/material-calculator/": "/hesablayici/", "/news/": "/xeberler/", "/products/": "/mehsullar/", "/vakansiya/": "/karyera/",
          "/kataloqlar/": "/senedler/", "/news/novb-ti-ixrac-m-kdasligimiz-gurcustan/": "/xeberler/gurcustan-ixrac/",

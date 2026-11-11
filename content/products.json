@@ -708,7 +708,7 @@
   "name": "CERAMAX® EP 300",
   "cat": "yapisdirici",
   "group": "Epoksid əsaslı",
-  "short": "Epoksid əsaslı, iki komponentli, solventsiz, kimyəvi maddələrə və mexaniki təsirlərə yüksək davamlılıq göstərə",
+  "short": "Epoksid yapışdırıcı və dərz dolğusu (R2T / RG)",
   "image": "",
   "featured": true,
   "standard": "EN 12004-1 · R2T / EN 13888 · RG",
@@ -720,9 +720,13 @@
    [
     "T",
     "Azaldılmış sürüşmə xüsusiyyəti"
+   ],
+   [
+    "RG",
+    "Reaksiya qatranlı dərz dolğusu"
    ]
   ],
-  "desc": "CERAMAX® EP 300 epoksid əsaslı, iki komponentli, solventsiz, kimyəvi maddələrə və mexaniki təsirlərə yüksək davamlılıq göstərən keramika yapışdırıcısıdır. EN 12004-1 standartına görə R2T sinfinə uyğundur. İstifadə Sahələri",
+  "desc": "CERAMAX® EP 300 epoksid əsaslı, iki komponentli, solventsiz, kimyəvi maddələrə və mexaniki təsirlərə yüksək davamlılıq göstərən keramika yapışdırıcısıdır. EN 12004-1 standartına görə R2T sinfinə uyğundur.",
   "areas": [
    "Daxili və xarici məkanlarda, divar və döşəmələrdə",
    "Keramika, mərmər, qranit və şüşə mozaika örtüklərinin yapışdırılmasında",
@@ -2052,7 +2056,7 @@
   "name": "IZOMAX® Aqualastic",
   "cat": "izolyasiya",
   "group": "Akril əsaslı",
-  "short": "Elastomer akril əsaslı, tək komponentli, istifadəyə hazır, elastik su izolyasiya",
+  "short": "Akril əsaslı, istifadəyə hazır elastik su izolyasiyası",
   "image": "",
   "featured": true,
   "classes": [
@@ -2065,7 +2069,7 @@
     "Çatlaq körpüləmə qabiliyyəti (-20°C)"
    ]
   ],
-  "desc": "IZOMAX® Aqualastic elastomer akril əsaslı, tək komponentli, istifadəyə hazır, elastik su izolyasiya materialıdır. EN 14891 standartına əsasən DMO2 sinifinə uyğundur. İstifadə Sahələri",
+  "desc": "IZOMAX® Aqualastic elastomer akril əsaslı, tək komponentli, istifadəyə hazır, elastik su izolyasiya materialıdır. EN 14891 standartına əsasən DMO2 sinifinə uyğundur.",
   "areas": [
    "Bütün tikililərin daxili və xarici məkanlarında",
    "Üfüqi və şaquli səthlərdə",
@@ -2191,10 +2195,10 @@
   "name": "IZOMAX® C10 Rapid",
   "cat": "izolyasiya",
   "group": "Sement əsaslı",
-  "short": "Xüsusi sement, mineral doldurucular və xüsusi kimyəvi qatqılar ehtiva edən, su ilə qarışdırıldıqda saniyələr ə",
+  "short": "Su sızmasını saniyələr içində dayandıran tıxac materialı",
   "image": "",
   "featured": true,
-  "desc": "IZOMAX® C10 Rapid xüsusi sement, mineral doldurucular və xüsusi kimyəvi qatqılar ehtiva edən, su ilə qarışdırıldıqda saniyələr ərzində bərkiyən, təzyiqli və aktiv su sızmalarını dərhal dayandıran tək komponentli su kəsici materialdır. Tətbiq nöqtəsində bir qədər genişlənərək boşluğu tamamilə doldurur və daimi sızdırmazlıq təmin edir. İstifadə Sahələri",
+  "desc": "IZOMAX® C10 Rapid xüsusi sement, mineral doldurucular və xüsusi kimyəvi qatqılar ehtiva edən, su ilə qarışdırıldıqda saniyələr ərzində bərkiyən, təzyiqli və aktiv su sızmalarını dərhal dayandıran tək komponentli su kəsici materialdır. Tətbiq nöqtəsində bir qədər genişlənərək boşluğu tamamilə doldurur və daimi sızdırmazlıq təmin edir.",
   "areas": [
    "Aktiv və təzyiqli su sızmalarının dərhal dayandırılmasında",
    "Bünövrə pərdələri, zirzəmilər, lift şaxtaları və su anbarlarında",
@@ -2818,10 +2822,10 @@
   "name": "THERMOMAX® DBL 60P",
   "cat": "istilik",
   "group": "Dübellər",
-  "short": ", istilik izolyasiya lövhələrinin mexaniki bərkidilməsində istifadə olunan, geniş başlıqlı plastik mismarlı dü",
+  "short": "Plastik mismarlı izolyasiya dübeli",
   "image": "https://mrfix.az/site/assets/files/1963/dbl_60-1.png",
   "featured": true,
-  "desc": "THERMOMAX® DBL 60P , istilik izolyasiya lövhələrinin mexaniki bərkidilməsində istifadə olunan, geniş başlıqlı plastik mismarlı dübeldir. 60 mm başlıq diametri sayəsində yükü lövhə səthinə geniş sahədə paylayır və sistemi küləyin sorma yükünə qarşı qoruyur. Fasad istilik izolyasiya kompozit sistemlərinin (ETICS) tərkib hissəsidir. İstifadə Sahələri",
+  "desc": "THERMOMAX® DBL 60P, istilik izolyasiya lövhələrinin mexaniki bərkidilməsində istifadə olunan, geniş başlıqlı plastik mismarlı dübeldir. 60 mm başlıq diametri sayəsində yükü lövhə səthinə geniş sahədə paylayır və sistemi küləyin sorma yükünə qarşı qoruyur. Fasad istilik izolyasiya kompozit sistemlərinin (ETICS) tərkib hissəsidir.",
   "areas": [
    "Fasad istilik izolyasiya kompozit sistemlərində (ETICS / mantolama) izolyasiya lövhələrinin mexaniki bərkidilməsində",
    "EPS və XPS lövhələrin bərkidilməsində",
@@ -2911,10 +2915,10 @@
   "name": "THERMOMAX® DBL 80M",
   "cat": "istilik",
   "group": "Dübellər",
-  "short": ", istilik izolyasiya lövhələrinin mexaniki bərkidilməsində istifadə olunan, geniş başlıqlı polad mismarlı dübe",
+  "short": "Polad mismarlı izolyasiya dübeli",
   "image": "https://mrfix.az/site/assets/files/1965/dbl_80-1.png",
   "featured": true,
-  "desc": "THERMOMAX® DBL 80M , istilik izolyasiya lövhələrinin mexaniki bərkidilməsində istifadə olunan, geniş başlıqlı polad mismarlı dübeldir. Xüsusilə daş yunu lövhələr üçün hazırlanmışdır; geniş başlığı yükü lövhə səthinə geniş sahədə paylayır və sistemi küləyin sorma yükünə qarşı qoruyur. Fasad istilik izolyasiya kompozit sistemlərinin (ETICS) tərkib hissəsidir. İstifadə Sahələri",
+  "desc": "THERMOMAX® DBL 80M, istilik izolyasiya lövhələrinin mexaniki bərkidilməsində istifadə olunan, geniş başlıqlı polad mismarlı dübeldir. Xüsusilə daş yunu lövhələr üçün hazırlanmışdır; geniş başlığı yükü lövhə səthinə geniş sahədə paylayır və sistemi küləyin sorma yükünə qarşı qoruyur. Fasad istilik izolyasiya kompozit sistemlərinin (ETICS) tərkib hissəsidir.",
   "areas": [
    "Fasad istilik izolyasiya kompozit sistemlərində (ETICS / mantolama) daş yunu lövhələrin mexaniki bərkidilməsində",
    "Yanğın təhlükəsizliyi tələb olunan tikililərdə və yanğın maneəsi tətbiqlərində istilik izolyasiya lövhələrinin bərkidilməsində",
@@ -2999,10 +3003,10 @@
   "name": "THERMOMAX® CP",
   "cat": "istilik",
   "group": "Montaj aksesuarları",
-  "short": ", PVC künc profili",
+  "short": "PVC künc profili",
   "image": "",
   "featured": true,
-  "desc": "THERMOMAX® CP , PVC künc profilidir. Fasad istilik izolyasiya kompozit sistemlərində (ETICS) tikili künclərində, həmçinin pəncərə və qapı açırımlarının xarici künclərində istifadə edilir. Profildə setka olmadığı üçün küncdə əsas suvaq setkasının dönməsi ayrıca yerinə yetirilməlidir. İstifadə Sahələri",
+  "desc": "THERMOMAX® CP, PVC künc profilidir. Fasad istilik izolyasiya kompozit sistemlərində (ETICS) tikili künclərində, həmçinin pəncərə və qapı açırımlarının xarici künclərində istifadə edilir. Profildə setka olmadığı üçün küncdə əsas suvaq setkasının dönməsi ayrıca yerinə yetirilməlidir.",
   "areas": [
    "Fasad istilik izolyasiya kompozit sistemlərində (ETICS / mantolama) tikilinin xarici künclərində",
    "Pəncərə və qapı açırımlarının xarici künclərində",
@@ -3309,10 +3313,10 @@
   "name": "PRATIX® Kontakt",
   "cat": "suvaq",
   "group": "Astar",
-  "short": ", sement və gips əsaslı suvaqların hamar beton səthlərə tətbiqindən əvvəl suvağın səthə yapışma müqavimətini a",
+  "short": "Hamar beton səthlər üçün suvaq astarı",
   "image": "",
   "featured": true,
-  "desc": "PRATIX® Kontakt , sement və gips əsaslı suvaqların hamar beton səthlərə tətbiqindən əvvəl suvağın səthə yapışma müqavimətini artıran, mineral dolduruculu, polimer dispersiya əsaslı astar materialıdır. İstifadə Sahələri Qeyd: Daimi su və rütubətə məruz qalacaq səthlərdə istifadə edilməməlidir.",
+  "desc": "PRATIX® Kontakt, sement və gips əsaslı suvaqların hamar beton səthlərə tətbiqindən əvvəl suvağın səthə yapışma müqavimətini artıran, mineral dolduruculu, polimer dispersiya əsaslı astar materialıdır.",
   "areas": [
    "Daxili və xarici məkanlarda, divar və tavanlara sement və ya gips əsaslı suvaq tətbiqindən əvvəl",
    "Hamar və su əmmə qabiliyyəti aşağı olan beton səthlərin suvaqdan əvvəl hazırlanmasında",
@@ -3360,14 +3364,15 @@
    ]
   ],
   "consumption": "~300 q/m²",
-  "tds": "https://mrfix.az/site/assets/files/3158/pratix_kontakt_tds_az.pdf"
+  "tds": "https://mrfix.az/site/assets/files/3158/pratix_kontakt_tds_az.pdf",
+  "note": "Qeyd: Daimi su və rütubətə məruz qalacaq səthlərdə istifadə edilməməlidir."
  },
  {
   "slug": "pratix-aero-bond",
   "name": "PRATIX® Aero Bond",
   "cat": "suvaq",
   "group": "Hörgü materialları",
-  "short": ", qazbeton blokların nazik dərzlə hörülməsi üçün hazırlanmış, sement əsaslı, polimer takviyəli hörgü",
+  "short": "Qazbeton üçün nazik dərzli hörgü yapışdırıcısı",
   "image": "",
   "featured": true,
   "classes": [
@@ -3380,7 +3385,7 @@
     "Sıxılma müqaviməti sinfi (≥ 10 N/mm²)"
    ]
   ],
-  "desc": "PRATIX® Aero Bond , qazbeton blokların nazik dərzlə hörülməsi üçün hazırlanmış, sement əsaslı, polimer takviyəli hörgü materialıdır. Yüksək yapışma gücü təmin edir; nazik dərz qalınlığı sayəsində divardakı istilik körpülərini azaldır, materiala və işçi qüvvəsinə qənaət edir. EN 998-2 standartına görə G M10 sinfinə uyğundur. İstifadə Sahələri",
+  "desc": "PRATIX® Aero Bond, qazbeton blokların nazik dərzlə hörülməsi üçün hazırlanmış, sement əsaslı, polimer takviyəli hörgü materialıdır. Yüksək yapışma gücü təmin edir; nazik dərz qalınlığı sayəsində divardakı istilik körpülərini azaldır, materiala və işçi qüvvəsinə qənaət edir. EN 998-2 standartına görə G M10 sinfinə uyğundur.",
   "areas": [
    "Qazbeton blokların hörülməsində",
    "Kərpic, briket və polistirol beton divar hörgüsündə",
@@ -3476,10 +3481,10 @@
   "name": "PRATIX® RM 75",
   "cat": "suvaq",
   "group": "Suvaq setkaları",
-  "short": ", qələviyə davamlı polimer örtüklü, 75 q/m² vahid sahə çəkisində yüngül şüşə lifli toxunma setka",
+  "short": "Qələviyə davamlı şüşə lifli suvaq setkası (75 q/m²)",
   "image": "https://mrfix.az/site/assets/files/3186/pratix_rm75.png",
   "featured": true,
-  "desc": "PRATIX® RM 75 , qələviyə davamlı polimer örtüklü, 75 q/m² vahid sahə çəkisində yüngül şüşə lifli toxunma setkadır. Gips və sement əsaslı suvaqların, həmçinin bitum əsaslı və iki komponentli sement əsaslı hidroizolyasiya materiallarının içinə gömülərək tətbiq edilir. Yüngül və nazik quruluşu sayəsində nazik qatlı tətbiqlər üçün uyğundur. Fasad istilik izolyasiya kompozit sistemlərində (ETICS) sistemin tələb etdiyi zərbəyə qarşı müqaviməti təmin etmədiyi üçün suvaq setkası kimi istifadə edilməməlidir; bu tətbiqlərdə THERMOMAX® RM 160 istifadə edilməlidir. İstifadə Sahələri",
+  "desc": "PRATIX® RM 75, qələviyə davamlı polimer örtüklü, 75 q/m² vahid sahə çəkisində yüngül şüşə lifli toxunma setkadır. Gips və sement əsaslı suvaqların, həmçinin bitum əsaslı və iki komponentli sement əsaslı hidroizolyasiya materiallarının içinə gömülərək tətbiq edilir. Yüngül və nazik quruluşu sayəsində nazik qatlı tətbiqlər üçün uyğundur. Fasad istilik izolyasiya kompozit sistemlərində (ETICS) sistemin tələb etdiyi zərbəyə qarşı müqaviməti təmin etmədiyi üçün suvaq setkası kimi istifadə edilməməlidir; bu tətbiqlərdə THERMOMAX® RM 160 istifadə edilməlidir.",
   "areas": [
    "Daxili və xarici mühitdə gips və sement əsaslı suvaqlarda çat əmələ gəlməsinin qarşısının alınmasında",
    "Beton – divar, sütun – divar, tir – divar kimi müxtəlif materialların birləşmə nöqtələrində suvağın möhkəmləndirilməsi üçün",
@@ -3550,7 +3555,7 @@
   "name": "PRATIX® Aero Plast",
   "cat": "suvaq",
   "group": "Suvaqlar",
-  "short": ", qazbeton və beton səthlər üçün hazırlanmış, sement əsaslı, polimer əlavəli, lif takviyəli narın suvaq",
+  "short": "Qazbeton və beton üçün lifli narın suvaq",
   "image": "",
   "featured": true,
   "classes": [
@@ -3567,7 +3572,7 @@
     "Kapilyar su əmmə sinfi (W2)"
    ]
   ],
-  "desc": "PRATIX® Aero Plast , qazbeton və beton səthlər üçün hazırlanmış, sement əsaslı, polimer əlavəli, lif takviyəli narın suvaq materialıdır. Qazbetonun yüksək su əmmə qabiliyyətinə və aşağı səth müqavimətinə uyğun olaraq hazırlanmışdır; səthdə möhkəm, çatlamaya davamlı və birbaşa boyana bilən bir təbəqə yaradır. EN 998-1 standartına görə GP CS II W2 sinfinə uyğundur. İstifadə Sahələri",
+  "desc": "PRATIX® Aero Plast, qazbeton və beton səthlər üçün hazırlanmış, sement əsaslı, polimer əlavəli, lif takviyəli narın suvaq materialıdır. Qazbetonun yüksək su əmmə qabiliyyətinə və aşağı səth müqavimətinə uyğun olaraq hazırlanmışdır; səthdə möhkəm, çatlamaya davamlı və birbaşa boyana bilən bir təbəqə yaradır. EN 998-1 standartına görə GP CS II W2 sinfinə uyğundur.",
   "areas": [
    "Qazbeton divarların daxili və xarici fasadda suvanmasında",
    "Beton və sement əsaslı səthlərin narın suvanmasında",
@@ -3656,7 +3661,7 @@
   "name": "PRATIX® HP 30",
   "cat": "suvaq",
   "group": "Suvaqlar",
-  "short": ", daxili və xarici səthlərdə əl ilə tətbiq olunmaq üçün hazırlanmış, sement əsaslı, lif takviyəli narın suvaq",
+  "short": "Əl ilə tətbiq üçün lifli narın suvaq",
   "image": "",
   "featured": true,
   "classes": [
@@ -3669,7 +3674,7 @@
     "Azaldılmış kapilyar su əmmə göstəricisi"
    ]
   ],
-  "desc": "PRATIX® HP 30 , daxili və xarici səthlərdə əl ilə tətbiq olunmaq üçün hazırlanmış, sement əsaslı, lif takviyəli narın suvaq materialıdır. Astar suvaq vurulmuş səthlərin düzəldilməsində, mövcud suvaqların təmirində və nazik qatlı suvaq tətbiqlərində istifadə olunur. EN 998-1 standartına görə GP CS III W1 sinfinə uyğundur. CS III: Sıxılma müqaviməti sinfi İstifadə Sahələri",
+  "desc": "PRATIX® HP 30, daxili və xarici səthlərdə əl ilə tətbiq olunmaq üçün hazırlanmış, sement əsaslı, lif takviyəli narın suvaq materialıdır. Astar suvaq vurulmuş səthlərin düzəldilməsində, mövcud suvaqların təmirində və nazik qatlı suvaq tətbiqlərində istifadə olunur. EN 998-1 standartına görə GP CS III W1 sinfinə uyğundur. CS III: Sıxılma müqaviməti sinfi",
   "areas": [
    "Astar suvaq vurulmuş səthlərin düzəldilməsində və mövcud suvaqların təmirində",
    "Daxili və xarici sahələrdə beton, kərpic və bənzər səthlərin suvanmasında və təmirində",
@@ -3757,7 +3762,7 @@
   "name": "PRATIX® MP 40",
   "cat": "suvaq",
   "group": "Suvaqlar",
-  "short": ", daxili və xarici səthlərdə makina ilə vurulmaq üçün xüsusi olaraq hazırlanmış, sement əsaslı, hazır suvaq",
+  "short": "Maşınla vurulan sement əsaslı hazır suvaq",
   "image": "",
   "featured": true,
   "classes": [
@@ -3770,7 +3775,7 @@
     "Azaldılmış kapilyar su əmmə göstəricisi"
    ]
   ],
-  "desc": "PRATIX® MP 40 , daxili və xarici səthlərdə makina ilə vurulmaq üçün xüsusi olaraq hazırlanmış, sement əsaslı, hazır suvaq materialıdır. Bir dəfəyə qalın qat tətbiqinə imkan verir, şaquli səthlərdə axmır. EN 998-1 standartına görə GP CS IV W1 sinfinə uyğundur. CS IV: Sıxılma müqaviməti sinfi (≥ 6 N/mm²) İstifadə Sahələri",
+  "desc": "PRATIX® MP 40, daxili və xarici səthlərdə makina ilə vurulmaq üçün xüsusi olaraq hazırlanmış, sement əsaslı, hazır suvaq materialıdır. Bir dəfəyə qalın qat tətbiqinə imkan verir, şaquli səthlərdə axmır. EN 998-1 standartına görə GP CS IV W1 sinfinə uyğundur. CS IV: Sıxılma müqaviməti sinfi (≥ 6 N/mm²)",
   "areas": [
    "Daxili və xarici sahələrdə beton, kərpic və bənzər səthlərin suvanmasında və təmirində",
    "Divar və tavan suvaqlarında",
@@ -3907,10 +3912,10 @@
   "name": "COATIX® EP 1130 Primer",
   "cat": "coatix",
   "group": "Astar",
-  "short": "Epoksid qatranı əsaslı, iki komponentli, tərkibində solvent olmayan, aşağı özlülüklü səth hopdurucu",
+  "short": "Solventsiz, nüfuzedici epoksid astar",
   "image": "",
   "featured": true,
-  "desc": "COATIX® EP 1130 Primer ; epoksid qatranı əsaslı, iki komponentli, tərkibində solvent olmayan, aşağı özlülüklü səth hopdurucu astarıdır. Yaxşı nüfuzetmə xüsusiyyətinə malik, kimyəvi maddələrə davamlı və mexaniki müqaviməti yüksək olan astardır. Beton döşəmələrin kapilyar boşluqlarını doldurur, müqavimətini artırır və özündən sonra tətbiq ediləcək epoksid örtük və ya boyalar üçün yapışma körpüsü rolunu oynayır. Betonun tozlanmasının qarşısını almaq məqsədilə təklikdə də istifadə edilə bilər. İstifadə Sahələri",
+  "desc": "COATIX® EP 1130 Primer; epoksid qatranı əsaslı, iki komponentli, tərkibində solvent olmayan, aşağı özlülüklü səth hopdurucu astarıdır. Yaxşı nüfuzetmə xüsusiyyətinə malik, kimyəvi maddələrə davamlı və mexaniki müqaviməti yüksək olan astardır. Beton döşəmələrin kapilyar boşluqlarını doldurur, müqavimətini artırır və özündən sonra tətbiq ediləcək epoksid örtük və ya boyalar üçün yapışma körpüsü rolunu oynayır. Betonun tozlanmasının qarşısını almaq məqsədilə təklikdə də istifadə edilə bilər.",
   "areas": [
    "Fabriklər, anbarlar və ticarət mərkəzləri",
    "Emalatxanalar və təyyarə anqarları",
@@ -4045,10 +4050,10 @@
   "name": "COATIX® EP 1150 Primer",
   "cat": "coatix",
   "group": "Astar",
-  "short": "Tərkibində solvent olmayan, iki komponentli, epoksid qatranı əsaslı və xüsusi qradasiyalı doldurucu tərkibli d",
+  "short": "Doldurucu tərkibli epoksid döşəmə astarı",
   "image": "",
   "featured": true,
-  "desc": "COATIX® EP 1150 Primer ; tərkibində solvent olmayan, iki komponentli, epoksid qatranı əsaslı və xüsusi qradasiyalı doldurucu tərkibli döşəmə astarıdır. Beton və sement əsaslı mineral səthlərin kapilyar boşluqlarını doldurur, səth müqavimətini artırır və özündən sonra tətbiq ediləcək epoksid örtük, boya və ya təmir materialları üçün yapışma körpüsü rolunu oynayır. Doldurucu tərkibli strukturu sayəsində kələ-kötür və əmici səthlərdə döşəmənin hamarlığını təmin edir və tikinti sahəsi şəraitində tətbiq asanlığı yaradır. İstifadə Sahələri",
+  "desc": "COATIX® EP 1150 Primer; tərkibində solvent olmayan, iki komponentli, epoksid qatranı əsaslı və xüsusi qradasiyalı doldurucu tərkibli döşəmə astarıdır. Beton və sement əsaslı mineral səthlərin kapilyar boşluqlarını doldurur, səth müqavimətini artırır və özündən sonra tətbiq ediləcək epoksid örtük, boya və ya təmir materialları üçün yapışma körpüsü rolunu oynayır. Doldurucu tərkibli strukturu sayəsində kələ-kötür və əmici səthlərdə döşəmənin hamarlığını təmin edir və tikinti sahəsi şəraitində tətbiq asanlığı yaradır.",
   "areas": [
    "Fabriklər, anbarlar, terminallar, çoxmərtəbəli avtomobil dayanacaqları və ticarət mərkəzləri",
    "Emalatxanalar və təyyarələrə texniki xidmət anqarları",
@@ -4195,10 +4200,10 @@
   "name": "COATIX® EP 1220 Primer",
   "cat": "coatix",
   "group": "Astar",
-  "short": "Iki komponentli, solvent əsaslı, aşağı özlülüklü, epoksid qatranı əsaslı səth hopdurucu",
+  "short": "Sərtləşdirilmiş beton üçün nüfuzedici epoksid astar",
   "image": "",
   "featured": true,
-  "desc": "COATIX® EP 1220 Primer ; iki komponentli, solvent əsaslı, aşağı özlülüklü, epoksid qatranı əsaslı səth hopdurucu astarıdır. Yüksək nüfuzetmə xüsusiyyəti sayəsində beton döşəmələrin kapilyar boşluqlarını doldurur, səth müqavimətini artırır və özündən sonra tətbiq ediləcək epoksid örtük və ya boyalar üçün yapışma körpüsü rolunu oynayır. Aşağı özlülüyü və xüsusi resepturası sayəsində səth sərtləşdiricisi tətbiq edilmiş beton və şaplarda yapışma müqaviməti olduqca yüksəkdir. İstifadə Sahələri",
+  "desc": "COATIX® EP 1220 Primer; iki komponentli, solvent əsaslı, aşağı özlülüklü, epoksid qatranı əsaslı səth hopdurucu astarıdır. Yüksək nüfuzetmə xüsusiyyəti sayəsində beton döşəmələrin kapilyar boşluqlarını doldurur, səth müqavimətini artırır və özündən sonra tətbiq ediləcək epoksid örtük və ya boyalar üçün yapışma körpüsü rolunu oynayır. Aşağı özlülüyü və xüsusi resepturası sayəsində səth sərtləşdiricisi tətbiq edilmiş beton və şaplarda yapışma müqaviməti olduqca yüksəkdir.",
   "areas": [
    "Səth sərtləşdiricisi tətbiq edilmiş beton və şap səthlərdə epoksid astar kimi",
    "Öz-özünə yayılan sement əsaslı şapların epoksid astarı kimi",
@@ -4321,10 +4326,10 @@
   "name": "COATIX® EP 1260 Primer",
   "cat": "coatix",
   "group": "Astar",
-  "short": "Iki komponentli, tərkibində solvent olmayan, aşağı özlülüklü, şəffaf epoksid qatranı əsaslı rütubət baryeri və",
+  "short": "Nəm beton üçün rütubət baryeri epoksid astar",
   "image": "",
   "featured": true,
-  "desc": "COATIX® EP 1260 Primer ; iki komponentli, tərkibində solvent olmayan, aşağı özlülüklü, şəffaf epoksid qatranı əsaslı rütubət baryeri və nüfuzedici astardır. Yüksək nüfuzetmə qabiliyyəti sayəsində beton səthin kapilyar boşluqlarına nüfuz edir və bu boşluqları tutaraq döşəmədən gələn nəmliyin üzərinə tətbiq ediləcək epoksid örtüyə zərər verməsinin qarşısını alır. Bərkiməsini tamamlamamış və ya nəmliyi yüksək olan beton səthlərdə epoksid örtük sistemlərinin tətbiqinə imkan verir. Əmici və az əmici mineral əsaslı səthlərdə astar kimi; uyğun nisbətdə kvars qumu ilə qarışdırıldıqda hamarlama, doldurucu və təmir materialının bağlayıcısı kimi istifadə olunur. İstifadə Sahələri",
+  "desc": "COATIX® EP 1260 Primer; iki komponentli, tərkibində solvent olmayan, aşağı özlülüklü, şəffaf epoksid qatranı əsaslı rütubət baryeri və nüfuzedici astardır. Yüksək nüfuzetmə qabiliyyəti sayəsində beton səthin kapilyar boşluqlarına nüfuz edir və bu boşluqları tutaraq döşəmədən gələn nəmliyin üzərinə tətbiq ediləcək epoksid örtüyə zərər verməsinin qarşısını alır. Bərkiməsini tamamlamamış və ya nəmliyi yüksək olan beton səthlərdə epoksid örtük sistemlərinin tətbiqinə imkan verir. Əmici və az əmici mineral əsaslı səthlərdə astar kimi; uyğun nisbətdə kvars qumu ilə qarışdırıldıqda hamarlama, doldurucu və təmir materialının bağlayıcısı kimi istifadə olunur.",
   "areas": [
    "Nəmliyi yüksək olan beton və sement əsaslı şap səthlərdə rütubət baryeri kimi",
    "Bərkiməsini tamamlamamış (28 gün gözləmək mümkün olmayan) yeni beton döşəmələrdə",
@@ -4458,10 +4463,10 @@
   "name": "COATIX® EP 3248 Self-Leveling",
   "cat": "coatix",
   "group": "Epoksid örtüklər",
-  "short": "Tərkibində solvent olmayan, iki komponentli, epoksid qatranı əsaslı, rəngli, öz-özünə yayılan (self-leveling) ",
+  "short": "Öz-özünə yayılan epoksid döşəmə örtüyü",
   "image": "",
   "featured": true,
-  "desc": "COATIX® EP 3248 Self-Leveling ; tərkibində solvent olmayan, iki komponentli, epoksid qatranı əsaslı, rəngli, öz-özünə yayılan (self-leveling) döşəmə örtüyü materialıdır. Hamar, tikişsiz və məsaməsiz səth yaradır; yüksək mexaniki müqaviməti və geniş kimyəvi davamlılığı ilə intensiv piyada və nəqliyyat hərəkətinə məruz qalan sənaye döşəmələrində istifadə olunur. Sərt, şüşəvari və hamar səthi sayəsində asan təmizlənir, gigiyenik və steril şəraitə uyğundur. İstifadə Sahələri Tərkibinə kvars qumu əlavə edilərək qalınlıq artırıla bilər; təzə səthə kvars səpilərək sürüşməyən (qum səpilmiş) sistem əldə edilə bilər.",
+  "desc": "COATIX® EP 3248 Self-Leveling; tərkibində solvent olmayan, iki komponentli, epoksid qatranı əsaslı, rəngli, öz-özünə yayılan (self-leveling) döşəmə örtüyü materialıdır. Hamar, tikişsiz və məsaməsiz səth yaradır; yüksək mexaniki müqaviməti və geniş kimyəvi davamlılığı ilə intensiv piyada və nəqliyyat hərəkətinə məruz qalan sənaye döşəmələrində istifadə olunur. Sərt, şüşəvari və hamar səthi sayəsində asan təmizlənir, gigiyenik və steril şəraitə uyğundur.",
   "areas": [
    "Fabriklər, anbarlar, quraşdırma və texniki xidmət emalatxanaları",
    "Təyyarə anqarları, yükləmə rampaları, qapalı və çoxmərtəbəli avtomobil dayanacaqları",
@@ -4609,17 +4614,18 @@
    ]
   ],
   "consumption": "1 mm qalınlıq üçün 1,50–1,60 kq/m² (kvarssız qarışıq) Minimum tətbiq qalınlığı 1,0 mm",
-  "tds": "https://mrfix.az/site/assets/files/3251/coatix_ep_3248_self-leveling_tds_az.pdf"
+  "tds": "https://mrfix.az/site/assets/files/3251/coatix_ep_3248_self-leveling_tds_az.pdf",
+  "note": "Tərkibinə kvars qumu əlavə edilərək qalınlıq artırıla bilər; təzə səthə kvars səpilərək sürüşməyən (qum səpilmiş) sistem əldə edilə bilər."
  },
  {
   "slug": "coatix-ep-3565-self-leveling",
   "name": "COATIX® EP 3565 Self-Leveling",
   "cat": "coatix",
   "group": "Epoksid örtüklər",
-  "short": "Tərkibində solvent olmayan, iki komponentli, epoksid qatranı əsaslı, rəngli, öz-özünə yayılan (self-leveling) ",
+  "short": "Kimyəvi davamlı self-leveling epoksid örtük",
   "image": "",
   "featured": true,
-  "desc": "COATIX® EP 3565 Self-Leveling ; tərkibində solvent olmayan, iki komponentli, epoksid qatranı əsaslı, rəngli, öz-özünə yayılan (self-leveling) döşəmə örtüyü materialıdır. Xüsusi qatran/bərkidici tərkibi sayəsində turşulara, qələvilərə və bir çox aqressiv kimyəvi maddəyə qarşı üstün davamlılıq göstərir. Hamar, tikişsiz və məsaməsiz səth yaradır; yüksək mexaniki müqaviməti, sürtünməyə və aşınmaya müqaviməti ilə ağır forklift hərəkətinə və korroziyalı kimyəvi yüklərə məruz qalan sənaye döşəmələrində istifadə olunur. Sərt, şüşəvari və hamar səthi sayəsində asan təmizlənir, gigiyenik və steril şəraitə uyğundur. İstifadə Sahələri Tərkibinə kvars/silisium doldurucusu əlavə edilərək qalınlıq artırıla bilər; təzə səthə kvars səpilərək sürüşməyən (qum səpilmiş) sistem əldə edilə bilər.",
+  "desc": "COATIX® EP 3565 Self-Leveling; tərkibində solvent olmayan, iki komponentli, epoksid qatranı əsaslı, rəngli, öz-özünə yayılan (self-leveling) döşəmə örtüyü materialıdır. Xüsusi qatran/bərkidici tərkibi sayəsində turşulara, qələvilərə və bir çox aqressiv kimyəvi maddəyə qarşı üstün davamlılıq göstərir. Hamar, tikişsiz və məsaməsiz səth yaradır; yüksək mexaniki müqaviməti, sürtünməyə və aşınmaya müqaviməti ilə ağır forklift hərəkətinə və korroziyalı kimyəvi yüklərə məruz qalan sənaye döşəmələrində istifadə olunur. Sərt, şüşəvari və hamar səthi sayəsində asan təmizlənir, gigiyenik və steril şəraitə uyğundur.",
   "areas": [
    "Kimya və əczaçılıq sənayesi müəssisələri, təmizləyici qurğular, turşu/qələvi doldurma və saxlama sahələri",
    "Akkumulyator, sinkləmə, səth örtükləri və metal emalı müəssisələri, korroziyalı kimyəvi maddələrin istifadə edildiyi istehsal sahələri",
@@ -4783,17 +4789,18 @@
    ]
   ],
   "consumption": "1 mm qalınlıq üçün 1,80 kq/m² (kvars daxil) Minimum tətbiq qalınlığı 1,0 mm",
-  "tds": "https://mrfix.az/site/assets/files/3269/coatix_ep_3565_self-leveling_tds_az.pdf"
+  "tds": "https://mrfix.az/site/assets/files/3269/coatix_ep_3565_self-leveling_tds_az.pdf",
+  "note": "Tərkibinə kvars/silisium doldurucusu əlavə edilərək qalınlıq artırıla bilər; təzə səthə kvars səpilərək sürüşməyən (qum səpilmiş) sistem əldə edilə bilər."
  },
  {
   "slug": "coatix-ep-4085-top-coat",
   "name": "COATIX® EP 4085 Top Coat",
   "cat": "coatix",
   "group": "Epoksid örtüklər",
-  "short": "Iki komponentli, tərkibində solvent olmayan, epoksid qatranı əsaslı, parlaq təbəqə yaradan son qat örtük",
+  "short": "Parlaq epoksid son qat örtük",
   "image": "",
   "featured": true,
-  "desc": "COATIX® EP 4085 Top Coat ; iki komponentli, tərkibində solvent olmayan, epoksid qatranı əsaslı, parlaq təbəqə yaradan son qat örtük materialıdır. Yüksək səth sərtliyi, suya və kimyəvi maddələrə davamlılığı, yüksək mexaniki müqaviməti və asan təmizlənən gigiyenik səthi əsas xüsusiyyətləridir. Karbon qazını keçirməyən strukturu sayəsində betonu karbonatlaşmadan qoruyur, metal səthlərin isə korroziyaya davamlılığını artırır. Beton, şap və mineral əsaslı səthlərlə yanaşı, uyğun astar sistemi ilə metal və polad səthlərə də son qat kimi tətbiq edilir. İstifadə Sahələri",
+  "desc": "COATIX® EP 4085 Top Coat; iki komponentli, tərkibində solvent olmayan, epoksid qatranı əsaslı, parlaq təbəqə yaradan son qat örtük materialıdır. Yüksək səth sərtliyi, suya və kimyəvi maddələrə davamlılığı, yüksək mexaniki müqaviməti və asan təmizlənən gigiyenik səthi əsas xüsusiyyətləridir. Karbon qazını keçirməyən strukturu sayəsində betonu karbonatlaşmadan qoruyur, metal səthlərin isə korroziyaya davamlılığını artırır. Beton, şap və mineral əsaslı səthlərlə yanaşı, uyğun astar sistemi ilə metal və polad səthlərə də son qat kimi tətbiq edilir.",
   "areas": [
    "Fabriklər, anbarlar, emalatxanalar və təyyarə anqarları",
    "Ticarət mərkəzləri, məktəblər və xəstəxanalar",
@@ -4956,10 +4963,10 @@
   "name": "COATIX® EP 4090 Thixotropic Top Coat",
   "cat": "coatix",
   "group": "Epoksid örtüklər",
-  "short": "Iki komponentli, tərkibində solvent olmayan, tiksotrop strukturlu, epoksid qatranı əsaslı rəngli son qat örtük",
+  "short": "Teksturalı, sürüşməyən epoksid son qat",
   "image": "",
   "featured": true,
-  "desc": "COATIX® EP 4090 Thixotropic Top Coat ; iki komponentli, tərkibində solvent olmayan, tiksotrop strukturlu, epoksid qatranı əsaslı rəngli son qat örtük materialıdır. Mala ilə yayıldıqdan sonra mərcan (effekt) rolik ilə daranaraq portağal qabığı görünüşlü teksturalı səth əldə edilir. Yüksək səth sərtliyi, yüksək mexaniki müqaviməti, suya və kimyəvi maddələrə davamlılığı və asan təmizlənməsi əsas xüsusiyyətləridir. Teksturalı səthi örtüyə sürüşməzlik xüsusiyyəti verir; tiksotrop strukturu sayəsində rampa və mailli səthlərdə axmadan tətbiq edilə bilər. Metal və ya beton səthlər üzərinə uyğun astar qatından sonra son qat kimi tətbiq edilir. İstifadə Sahələri",
+  "desc": "COATIX® EP 4090 Thixotropic Top Coat; iki komponentli, tərkibində solvent olmayan, tiksotrop strukturlu, epoksid qatranı əsaslı rəngli son qat örtük materialıdır. Mala ilə yayıldıqdan sonra mərcan (effekt) rolik ilə daranaraq portağal qabığı görünüşlü teksturalı səth əldə edilir. Yüksək səth sərtliyi, yüksək mexaniki müqaviməti, suya və kimyəvi maddələrə davamlılığı və asan təmizlənməsi əsas xüsusiyyətləridir. Teksturalı səthi örtüyə sürüşməzlik xüsusiyyəti verir; tiksotrop strukturu sayəsində rampa və mailli səthlərdə axmadan tətbiq edilə bilər. Metal və ya beton səthlər üzərinə uyğun astar qatından sonra son qat kimi tətbiq edilir.",
   "areas": [
    "Fabriklər, anbarlar, emalatxanalar və təyyarələrə texniki xidmət anqarları",
    "Ticarət mərkəzləri, terminallar, sərgi və yarmarka sahələri",
@@ -5121,10 +5128,10 @@
   "name": "COATIX® EP 4565 Top Coat",
   "cat": "coatix",
   "group": "Epoksid örtüklər",
-  "short": "Iki komponentli, tərkibində solvent olmayan, epoksid qatranı əsaslı, parlaq təbəqə yaradan son qat örtük",
+  "short": "Turşu və qələviyə davamlı epoksid son qat",
   "image": "",
   "featured": true,
-  "desc": "COATIX® EP 4565 Top Coat ; iki komponentli, tərkibində solvent olmayan, epoksid qatranı əsaslı, parlaq təbəqə yaradan son qat örtük materialıdır. Xüsusi qatran/bərkidici tərkibi sayəsində qeyri-üzvi və üzvi turşulara, qələvilərə və bir çox aqressiv kimyəvi maddəyə qarşı üstün davamlılıq göstərir. Yüksək səth sərtliyi, suya və kimyəvi maddələrə davamlılığı, yüksək mexaniki müqaviməti və asan təmizlənən gigiyenik səthi əsas xüsusiyyətləridir. Karbon qazını keçirməyən strukturu sayəsində betonu karbonatlaşmadan qoruyur, metal səthlərin isə korroziyaya davamlılığını artırır. İstifadə Sahələri Beton, şap və mineral əsaslı səthlərə, həmçinin uyğun astar qatından sonra metal/polad səthlərə son qat kimi tətbiq edilir.",
+  "desc": "COATIX® EP 4565 Top Coat; iki komponentli, tərkibində solvent olmayan, epoksid qatranı əsaslı, parlaq təbəqə yaradan son qat örtük materialıdır. Xüsusi qatran/bərkidici tərkibi sayəsində qeyri-üzvi və üzvi turşulara, qələvilərə və bir çox aqressiv kimyəvi maddəyə qarşı üstün davamlılıq göstərir. Yüksək səth sərtliyi, suya və kimyəvi maddələrə davamlılığı, yüksək mexaniki müqaviməti və asan təmizlənən gigiyenik səthi əsas xüsusiyyətləridir. Karbon qazını keçirməyən strukturu sayəsində betonu karbonatlaşmadan qoruyur, metal səthlərin isə korroziyaya davamlılığını artırır.",
   "areas": [
    "Kimya və əczaçılıq sənayesi müəssisələri, turşu/qələvi doldurma, dozalama və saxlama sahələri",
    "Təmizləyici qurğular, tullantı suyu tikililəri, kimyəvi maddə çənləri və texniki otaqlar",
@@ -5283,18 +5290,19 @@
    ]
   ],
   "consumption": "400 q/m² (bir qat) – təxminən 2,5 m²/kq",
-  "tds": "https://mrfix.az/site/assets/files/3275/coatix_ep_4565_top_coat_tds_az.pdf"
+  "tds": "https://mrfix.az/site/assets/files/3275/coatix_ep_4565_top_coat_tds_az.pdf",
+  "note": "Beton, şap və mineral əsaslı səthlərə, həmçinin uyğun astar qatından sonra metal/polad səthlərə son qat kimi tətbiq edilir."
  },
  {
   "slug": "coatix-pc-7210-polyurethane-cement",
   "name": "COATIX® PC 7210 Polyurethane Cement",
   "cat": "coatix",
   "group": "Poliuretan-sement örtüklər",
-  "short": "Orta və ağır yükə məruz qalan sənaye döşəmələri üçün hazırlanmış, dörd komponentli, su əsaslı poliuretan–semen",
+  "short": "Ağır yük üçün poliuretan-sement döşəmə örtüyü",
   "image": "",
   "featured": true,
   "standard": "EN 13813 · SR-B2,0-AR0,5-IR4",
-  "desc": "COATIX® PC 7210 Polyurethane Cement ; orta və ağır yükə məruz qalan sənaye döşəmələri üçün hazırlanmış, dörd komponentli, su əsaslı poliuretan–sement hibrid döşəmə örtüyü materialıdır. Xüsusi poliuretan qatran, bərkidici, seçilmiş aqreqat qarışığı və UV-yə yüksək davamlı piqment pastasının obyektdə qarışdırılması ilə hazırlanır. Bir qatda 4–6 mm qalınlıqda tətbiq edilərək tikişsiz, məsaməsiz, maye keçirməyən, mat və hamar səth yaradır. Aqressiv kimyəvi maddələrə, ağır mexaniki yüklərə, zərbəyə, aşınmaya və termal zərbəyə qarşı çox yüksək müqavimət göstərir. Betona yaxın termal genişlənmə əmsalı sayəsində temperatur dəyişikliklərinin intensiv olduğu sahələrdə etibarlı şəkildə istifadə olunur; 7 günlük təzə beton və yüksək nəmliyə malik döşəmələr üzərinə astarlamadan tətbiq edilə bilər. İstifadə Sahələri",
+  "desc": "COATIX® PC 7210 Polyurethane Cement; orta və ağır yükə məruz qalan sənaye döşəmələri üçün hazırlanmış, dörd komponentli, su əsaslı poliuretan–sement hibrid döşəmə örtüyü materialıdır. Xüsusi poliuretan qatran, bərkidici, seçilmiş aqreqat qarışığı və UV-yə yüksək davamlı piqment pastasının obyektdə qarışdırılması ilə hazırlanır. Bir qatda 4–6 mm qalınlıqda tətbiq edilərək tikişsiz, məsaməsiz, maye keçirməyən, mat və hamar səth yaradır. Aqressiv kimyəvi maddələrə, ağır mexaniki yüklərə, zərbəyə, aşınmaya və termal zərbəyə qarşı çox yüksək müqavimət göstərir. Betona yaxın termal genişlənmə əmsalı sayəsində temperatur dəyişikliklərinin intensiv olduğu sahələrdə etibarlı şəkildə istifadə olunur; 7 günlük təzə beton və yüksək nəmliyə malik döşəmələr üzərinə astarlamadan tətbiq edilə bilər.",
   "areas": [
    "Qida və içki istehsalı müəssisələri: süd emalı müəssisələri, süd fermaları, ət istehsalı müəssisələri, çörək sexləri, su və içki doldurma xətləri",
    "Əczaçılıq istehsalı müəssisələri, təmiz otaqlar, laboratoriyalar və xəstəxanalar",

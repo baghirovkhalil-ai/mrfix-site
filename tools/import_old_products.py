@@ -46,7 +46,7 @@ def parse(u, slug, cat, group, std):
     lines = [x for x in lines if x]
     desc, areas, feats, notes, classes, mode = [], [], [], [], [], "desc"
     for ln in lines:
-        low = ln.lower()
+        low = ln.replace("İ", "i").replace("I", "ı").lower()
         if low.startswith("istifadə sahələri") or low.startswith("tətbiq sahələri"): mode = "areas"; continue
         if low.startswith("üstünlük"): mode = "feats"; continue
         if ln.startswith("•") or ln.startswith("-"):

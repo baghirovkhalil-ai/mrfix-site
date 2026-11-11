@@ -71,7 +71,7 @@
       for (var a = 0; a < pts.length; a++) {
         var p = pts[a]; if (!reduce) { p.x += p.vx; p.y += p.vy; if (p.x < 0 || p.x > W) p.vx *= -1; if (p.y < 0 || p.y > H) p.vy *= -1; }
         for (var b = a + 1; b < pts.length; b++) { var q = pts[b], dx = p.x - q.x, dy = p.y - q.y, d = dx * dx + dy * dy; if (d < 15000) { ctx.strokeStyle = "rgba(167,179,196," + (0.16 * (1 - d / 15000)).toFixed(3) + ")"; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.stroke(); } }
-        ctx.fillStyle = p.y2 ? "rgba(255,194,26,.9)" : "rgba(238,242,247,.55)"; ctx.beginPath(); ctx.arc(p.x, p.y, p.y2 ? p.r + 1 : p.r, 0, 6.283); ctx.fill();
+        ctx.fillStyle = p.y2 ? "rgba(234,91,95,.95)" : "rgba(238,242,247,.55)"; ctx.beginPath(); ctx.arc(p.x, p.y, p.y2 ? p.r + 1 : p.r, 0, 6.283); ctx.fill();
       }
       if (run && !reduce) requestAnimationFrame(draw);
     }
