@@ -1,27 +1,875 @@
 [
- {"name": "Laçın Hotel", "place": "Laçın", "year": "", "type": "Otel", "image": "https://mrfix.az/site/assets/files/3035/4430599-1.png"},
- {"name": "Muğanlı–İsmayıllı–Qəbələ yolu", "place": "İsmayıllı, Qəbələ", "year": "2024", "type": "İnfrastruktur", "image": "https://mrfix.az/site/assets/files/2832/whatsapp_image_2024-02-06_at_10_56_48_am-min.jpeg"},
- {"name": "Qubadlı–Laçın tuneli", "place": "Qubadlı, Laçın", "year": "2023", "type": "Tunel", "image": "https://mrfix.az/site/assets/files/2418/qubadli_lacin.png"},
- {"name": "Cəbrayıl–Zəngilan–Ağbənd tunelləri", "place": "Cəbrayıl, Zəngilan", "year": "2023", "type": "Tunel", "image": "https://mrfix.az/site/assets/files/2465/agbnd-1.jpg"},
- {"name": "Kəlbəcər–Laçın tuneli", "place": "Kəlbəcər, Laçın", "year": "2022", "type": "Tunel", "image": "https://mrfix.az/site/assets/files/1739/untitled-1-1.jpg"},
- {"name": "Füzuli–Şuşa avtomobil yolu", "place": "Füzuli, Şuşa", "year": "2022", "type": "İnfrastruktur", "image": "https://mrfix.az/site/assets/files/2308/fuzuli_susa_yolu.jpg"},
- {"name": "Xarıbülbül otel", "place": "Şuşa", "year": "2021", "type": "Otel", "image": "https://mrfix.az/site/assets/files/1728/xaribulbul-otel-square-1.jpg"},
- {"name": "Ağıllı kənd", "place": "Zəngilan", "year": "2021", "type": "Yaşayış", "image": "https://mrfix.az/site/assets/files/1735/agillikend.jpg"},
- {"name": "Vaqif türbəsi", "place": "Şuşa", "year": "2021", "type": "Bərpa", "image": "https://mrfix.az/site/assets/files/2183/vagif_mausoleum_after_restoration-_shusha-_azerbaijan.jpg"},
- {"name": "Qarabağ Hotel", "place": "Şuşa", "year": "2021", "type": "Otel", "image": "https://mrfix.az/site/assets/files/2187/qarabag-hotel.jpg"},
- {"name": "Murovdağ tuneli", "place": "Göygöl", "year": "2021", "type": "Tunel", "image": "https://mrfix.az/site/assets/files/2199/murovdag_tuneli.jpg"},
- {"name": "İqtisadiyyat Nazirliyi", "place": "Bakı", "year": "2021", "type": "İnzibati bina", "image": "https://mrfix.az/site/assets/files/2203/iqtisadiyyat_nazirliyi.jpg"},
- {"name": "Şərq Bazarı", "place": "Bakı", "year": "2021", "type": "Ticarət", "image": "https://mrfix.az/site/assets/files/2836/serq_bazari.jpg"},
- {"name": "Sea Breeze Resort", "place": "Bakı", "year": "2021", "type": "Kurort", "image": "https://mrfix.az/site/assets/files/2211/sea_breeze_resort.jpeg"},
- {"name": "Shabran Wellbeing Resort", "place": "Şabran", "year": "2021", "type": "Kurort", "image": "https://mrfix.az/site/assets/files/2215/63ad9d1c9b28663ad9d1c9b287167232233163ad9d1c9b28363ad9d1c9b284.jpg"},
- {"name": "The Ritz-Carlton", "place": "Bakı", "year": "2019", "type": "Otel", "image": "https://mrfix.az/site/assets/files/2179/dji_0127.jpg"},
- {"name": "Basqal Resort & Spa", "place": "İsmayıllı", "year": "2019", "type": "Kurort", "image": "https://mrfix.az/site/assets/files/2207/basqal_resort_spa.jpg"},
- {"name": "H. Əliyev adına Müasir Təhsil Kompleksi", "place": "Bakı", "year": "2018", "type": "Təhsil", "image": "https://mrfix.az/site/assets/files/1745/h_-liyev-thsil-kompleksi-square-1.jpg"},
- {"name": "Baku Marriott Hotel", "place": "Bakı", "year": "2015", "type": "Otel", "image": "https://mrfix.az/site/assets/files/1749/469617061.jpg"},
- {"name": "Dreamland", "place": "Bakı", "year": "2015", "type": "Yaşayış", "image": "https://mrfix.az/site/assets/files/2191/dreamland.jpg"},
- {"name": "Qalaaltı Hotel & SPA", "place": "Şabran", "year": "2015", "type": "Kurort", "image": "https://mrfix.az/site/assets/files/2195/qalaalti.jpg"},
- {"name": "Qələbə meydanı tunel tipli yol qovşağı", "place": "Bakı", "year": "2013", "type": "İnfrastruktur", "image": "https://mrfix.az/site/assets/files/2219/qlb_meydani_tunel.jpg"},
- {"name": "Alov Qüllələri", "place": "Bakı", "year": "2013", "type": "Çoxmərtəbəli", "image": "https://mrfix.az/site/assets/files/2227/flame_towers.jpg"},
- {"name": "Heydər Əliyev Mərkəzi", "place": "Bakı", "year": "2012", "type": "Mədəniyyət", "image": "https://mrfix.az/site/assets/files/1047/heyder_e_merkez.jpg"},
- {"name": "Heydər Əliyev Beynəlxalq Hava Limanı körpüsü", "place": "Bakı", "year": "2012", "type": "İnfrastruktur", "image": "https://mrfix.az/site/assets/files/2223/havalimani_korpu.jpg"}
+ {
+  "name": "Laçın Hotel",
+  "place": "Laçın",
+  "year": "",
+  "type": "Otel",
+  "image": "https://mrfix.az/site/assets/files/3035/4430599-1.png",
+  "old": "lacin-hotel",
+  "desc": "CERAMAX ® STANDARD CERAMAX ® STANDARD WHITE CERAMAX ® FLEX IZOMAX ® C 40 IZOMAX ® C 70 UV IZOMAX ® C 75 FLEX THERMOMAX ® EPS TAMCRETE® GROUT C 320 TAMCRETE ® ERM 75 FLOMAX ® SH 500 FUGAMAX ® COLORFUL",
+  "products": [
+   {
+    "name": "CERAMAX® STANDARD",
+    "slug": "ceramax-standard"
+   },
+   {
+    "name": "CERAMAX® STANDARD WHITE",
+    "slug": "ceramax-standard-white"
+   },
+   {
+    "name": "CERAMAX® FLEX",
+    "slug": "ceramax-flex"
+   },
+   {
+    "name": "IZOMAX® C 40",
+    "slug": "izomax-c-40"
+   },
+   {
+    "name": "IZOMAX® C 70 UV",
+    "slug": "izomax-c70-uv"
+   },
+   {
+    "name": "IZOMAX® C 75 FLEX",
+    "slug": "izomax-c75-flex"
+   },
+   {
+    "name": "THERMOMAX® EPS",
+    "slug": "thermomax-eps"
+   },
+   {
+    "name": "TAMCRETE® GROUT C 320",
+    "slug": "tamcrete-grout-c-320"
+   },
+   {
+    "name": "TAMCRETE® ERM 75",
+    "slug": "tamcrete-erm-75"
+   },
+   {
+    "name": "FLOMAX® SH 500",
+    "slug": "flomax-sh-500"
+   },
+   {
+    "name": "FUGAMAX® COLORFUL",
+    "slug": "fugamax-colorful"
+   }
+  ]
+ },
+ {
+  "name": "Muğanlı–İsmayıllı–Qəbələ yolu",
+  "place": "İsmayıllı, Qəbələ",
+  "year": "2024",
+  "type": "İnfrastruktur",
+  "image": "https://mrfix.az/site/assets/files/2832/whatsapp_image_2024-02-06_at_10_56_48_am-min.jpeg",
+  "old": "muganli-i-smayilli-q-b-l-yolu",
+  "desc": "",
+  "products": [
+   {
+    "name": "BETONMIX"
+   },
+   {
+    "name": "®"
+   },
+   {
+    "name": "HP 1275"
+   },
+   {
+    "name": "HP 565"
+   },
+   {
+    "name": "HP 1000 K"
+   },
+   {
+    "name": "HP 1000 S"
+   }
+  ]
+ },
+ {
+  "name": "Qubadlı–Laçın tuneli",
+  "place": "Qubadlı, Laçın",
+  "year": "2023",
+  "type": "Tunel",
+  "image": "https://mrfix.az/site/assets/files/2418/qubadli_lacin.png",
+  "old": "qubadli-lacin-tuneli",
+  "desc": "",
+  "products": [
+   {
+    "name": "FORMAX"
+   },
+   {
+    "name": "®"
+   },
+   {
+    "name": "KA 121"
+   },
+   {
+    "name": "CURE"
+   },
+   {
+    "name": "PRF"
+   },
+   {
+    "name": "BETONMIX"
+   },
+   {
+    "name": "SHOTCRETE 224 AL"
+   },
+   {
+    "name": "HP 1211 A"
+   },
+   {
+    "name": "SP 420 K"
+   },
+   {
+    "name": "SP 420 S"
+   }
+  ]
+ },
+ {
+  "name": "Cəbrayıl–Zəngilan–Ağbənd tunelləri",
+  "place": "Cəbrayıl, Zəngilan",
+  "year": "2023",
+  "type": "Tunel",
+  "image": "https://mrfix.az/site/assets/files/2465/agbnd-1.jpg",
+  "old": "cebrayil-zengilan-agbend-tunelleri",
+  "desc": "",
+  "products": [
+   {
+    "name": "BETONMIX"
+   },
+   {
+    "name": "®"
+   },
+   {
+    "name": "SHOTCRETE 225 AL"
+   },
+   {
+    "name": "SP 1000 K"
+   },
+   {
+    "name": "SP 1000 S"
+   },
+   {
+    "name": "HP 1204"
+   },
+   {
+    "name": "ANTIFREEZE 1"
+   }
+  ]
+ },
+ {
+  "name": "Kəlbəcər–Laçın tuneli",
+  "place": "Kəlbəcər, Laçın",
+  "year": "2022",
+  "type": "Tunel",
+  "image": "https://mrfix.az/site/assets/files/1739/untitled-1-1.jpg",
+  "old": "kelbecer-lacin-tuneli",
+  "desc": "Kəlbəcər-Laçın avtomobil yolu başlanğıcını Kəlbəcər rayonunun Qamışlı kəndindən götürməklə işğaldan azad edilmiş Laçın rayonunun ərazisindən keçir. Bu səbəbdən yeni yol sözügedən rayonların bir çox yaşayış məntəqələri ilə yanaşı, rayon mərkəzinə və yenicə inşasına başlanılmış Laçın hava limanına qədər rahat gediş-gəlişi təmin edəcək.",
+  "products": [
+   {
+    "name": "BETONMIX"
+   },
+   {
+    "name": "®"
+   },
+   {
+    "name": "HP 1275"
+   },
+   {
+    "name": "SHOTCRETE 224 AL"
+   },
+   {
+    "name": "ANTIFREEZE 1"
+   },
+   {
+    "name": "IZOMAX"
+   },
+   {
+    "name": "STB A"
+   },
+   {
+    "name": "STB B"
+   }
+  ]
+ },
+ {
+  "name": "Füzuli–Şuşa avtomobil yolu",
+  "place": "Füzuli, Şuşa",
+  "year": "2022",
+  "type": "İnfrastruktur",
+  "image": "https://mrfix.az/site/assets/files/2308/fuzuli_susa_yolu.jpg",
+  "old": "fuzuli-susa-avtomobil-yolu",
+  "desc": "Əhmədbəyli-Füzuli-Şuşa avtomobil yolunun tikinti layihəsinin uzunluğu ilkin hesablamalara əsasən 101.5 km təşkil edir. Yolunun 4-6 hərəkət zolağından ibarət olması nəzərdə tutulur. 84.6 km-lik yolun ilk 48 km-i 6, 48-84.6 km-i isə 4 hərəkət zolağından ibarətdir. Müvafiq olaraq yol yatağının eni 29.5 və 21.5 metr təşkil edir. Bundan başqa, layihə üzrə relyefin imkan verdiyi ərazilərə qədər hər bir istiqamətdə əlavə geniş hərəkət hissəsinə malik 1 ehtiyat zolağın inşası da nəzərdə tutulub. Ehtiyat zolaqlarla birgə yolun 6 hərəkət zolağından ibarətdir.",
+  "products": [
+   {
+    "name": "BETONMIX"
+   },
+   {
+    "name": "®"
+   },
+   {
+    "name": "SP SHOTCRETE 224 AL"
+   },
+   {
+    "name": "HP 460"
+   },
+   {
+    "name": "FORMAX"
+   },
+   {
+    "name": "KA 101"
+   },
+   {
+    "name": "ANTIFREEZE 1"
+   },
+   {
+    "name": "TAMCRETE"
+   },
+   {
+    "name": "ERM 75"
+   }
+  ]
+ },
+ {
+  "name": "Xarıbülbül otel",
+  "place": "Şuşa",
+  "year": "2021",
+  "type": "Otel",
+  "image": "https://mrfix.az/site/assets/files/1728/xaribulbul-otel-square-1.jpg",
+  "old": "xaribulbul-otel",
+  "desc": "Xarıbülbül otel Azərbaycanın işğaldan azad olunan Dağlıq qarabağ bölgəsinin Şuşa şəhərində yerləşir. Bu otel böləgədə aparılan abadlaşdırma işləri çərçivəsində yenilənən layihələrindən biri olaraq 12 may 2021-də istifadəyə verilib.",
+  "products": [
+   {
+    "name": "CERAMAX"
+   },
+   {
+    "name": "®"
+   },
+   {
+    "name": "STANDARD"
+   },
+   {
+    "name": "FLOMAX"
+   },
+   {
+    "name": "SL 220 PRIMER"
+   },
+   {
+    "name": "SL 212"
+   },
+   {
+    "name": "IZOMAX"
+   },
+   {
+    "name": "C 40"
+   },
+   {
+    "name": "THERMOMAX"
+   },
+   {
+    "name": "EPS"
+   },
+   {
+    "name": "SUVAQ"
+   },
+   {
+    "name": "YAPIŞDIRICI"
+   }
+  ]
+ },
+ {
+  "name": "Ağıllı kənd",
+  "place": "Zəngilan",
+  "year": "2021",
+  "type": "Yaşayış",
+  "image": "https://mrfix.az/site/assets/files/1735/agillikend.jpg",
+  "old": "agilli-kend",
+  "desc": "İşğaldan azad edilmiş Zəngilan rayonunun Ağalı kənd sakinləri doğma kəndlərinə qayıtdıqdan sonra “Ağıllı kənd” layihəsi çərçivəsində onlardan bir qrupu üçün kiçik təsərrüfatlar yaradılacaq. Kənd sakinlərinin məşğulluğuna və kiçik sahibkarlığa çıxışına dəstək məqsədi daşıyan layihəyə 30 nəfərin cəlb olunması nəzərdə tutulub.",
+  "products": [
+   {
+    "name": "CERAMAX"
+   },
+   {
+    "name": "®"
+   },
+   {
+    "name": "STANDARD"
+   },
+   {
+    "name": "THERMOMAX"
+   },
+   {
+    "name": "EPS"
+   },
+   {
+    "name": "FUGAMAX"
+   },
+   {
+    "name": "COLORFUL"
+   }
+  ]
+ },
+ {
+  "name": "Vaqif türbəsi",
+  "place": "Şuşa",
+  "year": "2021",
+  "type": "Bərpa",
+  "image": "https://mrfix.az/site/assets/files/2183/vagif_mausoleum_after_restoration-_shusha-_azerbaijan.jpg",
+  "old": "vaqif-turbesi",
+  "desc": "Molla Pənah Vaqifin muzey-məqbərə kompleksi və ya Vaqif türbəsi 1982-ci il yanvarın 14-də ulu öndər Heydər Əliyevin bilavasitə təşəbbüsü və iştirakı ilə Azərbaycanın qədim mədəniyyət mərkəzi Şuşa şəhərində şair Molla Pənah Vaqifin məzarı üzərində ucaldılmış əzəmətli məqbərənin açılışı olmuşdur. Vaqif türbəsi Şuşanın cənub-qərb tərəfində, bayram şənlikləri və cıdır yarışları təşkil edilən məşhur Cıdır düzündə, şairin həlak olduğu və dəfn edildiyi qayalı təpədə ucalır.",
+  "products": [
+   {
+    "name": "CERAMAX"
+   },
+   {
+    "name": "®"
+   },
+   {
+    "name": "FLEX WHITE"
+   },
+   {
+    "name": "FUGAMAX"
+   },
+   {
+    "name": "FLEX"
+   },
+   {
+    "name": "TAMCRETE"
+   },
+   {
+    "name": "CRM 50"
+   }
+  ]
+ },
+ {
+  "name": "Qarabağ Hotel",
+  "place": "Şuşa",
+  "year": "2021",
+  "type": "Otel",
+  "image": "https://mrfix.az/site/assets/files/2187/qarabag-hotel.jpg",
+  "old": "qarabag-hotel",
+  "desc": "1980-cı ildə inşa edilən hotelin binası 1992-ci ilin mayında Şuşa şəhərinin işğalından sonra fəaliyyəti həmin işğalçılar tərəfindən dayandırılıb və baxımsızlıqdan tamamilə yararsız vəziyyətə salınmışdı. Lakin Şuşa şəhəri müzəffər Azərbaycan Ordusunun şanlı Zəfəri nəticəsində Ermənistanın işğalından azad edildikdən sonra 2021-ci ildə Prezident İlham Əliyevin tapşırığına əsasən, hoteldə təmir-bərpa və yenidənqurma işləri həyata keçirildi. Müasir səviyyəyə çatdırılan hoteldə Şuşa şəhərinə səfər edəcək qonaqların rahatlığı üçün hər cür şərait yaradıldı.",
+  "products": [
+   {
+    "name": "CERAMAX"
+   },
+   {
+    "name": "®"
+   },
+   {
+    "name": "STANDARD"
+   },
+   {
+    "name": "THERMOMAX"
+   },
+   {
+    "name": "EPS"
+   }
+  ]
+ },
+ {
+  "name": "Murovdağ tuneli",
+  "place": "Göygöl",
+  "year": "2021",
+  "type": "Tunel",
+  "image": "https://mrfix.az/site/assets/files/2199/murovdag_tuneli.jpg",
+  "old": "murovdag-tuneli",
+  "desc": "Murovdağ Tuneli yolu və ya Toğanalı–Kəlbəcər–İstisu avtomobil yolu Göygöl şəhərindən Kəlbəcər şəhərinə Murovdağ silsiləsindən keçərək gedən birbaşa avtomobil yolu. Avtomobil yolu Göygöl rayonunun Toğanalı kəndindən başlayıb, Kəlbəcər rayonunun İstisu qəsəbəsində bitəcək.",
+  "products": [
+   {
+    "name": "BETONMIX"
+   },
+   {
+    "name": "®"
+   },
+   {
+    "name": "HP 460"
+   },
+   {
+    "name": "HP 461"
+   },
+   {
+    "name": "SHOTCRETE 224 AL"
+   },
+   {
+    "name": "TAMCRETE"
+   },
+   {
+    "name": "CRM 50"
+   },
+   {
+    "name": "CRM 100"
+   },
+   {
+    "name": "FORMAX"
+   },
+   {
+    "name": "KA 101"
+   },
+   {
+    "name": "ERM 75"
+   }
+  ]
+ },
+ {
+  "name": "İqtisadiyyat Nazirliyi",
+  "place": "Bakı",
+  "year": "2021",
+  "type": "İnzibati bina",
+  "image": "https://mrfix.az/site/assets/files/2203/iqtisadiyyat_nazirliyi.jpg",
+  "old": "iqtisadiyyat-nazirliyi",
+  "desc": "Tikintisinə 2016-cı ildə başlanılan bu binanın açılışı 2021-ci il mayın 29-da dövlət başçısı İlham Əliyevin iştiraki ilə baş tutub. Binanın hündürlüyü 168 metrdir, otaqların ümimi sahəsi 6500 kvadrat metrdən çoxdur.",
+  "products": [
+   {
+    "name": "BETONMIX"
+   },
+   {
+    "name": "®"
+   },
+   {
+    "name": "HP 1211 A"
+   },
+   {
+    "name": "THERMOMAX"
+   },
+   {
+    "name": "EPS"
+   },
+   {
+    "name": "CERAMAX"
+   },
+   {
+    "name": "STANDARD"
+   },
+   {
+    "name": "FUGAMAX"
+   },
+   {
+    "name": "COLORFUL"
+   },
+   {
+    "name": "TAMCRETE"
+   },
+   {
+    "name": "CRM 100TX"
+   }
+  ]
+ },
+ {
+  "name": "Şərq Bazarı",
+  "place": "Bakı",
+  "year": "2021",
+  "type": "Ticarət",
+  "image": "https://mrfix.az/site/assets/files/2836/serq_bazari.jpg",
+  "old": "serq-bazari",
+  "desc": "",
+  "products": [
+   {
+    "name": "CERAMAX"
+   },
+   {
+    "name": "®"
+   },
+   {
+    "name": "FLEX WHITE"
+   }
+  ]
+ },
+ {
+  "name": "Sea Breeze Resort",
+  "place": "Bakı",
+  "year": "2021",
+  "type": "Kurort",
+  "image": "https://mrfix.az/site/assets/files/2211/sea_breeze_resort.jpeg",
+  "old": "sea-breeze-resort",
+  "desc": "Sea Breeze Resort Xəzər dənizinin mənzərəli sahilində, Bakının mərkəzindən cəmi 30 dəqiqəlik məsafədə yerləşən unikal kurort kompleksidir.",
+  "products": [
+   {
+    "name": "CERAMAX"
+   },
+   {
+    "name": "®"
+   },
+   {
+    "name": "STANDARD"
+   },
+   {
+    "name": "STANDARD WHITE"
+   },
+   {
+    "name": "ULTRA"
+   },
+   {
+    "name": "FLEX"
+   },
+   {
+    "name": "FUGAMAX"
+   },
+   {
+    "name": "COLORFUL"
+   },
+   {
+    "name": "PRATIX"
+   },
+   {
+    "name": "Y"
+   },
+   {
+    "name": "FLOMAX"
+   },
+   {
+    "name": "SL 212"
+   },
+   {
+    "name": "THERMOMAX"
+   },
+   {
+    "name": "EPS"
+   }
+  ]
+ },
+ {
+  "name": "Shabran Wellbeing Resort",
+  "place": "Şabran",
+  "year": "2021",
+  "type": "Kurort",
+  "image": "https://mrfix.az/site/assets/files/2215/63ad9d1c9b28663ad9d1c9b287167232233163ad9d1c9b28363ad9d1c9b284.jpg",
+  "old": "shabran-recreation-complex",
+  "desc": "Şabran rayonunun Pirəbədil kəndində yerləşən kompleks Bakıdan 147 kilometr aralıda yerləşir. Kompleksin 12,6 hektar ərazisində inşa edilən oteldə müxtəlif kateqoriyalı 119 nömrə, 10 birmərtəbəli və 20 ikimərtəbəli kottec var.",
+  "products": [
+   {
+    "name": "KONTAKT ASTAR",
+    "slug": "kontakt-astar"
+   },
+   {
+    "name": "FUGAMAX"
+   },
+   {
+    "name": "®"
+   },
+   {
+    "name": "COLORFUL"
+   },
+   {
+    "name": "COTTO"
+   },
+   {
+    "name": "IZOMAX"
+   },
+   {
+    "name": "C40"
+   },
+   {
+    "name": "THERMOMAX"
+   },
+   {
+    "name": "EPS"
+   }
+  ]
+ },
+ {
+  "name": "The Ritz-Carlton",
+  "place": "Bakı",
+  "year": "2019",
+  "type": "Otel",
+  "image": "https://mrfix.az/site/assets/files/2179/dji_0127.jpg",
+  "old": "yelken-towers",
+  "desc": "The Ritz-Carlton Baku Bakı şəhəri, Nəsimi rayonu, Həsən Əliyev küçəsində yerləşən, 72 mənzil və 189 ayrı otel nömrəsindən ibarət çoxmərtəbəli bina. Hündürlüyü 130 metr olan bina 33 mərtəbədən ibarətdir. Azərbaycanın 10 ən yüksək binasından biri hesab olunur.",
+  "products": [
+   {
+    "name": "CERAMAX"
+   },
+   {
+    "name": "®"
+   },
+   {
+    "name": "FLEX"
+   },
+   {
+    "name": "FLOMAX"
+   },
+   {
+    "name": "SL 212"
+   },
+   {
+    "name": "SL PRIMER"
+   },
+   {
+    "name": "BETONMIX"
+   },
+   {
+    "name": "SP 907 K"
+   },
+   {
+    "name": "SP 907 S"
+   },
+   {
+    "name": "FUGAMAX"
+   },
+   {
+    "name": "COLORFUL"
+   }
+  ]
+ },
+ {
+  "name": "Basqal Resort & Spa",
+  "place": "İsmayıllı",
+  "year": "2019",
+  "type": "Kurort",
+  "image": "https://mrfix.az/site/assets/files/2207/basqal_resort_spa.jpg",
+  "old": "basqal-resort-spa",
+  "desc": "Basqal Resort & Spa İsmayıllı şəhərində yerləşən, 179 otaq və lüks nömrələrdən, üçotaqlı 4 kottec və isidilən açıq hovuzlu 1 kottecdən ibarət otel. Otelə gələn qonaqlar İsmayıllı rayonunun ərazisində çoxsaylı gəzinti, yürüş və velosiped cığırlarından yararlana bilərlər.",
+  "products": [
+   {
+    "name": "THERMOMAX"
+   },
+   {
+    "name": "®"
+   },
+   {
+    "name": "YAPIŞDIRICI"
+   },
+   {
+    "name": "SUVAQ"
+   },
+   {
+    "name": "CERAMAX"
+   },
+   {
+    "name": "STANDARD"
+   },
+   {
+    "name": "FUGAMAX"
+   },
+   {
+    "name": "COLORFUL"
+   },
+   {
+    "name": "IZOMAX"
+   },
+   {
+    "name": "C40"
+   },
+   {
+    "name": "C70"
+   },
+   {
+    "name": "KONTAKT ASTAR",
+    "slug": "kontakt-astar"
+   }
+  ]
+ },
+ {
+  "name": "H. Əliyev adına Müasir Təhsil Kompleksi",
+  "place": "Bakı",
+  "year": "2018",
+  "type": "Təhsil",
+  "image": "https://mrfix.az/site/assets/files/1745/h_-liyev-thsil-kompleksi-square-1.jpg",
+  "old": "heyder-eliyev-merkezi-1",
+  "desc": "Heydər Əliyev adına Müasir Təhsil Kompleksi — özündə bağça-məktəb fəaliyyətini birləşdirən Azərbaycanın ilk özəl təhsil müəssisələrindən biridir. Bu kompleks 2001-ci il sentyabr ayının 1-də Ümummilli lider Heydər Əliyevin özünün iştirakı ilə açılmışdır.",
+  "products": []
+ },
+ {
+  "name": "Baku Marriott Hotel",
+  "place": "Bakı",
+  "year": "2015",
+  "type": "Otel",
+  "image": "https://mrfix.az/site/assets/files/1749/469617061.jpg",
+  "old": "boulevard-hotel",
+  "desc": "Baku Marriott Hotel Azərbaycan Respublikasının paytaxtı Bakı şəhərində yerləşən beşulduzlu oteldir. Bu otel Azərbaycanın ən böyük otelidir. Oteldə 818 nömrə var. Otelin pəncərələrindən Xəzər dənizinə və Bakı bulvarına açılan mənzərəni seyr etmək mümkündür. Otaqların interyeri məşhur memarlar tərəfindən dizayn edilib.",
+  "products": [
+   {
+    "name": "CERAMAX"
+   },
+   {
+    "name": "®"
+   },
+   {
+    "name": "STANDARD WHITE"
+   },
+   {
+    "name": "FUGAMAX"
+   },
+   {
+    "name": "COLORFUL"
+   }
+  ]
+ },
+ {
+  "name": "Dreamland",
+  "place": "Bakı",
+  "year": "2015",
+  "type": "Yaşayış",
+  "image": "https://mrfix.az/site/assets/files/2191/dreamland.jpg",
+  "old": "xeyal-adalari",
+  "desc": "Dreamland Golf Villas & Residences 330 hektar ərazidə salınmış şəhərcikdir. Buraya 66 hektarlıq golf sahəsi daxildir. Dreamland Golf Villas & Residences 234 villa və 382 mənzildən, qolf akademiyası, qolf meydançaları, qolf oteli, məktəb, supermarket, restoranlar kimi məkanlardan ibarət yüksək keyfiyyətli infrastruktura malik kiçik premium şəhərcikdir.",
+  "products": [
+   {
+    "name": "CERAMAX"
+   },
+   {
+    "name": "®"
+   },
+   {
+    "name": "STANDARD WHITE"
+   },
+   {
+    "name": "FLOMAX"
+   },
+   {
+    "name": "SL 212"
+   },
+   {
+    "name": "SH 500"
+   },
+   {
+    "name": "FUGAMAX"
+   },
+   {
+    "name": "COLORFUL"
+   },
+   {
+    "name": "THERMOMAX"
+   },
+   {
+    "name": "ST 160"
+   }
+  ]
+ },
+ {
+  "name": "Qalaaltı Hotel & SPA",
+  "place": "Şabran",
+  "year": "2015",
+  "type": "Kurort",
+  "image": "https://mrfix.az/site/assets/files/2195/qalaalti.jpg",
+  "old": "qala-alti-hotel-spa",
+  "desc": "Qalaaltı Hotel & Spa” 1978-ci ildən mövcud olan məşhur köhnə “Qalaaltı sanatoriyası”nı əvəz edən beşulduzlu sağlamlıq və kurort kompleksidir. Unikal arxitekturaya malik bu müasir kompleks 2015-ci ildə öz qapılarını açıb və texnologiyanın ən son nailiyyətləri ilə tam təchiz olunub.",
+  "products": [
+   {
+    "name": "CERAMAX"
+   },
+   {
+    "name": "®"
+   },
+   {
+    "name": "STANDARD WHITE"
+   },
+   {
+    "name": "FUGAMAX"
+   },
+   {
+    "name": "COLORFUL"
+   },
+   {
+    "name": "FLOMAX"
+   },
+   {
+    "name": "SL 212"
+   },
+   {
+    "name": "KONTAKT ASTAR",
+    "slug": "kontakt-astar"
+   },
+   {
+    "name": "THERMOMAX"
+   },
+   {
+    "name": "ST 160"
+   }
+  ]
+ },
+ {
+  "name": "Qələbə meydanı tunel tipli yol qovşağı",
+  "place": "Bakı",
+  "year": "2013",
+  "type": "İnfrastruktur",
+  "image": "https://mrfix.az/site/assets/files/2219/qlb_meydani_tunel.jpg",
+  "old": "qelebe-meydani-tuneli",
+  "desc": "Gənclik metrostansiyasının ətrafındakı Qələbə meydanı müxtəlif səviyyəli tunel tipli yol qovşağı layihəsinə 5 hərəkət zolaqlı 6 tunel tipli yol qovşağı daxildir. Tunelin ümumi uzunluğu 2512 metr, eni 8-15.5 metr, hündürlüyü 5.5 metrdir. Bu tunel 2013-cü ilin fevral ayından istismara verilib.",
+  "products": [
+   {
+    "name": "BETONMIX"
+   },
+   {
+    "name": "®"
+   },
+   {
+    "name": "HP 1211 A"
+   },
+   {
+    "name": "SP 165"
+   },
+   {
+    "name": "SP 278"
+   }
+  ]
+ },
+ {
+  "name": "Alov Qüllələri",
+  "place": "Bakı",
+  "year": "2013",
+  "type": "Çoxmərtəbəli",
+  "image": "https://mrfix.az/site/assets/files/2227/flame_towers.jpg",
+  "old": "alov-qulleleri",
+  "desc": "Alov Qüllələri üç çoxmərtəbəli binalardan ibarət kompleksdir. Xarici görünüşü ilə bu tikinti alov dillərini xatırlatdığı üçün bu adı daşıyır. Binaların hündürlüyü 182 m-dir.",
+  "products": [
+   {
+    "name": "BETONMIX"
+   },
+   {
+    "name": "®"
+   },
+   {
+    "name": "HP 1106 A"
+   }
+  ]
+ },
+ {
+  "name": "Heydər Əliyev Mərkəzi",
+  "place": "Bakı",
+  "year": "2012",
+  "type": "Mədəniyyət",
+  "image": "https://mrfix.az/site/assets/files/1047/heyder_e_merkez.jpg",
+  "old": "heyder-eliyev-merkezi",
+  "desc": "Azərbaycanın paytaxtı Bakı şəhərində, Heydər Əliyev prospektində inşa edilmiş araşdırma və beynəlxalq dialoq mərkəzi. Mərkəz böyük bir kompleksdən ibarət olmaqla özündə iri konqres zalı, Heydər Əliyev Muzeyi, sərgi salonları, adminstrativ ofisləri birləşdirir. Mərkəz Azərbaycanın ümumilli prezidenti Heydər Əliyevin adını daşıyır.",
+  "products": [
+   {
+    "name": "BETONMIX"
+   },
+   {
+    "name": "®"
+   },
+   {
+    "name": "HP 1106"
+   },
+   {
+    "name": "RCA"
+   }
+  ]
+ },
+ {
+  "name": "Heydər Əliyev Beynəlxalq Hava Limanı körpüsü",
+  "place": "Bakı",
+  "year": "2012",
+  "type": "İnfrastruktur",
+  "image": "https://mrfix.az/site/assets/files/2223/havalimani_korpu.jpg",
+  "old": "havalimani-korpusu",
+  "desc": "Heydər Əliyev adına Beynəlxalq Hava Limanı Bakı şəhərindən 20 km şimal-şərqdə, Binə qəsəbəsində yerləşən və Qafqazda ən böyük beynəlxalq hava limanıdır.",
+  "products": [
+   {
+    "name": "BETONMIX"
+   },
+   {
+    "name": "®"
+   },
+   {
+    "name": "HP 1211 A"
+   },
+   {
+    "name": "SP 165"
+   },
+   {
+    "name": "SP 278"
+   }
+  ]
+ }
 ]
