@@ -42,7 +42,7 @@ for u in open(os.path.join(BASE, "tools/old_urls.txt")).read().split():
     assert os.path.exists(os.path.join(BASE, "_site", t.strip("/"), "index.html")), (u, t)
     rules.append({"source": u, "destination": t, "permanent": True})
     report["mehsul" if t.startswith("/mehsul/") else "kateqoriya" if t.startswith("/mehsullar/") else "diger"] += 1
-rules.append({"source": "/:lang(en|ru|tr|uz)/:path*", "destination": "/", "permanent": False})
+rules.append({"source": "/(en|ru|tr|uz)(/.*)?", "destination": "/", "permanent": False})
 vp = os.path.join(BASE, "vercel.json"); v = json.load(open(vp)); v["redirects"] = rules
 json.dump(v, open(vp, "w"), ensure_ascii=False, indent=2); open(vp, "a").write("\n")
 print(len(rules), "qayda", report)

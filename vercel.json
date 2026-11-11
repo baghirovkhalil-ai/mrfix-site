@@ -1418,7 +1418,7 @@
       "permanent": true
     },
     {
-      "source": "/:lang(en|ru|tr|uz)/:path*",
+      "source": "/(en|ru|tr|uz)(/.*)?",
       "destination": "/",
       "permanent": false
     }
