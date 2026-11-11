@@ -25,7 +25,11 @@ def find_ref(old, oldname):
 miss = []
 for old in OLD:
     d = BeautifulSoup(urllib.request.urlopen(urllib.request.Request(f"https://mrfix.az/referanslar/{old}/", headers={"User-Agent": "Mozilla/5.0"}), timeout=60).read().decode("utf-8", "replace"), "html.parser")
-    st = d.select_one(".solution_text"); txt = st.get_text("\n") if st else ""
+    st = d.select_one(".solution_text")
+    if st:
+        for br in st.find_all("br"): br.replace_with("\n")
+        for b in st.find_all(["p", "li", "div", "h2", "h3", "h4", "tr"]): b.append("\n")
+    txt = st.get_text("") if st else ""
     parts = re.split(r"İstifadə olunan məhsullar:?", txt)
     desc = T(parts[0]); pnames = [T(x) for x in (parts[1] if len(parts) > 1 else "").split("\n") if T(x)]
     links = [T(a.get_text()) for a in (st.select('a[href*="/products/"]') if st else [])]

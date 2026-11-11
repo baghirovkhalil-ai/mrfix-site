@@ -259,7 +259,7 @@ def home(root):
     sols = "".join(sol_card(s, root, i) for i, s in enumerate(SYSTEMS[:6]))
     feat = [BY_NAME[n] for n in ["CERAMAX® FLEX", "CERAMAX® Maxi", "FUGAMAX® FLEX", "IZOMAX® C60 N", "IZOMAX® F-tec", "TAMCRETE® CRM 100", "THERMOMAX® EPS CARBON", "FLOMAX® SL 212"]]
     prods = "".join(prod_card(p, root) for p in feat)
-    refs = "".join(ref_card(r) for r in REFS[15:21])
+    refs = "".join(ref_card(r, 0, root) for r in REFS[15:21])
     posts = "".join(post_card(p, root) for p in POSTS[:3])
     tiles = "".join('<i style="background:#F6F5F1"></i>' for _ in range(16))
     return f'''
@@ -318,245 +318,44 @@ def sol_card(s, root, i=0):
 <div class="in"><span class="tag tag-y" style="width:max-content">{len(s["layers"])} qatlı sistem</span><h3>{e(s["name"])}</h3><p>{e(s["short"])}</p><div class="layers-mini" aria-hidden="true">{bars}</div></div>
 <a class="cover" href="{L(root,"hell-yollari/"+s["id"]+"/")}" aria-label="{e(s["name"])}"></a></article>'''
 
-def ref_card(r, i=0):
-    return f'''<article class="ref-card rv" data-k="{e(r["name"]+" "+r["place"]+" "+r["type"])}" data-g="{e(slugify(r["type"]))}"><img src="{e(r["image"])}" alt="{e(r["name"])}" loading="lazy" onerror="this.parentNode.classList.add('noimg')">
-<div class="in"><span class="meta">{e(r["type"])} · {e(r["place"])}{" · "+r["year"] if r["year"] else ""}</span><h3>{e(r["name"])}</h3></div></article>'''
+def ref_slug(r):
+    return r.get("slug") or slugify(r["name"])
 
-PAT = ["#1F5FBF", "#0F8B8D", "#D9662B", "#24548C", "#B23A2E", "#5B6676"]
-def post_card(p, root, i=0):
-    h = sum(ord(ch) for ch in p["slug"]) % len(PAT)
-    pat = f'<svg class="pattern" viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="400" height="225" fill="#0B1626"/>' + "".join(
-        f'<rect x="{x*44+180}" y="{y*44-10}" width="38" height="38" rx="4" fill="{PAT[h] if (x+y+h)%4==0 else ("#EA5B5F" if (x*y+h)%7==0 else "#1A2A42")}"/>' for x in range(6) for y in range(6)) + '</svg>'
-    return f'''<article class="card post-card rv" data-k="{e(p["title"]+" "+p["excerpt"]+" "+p["category"])}" data-g="{e(slugify(p["category"]))}"><div class="thumb">{pat}<span class="tag tag-y" style="position:relative">{e(p["category"])}</span></div>
-<div class="body"><h3>{e(p["title"])}</h3><p>{e(p["excerpt"])}</p><div class="meta"><span>{dt(p["date"])}</span><span>· {p["minutes"]} dəq oxu</span></div></div>
-<a class="cover" href="{L(root,"bloq/"+p["slug"]+"/")}" aria-label="{e(p["title"])}"></a></article>'''
+def ref_card(r, i=0, root="./"):
+    link = f'<a class="cover" href="{L(root, "referanslar/" + ref_slug(r) + "/")}" aria-label="{e(r["name"])}"></a>' if r.get("products") is not None else ""
+    n = len([x for x in r.get("products", []) if x.get("slug")])
+    pc = f'<span class="ref-n">{n} məhsul</span>' if n else ""
+    return f'''<article class="ref-card rv" data-k="{e(r["name"]+" "+r["place"]+" "+r["type"]+" "+" ".join(x["name"] for x in r.get("products", [])))}" data-g="{e(slugify(r["type"]))}"><img src="{e(r["image"])}" alt="{e(r["name"])}" loading="lazy" onerror="this.parentNode.classList.add('noimg')">
+<div class="in"><span class="meta">{e(r["type"])} · {e(r["place"])}{" · "+r["year"] if r["year"] else ""}</span><h3>{e(r["name"])}</h3>{pc}</div>{link}</article>'''
 
-# =============== CATALOG ===============
-def catalog(active_cat=None):
-    def body(root):
-        items = [p for p in PRODUCTS if not active_cat or p["cat"] == active_cat["id"]]
-        side = f'<a href="{L(root,"mehsullar/")}"{" aria-current=page" if not active_cat else ""}>Bütün məhsullar <span class="n">{len(PRODUCTS)}</span></a>' + "".join(
-            f'<a href="{L(root,"mehsullar/"+c["slug"]+"/")}"{" aria-current=page" if active_cat and c["id"]==active_cat["id"] else ""}>{e(c["name"])} <span class="n">{c["count"]}</span></a>' for c in CATS)
-        groups = []
-        for p in items:
-            if p["group"] not in groups: groups.append(p["group"])
-        chips = ""
-        if active_cat and len(groups) > 1:
-            chips = '<div class="chips" style="margin-bottom:20px"><button class="chip" type="button" data-g-btn="all" aria-pressed="true">Hamısı</button>' + "".join(f'<button class="chip" type="button" data-g-btn="{slugify(g)}" aria-pressed="false">{e(g)}</button>' for g in groups) + "</div>"
-        cards = "".join(prod_card(p, root, "") for p in sorted(items, key=lambda p: (not p.get("featured"),)))
-        title = active_cat["name"] if active_cat else "Məhsul kataloqu"
-        lede = e(active_cat["desc"]) if active_cat else f"{len(PRODUCTS)} məhsul, {len(CATS)} kateqoriya. Ad, standart (məs. C2TE, R4) və ya tətbiq sahəsinə görə axtarın."
-        crumbs = [("mehsullar/", "Məhsullar"), (None, active_cat["name"])] if active_cat else [(None, "Məhsullar")]
-        return page_hero(root, crumbs, title, lede) + f'''<section class="section-sm"><div class="wrap catalog">
-<nav class="side" aria-label="Kateqoriyalar">{side}</nav>
-<div data-filter="#plist"><div class="toolbar"><div class="search-field">{I["search"]}<label class="sr" for="psearch">Məhsul axtar</label><input id="psearch" type="search" placeholder="Ad və ya standart: C2TE, R4, CG2…" autocomplete="off"></div><span class="count" data-count-out>{len(items)} nəticə</span></div>
-{chips}<div class="grid g3" id="plist">{cards}</div><p class="empty" data-empty hidden>Heç nə tapılmadı. Başqa ad yoxlayın və ya <button class="link" type="button" data-helper-open style="background:none;border:0;padding:0;color:var(--blue)">köməkçidən soruşun</button>.</p></div>
-</div></section>{cta(root)}'''
-    return body
+def ref_page(r):
+    root = "../../"
+    ps = r.get("products", [])
+    linked = [BY_SLUG[x["slug"]] for x in ps if x.get("slug") in BY_SLUG]
+    other = [x["name"] for x in ps if x.get("slug") not in BY_SLUG]
+    meta = " · ".join(x for x in (r["type"], r["place"], r.get("year")) if x)
+    hero = f'''<section class="page-hero ref-hero"><div class="fx" aria-hidden="true"><img src="{e(r["image"])}" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.32" onerror="this.remove()"><div class="fx-grid"></div></div>
+<div class="wrap"><nav class="crumbs" aria-label="Səhifə yolu"><a href="{root}">Ana səhifə</a><span aria-hidden="true">/</span><a href="{L(root,"referanslar/")}">Layihələr</a><span aria-hidden="true">/</span><span>{e(r["name"])}</span></nav>
+<span class="tag tag-y">{e(meta)}</span><h1 class="split" style="margin-top:18px">{e(r["name"])}</h1>{f'<p class="lede">{e(r["desc"])}</p>' if r.get("desc") else ""}</div></section>'''
+    body = ""
+    if linked:
+        wa = "Salam! Saytdan yazıram. \"" + r["name"] + "\" layihəsində istifadə olunan məhsullar haqqında məlumat almaq istəyirəm:\n" + "\n".join(f"{i+1}. {p['name']}" for i, p in enumerate(linked))
+        body += f'''<section class="section"><div class="wrap"><div class="head-row"><div class="head"><span class="eyebrow">İstifadə olunan məhsullar</span><h2 class="h2" style="font-size:clamp(26px,3vw,36px)">Bu layihədə {len(linked)} Mr.Fix məhsulu</h2></div><a class="btn btn-yellow" href="https://wa.me/{SITE["contact"]["whatsapp"]}?text={e(wa)}" target="_blank" rel="noopener">{I["wa"]} Bu məhsulları soruş</a></div>
+<div class="grid g4">{"".join(prod_card(p, root) for p in linked)}</div>{f'<p class="note" style="margin-top:24px">Layihədə həmçinin: {e(", ".join(other))}.</p>' if other else ""}</div></section>'''
+    elif other:
+        body += f'''<section class="section"><div class="wrap"><span class="eyebrow">İstifadə olunan məhsullar</span><p class="lede" style="margin-top:14px">{e(", ".join(other))}</p></div></section>'''
+    rest = [x for x in REFS if x is not r and x.get("products")][:3]
+    if rest:
+        body += f'''<section class="section-sm bg-soft"><div class="wrap"><div class="head-row"><div class="head"><span class="eyebrow">Digər layihələr</span></div><a class="btn btn-white" href="{L(root,"referanslar/")}">Bütün layihələr {I["arrow"]}</a></div><div class="grid g3">{"".join(ref_card(x, 0, root) for x in rest)}</div></div></section>'''
+    return hero + body + cta(root)
 
-# =============== PRODUCT ===============
-def product(p):
-    c = CAT[p["cat"]]
-    def body(root):
-        related = [x for x in PRODUCTS if x["cat"] == p["cat"] and x["slug"] != p["slug"]]
-        related = sorted(related, key=lambda x: (not x.get("featured"),))[:4]
-        in_sys = [s for s in SYSTEMS if any(l["product"] == p["name"] for l in s["layers"])]
-        posts = [b for b in POSTS if p["name"] in b["products"]][:2]
-        wa_txt = f"Salam! {p['name']} haqqında məlumat və qiymət almaq istəyirəm."
-        decode = "".join(f'<div><b>{e(k)}</b><span>{e(v)}</span></div>' for k, v in p.get("classes", []))
-        facts = []
-        if p.get("consumption"): facts.append(("Sərfiyyat", p["consumption"]))
-        for k, v in p.get("tech", []):
-            if any(x in k for x in ["Tətbiq temperaturu", "İstismara açılma", "Qarışım nisbəti", "Qarışıq nisbəti", "Dərz eni", "Tətbiq qalınlığı"]) and len(facts) < 4: facts.append((k, v))
-        facts_html = "".join(f'<div><span>{e(k)}</span><b>{e(v)}</b></div>' for k, v in facts)
-        docs = ""
-        if p.get("tds"): docs += f'<a class="doc" href="{e(p["tds"])}" target="_blank" rel="noopener"><span class="ic">PDF</span><span><b>Texniki məlumat vərəqəsi (TDS)</b><span>Azərbaycan dilində</span></span><span class="dl">{I["down"]}</span></a>'
-        if p.get("sds"): docs += f'<a class="doc" href="{e(p["sds"])}" target="_blank" rel="noopener"><span class="ic">PDF</span><span><b>Təhlükəsizlik məlumat vərəqəsi (SDS)</b><span>Azərbaycan dilində</span></span><span class="dl">{I["down"]}</span></a>'
-        if not docs: docs = f'<a class="doc" href="https://wa.me/{SITE["contact"]["whatsapp"]}?text={e("Salam! "+p["name"]+" üçün texniki vərəqə (TDS) göndərə bilərsiniz?")}" target="_blank" rel="noopener"><span class="ic">PDF</span><span><b>Texniki vərəqəni sorğula</b><span>Mütəxəssisimiz göndərəcək</span></span><span class="dl">{I["arrow"]}</span></a>'
-        tabs, panels = [], []
-        def tab(id_, label, content):
-            tabs.append(f'<button class="tab" role="tab" id="t-{id_}" aria-controls="p-{id_}" type="button">{label}</button>')
-            panels.append(f'<div class="panel" role="tabpanel" id="p-{id_}" aria-labelledby="t-{id_}">{content}</div>')
-        if p.get("areas"): tab("areas", "Tətbiq sahələri", '<ul class="checklist">' + "".join(f"<li>{e(a)}</li>" for a in p["areas"]) + "</ul>")
-        if p.get("features"): tab("feat", "Üstünlüklər", '<ul class="checklist">' + "".join(f"<li>{e(a)}</li>" for a in p["features"]) + "</ul>")
-        if p.get("tech"): tab("tech", "Texniki göstəricilər", '<div class="table-box"><table class="spec"><tbody>' + "".join(f"<tr><th scope=row>{e(k)}</th><td>{e(v)}</td></tr>" for k, v in p["tech"]) + f'</tbody></table></div>' + (f'<p class="note" style="margin-top:16px">{e(p["note"])}</p>' if p.get("note") else ""))
-        tab("docs", "Sənədlər", f'<div class="grid g2">{docs}</div>')
-        tabs_html = f'<div data-tabs><div class="tabs" role="tablist" aria-label="Məhsul məlumatı">{"".join(tabs)}</div>{"".join(panels)}</div>'
-        sys_html = ""
-        if in_sys:
-            sys_html = '<div class="stack" style="margin-top:8px"><span class="eyebrow">Bu məhsul hansı sistemlərdədir</span><div class="chips">' + "".join(f'<a class="chip" href="{L(root,"hell-yollari/"+s["id"]+"/")}">{e(s["name"])} →</a>' for s in in_sys) + "</div></div>"
-        calc_link = ""
-        if p["cat"] in ("derz", "yapisdirici", "izolyasiya", "zemin", "temir"):
-            calc_link = f'<a class="btn btn-white" href="{L(root,"hesablayici/")}">{I["calc"]} Miqdarı hesabla</a>'
-        if p["cat"] == "derz": calc_link += f' <a class="btn btn-white" href="{L(root,"reng-secimi/")}">32 rəng</a>'
-        desc = p.get("desc") or f'{p["name"]} — {p["short"]}. Ətraflı texniki məlumat, qiymət və mövcudluq üçün mütəxəssisimizlə əlaqə saxlayın.'
-        rel = "".join(prod_card(x, root) for x in related)
-        blog = ""
-        if posts:
-            blog = f'<section class="section-sm"><div class="wrap"><div class="head"><span class="eyebrow">Faydalı məqalələr</span><h2 class="h2" style="font-size:clamp(26px,3vw,36px)">Bu məhsul haqqında oxuyun</h2></div><div class="grid g3">{"".join(post_card(b, root) for b in posts)}</div></div></section>'
-        cr = f'<a href="{L(root)}">Ana səhifə</a><span aria-hidden="true">/</span><a href="{L(root,"mehsullar/")}">Məhsullar</a><span aria-hidden="true">/</span><a href="{L(root,"mehsullar/"+c["slug"]+"/")}">{e(c["name"])}</a>'
-        return f'''<section class="section-sm" style="padding-top:28px"><div class="wrap">
-<nav class="crumbs" aria-label="Səhifə yolu" style="color:var(--muted)">{cr.replace('<a ', '<a style="color:var(--muted)" ')}</nav>
-<div class="pdp">
-<div class="pdp-media"><div class="tags"><span class="tag">{e(c["name"])}</span>{"<span class='tag tag-y'>Texniki vərəqə</span>" if p.get("tds") else ""}</div><div class="ring" aria-hidden="true"></div>{pack(p, root)}</div>
-<div class="pdp-info">
-<span class="eyebrow">{e(p["group"])}</span>
-<h1>{e(p["name"])}</h1>
-{f'<span class="pdp-std"><i></i>{e(p["standard"])}</span>' if p.get("standard") else ""}
-<p class="lede">{e(desc)}</p>
-{f'<div class="decode">{decode}</div>' if decode else ""}
-{f'<div class="facts">{facts_html}</div>' if facts_html else ""}
-<div class="row"><a class="btn btn-yellow" href="https://wa.me/{SITE["contact"]["whatsapp"]}?text={e(wa_txt)}" target="_blank" rel="noopener">{I["wa"]} Qiymət soruş</a>{f'<a class="btn btn-ghost" href="{e(p["tds"])}" target="_blank" rel="noopener">{I["doc"]} TDS yüklə</a>' if p.get("tds") else ""}<a class="btn btn-ghost" href="{L(root,"dilerler/")}">{I["pin"]} Diler tap</a></div>
-<div class="row">{calc_link}</div>
-{sys_html}
-</div></div></div></section>
-<section class="section-sm bg-soft"><div class="wrap" style="max-width:1080px">{tabs_html}</div></section>
-{blog}
-<section class="section-sm"><div class="wrap"><div class="head-row"><div class="head"><span class="eyebrow">Eyni kateqoriyadan</span><h2 class="h2" style="font-size:clamp(26px,3vw,36px)">Oxşar məhsullar</h2></div><a class="btn btn-white" href="{L(root,"mehsullar/"+c["slug"]+"/")}">{e(c["name"])} {I["arrow"]}</a></div><div class="grid g4">{rel}</div></div></section>
-{cta(root)}'''
-    ld = {"@context": "https://schema.org", "@type": "Product", "name": p["name"], "description": p.get("desc") or p["short"], "image": p["image"] or (SITE["url"] + "/assets/og.png"),
-          "brand": {"@type": "Brand", "name": "Mr.Fix"}, "category": c["name"], "manufacturer": {"@type": "Organization", "name": SITE["company"]}}
-    return body, ld
-
-# =============== SOLUTIONS ===============
-def solutions(root):
-    cards = "".join(sol_card(s, root, i) for i, s in enumerate(SYSTEMS))
-    return page_hero(root, [(None, "Həll yolları")], "Həll yolları", "Səthi seçin. Hər həll alt qatdan üst qata qədər məhsul sistemi, tətbiq ardıcıllığı və ustalar üçün məsləhətlərlə.") + f'<section class="section"><div class="wrap"><div class="grid g3">{cards}</div></div></section>{cta(root)}'
-
-def solution(s):
-    def body(root):
-        layers = "".join(layer_li(l, root) for l in s["layers"]) + '<li class="layer base">MÖVCUD SƏTH · BETON / ŞAP / SUVAQ</li>'
-        steps = "".join(f"<li><p>{e(x)}</p></li>" for x in s["steps"])
-        prods = [BY_NAME[l["product"]] for l in s["layers"] if l["product"] in BY_NAME]
-        others = "".join(sol_card(x, root, i) for i, x in enumerate([x for x in SYSTEMS if x["id"] != s["id"]][:3]))
-        msg = f"Salam! Saytdan yazıram. \"{s['name']}\" sistemi üçün qiymət və miqdar öyrənmək istəyirəm:\n" + "\n".join(f"{i+1}. {l['role']}: {l['product']}" for i, l in enumerate(s["layers"]))
-        posts = [b for b in POSTS if any(n in b["products"] for n in [l["product"] for l in s["layers"]])][:3]
-        blog = f'<section class="section-sm bg-soft"><div class="wrap"><div class="head"><span class="eyebrow">Ətraflı oxuyun</span><h2 class="h2" style="font-size:clamp(26px,3vw,36px)">Əlaqəli bələdçilər</h2></div><div class="grid g3">{"".join(post_card(b, root) for b in posts)}</div></div></section>' if posts else ""
-        hero = f'''<section class="page-hero" style="min-height:420px"><div class="fx" aria-hidden="true"><img src="{e(s["image"])}" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.28" onerror="this.remove()"><div class="fx-grid"></div></div>
-<div class="wrap"><nav class="crumbs" aria-label="Səhifə yolu"><a href="{L(root)}">Ana səhifə</a><span aria-hidden="true">/</span><a href="{L(root,"hell-yollari/")}">Həll yolları</a><span aria-hidden="true">/</span><span>{e(s["name"])}</span></nav>
-<span class="tag tag-y">{len(s["layers"])} qatlı sistem</span><h1 class="split" style="margin-top:18px">{e(s["name"])}</h1><p class="lede">{e(s["intro"])}</p></div></section>'''
-        return hero + f'''<section class="section"><div class="wrap"><div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:clamp(28px,4vw,56px);align-items:start">
-<div class="stack"><div class="head" style="margin-bottom:8px"><span class="eyebrow">Sistemin kəsiyi</span><h2 class="h2" style="font-size:clamp(26px,3vw,36px)">Üst qatdan əsasa qədər</h2></div><ol class="layers">{layers}</ol>
-<div class="row" style="margin-top:12px"><a class="btn btn-yellow" href="https://wa.me/{SITE["contact"]["whatsapp"]}?text={e(msg)}" target="_blank" rel="noopener">{I["wa"]} Sistemi sifariş et</a><button class="btn btn-ghost" type="button" data-copy="{e(msg)}">Siyahını kopyala</button></div></div>
-<div class="stack"><div class="head" style="margin-bottom:8px"><span class="eyebrow">Tətbiq qaydası</span><h2 class="h2" style="font-size:clamp(26px,3vw,36px)">Addım-addım</h2></div><ol class="steps">{steps}</ol>
-<p class="note"><b>Usta məsləhəti:</b> {e(s["tip"])}</p></div>
-</div></div></section>
-<section class="section-sm bg-soft"><div class="wrap"><div class="head"><span class="eyebrow">Sistemdəki məhsullar</span><h2 class="h2" style="font-size:clamp(26px,3vw,36px)">Hər qatın məhsulu</h2></div><div class="grid g4">{"".join(prod_card(x, root) for x in prods)}</div></div></section>
-{blog}
-<section class="section-sm"><div class="wrap"><div class="head"><span class="eyebrow">Digər həllər</span></div><div class="grid g3">{others}</div></div></section>{cta(root)}'''
-    return body
-
-def layer_li(l, root):
-    p = BY_NAME.get(l["product"])
-    col = CAT[p["cat"]]["color"] if p else "#5B6676"
-    href = L(root, "mehsul/" + p["slug"] + "/") if p else "#"
-    return f'<li class="layer rv" style="--c:{col}"><span class="bar" aria-hidden="true"></span><a class="in" href="{href}"><span><span class="role">{e(l["role"])}</span><br><span class="pname">{e(l["product"])}</span></span><span class="code">{e(p.get("standard","") if p else "") or "Bax →"}</span></a></li>'
-
-# =============== CALCULATOR ===============
-def calculator(root):
-    def opt(name, extra=""):
-        p = BY_NAME[name]; return f'<option value="mehsul/{p["slug"]}/" {extra}>{e(name)}</option>'
-    def res(px, unit_note, rows):
-        return f'''<div class="result" aria-live="polite"><div class="meta" id="{px}-meta">{unit_note}</div><div class="big"><span id="{px}-total">0</span><small>kq</small></div>
-<div class="row2">{rows}</div><a class="btn btn-yellow" id="{px}-order" href="#" target="_blank" rel="noopener">{I["wa"]} Bu miqdarı sifariş et</a></div>'''
-    sizes = [("100x100","10×10"),("200x200","20×20"),("300x300","30×30"),("300x600","30×60"),("600x600","60×60"),("600x1200","60×120")]
-    grout = f'''<div class="calc" id="calc-grout"><div class="calc-form">
-<div class="field"><span class="label">Kafel ölçüsü (sm)</span><div class="seg" data-seg="size">{"".join(f'<button type="button" data-v="{v}" aria-pressed="{str(v=="300x300").lower()}">{l}</button>' for v,l in sizes)}</div></div>
-<div class="field"><span class="label">Dərz eni</span><div class="seg" data-seg="joint">{"".join(f'<button type="button" data-v="{j}" aria-pressed="{str(j==3).lower()}">{j} mm</button>' for j in [2,3,5,8,10,15])}</div></div>
-<div class="field"><label for="g-depth">Kafel qalınlığı</label><select class="select" id="g-depth">{"".join(f'<option value="{d}"{" selected" if d==8 else ""}>{d} mm</option>' for d in [6,8,10,12,20])}</select></div>
-<div class="field"><label for="g-area"><span>Sahə</span><span class="mono" id="g-area-out">20 m²</span></label><input id="g-area" type="range" min="1" max="500" value="20"></div>
-<p class="note">Düstur: (A+B) ÷ (A×B) × dərz eni × qalınlıq × 1,6 kq/dm³ + 10% ehtiyat.</p></div>
-{res("g", "", '<div><span>Sərfiyyat</span><b class="mono" id="g-per"></b></div><div><span>Tövsiyə</span><b><a class="pname" id="g-pick" href="#"></a></b></div>')}</div>'''
-    adh = f'''<div class="calc" id="calc-adh"><div class="calc-form">
-<div class="field"><label for="y-prod">Yapışdırıcı</label><select class="select" id="y-prod">{opt("CERAMAX® STANDARD")}{opt("CERAMAX® PRO")}{opt("CERAMAX® ULTRA")}{opt("CERAMAX® FLEX","selected")}{opt("CERAMAX® Maxi")}{opt("CERAMAX® RAPID")}</select></div>
-<div class="field"><span class="label">Tətbiq üsulu</span><div class="seg" data-seg="method"><button type="button" data-v="1" aria-pressed="true">Yalnız səthə</button><button type="button" data-v="1.2" aria-pressed="false">Səth + plitə arxası</button></div></div>
-<div class="field"><label for="y-area"><span>Sahə</span><span class="mono" id="y-area-out">20 m²</span></label><input id="y-area" type="range" min="1" max="500" value="20"></div>
-<p class="note">CERAMAX® yapışdırıcılarının sərfiyyatı ~5–6 kq/m²-dir. Plitə arxasına da sürtüləndə təxminən 20% artır.</p></div>
-{res("y", "Kafel yapışdırıcısı", '<div><span>Aralıq</span><b class="mono" id="y-range"></b></div><div><span>Qablaşdırma</span><b class="mono" id="y-bags"></b></div><div style="grid-column:1/-1"><span>Məhsul</span><b><a class="pname" id="y-pick" href="#"></a></b></div>')}</div>'''
-    wp_opts = "".join(f'<option value="mehsul/{BY_NAME[n]["slug"]}/" data-lo="{lo}" data-hi="{hi}"{" selected" if i==0 else ""}>{e(n)}</option>' for i,(n,lo,hi) in enumerate([("IZOMAX® C 40",1.2,1.4),("IZOMAX® C60 N",1.2,1.3),("IZOMAX® C75 Flex",1.0,1.2),("IZOMAX® C70 UV",1.0,1.5)]))
-    wp = f'''<div class="calc" id="calc-wp"><div class="calc-form">
-<div class="field"><label for="w-prod">Su izolyasiyası</label><select class="select" id="w-prod">{wp_opts}</select></div>
-<div class="field"><span class="label">Qat sayı</span><div class="seg" data-seg="coats"><button type="button" data-v="2" aria-pressed="true">2 qat</button><button type="button" data-v="3" aria-pressed="false">3 qat</button></div></div>
-<div class="field"><label for="w-area"><span>Sahə</span><span class="mono" id="w-area-out">15 m²</span></label><input id="w-area" type="range" min="1" max="500" value="15"></div>
-<p class="note">Sərfiyyat hər qat üçün texniki vərəqədəki dəyərlə hesablanır. Divarın aşağı 20 sm-ini və duş zonasını sahəyə əlavə etməyi unutmayın.</p></div>
-{res("w", "Su izolyasiyası", '<div><span>Aralıq</span><b class="mono" id="w-range"></b></div><div><span>Sərfiyyat</span><b class="mono" id="w-per"></b></div><div style="grid-column:1/-1"><span>Məhsul</span><b><a class="pname" id="w-pick" href="#"></a></b></div>')}</div>'''
-    fl_opts = "".join(f'<option value="mehsul/{BY_NAME[n]["slug"]}/" data-k="{k}"{" selected" if i==0 else ""}>{e(n)}</option>' for i,(n,k) in enumerate([("FLOMAX® SL 212",1.75),("TAMCRETE® CRM 50",1.7),("TAMCRETE® CRM 100",1.9),("TAMCRETE® ERM 75",1.7)]))
-    fl = f'''<div class="calc" id="calc-floor"><div class="calc-form">
-<div class="field"><label for="f-prod">Material</label><select class="select" id="f-prod">{fl_opts}</select></div>
-<div class="field"><label for="f-mm"><span>Qalınlıq</span><span class="mono" id="f-mm-out">5 mm</span></label><input id="f-mm" type="range" min="1" max="40" value="5"></div>
-<div class="field"><label for="f-area"><span>Sahə</span><span class="mono" id="f-area-out">30 m²</span></label><input id="f-area" type="range" min="1" max="1000" value="30"></div>
-<p class="note">FLOMAX® SL 212: 8,75 kq/m² · 5 mm. TAMCRETE® CRM 50: ~1,7 kq/m² · 1 mm. CRM 100: ~18–20 kq/m² · 10 mm. Hər materialın tətbiq qalınlığı həddinə riayət edin.</p></div>
-{res("f", "Şap və təmir", '<div><span>Sərfiyyat</span><b class="mono" id="f-per"></b></div><div><span>Qablaşdırma</span><b class="mono" id="f-bags"></b></div><div style="grid-column:1/-1"><span>Məhsul</span><b><a class="pname" id="f-pick" href="#"></a></b></div>')}</div>'''
-    tabs = [("grout","Dərz dolğusu",grout),("adh","Kafel yapışdırıcısı",adh),("wp","Su izolyasiyası",wp),("floor","Şap və təmir",fl)]
-    t = "".join(f'<button class="tab" role="tab" id="t-{k}" aria-controls="p-{k}" type="button">{l}</button>' for k,l,_ in tabs)
-    p = "".join(f'<div class="panel" role="tabpanel" id="p-{k}" aria-labelledby="t-{k}">{c}</div>' for k,_,c in tabs)
-    return page_hero(root, [(None, "Hesablayıcı")], "Material hesablayıcısı", "Sahəni və parametrləri seçin — lazım olan kiloqramı, kisə sayını və uyğun məhsulu dərhal görün. Nəticəni bir toxunuşla sifarişə çevirin.") + f'<section class="section-sm"><div class="wrap" data-tabs><div class="tabs" role="tablist" aria-label="Hesablayıcılar">{t}</div>{p}</div></section>' + f'<section class="section-sm"><div class="wrap"><p class="note">Nəticələr orta dəyərlərdir. Səthin vəziyyəti, ustanın texnikası və itkilər faktiki sərfiyyatı dəyişə bilər.</p></div></section>{cta(root)}'
-
-# =============== GROUT STUDIO ===============
-def studio(root):
-    sw = "".join(f'<button class="sw" type="button" style="--c:{g["hex"]}" aria-pressed="false"><i></i>{e(g["name"])}</button>' for g in GROUTS)
-    tiles = [("#F6F5F1","Ağ"),("#E9E1D3","Bej"),("#C9CBCD","Boz"),("#4A4F57","Antrasit"),("#E7DCCB","Mərmər")]
-    tl = "".join(f'<button type="button" data-v="{h}" aria-pressed="{str(i==0).lower()}">{n}</button>' for i,(h,n) in enumerate(tiles))
-    prods = "".join(f'<a class="mini-prod" href="{L(root,"mehsul/"+BY_NAME[n]["slug"]+"/")}"><span style="width:52px;flex:none">{pack(BY_NAME[n], root, False)}</span><span><b>{e(n)}</b><span>{e(BY_NAME[n]["short"])}</span></span></a>' for n in ["FUGAMAX® COLORFUL","FUGAMAX® FLEX","FUGAMAX® COTTO","FUGAMAX® FLOOR"])
-    return page_hero(root, [(None, "Dərz rəngləri")], "Dərz rəngi studiyası", "FUGAMAX® dərz dolğularının 32 rəngini kafel rəngi və düzülüşü ilə birlikdə sınayın.") + f'''
-<section class="section-sm"><div class="wrap"><div class="studio" id="studio">
-<div class="stack"><div class="wall square" id="wall" aria-label="Kafel divarı önizləməsi" role="img"></div>
-<div class="row between"><span class="muted">Seçilmiş rəng: <b id="gName" style="color:var(--ink)"></b></span><span class="muted" style="font-size:13px">Ekran rəngi təxminidir. Dəqiq ton üçün dilerdəki rəng kartına baxın.</span></div></div>
-<div class="stack" style="gap:22px">
-<div class="field"><span class="label">Kafel rəngi</span><div class="seg" data-seg="tile">{tl}</div></div>
-<div class="field"><span class="label">Düzülüş</span><div class="seg" data-seg="layout"><button type="button" data-v="square" aria-pressed="true">Kvadrat</button><button type="button" data-v="metro" aria-pressed="false">Metro</button><button type="button" data-v="large" aria-pressed="false">İri format</button></div></div>
-<div class="field"><span class="label"><span>Dərz rəngi: <span id="gName2"></span></span></span><div class="swatches">{sw}</div></div>
-<a class="btn btn-yellow" id="gOrder" href="#" target="_blank" rel="noopener">{I["wa"]} Bu rəngi sifariş et</a>
-<div class="aside-box"><h3>Rənglər bu məhsullarda</h3>{prods}</div>
-</div></div></div></section>
-<script type="application/json" id="groutData">{json.dumps(GROUTS, ensure_ascii=False)}</script>{cta(root)}'''
-
-# =============== BLOG ===============
-def blog_index(root):
-    cats = []
-    for p in POSTS:
-        if p["category"] not in cats: cats.append(p["category"])
-    chips = '<div class="chips" style="margin-bottom:24px"><button class="chip" type="button" data-g-btn="all" aria-pressed="true">Hamısı</button>' + "".join(f'<button class="chip" type="button" data-g-btn="{slugify(c)}" aria-pressed="false">{e(c)}</button>' for c in cats) + "</div>"
-    return page_hero(root, [(None, "Bloq")], "Bloq və bələdçilər", "Kafel yapışdırıcısı seçimindən fasad izolyasiyasına qədər — ustalar, layihəçilər və ev sahibləri üçün praktik məqalələr.") + f'''
-<section class="section-sm"><div class="wrap" data-filter="#blist"><div class="toolbar"><div class="search-field">{I["search"]}<label class="sr" for="bsearch">Məqalə axtar</label><input id="bsearch" type="search" placeholder="Məqalə axtar…"></div><span class="count" data-count-out></span></div>{chips}
-<div class="grid g3" id="blist">{"".join(post_card(p, root) for p in POSTS)}</div><p class="empty" data-empty hidden>Məqalə tapılmadı.</p></div></section>{cta(root)}'''
-
-def blog_post(b):
-    def body(root):
-        prods = [BY_NAME[n] for n in b["products"] if n in BY_NAME]
-        mp = "".join(f'<a class="mini-prod" href="{L(root,"mehsul/"+p["slug"]+"/")}"><span style="width:52px;flex:none">{pack(p, root, False)}</span><span><b>{e(p["name"])}</b><span>{e(p.get("standard") or p["short"])}</span></span></a>' for p in prods)
-        others = "".join(post_card(x, root) for x in [x for x in POSTS if x["slug"] != b["slug"]][:3])
-        art = b["html"]
-        for p in prods:
-            art = art.replace(f"<strong>{p['name']}</strong>", f'<a href="{L(root,"mehsul/"+p["slug"]+"/")}"><strong>{p["name"]}</strong></a>', 1)
-        hero = page_hero(root, [("bloq/", "Bloq"), (None, b["category"])], b["title"], "", f'<div class="row" style="margin-top:22px;color:var(--on-navy-2);font-size:14px;gap:16px"><span class="tag tag-y">{e(b["category"])}</span><span>{dt(b["date"])}</span><span>{b["minutes"]} dəqiqə oxu</span></div>')
-        return hero + f'''<section class="section"><div class="wrap article"><article class="prose"><p class="lede" style="font-size:20px;color:var(--ink)">{e(b["excerpt"])}</p>{art}</article>
-<aside class="aside"><div class="aside-box"><h3>Məqalədəki məhsullar</h3>{mp}</div>
-<div class="aside-box" style="background:var(--navy);color:var(--on-navy);border-color:var(--navy)"><h3 style="color:var(--yellow)">Sualınız var?</h3><p style="color:var(--on-navy-2);font-size:14.5px;margin-bottom:14px">Texniki məsləhətçimiz layihənizə uyğun sistemi seçəcək.</p><a class="btn btn-yellow btn-sm" href="https://wa.me/{SITE["contact"]["whatsapp"]}?text={e("Salam! "+b["title"]+" məqaləsini oxudum, sualım var.")}" target="_blank" rel="noopener">{I["wa"]} WhatsApp</a></div></aside></div></section>
-<section class="section-sm bg-soft"><div class="wrap"><div class="head"><span class="eyebrow">Digər məqalələr</span></div><div class="grid g3">{others}</div></div></section>'''
-    ld = {"@context": "https://schema.org", "@type": "BlogPosting", "headline": b["title"], "datePublished": b["date"], "description": b["excerpt"], "publisher": {"@type": "Organization", "name": "Mr.Fix"}}
-    return body, ld
-
-# =============== NEWS ===============
-def news_index(root):
-    items = "".join(f'''<article class="card rv" style="display:grid;grid-template-columns:minmax(0,1fr);"><div style="padding:26px;display:grid;gap:12px"><div class="row"><span class="tag tag-y">{e(n["tag"])}</span><span class="mono muted" style="font-size:13px">{dt(n["date"])}</span></div><h3 class="h3">{e(n["title"])}</h3><p class="muted">{e(n["body"][0])}</p><span class="link">Oxu {I["arrow"]}</span></div><a class="cover" href="{L(root,"xeberler/"+n["slug"]+"/")}" aria-label="{e(n["title"])}"></a></article>''' for n in NEWS)
-    return page_hero(root, [(None, "Xəbərlər")], "Xəbərlər", "Şirkət yenilikləri, ixrac bazarları və mükafatlar.") + f'<section class="section"><div class="wrap"><div class="grid g3">{items}</div></div></section>{cta(root)}'
-
-def news_post(n):
-    def body(root):
-        others = "".join(f'<a class="mini-prod" href="{L(root,"xeberler/"+x["slug"]+"/")}"><span><b>{e(x["title"])}</b><span>{dt(x["date"])}</span></span></a>' for x in NEWS if x["slug"] != n["slug"])
-        return page_hero(root, [("xeberler/", "Xəbərlər"), (None, n["tag"])], n["title"], "", f'<div class="row" style="margin-top:22px;color:var(--on-navy-2);font-size:14px"><span class="tag tag-y">{e(n["tag"])}</span><span>{dt(n["date"])}</span></div>') + f'''
-<section class="section"><div class="wrap article"><article class="prose">{"".join(f"<p>{e(x)}</p>" for x in n["body"])}</article><aside class="aside"><div class="aside-box"><h3>Digər xəbərlər</h3>{others}</div></aside></div></section>{cta(root)}'''
-    return body
-
-# =============== REFERENCES ===============
 def references(root):
     types = []
     for r in REFS:
         if r["type"] not in types: types.append(r["type"])
     chips = '<div class="chips" style="margin-bottom:24px"><button class="chip" type="button" data-g-btn="all" aria-pressed="true">Hamısı</button>' + "".join(f'<button class="chip" type="button" data-g-btn="{slugify(t)}" aria-pressed="false">{e(t)}</button>' for t in types) + "</div>"
     return page_hero(root, [(None, "Layihələr")], "Referans layihələr", f"Heydər Əliyev Mərkəzindən Qarabağın yeni tunellərinə qədər {len(REFS)} layihədə Mr.Fix məhsulları istifadə olunub.") + f'''
-<section class="section"><div class="wrap" data-filter="#rlist">{chips}<span class="count" data-count-out style="display:block;margin-bottom:16px"></span><div class="grid g3" id="rlist">{"".join(ref_card(r) for r in REFS)}</div></div></section>{cta(root)}'''
+<section class="section"><div class="wrap" data-filter="#rlist">{chips}<span class="count" data-count-out style="display:block;margin-bottom:16px"></span><div class="grid g3" id="rlist">{"".join(ref_card(r, 0, root) for r in REFS)}</div></div></section>{cta(root)}'''
 
 # =============== ABOUT ===============
 def about(root):
@@ -653,6 +452,9 @@ page("xeberler/index.html", "Xəbərlər", "Mr.Fix şirkət xəbərləri.", news
 for n in NEWS:
     page(f"xeberler/{n['slug']}/index.html", n["title"], n["body"][0][:155], news_post(n), None)
 page("referanslar/index.html", "Layihələr", "Mr.Fix məhsullarının istifadə olunduğu referans layihələr.", references, "refs")
+for r in REFS:
+    if r.get("products") is not None:
+        page(f"referanslar/{ref_slug(r)}/index.html", r["name"], (r.get("desc") or (r["name"] + " — Mr.Fix məhsullarının istifadə olunduğu layihə."))[:155], ref_page(r), "refs")
 page("haqqimizda/index.html", "Haqqımızda", "Kartaş MMC — 2000-ci ildən Mr.Fix brendi ilə tikinti kimyəviləri istehsalı.", about, "about")
 page("dilerler/index.html", "Dilerlər", "Mr.Fix diler şəbəkəsi: Azərbaycan, Gürcüstan, Özbəkistan, Türkiyə.", dealers, None)
 page("senedler/index.html", "Texniki sənədlər", "Mr.Fix məhsullarının TDS və SDS vərəqələri.", documents, "products")
