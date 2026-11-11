@@ -4,6 +4,7 @@ date: 2026-09-28
 category: Tətbiq
 excerpt: Bir-iki qışdan sonra teras kafelinin boş səslənməsi və qopması təsadüf deyil. Əsas səbəb temperatur hərəkətidir.
 products: CERAMAX® Maxi, IZOMAX® C75 Flex, FUGAMAX® FLOOR, PURASEAL 150
+image: https://mrfix.az/site/assets/files/1169/luxury-terrace-4-1.jpg
 ---
 
 Açıq terasda kafel yayda günəş altında +60°C-yə qədər qızır, qışda isə mənfi temperatura düşür. Hər dəfə plitə, yapışdırıcı və beton fərqli ölçüdə genişlənir və daralır. Sərt yapışdırıcı bu hərəkəti udmur və zamanla qopur.

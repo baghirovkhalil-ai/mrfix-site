@@ -4,6 +4,7 @@ date: 2026-10-20
 category: Bələdçi
 excerpt: Kisənin üzərindəki C2TE S1 kimi kodlar təsadüfi deyil. Bu kodu oxumağı bilsəniz, yapışdırıcını bir baxışda düzgün seçərsiniz.
 products: CERAMAX® STANDARD, CERAMAX® PRO, CERAMAX® ULTRA, CERAMAX® FLEX, CERAMAX® Maxi, CERAMAX® RAPID
+image: https://mrfix.az/site/assets/files/1170/c4e4c4c8d4e6b.jpg
 ---
 
 Kafel yapışdırıcıları Avropa standartı **EN 12004** üzrə təsnif olunur. Kisənin üzərindəki qısa kod yapışdırıcının nə qədər güclü, nə qədər elastik və nə qədər rahat işləndiyini göstərir.

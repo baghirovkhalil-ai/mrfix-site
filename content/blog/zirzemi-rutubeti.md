@@ -4,6 +4,7 @@ date: 2026-09-18
 category: Bələdçi
 excerpt: Zirzəmiyə su torpaq tərəfdən gəlir. Onu xaricdən dayandırmaq ən yaxşısıdır, amma mövcud binada içəridən də həll var.
 products: IZOMAX® B 772, IZOMAX® C 25 KAPİLER, IZOMAX® C60 N, IZOMAX® STB-SW
+image: https://mrfix.az/site/assets/files/1173/download.jpg
 ---
 
 Zirzəmi divarları torpaqla təmasdadır. Yağış suyu, qrunt suyu və torpaq rütubəti betona təzyiq göstərir. Divarda ağ duz ləkələri, kif və ya birbaşa su sızması varsa, izolyasiya ya yoxdur, ya da zədələnib.

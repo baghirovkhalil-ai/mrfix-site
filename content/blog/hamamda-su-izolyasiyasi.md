@@ -4,6 +4,7 @@ date: 2026-10-06
 category: Tətbiq
 excerpt: Aşağı mərtəbəyə su sızmasının ən çox səbəbi kafel altında izolyasiyanın olmamasıdır. Bu bələdçi işin bütün mərhələlərini göstərir.
 products: IZOMAX® C 40, IZOMAX® Band W, CERAMAX® FLEX, FUGAMAX® COLORFUL, TAMCRETE® CRM 50
+image: https://mrfix.az/site/assets/files/1051/pexels-jean-van-der-meulen-1454804.jpg
 ---
 
 Kafel və dərz su keçirməz deyil. Dərzlərdən keçən su kafelin altında yığılır, döşəmə plitəsinə və divara hopur. Nəticə aşağı mərtəbədə ləkə, kif və uçan suvaqdır. Bunun qarşısını kafeldən əvvəl çəkilən **elastik su izolyasiyası** alır.

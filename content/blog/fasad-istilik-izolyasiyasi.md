@@ -4,6 +4,7 @@ date: 2026-09-05
 category: Enerji səmərəliliyi
 excerpt: Binanın istiliyinin böyük hissəsi divarlardan itir. Xarici izolyasiya sistemi həm qışda, həm yayda enerji xərcini azaldır.
 products: THERMOMAX® EPS CARBON, THERMOMAX® BOND 40, THERMOMAX® PLAST 65, THERMOMAX® RM 160
+image: https://mrfix.az/site/assets/files/1171/pexels-graphicgumcom-1115804.jpg
 ---
 
 ETICS (External Thermal Insulation Composite System), xalq arasında "mantolama", fasadı xaricdən izolyasiya lövhələri ilə örtən sistemdir. Divar daxildən deyil, xaricdən qorunduğu üçün körpü effekti azalır, divar daxilində kondensat yaranmır.

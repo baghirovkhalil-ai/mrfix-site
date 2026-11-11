@@ -77,7 +77,7 @@ for fn in sorted(os.listdir(os.path.join(BASE, "content", "blog"))):
         k, _, v = line.partition(":"); meta[k.strip()] = v.strip()
     body = m.group(2)
     POSTS.append(dict(slug=fn[:-3], title=meta.get("title",""), date=meta.get("date",""), category=meta.get("category","Bələdçi"),
-        excerpt=meta.get("excerpt",""), products=[x.strip() for x in meta.get("products","").split(",") if x.strip()],
+        excerpt=meta.get("excerpt",""), image=meta.get("image",""), products=[x.strip() for x in meta.get("products","").split(",") if x.strip()],
         html=md_to_html(body), minutes=max(2, round(len(body.split())/180))))
 POSTS.sort(key=lambda p: p["date"], reverse=True)
 
@@ -193,9 +193,10 @@ def footer(root):
 def fx():
     return '<div class="fx" aria-hidden="true"><div class="fx-glow a"></div><div class="fx-glow b"></div><div class="fx-grid"></div><canvas></canvas></div>'
 
-def page_hero(root, crumbs, title, lede="", extra=""):
+def page_hero(root, crumbs, title, lede="", extra="", bg=""):
     cr = f'<a href="{L(root)}">Ana səhifə</a>' + "".join(f'<span aria-hidden="true">/</span>' + (f'<a href="{L(root,h)}">{e(t)}</a>' if h else f'<span>{e(t)}</span>') for h, t in crumbs)
-    return f'<section class="page-hero">{fx()}<div class="wrap"><nav class="crumbs" aria-label="Səhifə yolu">{cr}</nav><h1 class="split">{e(title)}</h1>{f"<p class=lede>{lede}</p>" if lede else ""}{extra}</div></section>'
+    bgimg = f'<img class="hero-bg" src="{e(bg)}" alt="" onerror="this.remove()">' if bg else ""
+    return f'<section class="page-hero{" has-bg" if bg else ""}">{fx()}{bgimg}<div class="wrap"><nav class="crumbs" aria-label="Səhifə yolu">{cr}</nav><h1 class="split">{e(title)}</h1>{f"<p class=lede>{lede}</p>" if lede else ""}{extra}</div></section>'
 
 def cta(root):
     return f'''<section class="section-sm"><div class="wrap"><div class="cta-band rv"><div class="tiles" aria-hidden="true">{"<i></i>"*16}</div>
@@ -354,7 +355,7 @@ def post_card(p, root, i=0):
     h = sum(ord(ch) for ch in p["slug"]) % len(PAT)
     pat = f'<svg class="pattern" viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="400" height="225" fill="#0B1626"/>' + "".join(
         f'<rect x="{x*44+180}" y="{y*44-10}" width="38" height="38" rx="4" fill="{PAT[h] if (x+y+h)%4==0 else ("#EA5B5F" if (x*y+h)%7==0 else "#1A2A42")}"/>' for x in range(6) for y in range(6)) + '</svg>'
-    return f'''<article class="card post-card rv" data-k="{e(p["title"]+" "+p["excerpt"]+" "+p["category"])}" data-g="{e(slugify(p["category"]))}"><div class="thumb">{pat}<span class="tag tag-y" style="position:relative">{e(p["category"])}</span></div>
+    return f'''<article class="card post-card rv" data-k="{e(p["title"]+" "+p["excerpt"]+" "+p["category"])}" data-g="{e(slugify(p["category"]))}"><div class="thumb{" has-img" if p.get("image") else ""}">{(f'<img src="{e(p["image"])}" alt="" loading="lazy" decoding="async">' if p.get("image") else pat)}<span class="tag tag-y" style="position:relative">{e(p["category"])}</span></div>
 <div class="body"><h3>{e(p["title"])}</h3><p>{e(p["excerpt"])}</p><div class="meta"><span>{dt(p["date"])}</span><span>· {p["minutes"]} dəq oxu</span></div></div>
 <a class="cover" href="{L(root,"bloq/"+p["slug"]+"/")}" aria-label="{e(p["title"])}"></a></article>'''
 
@@ -556,7 +557,7 @@ def blog_post(b):
         art = b["html"]
         for p in prods:
             art = art.replace(f"<strong>{p['name']}</strong>", f'<a href="{L(root,"mehsul/"+p["slug"]+"/")}"><strong>{p["name"]}</strong></a>', 1)
-        hero = page_hero(root, [("bloq/", "Bloq"), (None, b["category"])], b["title"], "", f'<div class="row" style="margin-top:22px;color:var(--on-navy-2);font-size:14px;gap:16px"><span class="tag tag-y">{e(b["category"])}</span><span>{dt(b["date"])}</span><span>{b["minutes"]} dəqiqə oxu</span></div>')
+        hero = page_hero(root, [("bloq/", "Bloq"), (None, b["category"])], b["title"], "", bg=b.get("image"), extra=f'<div class="row" style="margin-top:22px;color:var(--on-navy-2);font-size:14px;gap:16px"><span class="tag tag-y">{e(b["category"])}</span><span>{dt(b["date"])}</span><span>{b["minutes"]} dəqiqə oxu</span></div>')
         return hero + f'''<section class="section"><div class="wrap article"><article class="prose"><p class="lede" style="font-size:20px;color:var(--ink)">{e(b["excerpt"])}</p>{art}</article>
 <aside class="aside"><div class="aside-box"><h3>Məqalədəki məhsullar</h3>{mp}</div>
 <div class="aside-box" style="background:var(--navy);color:var(--on-navy);border-color:var(--navy)"><h3 style="color:var(--yellow)">Sualınız var?</h3><p style="color:var(--on-navy-2);font-size:14.5px;margin-bottom:14px">Texniki məsləhətçimiz layihənizə uyğun sistemi seçəcək.</p><a class="btn btn-yellow btn-sm" href="https://wa.me/{SITE["contact"]["whatsapp"]}?text={e("Salam! "+b["title"]+" məqaləsini oxudum, sualım var.")}" target="_blank" rel="noopener">{I["wa"]} WhatsApp</a></div></aside></div></section>
