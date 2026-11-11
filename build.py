@@ -379,7 +379,7 @@ def product(p):
             panels.append(f'<div class="panel" role="tabpanel" id="p-{id_}" aria-labelledby="t-{id_}">{content}</div>')
         if p.get("areas"): tab("areas", "Tətbiq sahələri", '<ul class="checklist">' + "".join(f"<li>{e(a)}</li>" for a in p["areas"]) + "</ul>")
         if p.get("features"): tab("feat", "Üstünlüklər", '<ul class="checklist">' + "".join(f"<li>{e(a)}</li>" for a in p["features"]) + "</ul>")
-        if p.get("tech"): tab("tech", "Texniki göstəricilər", '<div class="table-box"><table class="spec"><tbody>' + "".join(f"<tr><th scope=row>{e(k)}</th><td>{e(v)}</td></tr>" for k, v in p["tech"]) + f'</tbody></table></div><p class="note" style="margin-top:16px">{e(p.get("note",""))}</p>')
+        if p.get("tech"): tab("tech", "Texniki göstəricilər", '<div class="table-box"><table class="spec"><tbody>' + "".join(f"<tr><th scope=row>{e(k)}</th><td>{e(v)}</td></tr>" for k, v in p["tech"]) + f'</tbody></table></div>' + (f'<p class="note" style="margin-top:16px">{e(p["note"])}</p>' if p.get("note") else ""))
         tab("docs", "Sənədlər", f'<div class="grid g2">{docs}</div>')
         tabs_html = f'<div data-tabs><div class="tabs" role="tablist" aria-label="Məhsul məlumatı">{"".join(tabs)}</div>{"".join(panels)}</div>'
         sys_html = ""
