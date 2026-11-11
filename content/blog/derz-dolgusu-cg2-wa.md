@@ -4,7 +4,7 @@ date: 2026-10-14
 category: Bələdçi
 excerpt: Dərz təkcə estetika deyil. Düzgün dərz suyu saxlamır, kiflənmir və illərlə rəngini qoruyur.
 products: FUGAMAX® COLORFUL, FUGAMAX® FLEX, FUGAMAX® COTTO, FUGAMAX® FLOOR
-image: https://mrfix.az/site/assets/files/1168/pexels-jonathan-borba-6110594.jpg
+image: https://mrfix.az/site/assets/files/1170/c4e4c4c8d4e6b.jpg
 ---
 
 Kafel nə qədər keyfiyyətli olsa da, otağın necə görünəcəyini çox vaxt dərz müəyyən edir. Qaralmış, çatlamış və ya tökülmüş dərz təzə təmiri köhnə göstərir.
