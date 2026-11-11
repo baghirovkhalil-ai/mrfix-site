@@ -704,6 +704,129 @@
   "featured": false
  },
  {
+  "slug": "ceramax-ep-300",
+  "name": "CERAMAX® EP 300",
+  "cat": "yapisdirici",
+  "group": "Epoksid əsaslı",
+  "short": "Epoksid əsaslı, iki komponentli, solventsiz, kimyəvi maddələrə və mexaniki təsirlərə yüksək davamlılıq göstərə",
+  "image": "",
+  "featured": true,
+  "standard": "EN 12004-1 · R2T / EN 13888 · RG",
+  "classes": [
+   [
+    "R2",
+    "Təkmilləşdirilmiş reaksiya qatranlı yapışdırıcı"
+   ],
+   [
+    "T",
+    "Azaldılmış sürüşmə xüsusiyyəti"
+   ]
+  ],
+  "desc": "CERAMAX® EP 300 epoksid əsaslı, iki komponentli, solventsiz, kimyəvi maddələrə və mexaniki təsirlərə yüksək davamlılıq göstərən keramika yapışdırıcısıdır. EN 12004-1 standartına görə R2T sinfinə uyğundur. İstifadə Sahələri",
+  "areas": [
+   "Daxili və xarici məkanlarda, divar və döşəmələrdə",
+   "Keramika, mərmər, qranit və şüşə mozaika örtüklərinin yapışdırılmasında",
+   "Kimya sənayesi; laboratoriya, istehsalat və anbar obyektləri, kağız, dəri və akkumulyator emalatxanalarında",
+   "Qida sənayesi; kəsim sexləri, süd emalı müəssisələri, restoranlar, şərab və pivə zavodları, biskvit və tomat-pasta zavodlarında",
+   "Xəstəxana və klinikalar; əməliyyat otaqları, mətbəxlər, hamam və sanitar sahələrdə",
+   "Üzgüçülük hovuzları, saunalar, termal və duzlu su müalicə mərkəzlərində",
+   "Marketlər, ticarət mərkəzləri, metro, avtodayanacaqlar, ictimai tualetlər və su filtrasiya qurğularında",
+   "Sement əsaslı şap və suvaqlar ilə metal səthlərin üzərində"
+  ],
+  "features": [
+   "Turşulara, qələvilərə və müxtəlif həlledicilərə qarşı yüksək kimyəvi davamlılıq",
+   "Məsaməsiz quruluşu sayəsində su əmmir, çirk və bakteriya saxlamır",
+   "Yüksək mexaniki və aşınma davamlılığı",
+   "Uzadılmış iş müddəti ilə rahat tətbiq imkanı",
+   "Asan tətbiq olunur, asan silinir",
+   "Şaquli səthlərdə sürüşmür"
+  ],
+  "tech": [
+   [
+    "Materialın tərkibi",
+    "İki komponentli, epoksid qatran əsaslı (A: qatran, B: sərtləşdirici)"
+   ],
+   [
+    "Görünüşü",
+    "A komponenti: rəngli pasta / B komponenti: maye sərtləşdirici"
+   ],
+   [
+    "Rəng",
+    "RAL 1013 Bej"
+   ],
+   [
+    "Sıxlıq (qarışıq)",
+    "~1,70 ± 0,1 kq/l"
+   ],
+   [
+    "Qablaşdırma",
+    "4,7 kq və 0,3 kq dəst"
+   ],
+   [
+    "İlkin yapışma müqaviməti",
+    "≥ 2,0 N/mm²"
+   ],
+   [
+    "Suya salındıqdan sonra yapışma müqaviməti",
+    "≥ 2,0 N/mm²"
+   ],
+   [
+    "İstilik şokundan sonra yapışma müqaviməti",
+    "≥ 2,0 N/mm²"
+   ],
+   [
+    "Açıq gözləmə müddəti (20 dəq) yapışma müqaviməti",
+    "≥ 0,5 N/mm²"
+   ],
+   [
+    "Sürüşmə",
+    "≤ 0,5 mm"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +30°C"
+   ],
+   [
+    "İstismar temperaturu",
+    "−40°C / +100°C"
+   ],
+   [
+    "Qarışıq nisbəti (A / B)",
+    "94 / 6 (çəkiyə görə)"
+   ],
+   [
+    "İstifadə müddəti",
+    "~80 dəq (+23°C, 200 q — DIN 16945)"
+   ],
+   [
+    "Tətbiq qalınlığı",
+    "3–5 mm (tək və ya ikitərəfli yapışdırma)"
+   ],
+   [
+    "Bərkimə müddəti",
+    "12–24 saat"
+   ],
+   [
+    "Kimyəvi davamlılığın əldə olunma müddəti",
+    "7–10 gün"
+   ],
+   [
+    "Hərəkətə açılma",
+    "Yüngül hərəkət 24 saat, intensiv hərəkət 48 saat"
+   ],
+   [
+    "Sərfiyyat",
+    "~1,6–1,8 kq/m² (hər mm qalınlıq üçün)"
+   ],
+   [
+    "Təhlükəli maddələr",
+    "Təhlükəsizlik Məlumat Vərəqəsinə (TMV) baxın"
+   ]
+  ],
+  "consumption": "~1,6–1,8 kq/m² (hər mm qalınlıq üçün)",
+  "tds": "https://mrfix.az/site/assets/files/3083/ceramax_ep_300_tds_az-1.pdf"
+ },
+ {
   "slug": "fugamax-colorful",
   "name": "FUGAMAX® COLORFUL",
   "cat": "derz",
@@ -1091,264 +1214,6 @@
   "tds": "https://mrfix.az/site/assets/files/1421/fugamax_colorful_tds_az.pdf",
   "sds": "https://mrfix.az/site/assets/files/1421/058_fugamax_floor_msds.pdf",
   "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
- },
- {
-  "slug": "tamcrete-crm-50",
-  "name": "TAMCRETE® CRM 50",
-  "cat": "temir",
-  "group": "Sement əsaslı",
-  "short": "Sement əsaslı təmir materialı (R2)",
-  "image": "https://mrfix.az/site/assets/files/1207/crm_50.png",
-  "featured": true,
-  "standard": "EN 1504-3 · R2",
-  "classes": [
-   [
-    "R2",
-    "Konstruktiv olmayan təmir məhsulu"
-   ]
-  ],
-  "desc": "TAMCRETE® CRM 50 sement əsaslı, polimerlə gücləndirilmiş, büzülməyən səth hamarlama və təmir materialıdır.",
-  "areas": [
-   "Keramika, izolyasiya və boyadan əvvəl səthin hamarlanması",
-   "Beton və suvaqda nazik çatların doldurulması",
-   "Zədələnmiş beton və suvaq səthlərin təmiri"
-  ],
-  "features": [
-   "Yüksək yapışma",
-   "Hamar və möhkəm səth",
-   "Liflər çatlamanın qarşısını alır",
-   "Büzülmür",
-   "Donma-ərimə dövrlərinə davamlı"
-  ],
-  "tech": [
-   [
-    "Sıxlıq",
-    "~1,70 kq/l"
-   ],
-   [
-    "Maks. dənə",
-    "≤ 1 mm"
-   ],
-   [
-    "Təzyiq müqaviməti (28 gün)",
-    "≥ 15 MPa"
-   ],
-   [
-    "Betona yapışma (EN 1542)",
-    "≥ 0,8 N/mm²"
-   ],
-   [
-    "Tətbiq temperaturu",
-    "+5°C / +35°C"
-   ],
-   [
-    "Qarışım",
-    "5,5–6 l su / 25 kq"
-   ],
-   [
-    "İşlənmə müddəti",
-    "~60 dəq"
-   ],
-   [
-    "Tətbiq qalınlığı",
-    "2–10 mm"
-   ],
-   [
-    "Yanğına reaksiya",
-    "A1"
-   ]
-  ],
-  "consumption": "~1,70 kq/m² · 1 mm",
-  "tds": "https://mrfix.az/site/assets/files/1207/tamcrete_crm50_tds_az.pdf",
-  "sds": "https://mrfix.az/site/assets/files/1207/059_tamcrete_crm_50_msds.pdf",
-  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
- },
- {
-  "slug": "tamcrete-crm-100",
-  "name": "TAMCRETE® CRM 100",
-  "cat": "temir",
-  "group": "Sement əsaslı",
-  "short": "Sement əsaslı struktural təmir materialı (R4)",
-  "image": "https://mrfix.az/site/assets/files/1211/tamcrete_crm_100-1.png",
-  "featured": true,
-  "standard": "EN 1504-3 · R4",
-  "classes": [
-   [
-    "R4",
-    "Struktural təmir materialı"
-   ]
-  ],
-  "desc": "TAMCRETE® CRM 100 polimer və lif gücləndirməli, yüksək möhkəmlikli, büzülməyən struktural təmir materialıdır.",
-  "areas": [
-   "Dəmir-beton konstruksiyaların struktural təmiri",
-   "Prekast beton elementlər",
-   "Sulfat və xlora məruz betonlar",
-   "Dəniz və aqressiv mühit tikililəri",
-   "Yüngül və orta trafik sahələri"
-  ],
-  "features": [
-   "Beton və armaturaya yüksək yapışma",
-   "Büzülmür",
-   "Yüksək mexaniki möhkəmlik",
-   "Sulfat və xlora davamlı",
-   "Aşağı su keçiriciliyi"
-  ],
-  "tech": [
-   [
-    "Sıxlıq",
-    "~2,20 kq/l"
-   ],
-   [
-    "Maks. dənə",
-    "≤ 3 mm"
-   ],
-   [
-    "Təzyiq müqaviməti",
-    "≥ 50 MPa (7 gün) · ≥ 60 MPa (28 gün)"
-   ],
-   [
-    "Əyilmə müqaviməti",
-    "≥ 9 N/mm²"
-   ],
-   [
-    "Betona yapışma",
-    "≥ 2,0 N/mm²"
-   ],
-   [
-    "Qarışım",
-    "3,5–4 l su / 25 kq"
-   ],
-   [
-    "İşlənmə müddəti",
-    "~45 dəq"
-   ],
-   [
-    "Tətbiq qalınlığı",
-    "10–40 mm"
-   ],
-   [
-    "Yanğına reaksiya",
-    "A1"
-   ]
-  ],
-  "consumption": "~18–20 kq/m² · 10 mm",
-  "tds": "https://mrfix.az/site/assets/files/1211/tamcrete_crm100_tds_az.pdf",
-  "sds": "https://mrfix.az/site/assets/files/1211/060_tamcrete_crm_100_msds.pdf",
-  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
- },
- {
-  "slug": "tamcrete-crm-100-tx",
-  "name": "TAMCRETE® CRM 100 TX",
-  "cat": "temir",
-  "group": "Sement əsaslı",
-  "short": "Tiksotrop struktural təmir materialı (R4)",
-  "image": "https://mrfix.az/site/assets/files/1685/tamcrete_crm_100_tx.png",
-  "featured": false
- },
- {
-  "slug": "tamcrete-crm-rapid",
-  "name": "TAMCRETE® CRM RAPID",
-  "cat": "temir",
-  "group": "Sement əsaslı",
-  "short": "Ani bərkiyən təmir və tıxac materialı (R2)",
-  "image": "https://mrfix.az/site/assets/files/1213/tamcrete_crm_rapid.png",
-  "featured": false
- },
- {
-  "slug": "tamcrete-grout-c-320",
-  "name": "TAMCRETE® GROUT C 320",
-  "cat": "temir",
-  "group": "Grout",
-  "short": "Yüksək möhkəmlikli grout materialı (R4)",
-  "image": "https://mrfix.az/site/assets/files/1209/tamcrete_grout_c_320.png",
-  "featured": false
- },
- {
-  "slug": "tamcrete-erm-75",
-  "name": "TAMCRETE® ERM 75",
-  "cat": "temir",
-  "group": "Epoksid əsaslı",
-  "short": "Epoksid əsaslı təmir materialı (R4)",
-  "image": "https://mrfix.az/site/assets/files/1215/tamcrete_erm_75.png",
-  "featured": true,
-  "standard": "EN 1504-3 · EN 1504-6",
-  "classes": [],
-  "desc": "TAMCRETE® ERM 75 epoksid əsaslı, iki komponentli, solventsiz yapışdırıcı, ankerləmə və struktural təmir materialıdır. Nəmə tolerantdır.",
-  "areas": [
-   "Beton və daşda ankerləmə və montaj",
-   "Armatur əkilməsi",
-   "Geniş çatların doldurulması",
-   "Struktural beton təmirləri",
-   "Polad–beton birləşmələri"
-  ],
-  "features": [
-   "Yüksək mexaniki möhkəmlik",
-   "Tiksotrop, axmır",
-   "Büzülmədən bərkiyir",
-   "Kimyəvi maddələrə davamlı",
-   "Nəmə tolerant",
-   "Solventsiz"
-  ],
-  "tech": [
-   [
-    "Sıxlıq (qarışıq)",
-    "~1,77 kq/l"
-   ],
-   [
-    "Təzyiq müqaviməti",
-    "≥ 30 N/mm² (1 gün) · ≥ 75 N/mm² (7 gün)"
-   ],
-   [
-    "Betona yapışma",
-    "≥ 3,0 N/mm²"
-   ],
-   [
-    "Metala yapışma",
-    "≥ 3,5 N/mm²"
-   ],
-   [
-    "Tətbiq temperaturu",
-    "+10°C / +30°C"
-   ],
-   [
-    "Qarışım",
-    "A 3,75 kq / B 1,25 kq"
-   ],
-   [
-    "İşlənmə müddəti",
-    "~40 dəq"
-   ],
-   [
-    "Tətbiq qalınlığı",
-    "2–30 mm"
-   ],
-   [
-    "Tam sərtləşmə",
-    "7 gün"
-   ]
-  ],
-  "consumption": "~1,7 kq/m² · 1 mm",
-  "tds": "https://mrfix.az/site/assets/files/1215/tamcrete_erm75_tds_az.pdf",
-  "sds": "https://mrfix.az/site/assets/files/1215/064_tamcrete_erm_75_msds.pdf",
-  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
- },
- {
-  "slug": "pratix-y",
-  "name": "PRATİX® Y",
-  "cat": "suvaq",
-  "group": "Suvaq və hörgü",
-  "short": "Suvaq və hörgü məhsulu",
-  "image": "https://mrfix.az/site/assets/files/1219/pratix_y.png",
-  "featured": false
- },
- {
-  "slug": "pratix-s",
-  "name": "PRATİX® S",
-  "cat": "suvaq",
-  "group": "Suvaq və hörgü",
-  "short": "Suvaq və hörgü məhsulu",
-  "image": "https://mrfix.az/site/assets/files/1221/pratix_s.png",
-  "featured": false
  },
  {
   "slug": "izomax-c-40",
@@ -2183,6 +2048,472 @@
   "featured": false
  },
  {
+  "slug": "izomax-aqualastic",
+  "name": "IZOMAX® Aqualastic",
+  "cat": "izolyasiya",
+  "group": "Akril əsaslı",
+  "short": "Elastomer akril əsaslı, tək komponentli, istifadəyə hazır, elastik su izolyasiya",
+  "image": "",
+  "featured": true,
+  "classes": [
+   [
+    "DM",
+    "Dispersiya əsaslı su izolyasiya materialı"
+   ],
+   [
+    "O2",
+    "Çatlaq körpüləmə qabiliyyəti (-20°C)"
+   ]
+  ],
+  "desc": "IZOMAX® Aqualastic elastomer akril əsaslı, tək komponentli, istifadəyə hazır, elastik su izolyasiya materialıdır. EN 14891 standartına əsasən DMO2 sinifinə uyğundur. İstifadə Sahələri",
+  "areas": [
+   "Bütün tikililərin daxili və xarici məkanlarında",
+   "Üfüqi və şaquli səthlərdə",
+   "Beton, sement əsaslı şap, suvaq və sement əsaslı lövhələr üzərində",
+   "Balkon, hamam, tualet, mətbəx kimi sulu məkanlarda keramika altında",
+   "Xarici səthlərdə boya və örtük altı su izolyasiyası olaraq",
+   "Metal səthlərdə, COATIX® Steelcoat Primer U1 ilə birlikdə tətbiq edilərək"
+  ],
+  "features": [
+   "İstifadəyə hazırdır; fırça, rulon və ya püskürtücü ilə asanlıqla tətbiq edilir",
+   "Akril boya ilə boyana bilər; üzərinə birbaşa keramika tətbiq edilə bilər, qumlanma tələb etmir",
+   "Ətraf mühitə dost materialdır, tərkibində həlledici yoxdur",
+   "Calaqsız, bütöv bir su izolyasiya təbəqəsi əmələ gətirir",
+   "Yüngül piyada hərəkətinə davamlıdır",
+   "Səthdə su gölməçəsi yaranmasına qarşı davamlıdır",
+   "Elastik quruluşu ilə temperatur fərqlərinə davamlılıq göstərir",
+   "Çox aşağı temperaturlarda belə yüksək çatlaq körpüləmə qabiliyyətinə malikdir",
+   "Yüksək qopma uzanması ilə hərəkətli səthlərdə təhlükəsiz performans təmin edir"
+  ],
+  "tech": [
+   [
+    "Materialın tərkibi",
+    "Elastomer akril"
+   ],
+   [
+    "Elastiklik sinfi",
+    "DM02 tam elastik"
+   ],
+   [
+    "Görünüş",
+    "Mavi"
+   ],
+   [
+    "Sıxlıq",
+    "1,55 ± 0,05 q/ml"
+   ],
+   [
+    "Yapışma müqaviməti (EN 14891)",
+    "≥ 1,0 N/mm²"
+   ],
+   [
+    "Xlorlu su ilə təmasdan sonra yapışma (EN 14891)",
+    "≥ 1,0 N/mm²"
+   ],
+   [
+    "Çatlaq körpüləmə −5°C (EN 14891)",
+    "≥ 5,00 mm"
+   ],
+   [
+    "Çatlaq körpüləmə −20°C (EN 14891)",
+    "≥ 3,50 mm"
+   ],
+   [
+    "Kapilyar su əmmə (EN 1062-3)",
+    "≤ 0,1 kq/m²·s⁰·⁵"
+   ],
+   [
+    "Su keçirməzlik",
+    "Nüfuzetmə yoxdur"
+   ],
+   [
+    "Qopma uzanması (7 gündən sonra)",
+    "≥ %250"
+   ],
+   [
+    "Piyada hərəkəti davamiyyəti",
+    "Yüngül piyada hərəkəti"
+   ],
+   [
+    "Su gölməçəsi davamlılığı",
+    "Var"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+10°C / +30°C"
+   ],
+   [
+    "Toxunma müddəti",
+    "~1–2 saat"
+   ],
+   [
+    "Qatlar arası gözləmə müddəti",
+    "~6 saat"
+   ],
+   [
+    "Keramika örtüyü üçün gözləmə",
+    "Min. 2 gün (23°C, %50 nisbi rütubət)"
+   ],
+   [
+    "Tam quruma müddəti",
+    "48 saat"
+   ],
+   [
+    "Mexaniki davamlılıq qazanma müddəti",
+    "7 gün"
+   ],
+   [
+    "Su keçirməz hala gəlmə müddəti",
+    "7 gün"
+   ],
+   [
+    "Son möhkəmlik müddəti",
+    "28 gün"
+   ],
+   [
+    "Qat sayı",
+    "Min. 2 qat"
+   ],
+   [
+    "Sərfiyyat",
+    "~1,5–2,0 kq/m² (1 mm quru təbəqə qalınlığı üçün)"
+   ],
+   [
+    "Təhlükəli maddələr",
+    "TMF-ə (Təhlükəsizlik Məlumat Vərəqəsi) baxın"
+   ]
+  ],
+  "consumption": "~1,5–2,0 kq/m² (1 mm quru təbəqə qalınlığı üçün)",
+  "tds": "https://mrfix.az/site/assets/files/3101/izomax_aqualastic_tds_az.pdf"
+ },
+ {
+  "slug": "izomax-c10-rapid",
+  "name": "IZOMAX® C10 Rapid",
+  "cat": "izolyasiya",
+  "group": "Sement əsaslı",
+  "short": "Xüsusi sement, mineral doldurucular və xüsusi kimyəvi qatqılar ehtiva edən, su ilə qarışdırıldıqda saniyələr ə",
+  "image": "",
+  "featured": true,
+  "desc": "IZOMAX® C10 Rapid xüsusi sement, mineral doldurucular və xüsusi kimyəvi qatqılar ehtiva edən, su ilə qarışdırıldıqda saniyələr ərzində bərkiyən, təzyiqli və aktiv su sızmalarını dərhal dayandıran tək komponentli su kəsici materialdır. Tətbiq nöqtəsində bir qədər genişlənərək boşluğu tamamilə doldurur və daimi sızdırmazlıq təmin edir. İstifadə Sahələri",
+  "areas": [
+   "Aktiv və təzyiqli su sızmalarının dərhal dayandırılmasında",
+   "Bünövrə pərdələri, zirzəmilər, lift şaxtaları və su anbarlarında",
+   "Tunel, qalereya, su keçidi və dayaq divarlarında",
+   "Su izolyasiyasından əvvəl dərz, künc və detal hazırlıqlarında",
+   "Boru, kabel və kommunikasiya keçid boşluqlarının sızdırmaz şəkildə bağlanmasında",
+   "Qəlib bağlantı elementlərinin boşluqlarının doldurulmasında",
+   "Beton daxilindəki statik çatların təmirində",
+   "Anker və montaj elementlərinin sürətli sabitlənməsində"
+  ],
+  "features": [
+   "Aktiv və təzyiqli su sızmalarını saniyələr ərzində dayandırır",
+   "Tətbiq nöqtəsində genişlənərək tam sızdırmazlıq təmin edir",
+   "Tək komponentlidir, yalnız su ilə asan hazırlanır",
+   "Çox sürətli bərkiyir (dəqiqələr ərzində)",
+   "Qəlib və ya xüsusi avadanlıq tələb etmir, əl ilə tətbiq oluna bilər",
+   "Yüksək yapışma və möhkəmlik təmin edir",
+   "Qısa müddətdə üzəri örtülə bilər (suvaq, keramika, su izolyasiya qatı)",
+   "Metal armaturaya zərər vermir",
+   "Aşağı temperaturlarda da tətbiq oluna bilər"
+  ],
+  "tech": [
+   [
+    "Materialın tərkibi",
+    "Xüsusi sement, mineral doldurucular və xüsusi kimyəvi qatqılar"
+   ],
+   [
+    "Görünüş",
+    "Boz rəngli toz"
+   ],
+   [
+    "Sıxlıq",
+    "~1,35 kq/lt"
+   ],
+   [
+    "Maks. dənə ölçüsü",
+    "≤ 1 mm"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "−10°C / +35°C"
+   ],
+   [
+    "Qarışım nisbəti",
+    "0,24–0,28 lt su / 1 kq toz"
+   ],
+   [
+    "Tətbiq müddəti",
+    "~60–90 saniyə"
+   ],
+   [
+    "Tam bərkimə müddəti",
+    "~2–3 dəqiqə"
+   ],
+   [
+    "Tətbiq qalınlığı",
+    "10–40 mm"
+   ],
+   [
+    "İstifadəyə verilmə müddəti",
+    "~24 saat"
+   ],
+   [
+    "Sərfiyyat",
+    "Tətbiqdən asılıdır"
+   ],
+   [
+    "Yanğına reaksiya sinfi (EN 13501-1)",
+    "A1"
+   ],
+   [
+    "Təhlükəli maddələr",
+    "TMF-ə baxın"
+   ]
+  ],
+  "consumption": "Tətbiqdən asılıdır",
+  "tds": "https://mrfix.az/site/assets/files/1435/izomax_c10_rapid_tds_az.pdf"
+ },
+ {
+  "slug": "tamcrete-crm-50",
+  "name": "TAMCRETE® CRM 50",
+  "cat": "temir",
+  "group": "Sement əsaslı",
+  "short": "Sement əsaslı təmir materialı (R2)",
+  "image": "https://mrfix.az/site/assets/files/1207/crm_50.png",
+  "featured": true,
+  "standard": "EN 1504-3 · R2",
+  "classes": [
+   [
+    "R2",
+    "Konstruktiv olmayan təmir məhsulu"
+   ]
+  ],
+  "desc": "TAMCRETE® CRM 50 sement əsaslı, polimerlə gücləndirilmiş, büzülməyən səth hamarlama və təmir materialıdır.",
+  "areas": [
+   "Keramika, izolyasiya və boyadan əvvəl səthin hamarlanması",
+   "Beton və suvaqda nazik çatların doldurulması",
+   "Zədələnmiş beton və suvaq səthlərin təmiri"
+  ],
+  "features": [
+   "Yüksək yapışma",
+   "Hamar və möhkəm səth",
+   "Liflər çatlamanın qarşısını alır",
+   "Büzülmür",
+   "Donma-ərimə dövrlərinə davamlı"
+  ],
+  "tech": [
+   [
+    "Sıxlıq",
+    "~1,70 kq/l"
+   ],
+   [
+    "Maks. dənə",
+    "≤ 1 mm"
+   ],
+   [
+    "Təzyiq müqaviməti (28 gün)",
+    "≥ 15 MPa"
+   ],
+   [
+    "Betona yapışma (EN 1542)",
+    "≥ 0,8 N/mm²"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +35°C"
+   ],
+   [
+    "Qarışım",
+    "5,5–6 l su / 25 kq"
+   ],
+   [
+    "İşlənmə müddəti",
+    "~60 dəq"
+   ],
+   [
+    "Tətbiq qalınlığı",
+    "2–10 mm"
+   ],
+   [
+    "Yanğına reaksiya",
+    "A1"
+   ]
+  ],
+  "consumption": "~1,70 kq/m² · 1 mm",
+  "tds": "https://mrfix.az/site/assets/files/1207/tamcrete_crm50_tds_az.pdf",
+  "sds": "https://mrfix.az/site/assets/files/1207/059_tamcrete_crm_50_msds.pdf",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "tamcrete-crm-100",
+  "name": "TAMCRETE® CRM 100",
+  "cat": "temir",
+  "group": "Sement əsaslı",
+  "short": "Sement əsaslı struktural təmir materialı (R4)",
+  "image": "https://mrfix.az/site/assets/files/1211/tamcrete_crm_100-1.png",
+  "featured": true,
+  "standard": "EN 1504-3 · R4",
+  "classes": [
+   [
+    "R4",
+    "Struktural təmir materialı"
+   ]
+  ],
+  "desc": "TAMCRETE® CRM 100 polimer və lif gücləndirməli, yüksək möhkəmlikli, büzülməyən struktural təmir materialıdır.",
+  "areas": [
+   "Dəmir-beton konstruksiyaların struktural təmiri",
+   "Prekast beton elementlər",
+   "Sulfat və xlora məruz betonlar",
+   "Dəniz və aqressiv mühit tikililəri",
+   "Yüngül və orta trafik sahələri"
+  ],
+  "features": [
+   "Beton və armaturaya yüksək yapışma",
+   "Büzülmür",
+   "Yüksək mexaniki möhkəmlik",
+   "Sulfat və xlora davamlı",
+   "Aşağı su keçiriciliyi"
+  ],
+  "tech": [
+   [
+    "Sıxlıq",
+    "~2,20 kq/l"
+   ],
+   [
+    "Maks. dənə",
+    "≤ 3 mm"
+   ],
+   [
+    "Təzyiq müqaviməti",
+    "≥ 50 MPa (7 gün) · ≥ 60 MPa (28 gün)"
+   ],
+   [
+    "Əyilmə müqaviməti",
+    "≥ 9 N/mm²"
+   ],
+   [
+    "Betona yapışma",
+    "≥ 2,0 N/mm²"
+   ],
+   [
+    "Qarışım",
+    "3,5–4 l su / 25 kq"
+   ],
+   [
+    "İşlənmə müddəti",
+    "~45 dəq"
+   ],
+   [
+    "Tətbiq qalınlığı",
+    "10–40 mm"
+   ],
+   [
+    "Yanğına reaksiya",
+    "A1"
+   ]
+  ],
+  "consumption": "~18–20 kq/m² · 10 mm",
+  "tds": "https://mrfix.az/site/assets/files/1211/tamcrete_crm100_tds_az.pdf",
+  "sds": "https://mrfix.az/site/assets/files/1211/060_tamcrete_crm_100_msds.pdf",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
+  "slug": "tamcrete-crm-100-tx",
+  "name": "TAMCRETE® CRM 100 TX",
+  "cat": "temir",
+  "group": "Sement əsaslı",
+  "short": "Tiksotrop struktural təmir materialı (R4)",
+  "image": "https://mrfix.az/site/assets/files/1685/tamcrete_crm_100_tx.png",
+  "featured": false
+ },
+ {
+  "slug": "tamcrete-crm-rapid",
+  "name": "TAMCRETE® CRM RAPID",
+  "cat": "temir",
+  "group": "Sement əsaslı",
+  "short": "Ani bərkiyən təmir və tıxac materialı (R2)",
+  "image": "https://mrfix.az/site/assets/files/1213/tamcrete_crm_rapid.png",
+  "featured": false
+ },
+ {
+  "slug": "tamcrete-grout-c-320",
+  "name": "TAMCRETE® GROUT C 320",
+  "cat": "temir",
+  "group": "Grout",
+  "short": "Yüksək möhkəmlikli grout materialı (R4)",
+  "image": "https://mrfix.az/site/assets/files/1209/tamcrete_grout_c_320.png",
+  "featured": false
+ },
+ {
+  "slug": "tamcrete-erm-75",
+  "name": "TAMCRETE® ERM 75",
+  "cat": "temir",
+  "group": "Epoksid əsaslı",
+  "short": "Epoksid əsaslı təmir materialı (R4)",
+  "image": "https://mrfix.az/site/assets/files/1215/tamcrete_erm_75.png",
+  "featured": true,
+  "standard": "EN 1504-3 · EN 1504-6",
+  "classes": [],
+  "desc": "TAMCRETE® ERM 75 epoksid əsaslı, iki komponentli, solventsiz yapışdırıcı, ankerləmə və struktural təmir materialıdır. Nəmə tolerantdır.",
+  "areas": [
+   "Beton və daşda ankerləmə və montaj",
+   "Armatur əkilməsi",
+   "Geniş çatların doldurulması",
+   "Struktural beton təmirləri",
+   "Polad–beton birləşmələri"
+  ],
+  "features": [
+   "Yüksək mexaniki möhkəmlik",
+   "Tiksotrop, axmır",
+   "Büzülmədən bərkiyir",
+   "Kimyəvi maddələrə davamlı",
+   "Nəmə tolerant",
+   "Solventsiz"
+  ],
+  "tech": [
+   [
+    "Sıxlıq (qarışıq)",
+    "~1,77 kq/l"
+   ],
+   [
+    "Təzyiq müqaviməti",
+    "≥ 30 N/mm² (1 gün) · ≥ 75 N/mm² (7 gün)"
+   ],
+   [
+    "Betona yapışma",
+    "≥ 3,0 N/mm²"
+   ],
+   [
+    "Metala yapışma",
+    "≥ 3,5 N/mm²"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+10°C / +30°C"
+   ],
+   [
+    "Qarışım",
+    "A 3,75 kq / B 1,25 kq"
+   ],
+   [
+    "İşlənmə müddəti",
+    "~40 dəq"
+   ],
+   [
+    "Tətbiq qalınlığı",
+    "2–30 mm"
+   ],
+   [
+    "Tam sərtləşmə",
+    "7 gün"
+   ]
+  ],
+  "consumption": "~1,7 kq/m² · 1 mm",
+  "tds": "https://mrfix.az/site/assets/files/1215/tamcrete_erm75_tds_az.pdf",
+  "sds": "https://mrfix.az/site/assets/files/1215/064_tamcrete_erm_75_msds.pdf",
+  "note": "Göstəricilər +23°C və 50% nisbi rütubətdə əldə edilib. Yüksək temperatur müddətləri qısaldır, aşağı temperatur uzadır."
+ },
+ {
   "slug": "polyboard-eps",
   "name": "POLYBOARD® EPS",
   "cat": "istilik",
@@ -2483,40 +2814,243 @@
   "featured": false
  },
  {
-  "slug": "steelcoat-primer-u1",
-  "name": "Steelcoat Primer U1",
-  "cat": "coatix",
-  "group": "Astar",
-  "short": "Metal səthlər üçün astar",
-  "image": "https://mrfix.az/site/assets/files/3013/steelcoat-primer-u1-list-image.png",
-  "featured": false
+  "slug": "thermomax-dbl-60p",
+  "name": "THERMOMAX® DBL 60P",
+  "cat": "istilik",
+  "group": "Dübellər",
+  "short": ", istilik izolyasiya lövhələrinin mexaniki bərkidilməsində istifadə olunan, geniş başlıqlı plastik mismarlı dü",
+  "image": "https://mrfix.az/site/assets/files/1963/dbl_60-1.png",
+  "featured": true,
+  "desc": "THERMOMAX® DBL 60P , istilik izolyasiya lövhələrinin mexaniki bərkidilməsində istifadə olunan, geniş başlıqlı plastik mismarlı dübeldir. 60 mm başlıq diametri sayəsində yükü lövhə səthinə geniş sahədə paylayır və sistemi küləyin sorma yükünə qarşı qoruyur. Fasad istilik izolyasiya kompozit sistemlərinin (ETICS) tərkib hissəsidir. İstifadə Sahələri",
+  "areas": [
+   "Fasad istilik izolyasiya kompozit sistemlərində (ETICS / mantolama) izolyasiya lövhələrinin mexaniki bərkidilməsində",
+   "EPS və XPS lövhələrin bərkidilməsində",
+   "Beton, bərk kərpic, qazbeton və yüngül beton səthlərdə"
+  ],
+  "features": [
+   "Plastik mismar metal mismara nisbətən xeyli aşağı nöqtəvi istilik keçiriciliyi təmin edir; fasadda soyuq nöqtə və ləkə yaratmır",
+   "Tamamilə plastik quruluşu sayəsində paslanmır; fasadda pas ləkəsi yaranmır",
+   "60 mm geniş başlıq yükü lövhə səthinə geniş sahədə paylayır və başlığın lövhəyə batmasının qarşısını alır",
+   "Beton, kərpic, qazbeton və yüngül beton səthlərdə istifadə edilə bilər",
+   "Korroziyaya və mexaniki gərginliyə davamlıdır"
+  ],
+  "tech": [
+   [
+    "Məhsulun növü",
+    "Geniş başlıqlı, plastik mismarlı dübel"
+   ],
+   [
+    "Gövdənin materialı",
+    "Polipropilen (PP)"
+   ],
+   [
+    "Mismarın materialı",
+    "Şüşə lifi ilə gücləndirilmiş polipropilen"
+   ],
+   [
+    "Başlıq diametri",
+    "60 mm"
+   ],
+   [
+    "Gövdə diametri",
+    "10 mm"
+   ],
+   [
+    "İstifadə kateqoriyaları (EAD 330196)",
+    "A – Beton B – Bərk kərpic / massiv divar D – Yüngül beton E – Qazbeton"
+   ],
+   [
+    "Nöqtəvi istilik keçiriciliyi (χ)",
+    "≤ 0,002 W/K"
+   ],
+   [
+    "İstismar temperaturu",
+    "−40°C / +80°C"
+   ],
+   [
+    "Korroziyaya davamlılıq",
+    "Tamamilə plastik; paslanmır"
+   ],
+   [
+    "Burğu diametri",
+    "10 mm"
+   ],
+   [
+    "Min. deşik dərinliyi",
+    "Dübel uzunluğu + 10 mm"
+   ],
+   [
+    "Ankeraj dərinliyi (səthə giriş)",
+    "Min. 50 mm (massiv səthlərdə)"
+   ],
+   [
+    "Deşmə üsulu",
+    "Beton və bərk kərpicdə zərbəli Qazbeton və yüngül betonda zərbəsiz"
+   ],
+   [
+    "Dübel sayı",
+    "Fasadın orta hissəsi: min. 6 əd./m² Kənar zonalar: min. 8 əd./m² (külək yükü hesabatına görə)"
+   ],
+   [
+    "Yapışdırmadan sonra gözləmə müddəti",
+    "Ən azı 24 saat"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "0°C-dən yuxarı"
+   ],
+   [
+    "Yanğına reaksiya sinfi (EN 13501-1)",
+    "E sinfi"
+   ]
+  ],
+  "tds": "https://mrfix.az/site/assets/files/1963/thermomax_dbl60p_tds_az.pdf"
  },
  {
-  "slug": "steelcoat-primer-m50",
-  "name": "Steelcoat Primer M50",
-  "cat": "coatix",
-  "group": "Astar",
-  "short": "Metal səthlər üçün astar",
-  "image": "https://mrfix.az/site/assets/files/2997/steelcoat-primer--m50-list-image-1.png",
-  "featured": false
+  "slug": "thermomax-dbl-80m",
+  "name": "THERMOMAX® DBL 80M",
+  "cat": "istilik",
+  "group": "Dübellər",
+  "short": ", istilik izolyasiya lövhələrinin mexaniki bərkidilməsində istifadə olunan, geniş başlıqlı polad mismarlı dübe",
+  "image": "https://mrfix.az/site/assets/files/1965/dbl_80-1.png",
+  "featured": true,
+  "desc": "THERMOMAX® DBL 80M , istilik izolyasiya lövhələrinin mexaniki bərkidilməsində istifadə olunan, geniş başlıqlı polad mismarlı dübeldir. Xüsusilə daş yunu lövhələr üçün hazırlanmışdır; geniş başlığı yükü lövhə səthinə geniş sahədə paylayır və sistemi küləyin sorma yükünə qarşı qoruyur. Fasad istilik izolyasiya kompozit sistemlərinin (ETICS) tərkib hissəsidir. İstifadə Sahələri",
+  "areas": [
+   "Fasad istilik izolyasiya kompozit sistemlərində (ETICS / mantolama) daş yunu lövhələrin mexaniki bərkidilməsində",
+   "Yanğın təhlükəsizliyi tələb olunan tikililərdə və yanğın maneəsi tətbiqlərində istilik izolyasiya lövhələrinin bərkidilməsində",
+   "Beton, bərk kərpic, qazbeton və yüngül beton səthlərdə"
+  ],
+  "features": [
+   "Polad mismar yanğın zamanı yumşalmır; lövhələrin mexaniki bərkidilməsi qorunur",
+   "Geniş başlığı sayəsində daş yunu kimi aşağı dartılma müqavimətinə malik lövhələrdə yükü geniş sahədə paylayır və başlığın lövhəyə batmasının qarşısını alır",
+   "Mismarın başı istilik körpüsünün və fasadda ləkələrin yaranmasının qarşısını alacaq şəkildə hazırlanmışdır",
+   "Beton, kərpic, qazbeton və yüngül beton səthlərdə istifadə edilə bilər"
+  ],
+  "tech": [
+   [
+    "Məhsulun növü",
+    "Geniş başlıqlı, polad mismarlı dübel"
+   ],
+   [
+    "Gövdənin materialı",
+    "Polipropilen (PP)"
+   ],
+   [
+    "Mismarın materialı",
+    "Polad"
+   ],
+   [
+    "Başlıq diametri",
+    "80 mm"
+   ],
+   [
+    "Gövdə diametri",
+    "8 mm"
+   ],
+   [
+    "İstifadə kateqoriyaları (EAD 330196)",
+    "A – Beton B – Bərk kərpic / massiv divar D – Yüngül beton E – Qazbeton"
+   ],
+   [
+    "Nöqtəvi istilik keçiriciliyi (χ)",
+    "≤ 0,004 W/K"
+   ],
+   [
+    "İstismar temperaturu",
+    "−40°C / +80°C"
+   ],
+   [
+    "Mismarın başı",
+    "İstilik körpüsünün qarşısını alacaq şəkildə hazırlanmış"
+   ],
+   [
+    "Burğu diametri",
+    "8 mm"
+   ],
+   [
+    "Min. deşik dərinliyi",
+    "Dübel uzunluğu + 10 mm"
+   ],
+   [
+    "Ankeraj dərinliyi (səthə giriş)",
+    "Min. 50 mm (massiv səthlərdə)"
+   ],
+   [
+    "Deşmə üsulu",
+    "Beton və bərk kərpicdə zərbəli Qazbeton və yüngül betonda zərbəsiz"
+   ],
+   [
+    "Dübel sayı",
+    "Fasadın orta hissəsi: min. 6 əd./m² Kənar zonalar: min. 8 əd./m² (külək yükü hesabatına görə)"
+   ],
+   [
+    "Yapışdırmadan sonra gözləmə müddəti",
+    "Ən azı 24 saat"
+   ],
+   [
+    "Yanğına reaksiya sinfi (EN 13501-1)",
+    "E sinfi"
+   ]
+  ],
+  "tds": "https://mrfix.az/site/assets/files/1965/thermomax_dbl80m_tds_az.pdf"
  },
  {
-  "slug": "steelcoat-finish-p430",
-  "name": "Steelcoat Finish P430",
-  "cat": "coatix",
-  "group": "Poliuretan həllər",
-  "short": "Poliuretan əsaslı son qat örtüyü",
-  "image": "https://mrfix.az/site/assets/files/3023/steelcoat-finish-p430-list-image.png",
-  "featured": false
- },
- {
-  "slug": "steelcoat-finish-p445",
-  "name": "Steelcoat Finish P445",
-  "cat": "coatix",
-  "group": "Poliuretan həllər",
-  "short": "Poliuretan əsaslı son qat örtüyü",
-  "image": "https://mrfix.az/site/assets/files/2988/steelcoat-finish-p445--list-image-1.png",
-  "featured": false
+  "slug": "thermomax-cp",
+  "name": "THERMOMAX® CP",
+  "cat": "istilik",
+  "group": "Montaj aksesuarları",
+  "short": ", PVC künc profili",
+  "image": "",
+  "featured": true,
+  "desc": "THERMOMAX® CP , PVC künc profilidir. Fasad istilik izolyasiya kompozit sistemlərində (ETICS) tikili künclərində, həmçinin pəncərə və qapı açırımlarının xarici künclərində istifadə edilir. Profildə setka olmadığı üçün küncdə əsas suvaq setkasının dönməsi ayrıca yerinə yetirilməlidir. İstifadə Sahələri",
+  "areas": [
+   "Fasad istilik izolyasiya kompozit sistemlərində (ETICS / mantolama) tikilinin xarici künclərində",
+   "Pəncərə və qapı açırımlarının xarici künclərində",
+   "Sütun, tir, balkon və karniz künclərində",
+   "EPS, XPS və daş yunu lövhələr üzərində"
+  ],
+  "features": [
+   "Küncləri zərbələrə və mexaniki zədələrə qarşı qoruyur",
+   "Düz və iti künc xətti yaradır; suvaq tətbiqində künc mastarı rolunu oynayır",
+   "PVC quruluşu sayəsində paslanmır; fasadda pas ləkəsi yaratmır",
+   "Asan kəsilir və yerləşdirilir"
+  ],
+  "tech": [
+   [
+    "Profil materialı",
+    "PVC"
+   ],
+   [
+    "Profil qanadının ölçüsü",
+    "21 × 21 mm"
+   ],
+   [
+    "Profilin uzunluğu",
+    "2,5 m"
+   ],
+   [
+    "İstismar temperaturu",
+    "−40°C / +80°C"
+   ],
+   [
+    "Korroziyaya davamlılıq",
+    "PVC; paslanmır"
+   ],
+   [
+    "Tətbiq ardıcıllığı",
+    "Dübellənmədən sonra, əsas suvaq setkasından əvvəl"
+   ],
+   [
+    "Küncdə əsas setkanın dönməsi",
+    "Hər iki istiqamətə min. 10 sm"
+   ],
+   [
+    "Sərfiyyat",
+    "Künc uzunluğu qədər (m/m)"
+   ]
+  ],
+  "consumption": "Künc uzunluğu qədər (m/m)",
+  "tds": "https://mrfix.az/site/assets/files/3210/thermomax_cp_tds_az.pdf"
  },
  {
   "slug": "flomax-sh-500",
@@ -2751,6 +3285,2184 @@
   "short": "Geotekstil keçə",
   "image": "https://mrfix.az/site/assets/files/2082/geotekstil-kec.png",
   "featured": false
+ },
+ {
+  "slug": "pratix-y",
+  "name": "PRATİX® Y",
+  "cat": "suvaq",
+  "group": "Suvaq və hörgü",
+  "short": "Suvaq və hörgü məhsulu",
+  "image": "https://mrfix.az/site/assets/files/1219/pratix_y.png",
+  "featured": false
+ },
+ {
+  "slug": "pratix-s",
+  "name": "PRATİX® S",
+  "cat": "suvaq",
+  "group": "Suvaq və hörgü",
+  "short": "Suvaq və hörgü məhsulu",
+  "image": "https://mrfix.az/site/assets/files/1221/pratix_s.png",
+  "featured": false
+ },
+ {
+  "slug": "pratix-kontakt",
+  "name": "PRATIX® Kontakt",
+  "cat": "suvaq",
+  "group": "Astar",
+  "short": ", sement və gips əsaslı suvaqların hamar beton səthlərə tətbiqindən əvvəl suvağın səthə yapışma müqavimətini a",
+  "image": "",
+  "featured": true,
+  "desc": "PRATIX® Kontakt , sement və gips əsaslı suvaqların hamar beton səthlərə tətbiqindən əvvəl suvağın səthə yapışma müqavimətini artıran, mineral dolduruculu, polimer dispersiya əsaslı astar materialıdır. İstifadə Sahələri Qeyd: Daimi su və rütubətə məruz qalacaq səthlərdə istifadə edilməməlidir.",
+  "areas": [
+   "Daxili və xarici məkanlarda, divar və tavanlara sement və ya gips əsaslı suvaq tətbiqindən əvvəl",
+   "Hamar və su əmmə qabiliyyəti aşağı olan beton səthlərin suvaqdan əvvəl hazırlanmasında",
+   "Mövcud kafel və ya keramika səthlərə yeni örtük yapışdırılmadan əvvəl adgeziyanın artırılmasında"
+  ],
+  "features": [
+   "Gips əsaslı suvaqlar sement səthlərlə kimyəvi reaksiyaya girdikdə səthdən tədricən ayrılır; bu məhsul səthə güclü yapışma təmin etmək və həmin ayrılmanın qarşısını almaq üçün nəzərdə tutulmuş astardır",
+   "İstifadəyə hazırdır və asan tətbiq olunur",
+   "Taxta və metal səthlərə də tətbiq oluna bilər",
+   "Tətbiq olunacaq suvağın suyunun səth tərəfindən sürətlə udulmasının qarşısını alır, erkən qurumanı və çat əmələ gəlməsini önləyərək iş müddətini artırır",
+   "Tərkibində həlledici olmadığı üçün daxili məkanlarda rahatlıqla istifadə edilə bilər"
+  ],
+  "tech": [
+   [
+    "Materialın tərkibi",
+    "Mineral doldurucular və akril dispersiya"
+   ],
+   [
+    "Görünüş",
+    "Yaşıl rəngli maye"
+   ],
+   [
+    "Sıxlıq",
+    "~1,6 kq/L"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +30°C"
+   ],
+   [
+    "Quruma müddəti",
+    "~2 saat"
+   ],
+   [
+    "Suvaq tətbiqinə keçid müddəti",
+    "Min. 24 saat"
+   ],
+   [
+    "Sərfiyyat",
+    "~300 q/m²"
+   ],
+   [
+    "Təhlükəli maddələr",
+    "SDS-ə baxın"
+   ]
+  ],
+  "consumption": "~300 q/m²",
+  "tds": "https://mrfix.az/site/assets/files/3158/pratix_kontakt_tds_az.pdf"
+ },
+ {
+  "slug": "pratix-aero-bond",
+  "name": "PRATIX® Aero Bond",
+  "cat": "suvaq",
+  "group": "Hörgü materialları",
+  "short": ", qazbeton blokların nazik dərzlə hörülməsi üçün hazırlanmış, sement əsaslı, polimer takviyəli hörgü",
+  "image": "",
+  "featured": true,
+  "classes": [
+   [
+    "G",
+    "Ümumi təyinatlı hörgü materialı"
+   ],
+   [
+    "M10",
+    "Sıxılma müqaviməti sinfi (≥ 10 N/mm²)"
+   ]
+  ],
+  "desc": "PRATIX® Aero Bond , qazbeton blokların nazik dərzlə hörülməsi üçün hazırlanmış, sement əsaslı, polimer takviyəli hörgü materialıdır. Yüksək yapışma gücü təmin edir; nazik dərz qalınlığı sayəsində divardakı istilik körpülərini azaldır, materiala və işçi qüvvəsinə qənaət edir. EN 998-2 standartına görə G M10 sinfinə uyğundur. İstifadə Sahələri",
+  "areas": [
+   "Qazbeton blokların hörülməsində",
+   "Kərpic, briket və polistirol beton divar hörgüsündə",
+   "Daxili və xarici sahələrdə, daşıyıcı olmayan və daşıyıcı divarlarda",
+   "Arakəsmə və dolğu divar tətbiqlərində"
+  ],
+  "features": [
+   "Yüksək yapışma gücünə malikdir",
+   "Vaxta, materiala və işçi qüvvəsinə qənaət edir",
+   "Hazırlanması və tətbiqi asandır",
+   "Uzun qabda istifadə müddəti sayəsində bir qarışıqla geniş sahə hörülə bilir",
+   "Donma-ərimə dövrlərinə davamlıdır"
+  ],
+  "tech": [
+   [
+    "Materialın tərkibi",
+    "Sement, mineral doldurucular və xüsusi kimyəvi əlavələr"
+   ],
+   [
+    "Görünüş",
+    "Boz rəngli toz"
+   ],
+   [
+    "Ən böyük dənə ölçüsü",
+    "Maks. 0,8 mm"
+   ],
+   [
+    "Quru halda orta sıxlıq (EN 1015-10)",
+    "1500 ± 100 kq/m³"
+   ],
+   [
+    "Sıxılma müqaviməti (EN 1015-11)",
+    "≥ 10 N/mm² (M10)"
+   ],
+   [
+    "Yapışma müqaviməti (EN 1015-12)",
+    "≥ 0,5 N/mm²"
+   ],
+   [
+    "Qopma forması (EN 1015-12)",
+    "FP: B"
+   ],
+   [
+    "İlkin sürüşmə müqaviməti (EN 1052-3)",
+    "0,15 N/mm² (EN 998-2 Əlavə C, cədvəl dəyəri)"
+   ],
+   [
+    "Su əmmə (EN 1015-18)",
+    "≤ 2,50 kq/m²·dəq 0,5"
+   ],
+   [
+    "Su buxarı diffuziya müqavimət əmsalı (EN 1015-19)",
+    "μ ~10 – 25"
+   ],
+   [
+    "İstilikkeçirmə əmsalı (λ10,dry – EN 1745)",
+    "0,6 – 0,8 W/mK"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +30°C"
+   ],
+   [
+    "İstismar temperaturu",
+    "−20°C / +80°C"
+   ],
+   [
+    "Qabda istifadə müddəti",
+    "~90 dəqiqə"
+   ],
+   [
+    "Qarışıq nisbəti (su / toz)",
+    "~0,23 L su / 1 kq toz ~5,75 L su / 25 kq toz"
+   ],
+   [
+    "Sərfiyyat",
+    "~4 kq/m² (4 mm dərz qalınlığı üçün)"
+   ],
+   [
+    "Yanğına reaksiya sinfi (EN 13501-1)",
+    "A1"
+   ],
+   [
+    "Təhlükəli maddələr",
+    "SDS-ə baxın"
+   ]
+  ],
+  "consumption": "~4 kq/m² (4 mm dərz qalınlığı üçün)",
+  "tds": "https://mrfix.az/site/assets/files/3166/pratix_aero_bond_tds_az.pdf"
+ },
+ {
+  "slug": "pratix-rm-75",
+  "name": "PRATIX® RM 75",
+  "cat": "suvaq",
+  "group": "Suvaq setkaları",
+  "short": ", qələviyə davamlı polimer örtüklü, 75 q/m² vahid sahə çəkisində yüngül şüşə lifli toxunma setka",
+  "image": "https://mrfix.az/site/assets/files/3186/pratix_rm75.png",
+  "featured": true,
+  "desc": "PRATIX® RM 75 , qələviyə davamlı polimer örtüklü, 75 q/m² vahid sahə çəkisində yüngül şüşə lifli toxunma setkadır. Gips və sement əsaslı suvaqların, həmçinin bitum əsaslı və iki komponentli sement əsaslı hidroizolyasiya materiallarının içinə gömülərək tətbiq edilir. Yüngül və nazik quruluşu sayəsində nazik qatlı tətbiqlər üçün uyğundur. Fasad istilik izolyasiya kompozit sistemlərində (ETICS) sistemin tələb etdiyi zərbəyə qarşı müqaviməti təmin etmədiyi üçün suvaq setkası kimi istifadə edilməməlidir; bu tətbiqlərdə THERMOMAX® RM 160 istifadə edilməlidir. İstifadə Sahələri",
+  "areas": [
+   "Daxili və xarici mühitdə gips və sement əsaslı suvaqlarda çat əmələ gəlməsinin qarşısının alınmasında",
+   "Beton – divar, sütun – divar, tir – divar kimi müxtəlif materialların birləşmə nöqtələrində suvağın möhkəmləndirilməsi üçün",
+   "Kommunikasiya kanalları, bağlanmış boşluqlar və təmir sahələri üzərindəki suvaqlarda",
+   "İki komponentli sement əsaslı hidroizolyasiya materiallarında möhkəmləndirici qat kimi",
+   "Bitum əsaslı hidroizolyasiya örtüklərində möhkəmləndirici qat kimi",
+   "Hidroizolyasiyada daxili və xarici künclər, fasklar və boru keçidləri kimi detal nöqtələrinin möhkəmləndirilməsində"
+  ],
+  "features": [
+   "Yüngül və nazik",
+   "Qələviyə davamlı örtüyü sayəsində sement əsaslı materialların içində zamanla möhkəmliyini itirmir",
+   "Tətbiq edildiyi qatı möhkəmləndirir, büzülmə və istilik hərəkətlərindən yaranan gərginlikləri paylayır və tük çatların əmələ gəlməsinin qarşısını alır",
+   "Elastik quruluşu sayəsində künc, faska və dönmə detallarına asanlıqla uyğunlaşır; asan kəsilir və sərilir",
+   "Çürümür; xarici hava şəraitinə davamlıdır"
+  ],
+  "tech": [
+   [
+    "Material quruluşu",
+    "Şüşə lifli toxunma setka"
+   ],
+   [
+    "Örtük",
+    "Qələviyə davamlı polimer örtük"
+   ],
+   [
+    "Rəng",
+    "Sarı"
+   ],
+   [
+    "Vahid sahə çəkisi",
+    "75 q/m² (± %5)"
+   ],
+   [
+    "Göz ölçüsü",
+    "5 × 5 mm"
+   ],
+   [
+    "Dartılma möhkəmliyi – uzununa / eninə (EN 13496)",
+    "≥ 15 N/mm (≥ 750 N/50 mm)"
+   ],
+   [
+    "Qələvi şərtləndirməsindən sonra qalıq möhkəmlik",
+    "İlkin dəyərin ≥ %50-si"
+   ],
+   [
+    "Uyğun materiallar",
+    "Gips və sement əsaslı suvaqlar Bitum əsaslı hidroizolyasiya örtükləri İki komponentli sement əsaslı hidroizolyasiya materialları"
+   ],
+   [
+    "Üst-üstə düşmə payı",
+    "Min. 10 sm"
+   ],
+   [
+    "Birləşmə nöqtələrində daşma payı",
+    "Birləşmə xəttinin hər iki tərəfinə 10 – 20 sm"
+   ],
+   [
+    "Sərfiyyat",
+    "Təxminən 1,1 m²/m² (üst-üstə düşmələr daxil)"
+   ]
+  ],
+  "consumption": "Təxminən 1,1 m²/m² (üst-üstə düşmələr daxil)",
+  "tds": "https://mrfix.az/site/assets/files/3186/pratix_rm75_tds_az.pdf",
+  "note": "quruluşu sayəsində nazik qatlı suvaq və örtüklərdə qat qalınlığını artırmadan tətbiq edilə bilər"
+ },
+ {
+  "slug": "pratix-aero-plast",
+  "name": "PRATIX® Aero Plast",
+  "cat": "suvaq",
+  "group": "Suvaqlar",
+  "short": ", qazbeton və beton səthlər üçün hazırlanmış, sement əsaslı, polimer əlavəli, lif takviyəli narın suvaq",
+  "image": "",
+  "featured": true,
+  "classes": [
+   [
+    "GP",
+    "Ümumi təyinatlı suvaq materialı"
+   ],
+   [
+    "CS",
+    "Sıxılma müqaviməti sinfi (CS II 1,5 – 5,0 N/mm²)"
+   ],
+   [
+    "W",
+    "Kapilyar su əmmə sinfi (W2)"
+   ]
+  ],
+  "desc": "PRATIX® Aero Plast , qazbeton və beton səthlər üçün hazırlanmış, sement əsaslı, polimer əlavəli, lif takviyəli narın suvaq materialıdır. Qazbetonun yüksək su əmmə qabiliyyətinə və aşağı səth müqavimətinə uyğun olaraq hazırlanmışdır; səthdə möhkəm, çatlamaya davamlı və birbaşa boyana bilən bir təbəqə yaradır. EN 998-1 standartına görə GP CS II W2 sinfinə uyğundur. İstifadə Sahələri",
+  "areas": [
+   "Qazbeton divarların daxili və xarici fasadda suvanmasında",
+   "Beton və sement əsaslı səthlərin narın suvanmasında",
+   "Boya və ya divar kağızı öncəsi hamar səth əldə edilməsində",
+   "Mövcud suvaqların səth düzəldilməsində"
+  ],
+  "features": [
+   "Qazbeton səthlər üçün xüsusi olaraq hazırlanmışdır",
+   "Yüksək yapışma müqavimətinə malikdir",
+   "Çatlamalara və zərbələrə davamlıdır",
+   "Buxar keçirir; qazbetonun nəm balansını pozmur",
+   "Birbaşa boyana və divar kağızı ilə örtülə bilər",
+   "Donma-ərimə dövrlərinə davamlıdır"
+  ],
+  "tech": [
+   [
+    "Materialın tərkibi",
+    "Sement, mineral doldurucular və xüsusi kimyəvi əlavələr"
+   ],
+   [
+    "Görünüş",
+    "Boz rəngli toz"
+   ],
+   [
+    "Ən böyük dənə ölçüsü",
+    "Maks. 0,8 mm"
+   ],
+   [
+    "Quru halda orta sıxlıq (EN 1015-10)",
+    "1400 ± 100 kq/m³"
+   ],
+   [
+    "Sıxılma müqaviməti (EN 1015-11)",
+    "~3 – 5 N/mm² (CS II)"
+   ],
+   [
+    "Qopma forması (EN 1015-12)",
+    "FP: B"
+   ],
+   [
+    "Kapilyar su əmmə (EN 1015-18)",
+    "W2 – c ≤ 0,20 kq/m²·dəq 0,5"
+   ],
+   [
+    "Su buxarı diffuziya müqavimət əmsalı (EN 1015-19)",
+    "μ ~8 – 15"
+   ],
+   [
+    "İstilikkeçirmə əmsalı (λ10,dry – EN 1745)",
+    "~0,50 – 0,60 W/mK"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +30°C"
+   ],
+   [
+    "İstismar temperaturu",
+    "−20°C / +80°C"
+   ],
+   [
+    "Qarışıq nisbəti (su / toz)",
+    "~0,23 L su / 1 kq toz ~5,75 L su / 25 kq toz"
+   ],
+   [
+    "Qabda istifadə müddəti",
+    "~60 dəqiqə"
+   ],
+   [
+    "Sərfiyyat",
+    "~6 kq/m² (5 mm qalınlıq üçün)"
+   ],
+   [
+    "Yanğına reaksiya sinfi (EN 13501-1)",
+    "A1"
+   ],
+   [
+    "Təhlükəli maddələr",
+    "SDS-ə baxın"
+   ]
+  ],
+  "consumption": "~6 kq/m² (5 mm qalınlıq üçün)",
+  "tds": "https://mrfix.az/site/assets/files/3172/pratix_aero_plast_tds_az.pdf"
+ },
+ {
+  "slug": "pratix-hp-30",
+  "name": "PRATIX® HP 30",
+  "cat": "suvaq",
+  "group": "Suvaqlar",
+  "short": ", daxili və xarici səthlərdə əl ilə tətbiq olunmaq üçün hazırlanmış, sement əsaslı, lif takviyəli narın suvaq",
+  "image": "",
+  "featured": true,
+  "classes": [
+   [
+    "GP",
+    "Ümumi təyinatlı suvaq materialı"
+   ],
+   [
+    "W1",
+    "Azaldılmış kapilyar su əmmə göstəricisi"
+   ]
+  ],
+  "desc": "PRATIX® HP 30 , daxili və xarici səthlərdə əl ilə tətbiq olunmaq üçün hazırlanmış, sement əsaslı, lif takviyəli narın suvaq materialıdır. Astar suvaq vurulmuş səthlərin düzəldilməsində, mövcud suvaqların təmirində və nazik qatlı suvaq tətbiqlərində istifadə olunur. EN 998-1 standartına görə GP CS III W1 sinfinə uyğundur. CS III: Sıxılma müqaviməti sinfi İstifadə Sahələri",
+  "areas": [
+   "Astar suvaq vurulmuş səthlərin düzəldilməsində və mövcud suvaqların təmirində",
+   "Daxili və xarici sahələrdə beton, kərpic və bənzər səthlərin suvanmasında və təmirində",
+   "Divar və tavan suvaqlarında",
+   "Təbii daş, kərpic və divar hörgü dərzlərinin təmirində"
+  ],
+  "features": [
+   "Hazırlanması və tətbiqi asandır",
+   "Şaquli tətbiqlərdə sürüşmür, səthə yüksək yapışma təmin edir",
+   "İşləmə müddəti uzundur",
+   "Nazik qatda hamar, boyaya hazır səth verir",
+   "Donma-ərimə dövrlərinə davamlıdır"
+  ],
+  "tech": [
+   [
+    "Materialın tərkibi",
+    "Sement, mineral doldurucular və xüsusi kimyəvi əlavələr"
+   ],
+   [
+    "Görünüş",
+    "Boz rəngli toz"
+   ],
+   [
+    "Quru halda orta sıxlıq",
+    "1500 ± 100 kq/m³"
+   ],
+   [
+    "Maks. dənə ölçüsü",
+    "≤ 0,8 mm"
+   ],
+   [
+    "Sıxılma müqaviməti sinfi (EN 1015-11, 28 gün)",
+    "≥ 4 N/mm² (CS III)"
+   ],
+   [
+    "Yapışma müqaviməti (EN 1015-12)",
+    "≥ 0,3 N/mm²"
+   ],
+   [
+    "Qopma forması (EN 1015-12)",
+    "FP: B"
+   ],
+   [
+    "Kapilyar su əmmə (EN 1015-18)",
+    "W1 – c ≤ 0,40 kq/m²·dəq 0,5"
+   ],
+   [
+    "Su buxarı diffuziya müqavimət əmsalı (EN 1015-19)",
+    "μ ~10 – 25"
+   ],
+   [
+    "İstilikkeçirmə əmsalı (EN 1745)",
+    "0,6 – 0,8 W/mK"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +30°C"
+   ],
+   [
+    "Qarışıq nisbəti (su / toz)",
+    "~0,23 L su / 1 kq toz ~9,2 L su / 40 kq toz"
+   ],
+   [
+    "Qabda istifadə müddəti",
+    "~30 dəqiqə"
+   ],
+   [
+    "Sərfiyyat",
+    "~14 kq/m² (10 mm qalınlıq üçün)"
+   ],
+   [
+    "Yanğına reaksiya sinfi (EN 13501-1)",
+    "A1"
+   ],
+   [
+    "Təhlükəli maddələr",
+    "SDS-ə baxın"
+   ]
+  ],
+  "consumption": "~14 kq/m² (10 mm qalınlıq üçün)",
+  "tds": "https://mrfix.az/site/assets/files/3140/pratix_hp30_tds_az.pdf"
+ },
+ {
+  "slug": "pratix-mp-40",
+  "name": "PRATIX® MP 40",
+  "cat": "suvaq",
+  "group": "Suvaqlar",
+  "short": ", daxili və xarici səthlərdə makina ilə vurulmaq üçün xüsusi olaraq hazırlanmış, sement əsaslı, hazır suvaq",
+  "image": "",
+  "featured": true,
+  "classes": [
+   [
+    "GP",
+    "Ümumi təyinatlı suvaq materialı"
+   ],
+   [
+    "W1",
+    "Azaldılmış kapilyar su əmmə göstəricisi"
+   ]
+  ],
+  "desc": "PRATIX® MP 40 , daxili və xarici səthlərdə makina ilə vurulmaq üçün xüsusi olaraq hazırlanmış, sement əsaslı, hazır suvaq materialıdır. Bir dəfəyə qalın qat tətbiqinə imkan verir, şaquli səthlərdə axmır. EN 998-1 standartına görə GP CS IV W1 sinfinə uyğundur. CS IV: Sıxılma müqaviməti sinfi (≥ 6 N/mm²) İstifadə Sahələri",
+  "areas": [
+   "Daxili və xarici sahələrdə beton, kərpic və bənzər səthlərin suvanmasında və təmirində",
+   "Divar və tavan suvaqlarında",
+   "Yaşayış binaları, ticarət mərkəzləri və xəstəxana kimi tikililərdə",
+   "Bünövrələrdə, tunellərdə və yol kənarı mailliklərdə"
+  ],
+  "features": [
+   "Suvaq makinası və əl ilə tətbiqə uyğundur",
+   "Hazırlanması və tətbiqi asandır, vaxta qənaət edir",
+   "Şaquli tətbiqlərdə axmır, səthə mükəmməl yapışma təmin edir",
+   "İşləmə müddəti uzundur",
+   "Azaldılmış kapilyar su əmmə göstəricisinə malikdir, lakin buxar keçirir",
+   "Donma-ərimə dövrlərinə davamlıdır"
+  ],
+  "tech": [
+   [
+    "Materialın tərkibi",
+    "Sement, mineral doldurucular və xüsusi kimyəvi əlavələr"
+   ],
+   [
+    "Görünüş",
+    "Boz rəngli toz"
+   ],
+   [
+    "Quru halda orta sıxlıq",
+    "1600 ± 100 kq/m³"
+   ],
+   [
+    "Maks. dənə ölçüsü",
+    "≤ 1,3 mm"
+   ],
+   [
+    "Sıxılma müqaviməti (EN 1015-11)",
+    "≥ 6 N/mm² (CS IV)"
+   ],
+   [
+    "Əyilmə müqaviməti (EN 1015-11)",
+    "≥ 1,0 N/mm²"
+   ],
+   [
+    "Yapışma müqaviməti (EN 1015-12)",
+    "≥ 0,3 N/mm²"
+   ],
+   [
+    "Qopma forması (EN 1015-12)",
+    "FP: B"
+   ],
+   [
+    "Kapilyar su əmmə (EN 1015-18)",
+    "W1 – c ≤ 0,40 kq/m²·dəq 0,5"
+   ],
+   [
+    "Su buxarı diffuziya müqavimət əmsalı (EN 1015-19)",
+    "μ ~10 – 25"
+   ],
+   [
+    "İstilikkeçirmə əmsalı (λ10,dry – EN 1745)",
+    "0,6 – 0,8 W/mK"
+   ],
+   [
+    "Tətbiq temperaturu",
+    "+5°C / +30°C"
+   ],
+   [
+    "Tətbiq qalınlığı",
+    "Divarda: hər qatda maks. 25 mm (cəmi maks. 50 mm) Tavanda: maks. 10 mm"
+   ],
+   [
+    "Qarışıq nisbəti (su / toz)",
+    "0,20 – 0,22 L su / 1 kq toz 8,0 – 8,8 L su / 40 kq toz"
+   ],
+   [
+    "Qabda istifadə müddəti (əl ilə tətbiqdə)",
+    "~60 dəqiqə"
+   ],
+   [
+    "Qatlar arası gözləmə müddəti",
+    "Min. 1 gün"
+   ],
+   [
+    "Sərfiyyat",
+    "15 – 16 kq/m² (10 mm qalınlıq üçün)"
+   ],
+   [
+    "Yanğına reaksiya sinfi (EN 13501-1)",
+    "A1"
+   ],
+   [
+    "Təhlükəli maddələr",
+    "SDS-ə baxın"
+   ]
+  ],
+  "consumption": "15 – 16 kq/m² (10 mm qalınlıq üçün)",
+  "tds": "https://mrfix.az/site/assets/files/3146/pratix_mp40_tds_az.pdf"
+ },
+ {
+  "slug": "steelcoat-primer-u1",
+  "name": "Steelcoat Primer U1",
+  "cat": "coatix",
+  "group": "Astar",
+  "short": "Metal səthlər üçün astar",
+  "image": "https://mrfix.az/site/assets/files/3013/steelcoat-primer-u1-list-image.png",
+  "featured": false
+ },
+ {
+  "slug": "steelcoat-primer-m50",
+  "name": "Steelcoat Primer M50",
+  "cat": "coatix",
+  "group": "Astar",
+  "short": "Metal səthlər üçün astar",
+  "image": "https://mrfix.az/site/assets/files/2997/steelcoat-primer--m50-list-image-1.png",
+  "featured": false
+ },
+ {
+  "slug": "steelcoat-finish-p430",
+  "name": "Steelcoat Finish P430",
+  "cat": "coatix",
+  "group": "Poliuretan həllər",
+  "short": "Poliuretan əsaslı son qat örtüyü",
+  "image": "https://mrfix.az/site/assets/files/3023/steelcoat-finish-p430-list-image.png",
+  "featured": false
+ },
+ {
+  "slug": "steelcoat-finish-p445",
+  "name": "Steelcoat Finish P445",
+  "cat": "coatix",
+  "group": "Poliuretan həllər",
+  "short": "Poliuretan əsaslı son qat örtüyü",
+  "image": "https://mrfix.az/site/assets/files/2988/steelcoat-finish-p445--list-image-1.png",
+  "featured": false
+ },
+ {
+  "slug": "coatix-ep-1130-primer",
+  "name": "COATIX® EP 1130 Primer",
+  "cat": "coatix",
+  "group": "Astar",
+  "short": "Epoksid qatranı əsaslı, iki komponentli, tərkibində solvent olmayan, aşağı özlülüklü səth hopdurucu",
+  "image": "",
+  "featured": true,
+  "desc": "COATIX® EP 1130 Primer ; epoksid qatranı əsaslı, iki komponentli, tərkibində solvent olmayan, aşağı özlülüklü səth hopdurucu astarıdır. Yaxşı nüfuzetmə xüsusiyyətinə malik, kimyəvi maddələrə davamlı və mexaniki müqaviməti yüksək olan astardır. Beton döşəmələrin kapilyar boşluqlarını doldurur, müqavimətini artırır və özündən sonra tətbiq ediləcək epoksid örtük və ya boyalar üçün yapışma körpüsü rolunu oynayır. Betonun tozlanmasının qarşısını almaq məqsədilə təklikdə də istifadə edilə bilər. İstifadə Sahələri",
+  "areas": [
+   "Fabriklər, anbarlar və ticarət mərkəzləri",
+   "Emalatxanalar və təyyarə anqarları",
+   "Məktəblər və xəstəxanalar",
+   "Əczaçılıq və qida sektoru müəssisələri",
+   "Laboratoriyalar və avtomobil dayanacaqları",
+   "Təmizləyici qurğular",
+   "Ağır forklift hərəkəti və korroziyalı kimyəvi maddələrin olduğu sahələr",
+   "Self-leveling və epoksid örtükdən əvvəl astar qatı kimi; döşəmənin tozlanmaması üçün təklikdə"
+  ],
+  "features": [
+   "Solventsizdir; tətbiq zamanı aşağı emissiya təmin edir",
+   "Aşağı özlülüyü sayəsində yüksək nüfuzetmə xüsusiyyətinə malikdir",
+   "Kimyəvi maddələrə qarşı yüksək davamlılıq göstərir",
+   "Yüksək mexaniki müqavimətə malikdir",
+   "Nəmliyə tolerantlıdır; nəm səthlərdə də tətbiq edilə bilər",
+   "Beton döşəmələrin kapilyar boşluqlarını doldurur",
+   "Sonrakı epoksid örtük/boya qatları üçün güclü yapışma körpüsü yaradır",
+   "Təklikdə tətbiq edildikdə betonun tozlanmasının qarşısını alır"
+  ],
+  "tech": [
+   [
+    "Materialın strukturu",
+    "İki komponentli, epoksid qatranı əsaslı (A: qatran, B: bərkidici)"
+   ],
+   [
+    "Sıxlıq (qarışıq)",
+    "1,00–1,10 q/sm³ / 20°C (EN ISO 2811-1)"
+   ],
+   [
+    "Özlülük (qarışıq)",
+    "300–450 mPa·s"
+   ],
+   [
+    "Uçucu üzvi birləşmələr (VOC)",
+    "≤ 3 q/L"
+   ],
+   [
+    "Quru qalıq miqdarı",
+    "100% (kütləcə)"
+   ],
+   [
+    "Sıxılmaya müqavimət (ASTM D695 / EN ISO 604)",
+    "72–85 N/mm²"
+   ],
+   [
+    "Şor D sərtliyi (ASTM D 2240 / DIN 53505)",
+    "75 ± 5"
+   ],
+   [
+    "Aşınmaya müqavimət – Taber (EN 1504-2)",
+    "≤ 115 mq / 1000 dövr"
+   ],
+   [
+    "Qoparma üsulu ilə yapışma müqaviməti (EN 1542 / EN 1504-2)",
+    "≥ 2,0 (1,5) b N/mm²"
+   ],
+   [
+    "Zərbəyə müqavimət sınağı (EN 1504-2)",
+    "Sinif III"
+   ],
+   [
+    "Kapilyar su əmmə qabiliyyəti və su keçiriciliyi (EN 1504-2)",
+    "≤ 0,1 kq/m²·h⁰·⁵"
+   ],
+   [
+    "Qarışıq nisbəti (A / B)",
+    "68 / 32 (kütləcə) – 2 / 1 (həcmcə)"
+   ],
+   [
+    "Seyrəldici",
+    "Seyrəldilmir"
+   ],
+   [
+    "Tətbiq üsulu",
+    "Rolik, fırça, mala, rakel, rezin süpürgə (çəkpas)"
+   ],
+   [
+    "Qabda istifadə müddəti",
+    "30–40 dəq / 23°C, 200 q (DIN 16945)"
+   ],
+   [
+    "Sərfiyyat",
+    "Səthdən asılı olaraq 100–150 q/m²"
+   ],
+   [
+    "Tətbiq temperaturu (mühit və döşəmə)",
+    "+5°C / +30°C"
+   ],
+   [
+    "Döşəmənin yol verilən nəmliyi",
+    "Ən çoxu 5%"
+   ],
+   [
+    "Toz tutmayan quruma",
+    "3–4 saat / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Toxunmaya quruma",
+    "8–10 saat / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Tam quruma",
+    "7 gün / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Növbəti qatın çəkilmə müddəti",
+    "Ən gec 24 saat / 23°C"
+   ],
+   [
+    "Qabda istifadə müddəti +10°C",
+    "~ 60 dəqiqə"
+   ],
+   [
+    "Qabda istifadə müddəti +20°C",
+    "~ 40 dəqiqə"
+   ],
+   [
+    "Qabda istifadə müddəti +30°C",
+    "~ 15 dəqiqə"
+   ],
+   [
+    "Təhlükəli maddələr",
+    "TMF-ə baxın"
+   ]
+  ],
+  "consumption": "Səthdən asılı olaraq 100–150 q/m²",
+  "tds": "https://mrfix.az/site/assets/files/3226/coatix_ep_1130_primer_tds_az.pdf"
+ },
+ {
+  "slug": "coatix-ep-1150-primer",
+  "name": "COATIX® EP 1150 Primer",
+  "cat": "coatix",
+  "group": "Astar",
+  "short": "Tərkibində solvent olmayan, iki komponentli, epoksid qatranı əsaslı və xüsusi qradasiyalı doldurucu tərkibli d",
+  "image": "",
+  "featured": true,
+  "desc": "COATIX® EP 1150 Primer ; tərkibində solvent olmayan, iki komponentli, epoksid qatranı əsaslı və xüsusi qradasiyalı doldurucu tərkibli döşəmə astarıdır. Beton və sement əsaslı mineral səthlərin kapilyar boşluqlarını doldurur, səth müqavimətini artırır və özündən sonra tətbiq ediləcək epoksid örtük, boya və ya təmir materialları üçün yapışma körpüsü rolunu oynayır. Doldurucu tərkibli strukturu sayəsində kələ-kötür və əmici səthlərdə döşəmənin hamarlığını təmin edir və tikinti sahəsi şəraitində tətbiq asanlığı yaradır. İstifadə Sahələri",
+  "areas": [
+   "Fabriklər, anbarlar, terminallar, çoxmərtəbəli avtomobil dayanacaqları və ticarət mərkəzləri",
+   "Emalatxanalar və təyyarələrə texniki xidmət anqarları",
+   "Məktəblər, xəstəxanalar, laboratoriyalar və gigiyenik mühit tələb edən sahələr",
+   "Əczaçılıq, qida və boya sektoru müəssisələri, sənaye mətbəxləri və mətbəələr",
+   "Təmizləyici qurğular və korroziyalı kimyəvi maddələrin istifadə edildiyi sahələr",
+   "Ağır forklift hərəkətinə məruz qalan döşəmələr",
+   "Epoksid və poliuretan əsaslı döşəmə örtüklərindən əvvəl astar qatı kimi",
+   "Uyğun aqreqatla qarışdırılaraq doldurucu və təmir materialı kimi",
+   "Birbaşa sıyırma qatı kimi"
+  ],
+  "features": [
+   "Solventsizdir; tətbiq zamanı aşağı emissiya təmin edir",
+   "Doldurucu tərkibli strukturu sayəsində tikinti sahəsi şəraitində tətbiq asanlığı təmin edir",
+   "Sement əsaslı səthlərə mükəmməl yapışır",
+   "Betonun kapilyar boşluqlarını doldurur, səth müqavimətini artırır",
+   "Sonrakı epoksid və poliuretan örtük qatları üçün güclü yapışma körpüsü yaradır",
+   "Kimyəvi maddələrə və qeyri-üzvi turşulara qarşı davamlıdır, mexaniki müqaviməti yüksəkdir",
+   "Uyğun aqreqat əlavə edilməklə doldurucu və təmir materialı kimi istifadə edilə bilər"
+  ],
+  "tech": [
+   [
+    "Materialın strukturu",
+    "İki komponentli, doldurucu tərkibli, epoksid qatranı əsaslı (A: qatran, B: bərkidici)"
+   ],
+   [
+    "Sıxlıq (qarışıq)",
+    "1,50 ± 0,1 q/sm³ / 20°C (EN ISO 2811-1)"
+   ],
+   [
+    "Özlülük (qarışıq)",
+    "1000–1500 mPa·s"
+   ],
+   [
+    "Uçucu üzvi birləşmələr (VOC)",
+    "≤ 3 q/L"
+   ],
+   [
+    "Quru qalıq miqdarı",
+    "100% (kütləcə)"
+   ],
+   [
+    "Sıxılmaya müqavimət (ASTM D695 / EN ISO 604)",
+    "60–70 N/mm²"
+   ],
+   [
+    "Əyilməyə müqavimət (EN 12190)",
+    "≥ 20 N/mm²"
+   ],
+   [
+    "Şor D sərtliyi (ASTM D 2240 / DIN 53505)",
+    "78 ± 5"
+   ],
+   [
+    "Aşınmaya müqavimət – Taber (EN 1504-2)",
+    "≤ 120 mq / 1000 dövr"
+   ],
+   [
+    "Qoparma üsulu ilə yapışma müqaviməti (EN 1542 / EN 1504-2)",
+    "≥ 2,0 (1,5) b N/mm² – betonda qopma"
+   ],
+   [
+    "Zərbəyə müqavimət sınağı (EN 1504-2)",
+    "Sinif III"
+   ],
+   [
+    "Kapilyar su əmmə qabiliyyəti və su keçiriciliyi (EN 1504-2)",
+    "≤ 0,1 kq/m²·h⁰·⁵"
+   ],
+   [
+    "Qarışıq nisbəti (A / B)",
+    "85 / 15 (kütləcə)"
+   ],
+   [
+    "Seyreltici",
+    "Seyreldilmir"
+   ],
+   [
+    "Tətbiq üsulu",
+    "Mala"
+   ],
+   [
+    "Qabda istifadə müddəti",
+    "30–40 dəq / 20°C, 200 q (DIN 16945)"
+   ],
+   [
+    "Sərfiyyat",
+    "Səthdən və tətbiq üsulundan asılı olaraq 200–600 q/m²"
+   ],
+   [
+    "Tətbiq temperaturu (mühit və döşəmə)",
+    "+10°C / +30°C"
+   ],
+   [
+    "Döşəmənin yol verilən nəmliyi",
+    "Ən çoxu 4%"
+   ],
+   [
+    "Mühitin nisbi rütubəti",
+    "Ən çoxu 80%"
+   ],
+   [
+    "İstismar temperaturu",
+    "0°C / +80°C"
+   ],
+   [
+    "Toz tutmayan quruma",
+    "3–4 saat / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Toxunmaya quruma",
+    "8–10 saat / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Tam quruma",
+    "7 gün / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Növbəti qatın çəkilmə müddəti",
+    "Ən tez 12 saat – ən gec 24 saat / 23°C"
+   ],
+   [
+    "Qabda istifadə müddəti +10°C",
+    "~ 60 dəqiqə"
+   ],
+   [
+    "Qabda istifadə müddəti +20°C",
+    "~ 40 dəqiqə"
+   ],
+   [
+    "Qabda istifadə müddəti +30°C",
+    "~ 20 dəqiqə"
+   ],
+   [
+    "Təhlükəli maddələr",
+    "TMF-ə baxın"
+   ]
+  ],
+  "consumption": "Səthdən və tətbiq üsulundan asılı olaraq 200–600 q/m²",
+  "tds": "https://mrfix.az/site/assets/files/3238/coatix_ep_1150_primer_tds_az.pdf"
+ },
+ {
+  "slug": "coatix-ep-1220-primer",
+  "name": "COATIX® EP 1220 Primer",
+  "cat": "coatix",
+  "group": "Astar",
+  "short": "Iki komponentli, solvent əsaslı, aşağı özlülüklü, epoksid qatranı əsaslı səth hopdurucu",
+  "image": "",
+  "featured": true,
+  "desc": "COATIX® EP 1220 Primer ; iki komponentli, solvent əsaslı, aşağı özlülüklü, epoksid qatranı əsaslı səth hopdurucu astarıdır. Yüksək nüfuzetmə xüsusiyyəti sayəsində beton döşəmələrin kapilyar boşluqlarını doldurur, səth müqavimətini artırır və özündən sonra tətbiq ediləcək epoksid örtük və ya boyalar üçün yapışma körpüsü rolunu oynayır. Aşağı özlülüyü və xüsusi resepturası sayəsində səth sərtləşdiricisi tətbiq edilmiş beton və şaplarda yapışma müqaviməti olduqca yüksəkdir. İstifadə Sahələri",
+  "areas": [
+   "Səth sərtləşdiricisi tətbiq edilmiş beton və şap səthlərdə epoksid astar kimi",
+   "Öz-özünə yayılan sement əsaslı şapların epoksid astarı kimi",
+   "Fabriklər, anbarlar, emalatxanalar və təyyarə anqarları",
+   "Ticarət mərkəzləri, məktəblər və xəstəxanalar",
+   "Əczaçılıq və qida sektoru müəssisələri, laboratoriyalar",
+   "Soyuducu anbarlar və mətbəxlər",
+   "Avtomobil dayanacaqları, rampalar və təmizləyici qurğular",
+   "Ağır forklift hərəkəti və korroziyalı kimyəvi maddələrin olduğu sahələr",
+   "Self-leveling və digər epoksid son qat tətbiqlərində örtükdən əvvəl astar qatı kimi"
+  ],
+  "features": [
+   "Aşağı özlülüyü sayəsində səthə dərindən nüfuz edir",
+   "Beton səthin kapilyar boşluqlarını dolduraraq səth müqavimətini artırır",
+   "Səth sərtləşdiricisi tətbiq edilmiş, qapalı məsaməli beton və şaplarda belə yüksək adheziya təmin edir",
+   "Özündən sonra tətbiq edilən epoksid qatlar üçün güclü və davamlı yapışma körpüsü yaradır",
+   "Xüsusi resepturası sayəsində tətbiqə hazır konsistensiyadadır; əlavə seyreldilmə tələb etmir",
+   "Sərt təbəqə əmələ gətirir; örtük sisteminin aşınmaya və kimyəvi maddələrə davamlılığını artırır",
+   "Rolik və ya fırça ilə asan və sürətli tətbiq edilir"
+  ],
+  "tech": [
+   [
+    "Materialın strukturu",
+    "İki komponentli, solvent əsaslı, epoksid qatranı əsaslı (A: qatran, B: bərkidici)"
+   ],
+   [
+    "Rəng / görünüş",
+    "Şəffaf, parlaq"
+   ],
+   [
+    "Sıxlıq (qarışıq)",
+    "1,00–1,10 q/sm³ / 20°C (EN ISO 2811-1)"
+   ],
+   [
+    "Özlülük (qarışıq)",
+    "100–200 mPa·s"
+   ],
+   [
+    "Uçucu üzvi birləşmələr (VOC)",
+    "≤ 349 q/L"
+   ],
+   [
+    "Quru qalıq miqdarı",
+    "60% (kütləcə)"
+   ],
+   [
+    "Alışma temperaturu",
+    "28°C"
+   ],
+   [
+    "Qoparma üsulu ilə yapışma müqaviməti (EN 1542:2001)",
+    "≥ 2,0 N/mm²"
+   ],
+   [
+    "Qarışıq nisbəti (A / B)",
+    "80 / 20 (kütləcə) – 4 / 1 (həcmcə)"
+   ],
+   [
+    "Seyreldici",
+    "Seyreldilmir"
+   ],
+   [
+    "Tətbiq üsulu",
+    "Rolik, fırça"
+   ],
+   [
+    "Qarışdırma avadanlığı",
+    "300–500 dövr/dəq aşağı dövrlü mexaniki qarışdırıcı"
+   ],
+   [
+    "Qabda istifadə müddəti",
+    "30–40 dəq / 23°C, 200 q (DIN 16945)"
+   ],
+   [
+    "Sərfiyyat",
+    "80–120 q/m² (bir qat) – 8,3–12,5 m²/kq"
+   ],
+   [
+    "Quru təbəqə qalınlığı",
+    "40–60 mikron (80–120 q/m² sərfiyyatda)"
+   ],
+   [
+    "Tətbiq temperaturu (mühit və döşəmə)",
+    "+10°C / +30°C"
+   ],
+   [
+    "Döşəmənin yol verilən nəmliyi",
+    "Kütləcə ən çoxu 4%"
+   ],
+   [
+    "Mühitin nisbi rütubəti",
+    "Ən çoxu 80%"
+   ],
+   [
+    "Toz tutmayan quruma",
+    "3–4 saat / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Toxunmaya quruma",
+    "8–10 saat / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Tam quruma",
+    "7 gün / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Növbəti qatın çəkilmə müddəti",
+    "Ən tez 8–10 saat – ən gec 24 saat / 23°C"
+   ],
+   [
+    "Təhlükəli maddələr",
+    "TMF-ə baxın"
+   ]
+  ],
+  "consumption": "80–120 q/m² (bir qat) – 8,3–12,5 m²/kq",
+  "tds": "https://mrfix.az/site/assets/files/3244/coatix_ep_1220_primer_tds_az.pdf"
+ },
+ {
+  "slug": "coatix-ep-1260-primer",
+  "name": "COATIX® EP 1260 Primer",
+  "cat": "coatix",
+  "group": "Astar",
+  "short": "Iki komponentli, tərkibində solvent olmayan, aşağı özlülüklü, şəffaf epoksid qatranı əsaslı rütubət baryeri və",
+  "image": "",
+  "featured": true,
+  "desc": "COATIX® EP 1260 Primer ; iki komponentli, tərkibində solvent olmayan, aşağı özlülüklü, şəffaf epoksid qatranı əsaslı rütubət baryeri və nüfuzedici astardır. Yüksək nüfuzetmə qabiliyyəti sayəsində beton səthin kapilyar boşluqlarına nüfuz edir və bu boşluqları tutaraq döşəmədən gələn nəmliyin üzərinə tətbiq ediləcək epoksid örtüyə zərər verməsinin qarşısını alır. Bərkiməsini tamamlamamış və ya nəmliyi yüksək olan beton səthlərdə epoksid örtük sistemlərinin tətbiqinə imkan verir. Əmici və az əmici mineral əsaslı səthlərdə astar kimi; uyğun nisbətdə kvars qumu ilə qarışdırıldıqda hamarlama, doldurucu və təmir materialının bağlayıcısı kimi istifadə olunur. İstifadə Sahələri",
+  "areas": [
+   "Nəmliyi yüksək olan beton və sement əsaslı şap səthlərdə rütubət baryeri kimi",
+   "Bərkiməsini tamamlamamış (28 gün gözləmək mümkün olmayan) yeni beton döşəmələrdə",
+   "Normal və çox əmici beton, şap və mineral əsaslı səthlərdə nüfuzedici astar kimi",
+   "Epoksid və poliuretan döşəmə örtüyü sistemlərinin və self-leveling tətbiqlərinin altında astar kimi",
+   "Fabriklərdə, anbarlarda, emalatxanalarda, qida və əczaçılıq müəssisələrində, soyuducu anbarlarda və laboratoriyalarda",
+   "Uyğun nisbətdə kvars qumu əlavə edilməklə hamarlama materialı, doldurucu və təmir materialının bağlayıcısı kimi",
+   "Daxili və xarici məkanlarda, son qat örtükdən əvvəl astar qatı kimi"
+  ],
+  "features": [
+   "Tərkibində solvent yoxdur; aşağı emissiyalıdır, qapalı həcmlərdə təhlükəsiz tətbiq edilir",
+   "Aşağı özlülüyü sayəsində səthə dərindən nüfuz edir",
+   "Kapilyar boşluqları tutaraq döşəmədən gələn nəmliyin qarşısını alır; effektiv rütubət baryeri yaradır",
+   "Nəm döşəmələrdə bərkiyə bilir; bərkiməsinə mühitin nəmliyi mənfi təsir göstərmir",
+   "Beton səthin tozlanmasının qarşısını alır, səth müqavimətini artırır",
+   "Üzərinə tətbiq ediləcək epoksid və poliuretan örtüklərin adheziyasını artırır",
+   "Kvars qumu əlavə edilməklə hamarlama, doldurucu və təmir materialının bağlayıcısı kimi istifadə edilə bilər",
+   "Fırça, rolik, rezin süpürgə (çəkpas) və ya mala ilə asan tətbiq edilir"
+  ],
+  "tech": [
+   [
+    "Materialın strukturu",
+    "İki komponentli, solventsiz, şəffaf, epoksid qatranı əsaslı (A: qatran, B: bərkidici)"
+   ],
+   [
+    "Rəng / görünüş",
+    "A komponenti (qatran): Şəffaf, aşağı özlülüklü maye B komponenti (bərkidici): Şəffaf – açıq sarı maye Tətbiqdən sonra: Şəffaf, parlaq təbəqə"
+   ],
+   [
+    "Sıxlıq (qarışıq)",
+    "1,00–1,10 q/sm³ / 23°C (EN ISO 2811-1)"
+   ],
+   [
+    "Özlülük (qarışıq)",
+    "90–180 mPa·s / 23°C"
+   ],
+   [
+    "Uçucu üzvi birləşmələr (VOC)",
+    "≤ 3 q/L"
+   ],
+   [
+    "Quru qalıq miqdarı",
+    "100% (kütləcə)"
+   ],
+   [
+    "Şor D sərtliyi (ASTM D 2240 / DIN 53505)",
+    "75 ± 5 (7 gün / 23°C)"
+   ],
+   [
+    "Qoparma üsulu ilə yapışma müqaviməti (EN 1542 / EN 1504-2)",
+    "≥ 2,0 (1,5) b N/mm² – betonda qopma"
+   ],
+   [
+    "İstiliyə davamlılıq (daimi)",
+    "+50°C (quru mühit)"
+   ],
+   [
+    "İstiliyə davamlılıq (qısamüddətli)",
+    "+80°C (maks. 7 gün) +100°C (maks. 12 saat)"
+   ],
+   [
+    "Qarışıq nisbəti (A / B)",
+    "80 / 20 (kütləcə) – 4 / 1 (həcmcə)"
+   ],
+   [
+    "Seyrəldici",
+    "Seyrəldilmir"
+   ],
+   [
+    "Tətbiq üsulu",
+    "Fırça, rolik, rezin süpürgə (çəkpas) və ya mala"
+   ],
+   [
+    "Qarışdırma avadanlığı",
+    "300–500 dövr/dəq aşağı dövrlü mexaniki qarışdırıcı"
+   ],
+   [
+    "Qabda istifadə müddəti",
+    "60–90 dəq / 23°C, 200 q (DIN 16945)"
+   ],
+   [
+    "Sərfiyyat (bir qat)",
+    "200–500 q/m² (səthin əmiciliyindən asılı olaraq)"
+   ],
+   [
+    "Sərfiyyat (rütubət baryeri, 2 qat)",
+    "200–400 q/m² (hər qat üçün)"
+   ],
+   [
+    "Tətbiq temperaturu (mühit və döşəmə)",
+    "+10°C / +30°C"
+   ],
+   [
+    "Döşəmənin yol verilən nəmliyi",
+    "Kütləcə ən çoxu 6% (CM və ya quruducu şkaf üsulu) Nəmliyi 4%-dən yuxarı olan döşəmələrdə rütubət baryeri kimi tətbiq edilir"
+   ],
+   [
+    "Mühitin nisbi rütubəti",
+    "Ən çoxu 80%"
+   ],
+   [
+    "Toz tutmayan quruma",
+    "6–8 saat / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Toxunmaya quruma",
+    "12–14 saat / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Növbəti qatın çəkilmə müddəti",
+    "Ən tez 12 saat – ən gec 24 saat / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Tam quruma",
+    "7 gün / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Tam mexaniki və kimyəvi yüklənmə",
+    "7 gün / 23°C"
+   ],
+   [
+    "Təhlükəli maddələr",
+    "TMF-ə baxın"
+   ]
+  ],
+  "consumption": "200–500 q/m² (səthin əmiciliyindən asılı olaraq)",
+  "tds": "https://mrfix.az/site/assets/files/3232/coatix_ep_1260_primer_tds_az.pdf"
+ },
+ {
+  "slug": "coatix-ep-3248-self-leveling",
+  "name": "COATIX® EP 3248 Self-Leveling",
+  "cat": "coatix",
+  "group": "Epoksid örtüklər",
+  "short": "Tərkibində solvent olmayan, iki komponentli, epoksid qatranı əsaslı, rəngli, öz-özünə yayılan (self-leveling) ",
+  "image": "",
+  "featured": true,
+  "desc": "COATIX® EP 3248 Self-Leveling ; tərkibində solvent olmayan, iki komponentli, epoksid qatranı əsaslı, rəngli, öz-özünə yayılan (self-leveling) döşəmə örtüyü materialıdır. Hamar, tikişsiz və məsaməsiz səth yaradır; yüksək mexaniki müqaviməti və geniş kimyəvi davamlılığı ilə intensiv piyada və nəqliyyat hərəkətinə məruz qalan sənaye döşəmələrində istifadə olunur. Sərt, şüşəvari və hamar səthi sayəsində asan təmizlənir, gigiyenik və steril şəraitə uyğundur. İstifadə Sahələri Tərkibinə kvars qumu əlavə edilərək qalınlıq artırıla bilər; təzə səthə kvars səpilərək sürüşməyən (qum səpilmiş) sistem əldə edilə bilər.",
+  "areas": [
+   "Fabriklər, anbarlar, quraşdırma və texniki xidmət emalatxanaları",
+   "Təyyarə anqarları, yükləmə rampaları, qapalı və çoxmərtəbəli avtomobil dayanacaqları",
+   "Əczaçılıq, qida, içki, boya və kağız sənayesi müəssisələri",
+   "Xəstəxanalar, laboratoriyalar və gigiyena tələb edən steril mühitlər",
+   "Sənaye mətbəxləri, yeməkxanalar və camaşırxanalar",
+   "Ticarət mərkəzləri, mağazalar, terminallar, sərgi və yarmarka sahələri",
+   "Ofislər, iş yerləri və intensiv piyada hərəkətinə məruz qalan daxili məkanlar"
+  ],
+  "features": [
+   "Solventsizdir; tətbiq zamanı aşağı emissiya təmin edir",
+   "Öz-özünə yayılır; hamar, tikişsiz və məsaməsiz səth yaradır",
+   "Yüksək mexaniki müqavimətə və aşınmaya müqavimətə malikdir",
+   "Bir çox kimyəvi maddəyə və qeyri-üzvi turşulara qarşı davamlıdır",
+   "Maye keçirmir; gigiyenik və steril şəraitə uyğundur",
+   "Hamar və sərt şüşəvari səthi sayəsində asan təmizlənir",
+   "Tərkibinə kvars/silisium doldurucusu əlavə edilərək qalınlıq artırıla bilər",
+   "Kvars səpilərək sürüşməyən səth əldə edilə bilər",
+   "RAL rəng kataloqundakı çalarlarda istehsal edilə bilər"
+  ],
+  "tech": [
+   [
+    "Materialın strukturu",
+    "İki komponentli, rəngli, epoksid qatranı əsaslı (A: qatran, B: bərkidici)"
+   ],
+   [
+    "Görünüş / Rəng",
+    "A komponenti (qatran): Rəngli maye – RAL kataloqu çalarlarında* B komponenti (bərkidici): Açıq sarı, şəffaf maye"
+   ],
+   [
+    "Sıxlıq (qarışıq)",
+    "1,50–1,60 q/sm³ / 23°C (EN ISO 2811-1)"
+   ],
+   [
+    "Özlülük (qarışıq)",
+    "1500–2000 mPa·s / 23°C (EN ISO 3219)"
+   ],
+   [
+    "Uçucu üzvi birləşmələr (VOC)",
+    "≤ 10 q/L – 2004/42/EC (Kat. IIA/j, sb; hədd 500 q/L)"
+   ],
+   [
+    "Quru qalıq miqdarı",
+    "100% (kütləcə)"
+   ],
+   [
+    "İstismar temperaturu",
+    "0°C / +80°C"
+   ],
+   [
+    "Sıxılmaya müqavimət (EN 12190 / EN 196-1)",
+    "≥ 60 N/mm²"
+   ],
+   [
+    "Əyilməyə müqavimət (EN 12190 / EN 196-1)",
+    "≥ 30 N/mm²"
+   ],
+   [
+    "Şor D sərtliyi (EN ISO 868 / DIN 53505)",
+    "78 ± 5"
+   ],
+   [
+    "Aşınmaya müqavimət – Taber (EN 1504-2)",
+    "115 mq (CS 10 / 1000 q / 1000 dövr)"
+   ],
+   [
+    "Qoparma üsulu ilə yapışma müqaviməti (EN 1542 / EN 1504-2)",
+    "≥ 2,0 (1,5) b N/mm² – betonda qopma"
+   ],
+   [
+    "Zərbəyə müqavimət sınağı (EN 1504-2)",
+    "Sinif III (≥ 20 Nm)"
+   ],
+   [
+    "Kapilyar su əmmə qabiliyyəti və su keçiriciliyi (EN 1504-2)",
+    "≤ 0,1 kq/m²·h⁰·⁵"
+   ],
+   [
+    "Qarışıq nisbəti (A / B)",
+    "80 / 20 (kütləcə) – 2,5 / 1 (həcmcə)"
+   ],
+   [
+    "Seyreldici",
+    "Seyreldilmir"
+   ],
+   [
+    "Tətbiq üsulu",
+    "Dişli mala / tənzimlənən rakel ilə yayma, kirpi rolik ilə havanın çıxarılması"
+   ],
+   [
+    "Qabda istifadə müddəti",
+    "25–30 dəq / 23°C, 15 kq (EN ISO 9514)"
+   ],
+   [
+    "Sərfiyyat",
+    "1 mm qalınlıq üçün 1,50–1,60 kq/m² (kvarssız qarışıq) Minimum tətbiq qalınlığı 1,0 mm"
+   ],
+   [
+    "Tətbiq temperaturu (mühit və döşəmə)",
+    "+10°C / +30°C"
+   ],
+   [
+    "Döşəmənin yol verilən nəmliyi",
+    "Kütləcə ən çoxu 4%"
+   ],
+   [
+    "Mühitin nisbi rütubəti",
+    "Ən çoxu 80%"
+   ],
+   [
+    "Toxunmaya quruma",
+    "6–8 saat / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Piyada hərəkətinə açılma",
+    "24 saat / 23°C"
+   ],
+   [
+    "Tam quruma",
+    "7 gün / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Növbəti qatın çəkilmə müddəti",
+    "Ən tez 24 saat – ən gec 48 saat / 23°C"
+   ],
+   [
+    "Qabda istifadə müddəti +10°C",
+    "~ 60 dəqiqə"
+   ],
+   [
+    "Qabda istifadə müddəti +20°C",
+    "~ 30 dəqiqə"
+   ],
+   [
+    "Qabda istifadə müddəti +30°C",
+    "~ 15 dəqiqə"
+   ],
+   [
+    "Yanğına reaksiya sinfi (EN 13501-1)",
+    "B fl -s1"
+   ],
+   [
+    "Təhlükəli maddələr",
+    "TMF-ə baxın"
+   ]
+  ],
+  "consumption": "1 mm qalınlıq üçün 1,50–1,60 kq/m² (kvarssız qarışıq) Minimum tətbiq qalınlığı 1,0 mm",
+  "tds": "https://mrfix.az/site/assets/files/3251/coatix_ep_3248_self-leveling_tds_az.pdf"
+ },
+ {
+  "slug": "coatix-ep-3565-self-leveling",
+  "name": "COATIX® EP 3565 Self-Leveling",
+  "cat": "coatix",
+  "group": "Epoksid örtüklər",
+  "short": "Tərkibində solvent olmayan, iki komponentli, epoksid qatranı əsaslı, rəngli, öz-özünə yayılan (self-leveling) ",
+  "image": "",
+  "featured": true,
+  "desc": "COATIX® EP 3565 Self-Leveling ; tərkibində solvent olmayan, iki komponentli, epoksid qatranı əsaslı, rəngli, öz-özünə yayılan (self-leveling) döşəmə örtüyü materialıdır. Xüsusi qatran/bərkidici tərkibi sayəsində turşulara, qələvilərə və bir çox aqressiv kimyəvi maddəyə qarşı üstün davamlılıq göstərir. Hamar, tikişsiz və məsaməsiz səth yaradır; yüksək mexaniki müqaviməti, sürtünməyə və aşınmaya müqaviməti ilə ağır forklift hərəkətinə və korroziyalı kimyəvi yüklərə məruz qalan sənaye döşəmələrində istifadə olunur. Sərt, şüşəvari və hamar səthi sayəsində asan təmizlənir, gigiyenik və steril şəraitə uyğundur. İstifadə Sahələri Tərkibinə kvars/silisium doldurucusu əlavə edilərək qalınlıq artırıla bilər; təzə səthə kvars səpilərək sürüşməyən (qum səpilmiş) sistem əldə edilə bilər.",
+  "areas": [
+   "Kimya və əczaçılıq sənayesi müəssisələri, təmizləyici qurğular, turşu/qələvi doldurma və saxlama sahələri",
+   "Akkumulyator, sinkləmə, səth örtükləri və metal emalı müəssisələri, korroziyalı kimyəvi maddələrin istifadə edildiyi istehsal sahələri",
+   "Fabriklər, anbarlar, quraşdırma və texniki xidmət emalatxanaları, ağır forklift hərəkətinə məruz qalan döşəmələr",
+   "Qida, içki, süd, boya və kağız sənayesi müəssisələri",
+   "Xəstəxanalar, laboratoriyalar və gigiyena tələb edən steril mühitlər",
+   "Sənaye mətbəxləri, yeməkxanalar, camaşırxanalar və kəsimxanalar",
+   "Təyyarə anqarları, yükləmə rampaları, ticarət mərkəzləri, məktəblər və avtomobil dayanacaqları"
+  ],
+  "features": [
+   "Turşulara, qələvilərə, duz məhlullarına və bir çox aqressiv kimyəvi maddəyə qarşı üstün davamlılıq göstərir",
+   "Solventsizdir; tətbiq zamanı aşağı emissiya təmin edir",
+   "Öz-özünə yayılır; hamar, tikişsiz və məsaməsiz səth yaradır",
+   "Yüksək mexaniki müqavimətə, sürtünməyə və aşınmaya müqavimətə malikdir",
+   "Maye keçirmir; gigiyenik və steril şəraitə uyğundur",
+   "Hamar və sərt şüşəvari səthi sayəsində asan təmizlənir, uzun müddət texniki qulluq tələb etmir",
+   "Tərkibinə kvars/silisium doldurucusu əlavə edilərək qalınlıq artırıla bilər",
+   "Kvars səpilərək sürüşməyən (qum səpilmiş) səth əldə edilə bilər",
+   "RAL rəng kataloqundakı çalarlarda istehsal edilə bilər"
+  ],
+  "tech": [
+   [
+    "Materialın strukturu",
+    "Üç komponentli, rəngli, epoksid qatranı əsaslı (A: qatran, B: bərkidici, C: kvars)"
+   ],
+   [
+    "Görünüş / Rəng",
+    "A komponenti (qatran): Rəngli maye – RAL kataloqu çalarlarında* B komponenti (bərkidici): Açıq sarı, şəffaf maye C komponenti: Qurudulmuş kvars qumu"
+   ],
+   [
+    "Sıxlıq (qarışıq A+B)",
+    "1,55–1,65 q/sm³ / 23°C (EN ISO 2811-1)"
+   ],
+   [
+    "Sıxlıq (qarışıq, kvars daxil)",
+    "1,75–1,85 q/sm³ / 23°C (EN ISO 2811-1)"
+   ],
+   [
+    "Konsistensiya",
+    "Öz-özünə yayılan (self-leveling)"
+   ],
+   [
+    "Uçucu üzvi birləşmələr (VOC)",
+    "≤ 10 q/L – 2004/42/EC (Kat. IIA/j, sb; hədd 500 q/L)"
+   ],
+   [
+    "Quru qalıq miqdarı",
+    "100% (kütləcə)"
+   ],
+   [
+    "İstismar temperaturu",
+    "0°C / +80°C"
+   ],
+   [
+    "Sıxılmaya müqavimət (ASTM D695 / EN ISO 604)",
+    "75–85 N/mm²"
+   ],
+   [
+    "Əyilməyə müqavimət (EN ISO 178)",
+    "20–30 N/mm²"
+   ],
+   [
+    "Dartılmaya müqavimət (EN ISO 527)",
+    "15–20 N/mm²"
+   ],
+   [
+    "Şor D sərtliyi (ASTM D 2240 / DIN 53505)",
+    "85 ± 5 (80–85)"
+   ],
+   [
+    "Aşınmaya müqavimət – Taber (EN 1504-2)",
+    "115 mq (CS 10 / 1000 q / 1000 dövr)"
+   ],
+   [
+    "Qoparma üsulu ilə yapışma müqaviməti (EN 1542 / EN 1504-2)",
+    "≥ 2,0 (1,5) b N/mm² – betonda qopma"
+   ],
+   [
+    "Zərbəyə müqavimət sınağı (EN 1504-2)",
+    "Sinif III (≥ 20 Nm)"
+   ],
+   [
+    "Kapilyar su əmmə qabiliyyəti və su keçiriciliyi (EN 1504-2)",
+    "≤ 0,1 kq/m²·h⁰·⁵"
+   ],
+   [
+    "Qarışıq nisbəti (A / B)",
+    "6 / 1 (kütləcə)"
+   ],
+   [
+    "Qarışıq nisbəti (A / B / C, kvars daxil)",
+    "60 / 10 / 30 (kütləcə)"
+   ],
+   [
+    "Seyreldici",
+    "Seyreldilmir"
+   ],
+   [
+    "Tətbiq üsulu",
+    "Mala, dişli mala və ya tənzimlənən rakel ilə yayma, kirpi rolik ilə havanın çıxarılması"
+   ],
+   [
+    "Qabda istifadə müddəti",
+    "30–40 dəq / 23°C, 25 kq (DIN 16945 / EN ISO 9514)"
+   ],
+   [
+    "Sərfiyyat",
+    "1 mm qalınlıq üçün 1,80 kq/m² (kvars daxil) Minimum tətbiq qalınlığı 1,0 mm"
+   ],
+   [
+    "Tətbiq temperaturu (mühit və döşəmə)",
+    "+10°C / +30°C"
+   ],
+   [
+    "Döşəmənin yol verilən nəmliyi",
+    "Kütləcə ən çoxu 4%"
+   ],
+   [
+    "Mühitin nisbi rütubəti",
+    "Ən çoxu 80%"
+   ],
+   [
+    "Toz tutmayan quruma",
+    "3–4 saat / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Toxunmaya quruma",
+    "10–12 saat / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Piyada hərəkətinə açılma",
+    "24 saat / 23°C"
+   ],
+   [
+    "Tam quruma",
+    "7 gün / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Növbəti qatın çəkilmə müddəti",
+    "Ən tez 24 saat – ən gec 48 saat / 23°C"
+   ],
+   [
+    "Qabda istifadə müddəti +10°C",
+    "~ 70 dəqiqə"
+   ],
+   [
+    "Qabda istifadə müddəti +20°C",
+    "~ 40 dəqiqə"
+   ],
+   [
+    "Qabda istifadə müddəti +30°C",
+    "~ 20 dəqiqə"
+   ],
+   [
+    "Yanğına reaksiya sinfi (EN 13501-1)",
+    "B fl -s1"
+   ],
+   [
+    "Təhlükəli maddələr",
+    "TMF-ə baxın"
+   ]
+  ],
+  "consumption": "1 mm qalınlıq üçün 1,80 kq/m² (kvars daxil) Minimum tətbiq qalınlığı 1,0 mm",
+  "tds": "https://mrfix.az/site/assets/files/3269/coatix_ep_3565_self-leveling_tds_az.pdf"
+ },
+ {
+  "slug": "coatix-ep-4085-top-coat",
+  "name": "COATIX® EP 4085 Top Coat",
+  "cat": "coatix",
+  "group": "Epoksid örtüklər",
+  "short": "Iki komponentli, tərkibində solvent olmayan, epoksid qatranı əsaslı, parlaq təbəqə yaradan son qat örtük",
+  "image": "",
+  "featured": true,
+  "desc": "COATIX® EP 4085 Top Coat ; iki komponentli, tərkibində solvent olmayan, epoksid qatranı əsaslı, parlaq təbəqə yaradan son qat örtük materialıdır. Yüksək səth sərtliyi, suya və kimyəvi maddələrə davamlılığı, yüksək mexaniki müqaviməti və asan təmizlənən gigiyenik səthi əsas xüsusiyyətləridir. Karbon qazını keçirməyən strukturu sayəsində betonu karbonatlaşmadan qoruyur, metal səthlərin isə korroziyaya davamlılığını artırır. Beton, şap və mineral əsaslı səthlərlə yanaşı, uyğun astar sistemi ilə metal və polad səthlərə də son qat kimi tətbiq edilir. İstifadə Sahələri",
+  "areas": [
+   "Fabriklər, anbarlar, emalatxanalar və təyyarə anqarları",
+   "Ticarət mərkəzləri, məktəblər və xəstəxanalar",
+   "Əczaçılıq və qida sektoru müəssisələri, laboratoriyalar",
+   "Avtomobil dayanacaqları, rampalar, quraşdırma və texniki xidmət emalatxanaları",
+   "Təmizləyici qurğular, tullantı suyu tikililəri və texniki otaqlar",
+   "Su çənləri, siloslar və saxlama çənlərinin daxili səthləri",
+   "Metaldan hazırlanmış maşın, avadanlıq və bina hissələrində qoruyucu boya kimi",
+   "Divar və döşəmə səthlərində; üfüqi və şaquli tətbiqlərdə",
+   "Ağır forklift hərəkəti və korroziyalı kimyəvi maddələrin olduğu sahələr",
+   "Beton, şap və mineral əsaslı səthlərə, həmçinin uyğun astar qatından sonra metal/polad səthlərə son qat kimi"
+  ],
+  "features": [
+   "Tərkibində solvent yoxdur; aşağı emissiyalıdır, qapalı həcmlərdə təhlükəsiz tətbiq edilir",
+   "Yüksək səth sərtliyinə, mexaniki müqavimətə və aşınmaya müqavimətə malikdir",
+   "Qeyri-üzvi və zəif üzvi turşulara, bir çox kimyəvi maddəyə və mineral yağlara davamlıdır",
+   "Tullantı suyuna və dəniz suyuna qarşı davamlıdır",
+   "Karbon qazını keçirmir; betonu karbonatlaşmadan qoruyur",
+   "Metal səthlərin korroziyaya qarşı davamlılığını artırır",
+   "Tikişsiz, gigiyenik və parlaq səth yaradır; asan təmizlənir, buxarla təmizləməyə uyğundur",
+   "Üfüqi və şaquli səthlərdə tətbiq edilə bilər",
+   "Fırça, rolik və ya havasız (airless) püskürtmə ilə tətbiq edilir",
+   "Geniş RAL rəng seçimi ilə istehsal edilə bilər"
+  ],
+  "tech": [
+   [
+    "Materialın strukturu",
+    "İki komponentli, solventsiz, epoksid qatranı əsaslı (A: qatran, B: bərkidici)"
+   ],
+   [
+    "Rəng / görünüş",
+    "A komponenti (qatran): Maye, RAL rəng seçimlərində B komponenti (bərkidici): Maye Tətbiqdən sonra: Parlaq, yüngül rolik naxışlı səth"
+   ],
+   [
+    "Parlaqlıq",
+    "Parlaq"
+   ],
+   [
+    "Sıxlıq (qarışıq)",
+    "1,50 ± 0,10 q/sm³ / 23°C (EN ISO 2811-1)"
+   ],
+   [
+    "Özlülük (qarışıq)",
+    "700–1400 mPa·s"
+   ],
+   [
+    "Uçucu üzvi birləşmələr (VOC)",
+    "≤ 4,2 q/L (0,28%)"
+   ],
+   [
+    "Quru qalıq miqdarı",
+    "100% (kütləcə)"
+   ],
+   [
+    "İstismar temperaturu",
+    "-10°C / +60°C (quru mühit)"
+   ],
+   [
+    "Sıxılmaya müqavimət (ASTM D695 / EN ISO 604)",
+    "65–77 N/mm²"
+   ],
+   [
+    "Şor D sərtliyi (ASTM D 2240 / DIN 53505)",
+    "80 ± 5 (7 gün / 23°C)"
+   ],
+   [
+    "Aşınmaya müqavimət – Taber (EN 1504-2)",
+    "≤ 115 mq / 1000 dövr"
+   ],
+   [
+    "Qoparma üsulu ilə yapışma müqaviməti (EN 1542 / EN 1504-2)",
+    "≥ 2,0 (1,5) b N/mm² – betonda qopma"
+   ],
+   [
+    "Zərbəyə müqavimət sınağı (EN 1504-2)",
+    "Sinif III"
+   ],
+   [
+    "Kapilyar su əmmə qabiliyyəti və su keçiriciliyi (EN 1504-2)",
+    "≤ 0,1 kq/m²·h⁰·⁵"
+   ],
+   [
+    "Qarışıq nisbəti (A / B)",
+    "85 / 15 (kütləcə)"
+   ],
+   [
+    "Seyreldici",
+    "Seyreldilmir"
+   ],
+   [
+    "Tətbiq üsulu",
+    "Fırça, rolik, havasız (airless) püskürtmə"
+   ],
+   [
+    "Tətbiq avadanlığı",
+    "300–500 dövr/dəq qarışdırıcı, fırça, rolik, airless tapança"
+   ],
+   [
+    "Qabda istifadə müddəti",
+    "30–40 dəq / 23°C, 200 q (DIN 16945)"
+   ],
+   [
+    "Sərfiyyat",
+    "380–460 q/m² (bir qat)"
+   ],
+   [
+    "Quru təbəqə qalınlığı",
+    "250–300 mikron (bir qat)"
+   ],
+   [
+    "Örtmə qabiliyyəti",
+    "2,2–2,6 m²/kq"
+   ],
+   [
+    "Tətbiq temperaturu (mühit və səth)",
+    "+10°C / +30°C"
+   ],
+   [
+    "Səthin yol verilən nəmliyi",
+    "Ən çoxu 4%"
+   ],
+   [
+    "Mühitin nisbi rütubəti",
+    "Ən çoxu 80%"
+   ],
+   [
+    "Toz tutmayan quruma",
+    "60–90 dəqiqə / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Toxunmaya quruma",
+    "5–7 saat / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Növbəti qatın çəkilmə müddəti",
+    "Ən tez 12 saat – ən gec 24 saat / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Piyada hərəkətinə açılma",
+    "24 saat / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Tam quruma",
+    "7 gün / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Tam mexaniki və kimyəvi yüklənmə",
+    "7 gün / 23°C"
+   ],
+   [
+    "Təhlükəli maddələr",
+    "TMF-ə baxın"
+   ]
+  ],
+  "consumption": "380–460 q/m² (bir qat)",
+  "tds": "https://mrfix.az/site/assets/files/3257/coatix_ep_4085_top_coat_tds_az.pdf"
+ },
+ {
+  "slug": "coatix-ep-4090-thixotropic-top-coat",
+  "name": "COATIX® EP 4090 Thixotropic Top Coat",
+  "cat": "coatix",
+  "group": "Epoksid örtüklər",
+  "short": "Iki komponentli, tərkibində solvent olmayan, tiksotrop strukturlu, epoksid qatranı əsaslı rəngli son qat örtük",
+  "image": "",
+  "featured": true,
+  "desc": "COATIX® EP 4090 Thixotropic Top Coat ; iki komponentli, tərkibində solvent olmayan, tiksotrop strukturlu, epoksid qatranı əsaslı rəngli son qat örtük materialıdır. Mala ilə yayıldıqdan sonra mərcan (effekt) rolik ilə daranaraq portağal qabığı görünüşlü teksturalı səth əldə edilir. Yüksək səth sərtliyi, yüksək mexaniki müqaviməti, suya və kimyəvi maddələrə davamlılığı və asan təmizlənməsi əsas xüsusiyyətləridir. Teksturalı səthi örtüyə sürüşməzlik xüsusiyyəti verir; tiksotrop strukturu sayəsində rampa və mailli səthlərdə axmadan tətbiq edilə bilər. Metal və ya beton səthlər üzərinə uyğun astar qatından sonra son qat kimi tətbiq edilir. İstifadə Sahələri",
+  "areas": [
+   "Fabriklər, anbarlar, emalatxanalar və təyyarələrə texniki xidmət anqarları",
+   "Ticarət mərkəzləri, terminallar, sərgi və yarmarka sahələri",
+   "Məktəblər, xəstəxanalar, ofislər və iş yerləri",
+   "Əczaçılıq, boya, kağız və qida sektoru müəssisələri və laboratoriyalar",
+   "Sənaye mətbəxləri, yeməkxanalar və camaşırxanalar",
+   "Çoxmərtəbəli və yeraltı avtomobil dayanacaqları, rampalar və yükləmə sahələri",
+   "Təmizləyici qurğular, texniki otaqlar və texniki xidmət emalatxanaları",
+   "Ağır forklift hərəkəti və korroziyalı kimyəvi maddələrin olduğu sahələr",
+   "Sürüşməzlik tələb edən üfüqi tətbiqlər",
+   "Daxili məkanlarda, beton və ya metal səthlər üzərinə astar qatından sonra son qat kimi"
+  ],
+  "features": [
+   "Tərkibində solvent yoxdur; qapalı həcmlərdə təhlükəsiz tətbiq edilir",
+   "Tiksotrop strukturu sayəsində rampalarda və mailli səthlərdə axmır",
+   "Portağal qabığı görünüşlü teksturalı səthi örtüyə sürüşməzlik xüsusiyyəti verir",
+   "Yüksək mexaniki müqavimətə və aşınmaya müqavimətə malikdir",
+   "Bir çox kimyəvi maddəyə və qeyri-üzvi turşulara qarşı davamlıdır",
+   "Tikişsiz, gigiyenik səth yaradır; steril şəraitə uyğundur",
+   "Maye keçirmir; asan təmizlənir, texniki qulluq xərcləri aşağıdır",
+   "Mala və mərcan rolik ilə sürətli və asan tətbiq edilir",
+   "Geniş RAL rəng seçimi ilə istehsal edilə bilər"
+  ],
+  "tech": [
+   [
+    "Materialın strukturu",
+    "İki komponentli, solventsiz, tiksotrop, epoksid qatranı əsaslı (A: qatran, B: bərkidici)"
+   ],
+   [
+    "Rəng / görünüş",
+    "A komponenti (qatran): Tiksotrop maye, RAL rəng seçimlərində B komponenti (bərkidici): Maye, açıq sarı Tətbiqdən sonra: Parlaq, teksturalı (portağal qabığı) səth"
+   ],
+   [
+    "Parlaqlıq",
+    "Parlaq"
+   ],
+   [
+    "Sıxlıq (qarışıq)",
+    "1,70 ± 0,10 q/sm³ / 23°C (EN ISO 2811-1)"
+   ],
+   [
+    "Tiksotropiya indeksi",
+    "5,4–5,9"
+   ],
+   [
+    "Uçucu üzvi birləşmələr (VOC)",
+    "≤ 3,9 q/L"
+   ],
+   [
+    "Quru qalıq miqdarı",
+    "100% (kütləcə)"
+   ],
+   [
+    "İstismar temperaturu",
+    "-10°C / +60°C (quru mühit)"
+   ],
+   [
+    "Sıxılmaya müqavimət (ASTM D695 / EN ISO 604)",
+    "60–75 N/mm²"
+   ],
+   [
+    "Şor D sərtliyi (ASTM D 2240 / DIN 53505)",
+    "80 ± 5 (7 gün / 23°C)"
+   ],
+   [
+    "Aşınmaya müqavimət – Taber (EN 1504-2)",
+    "≤ 115 mq / 1000 dövr"
+   ],
+   [
+    "Qoparma üsulu ilə yapışma müqaviməti (EN 1542 / EN 1504-2)",
+    "≥ 2,0 (1,5) b N/mm² – betonda qopma"
+   ],
+   [
+    "Zərbəyə müqavimət sınağı (EN 1504-2)",
+    "Sinif III"
+   ],
+   [
+    "Kapilyar su əmmə qabiliyyəti və su keçiriciliyi (EN 1504-2)",
+    "≤ 0,1 kq/m²·h⁰·⁵"
+   ],
+   [
+    "Qarışıq nisbəti (A / B)",
+    "90 / 10 (kütləcə)"
+   ],
+   [
+    "Seyreldici",
+    "Seyreldilmir"
+   ],
+   [
+    "Tətbiq üsulu",
+    "Mala ilə yayma, saten rolik ilə darama, mərcan (effekt) rolik ilə naxış vermə"
+   ],
+   [
+    "Tətbiq avadanlığı",
+    "300–500 dövr/dəq qarışdırıcı, mala, saten rolik, mərcan (effekt) rolik"
+   ],
+   [
+    "Qabda istifadə müddəti",
+    "40–60 dəq / 23°C, 200 q (DIN 16945)"
+   ],
+   [
+    "Sərfiyyat",
+    "350–500 q/m² (bir qat)"
+   ],
+   [
+    "Quru təbəqə qalınlığı",
+    "200–300 mikron (bir qat)"
+   ],
+   [
+    "Örtmə qabiliyyəti",
+    "2,0–2,9 m²/kq"
+   ],
+   [
+    "Tətbiq temperaturu (mühit və səth)",
+    "+10°C / +30°C"
+   ],
+   [
+    "Səthin yol verilən nəmliyi",
+    "Ən çoxu 4%"
+   ],
+   [
+    "Mühitin nisbi rütubəti",
+    "Ən çoxu 80%"
+   ],
+   [
+    "Toz tutmayan quruma",
+    "60–90 dəqiqə / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Toxunmaya quruma",
+    "6–8 saat / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Növbəti qatın çəkilmə müddəti",
+    "Ən tez 12 saat – ən gec 24 saat / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Piyada hərəkətinə açılma",
+    "24 saat / 23°C"
+   ],
+   [
+    "Tam quruma",
+    "7 gün / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Tam mexaniki və kimyəvi yüklənmə",
+    "7 gün / 23°C"
+   ],
+   [
+    "Təhlükəli maddələr",
+    "TMF-ə baxın"
+   ]
+  ],
+  "consumption": "350–500 q/m² (bir qat)",
+  "tds": "https://mrfix.az/site/assets/files/3263/coatix_ep_4090_thixotropic_top_coat_tds_az.pdf"
+ },
+ {
+  "slug": "coatix-ep-4565-top-coat",
+  "name": "COATIX® EP 4565 Top Coat",
+  "cat": "coatix",
+  "group": "Epoksid örtüklər",
+  "short": "Iki komponentli, tərkibində solvent olmayan, epoksid qatranı əsaslı, parlaq təbəqə yaradan son qat örtük",
+  "image": "",
+  "featured": true,
+  "desc": "COATIX® EP 4565 Top Coat ; iki komponentli, tərkibində solvent olmayan, epoksid qatranı əsaslı, parlaq təbəqə yaradan son qat örtük materialıdır. Xüsusi qatran/bərkidici tərkibi sayəsində qeyri-üzvi və üzvi turşulara, qələvilərə və bir çox aqressiv kimyəvi maddəyə qarşı üstün davamlılıq göstərir. Yüksək səth sərtliyi, suya və kimyəvi maddələrə davamlılığı, yüksək mexaniki müqaviməti və asan təmizlənən gigiyenik səthi əsas xüsusiyyətləridir. Karbon qazını keçirməyən strukturu sayəsində betonu karbonatlaşmadan qoruyur, metal səthlərin isə korroziyaya davamlılığını artırır. İstifadə Sahələri Beton, şap və mineral əsaslı səthlərə, həmçinin uyğun astar qatından sonra metal/polad səthlərə son qat kimi tətbiq edilir.",
+  "areas": [
+   "Kimya və əczaçılıq sənayesi müəssisələri, turşu/qələvi doldurma, dozalama və saxlama sahələri",
+   "Təmizləyici qurğular, tullantı suyu tikililəri, kimyəvi maddə çənləri və texniki otaqlar",
+   "Akkumulyator, sinkləmə, səth örtükləri və metal emalı müəssisələri",
+   "Qida, içki, süd və kağız sənayesi müəssisələri, laboratoriyalar",
+   "Fabriklər, anbarlar, emalatxanalar, təyyarə anqarları və avtomobil dayanacaqları",
+   "Su çənləri, siloslar və saxlama çənlərinin daxili səthləri",
+   "Metaldan hazırlanmış maşın, avadanlıq və bina hissələrində qoruyucu boya kimi",
+   "Divar və döşəmə səthlərində; üfüqi və şaquli tətbiqlərdə",
+   "Ağır forklift hərəkəti və korroziyalı kimyəvi maddələrin olduğu sahələr"
+  ],
+  "features": [
+   "Qeyri-üzvi və üzvi turşulara, qələvilərə, duz məhlullarına və bir çox aqressiv kimyəvi maddəyə qarşı üstün davamlılıq göstərir",
+   "Tərkibində solvent yoxdur; aşağı emissiyalıdır, qapalı həcmlərdə təhlükəsiz tətbiq edilir",
+   "Yüksək səth sərtliyinə, mexaniki müqavimətə və aşınmaya müqavimətə malikdir",
+   "Tullantı suyuna, dəniz suyuna və mineral yağlara qarşı davamlıdır",
+   "Karbon qazını keçirmir; betonu karbonatlaşmadan qoruyur",
+   "Metal səthlərin korroziyaya qarşı davamlılığını artırır",
+   "Tikişsiz, gigiyenik və parlaq səth yaradır; asan təmizlənir, buxarla təmizləməyə uyğundur",
+   "Üfüqi və şaquli səthlərdə tətbiq edilə bilər",
+   "Fırça, rolik və ya havasız (airless) püskürtmə ilə tətbiq edilir",
+   "Geniş RAL rəng seçimi ilə istehsal edilə bilər"
+  ],
+  "tech": [
+   [
+    "Materialın strukturu",
+    "İki komponentli, solventsiz, epoksid qatranı əsaslı (A: qatran, B: bərkidici)"
+   ],
+   [
+    "Rəng / görünüş",
+    "A komponenti (qatran): Maye – RAL rəng seçimlərində* B komponenti (bərkidici): Açıq sarı, şəffaf maye Tətbiqdən sonra: Parlaq, yüngül rolik naxışlı səth"
+   ],
+   [
+    "Parlaqlıq",
+    "Parlaq"
+   ],
+   [
+    "Sıxlıq (qarışıq)",
+    "1,50–1,70 q/sm³ / 23°C (EN ISO 2811-1)"
+   ],
+   [
+    "Özlülük (qarışıq)",
+    "1500–2000 mPa·s / 23°C"
+   ],
+   [
+    "Uçucu üzvi birləşmələr (VOC)",
+    "≤ 5,2 q/L"
+   ],
+   [
+    "Quru qalıq miqdarı",
+    "100% (kütləcə)"
+   ],
+   [
+    "İstismar temperaturu",
+    "-10°C / +60°C (quru mühit)"
+   ],
+   [
+    "Sıxılmaya müqavimət (ASTM D695 / EN ISO 604)",
+    "52–55 N/mm²"
+   ],
+   [
+    "Əyilməyə müqavimət (EN ISO 178)",
+    "24–26 N/mm²"
+   ],
+   [
+    "Dartılmaya müqavimət (EN ISO 527)",
+    "18–20 N/mm²"
+   ],
+   [
+    "Dartılmada uzanma (EN ISO 527)",
+    "0,8–1,0%"
+   ],
+   [
+    "Elastiklik modulu (EN ISO 178)",
+    "1800–2000 N/mm²"
+   ],
+   [
+    "Şor D sərtliyi (ASTM D 2240 / DIN 53505)",
+    "~ 85 (7 gün / 23°C)"
+   ],
+   [
+    "Aşınmaya müqavimət – Taber (ASTM D 4060-95)",
+    "~ 35 mq / 1000 dövr"
+   ],
+   [
+    "Qoparma üsulu ilə yapışma müqaviməti (EN 1542 / EN 1504-2)",
+    "≥ 2,0 (1,5) b N/mm² – betonda qopma"
+   ],
+   [
+    "Qarışıq nisbəti (A / B)",
+    "85 / 15 (kütləcə)"
+   ],
+   [
+    "Durulaşdırıcı",
+    "Durulaşdırılmır"
+   ],
+   [
+    "Tətbiq üsulu",
+    "Fırça, rolik və ya havasız (airless) püskürtmə; künc və kənarlarda fırça ilə ilkin tətbiq (stripe coat)"
+   ],
+   [
+    "Tətbiq avadanlığı",
+    "300–500 dövr/dəq qarışdırıcı, fırça, rolik, airless tapança"
+   ],
+   [
+    "Qabda istifadə müddəti",
+    "30–40 dəq / 23°C, 200 q (DIN 16945)"
+   ],
+   [
+    "Sərfiyyat",
+    "400 q/m² (bir qat) – təxminən 2,5 m²/kq"
+   ],
+   [
+    "Quru təbəqə qalınlığı",
+    "Bir qat: 225–250 mikron Tövsiyə olunan cəmi: 400–500 mikron (2 qat, kimyəvi yükə görə)"
+   ],
+   [
+    "Tətbiq temperaturu (mühit və səth)",
+    "+10°C / +30°C"
+   ],
+   [
+    "Səthin yol verilən nəmliyi",
+    "Kütləcə ən çoxu 4%"
+   ],
+   [
+    "Mühitin nisbi rütubəti",
+    "Ən çoxu 80%"
+   ],
+   [
+    "Toz tutmayan quruma",
+    "60–90 dəqiqə / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Toxunmaya quruma",
+    "5–7 saat / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Növbəti qatın çəkilmə müddəti",
+    "Ən tez 12 saat – ən gec 24 saat / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Piyada hərəkətinə açılma",
+    "24 saat / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Tam quruma",
+    "7 gün / 23°C (EN ISO 9117)"
+   ],
+   [
+    "Tam mexaniki və kimyəvi yüklənmə",
+    "7 gün / 23°C"
+   ],
+   [
+    "Təhlükəli maddələr",
+    "TMF-ə baxın"
+   ]
+  ],
+  "consumption": "400 q/m² (bir qat) – təxminən 2,5 m²/kq",
+  "tds": "https://mrfix.az/site/assets/files/3275/coatix_ep_4565_top_coat_tds_az.pdf"
+ },
+ {
+  "slug": "coatix-pc-7210-polyurethane-cement",
+  "name": "COATIX® PC 7210 Polyurethane Cement",
+  "cat": "coatix",
+  "group": "Poliuretan-sement örtüklər",
+  "short": "Orta və ağır yükə məruz qalan sənaye döşəmələri üçün hazırlanmış, dörd komponentli, su əsaslı poliuretan–semen",
+  "image": "",
+  "featured": true,
+  "standard": "EN 13813 · SR-B2,0-AR0,5-IR4",
+  "desc": "COATIX® PC 7210 Polyurethane Cement ; orta və ağır yükə məruz qalan sənaye döşəmələri üçün hazırlanmış, dörd komponentli, su əsaslı poliuretan–sement hibrid döşəmə örtüyü materialıdır. Xüsusi poliuretan qatran, bərkidici, seçilmiş aqreqat qarışığı və UV-yə yüksək davamlı piqment pastasının obyektdə qarışdırılması ilə hazırlanır. Bir qatda 4–6 mm qalınlıqda tətbiq edilərək tikişsiz, məsaməsiz, maye keçirməyən, mat və hamar səth yaradır. Aqressiv kimyəvi maddələrə, ağır mexaniki yüklərə, zərbəyə, aşınmaya və termal zərbəyə qarşı çox yüksək müqavimət göstərir. Betona yaxın termal genişlənmə əmsalı sayəsində temperatur dəyişikliklərinin intensiv olduğu sahələrdə etibarlı şəkildə istifadə olunur; 7 günlük təzə beton və yüksək nəmliyə malik döşəmələr üzərinə astarlamadan tətbiq edilə bilər. İstifadə Sahələri",
+  "areas": [
+   "Qida və içki istehsalı müəssisələri: süd emalı müəssisələri, süd fermaları, ət istehsalı müəssisələri, çörək sexləri, su və içki doldurma xətləri",
+   "Əczaçılıq istehsalı müəssisələri, təmiz otaqlar, laboratoriyalar və xəstəxanalar",
+   "Kimyəvi maddələrin istehsalı və emalı müəssisələri, akkumulyator istehsalı zavodları",
+   "Soyuducu anbarlar, dondurucu kameralar və soyuducu yükləmə sahələri (-15°C-yə qədər)",
+   "Anbarlar, logistika müəssisələri, quru qablaşdırma xətləri və ambarlar",
+   "Ağır sənaye müəssisələri: metal emalı, avtomobil sənayesi, ağır maşınqayırma və polad istehsalı",
+   "Kommersiya və sənaye mətbəxləri, yeməkxanalar, pivə və şərab istehsalı müəssisələri",
+   "Meyvə, tərəvəz və balıq bazarları, quşçuluq və qida emalı müəssisələri",
+   "Mədən ayırma müəssisələri, təyyarə anqarları və təmizləyici qurğular",
+   "İntensiv forklift və əl arabası hərəkəti olan istehsal sahələri"
+  ],
+  "features": [
+   "Yüksək qatılıqlı və durulaşdırılmış üzvi/qeyri-üzvi turşulara, qələvilərə, yağlara və üzvi həlledicilərə qarşı çox yüksək kimyəvi davamlılıq",
+   "Betona yaxın termal genişlənmə əmsalı sayəsində termal zərbələrə davamlıdır",
+   "15°C ilə +70°C arasında davamlı istismar temperaturu; soyuducu anbarlar üçün uyğundur",
+   "7 günlük təzə beton və yüksək nəmliyə malik döşəmələr üzərinə astarlamadan tətbiq edilə bilər; sürətli tikinti qrafiklərinə imkan verir",
+   "Tikişsiz, məsaməsiz strukturu sayəsində mayelərə qarşı tam keçirməzdir",
+   "Antimikrob və gigiyenikdir; bakteriya və kif əmələ gəlməsinə davamlıdır, HACCP əsaslı qida təhlükəsizliyi sistemləri tətbiq olunan sahələr üçün uyğundur",
+   "Sıxılmaya, əyilməyə, zərbəyə və aşınmaya yüksək müqavimətə malikdir; kövrək qırılma və qopma göstərmir",
+   "Aşağı VOC emissiyası; qarışdırma bitdikdən sonra qoxu və dad ötürmür (non-tainting)",
+   "Sürüşməyən səth (R10); nəm döşəmələrdə iş təhlükəsizliyini təmin edir",
+   "Tətbiqdən sonra 24 saat ərzində istismara verilə bilər"
+  ],
+  "tech": [
+   [
+    "Materialın strukturu",
+    "Su əsaslı poliuretan – sement hibrid əsaslı (poliuretan sement)"
+   ],
+   [
+    "Standart / sinif",
+    "EN 13813:2002 – Sintetik qatran əsaslı şap materialı (SR-B2,0-AR0,5-IR4)"
+   ],
+   [
+    "Komponentlər / xarici görünüş",
+    "A komponenti: Süd rəngli maye poliuretan qatran B komponenti: Kəhrəba rəngli maye bərkidici C komponenti: Quru xüsusi aqreqat qarışığı D komponenti: Maye piqment pastası"
+   ],
+   [
+    "Tətbiq edilmiş səthin görünüşü",
+    "Mat, tikişsiz, hamar səth"
+   ],
+   [
+    "Rəng",
+    "Qırmızı, narıncı, sarı, krem, boz, açıq boz, yaşıl, yaşıl/qəhvəyi, mavi (standart rəng kataloqu)"
+   ],
+   [
+    "Sıxlıq (qarışıq)",
+    "1,90 kq/L / 20°C (EN ISO 2811-1)"
+   ],
+   [
+    "Uçucu üzvi birləşmələr (VOC)",
+    "Çox aşağı emissiya; qapalı məkan havasının keyfiyyəti baxımından ən təmiz sinif (A+)"
+   ],
+   [
+    "Quru qalıq miqdarı",
+    "100% (kütləcə)"
+   ],
+   [
+    "Su əmmə qabiliyyəti",
+    "Sıfır su əmmə (CP.BM2/67/2)"
+   ],
+   [
+    "İstismar temperaturu",
+    "-15°C / +70°C (4–6 mm qalınlıq üçün)"
+   ],
+   [
+    "Sıxılmaya müqavimət (EN 13892-2)",
+    "50–55 N/mm²"
+   ],
+   [
+    "Əyilməyə müqavimət (EN 13892-2)",
+    "18–21 N/mm²"
+   ],
+   [
+    "Dartılmaya müqavimət (BS 6319-7)",
+    "≥ 9 N/mm²"
+   ],
+   [
+    "Sıxılmada elastiklik modulu (BS 6319-6)",
+    "3250–4000 MPa"
+   ],
+   [
+    "Betona yapışma müqaviməti (EN 13892-8 / EN 1542)",
+    "≥ 2,0 N/mm² – betondan qopma"
+   ],
+   [
+    "Zərbəyə müqavimət (EN ISO 6272 / EN 13813)",
+    "IR > 4"
+   ],
+   [
+    "Aşınmaya müqavimət (EN 13813)",
+    "AR 0,5"
+   ],
+   [
+    "Termal genişlənmə əmsalı (ASTM C531)",
+    "3,6 × 10⁻⁵ /°C"
+   ],
+   [
+    "Sürüşməyə müqavimət – nəm, slider 96 (EN 13036-4)",
+    "PTV 35"
+   ],
+   [
+    "Səthin sürüşməzlik sinfi (DIN 51130)",
+    "R 10 V"
+   ],
+   [
+    "Qarışıq nisbəti (A / B / C / D)",
+    "13,5 / 14 / 72 / 0,5 (kütləcə %) 2,70 / 2,80 / 14,40 / 0,10 kq"
+   ],
+   [
+    "Durulaşdırıcı",
+    "Durulaşdırılmır"
+   ],
+   [
+    "Tətbiq üsulu",
+    "Tənzimlənən polad səviyyə reykası və ya polad dişli mala ilə yayma; hava qabarcıqları kirpi rolik ilə çıxarılır"
+   ],
+   [
+    "Qabda istifadə müddəti",
+    "+10°C: ~ 10 dəqiqə +25°C: ~ 5 dəqiqə (qarışdırma bitən kimi döşəməyə tökülməlidir)"
+   ],
+   [
+    "Tətbiq qalınlığı",
+    "4–6 mm (bir qatda)"
+   ],
+   [
+    "Sərfiyyat",
+    "4 mm qalınlıq üçün 8–10 kq/m² 6 mm qalınlıq üçün 12–14 kq/m² Sıyırma (ara) qat: 1,5–2,0 kq/m²"
+   ],
+   [
+    "Tətbiq temperaturu (mühit)",
+    "+12°C / +35°C (ideal +15°C / +25°C)"
+   ],
+   [
+    "Döşəmə (səth) temperaturu",
+    "+12°C / +30°C"
+   ],
+   [
+    "Məhsulun temperaturu",
+    "+18°C / +25°C"
+   ],
+   [
+    "Əsasın vəziyyəti",
+    "7 günlük beton üzərinə tətbiq edilə bilər; döşəmədə durğun su olmamalıdır"
+   ],
+   [
+    "Piyada hərəkətinə açılma",
+    "12–24 saat / 23°C"
+   ],
+   [
+    "Yüngül təkərli nəqliyyat hərəkəti",
+    "24 saat / 23°C"
+   ],
+   [
+    "Ağır yük hərəkəti və tam kimyəvi davamlılıq",
+    "7 gün / 23°C"
+   ],
+   [
+    "Yanğına reaksiya sinfi (EN 13501-1)",
+    "B fl -s1"
+   ],
+   [
+    "Təhlükəli maddələr",
+    "TMF-ə baxın"
+   ]
+  ],
+  "consumption": "4 mm qalınlıq üçün 8–10 kq/m² 6 mm qalınlıq üçün 12–14 kq/m² Sıyırma (ara) qat: 1,5–2,0 kq/m²",
+  "tds": "https://mrfix.az/site/assets/files/3219/coatix_pc_7210_polyurethane_cement_tds_az_rev_01.pdf"
  },
  {
   "slug": "betonmix-hp-460",
