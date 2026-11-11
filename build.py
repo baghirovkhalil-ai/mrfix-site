@@ -120,7 +120,8 @@ def pack(p, root, kg=True):
     nm = p["name"].replace("®", "").split()
     line = nm[0]; rest = " ".join(nm[1:])
     std = p.get("standard", "") or p.get("group", "")
-    return (f'<div class="pack" style="--c:{c}"><img src="{e(img)}" alt="{e(p["name"])}" loading="lazy" decoding="async" onload="this.parentNode.classList.add(\'ok\')" onerror="this.parentNode.classList.add(\'noimg\')">'
+    imgtag = f'<img src="{e(img)}" alt="{e(p["name"])}" loading="lazy" decoding="async" onload="this.parentNode.classList.add(\'ok\')" onerror="this.parentNode.classList.add(\'noimg\')">' if img else ""
+    return (f'<div class="pack{"" if img else " noimg"}" style="--c:{c}">{imgtag}'
             f'<div class="bag" aria-hidden="true"><div class="bag-top"></div><div class="bag-band"><b>{e(line)}</b><small>{e(rest)}</small></div>'
             f'<div class="bag-body"><img class="bag-logo" src="{root}assets/logo.svg" alt=""><span class="bag-std">{e(std)}</span>{"<span class=bag-kg>25 kq</span>" if kg and any("25 kq" in v for _, v in p.get("tech", [])) else ""}</div></div></div>')
 
@@ -413,7 +414,7 @@ def product(p):
 {blog}
 <section class="section-sm"><div class="wrap"><div class="head-row"><div class="head"><span class="eyebrow">Eyni kateqoriyadan</span><h2 class="h2" style="font-size:clamp(26px,3vw,36px)">Oxşar məhsullar</h2></div><a class="btn btn-white" href="{L(root,"mehsullar/"+c["slug"]+"/")}">{e(c["name"])} {I["arrow"]}</a></div><div class="grid g4">{rel}</div></div></section>
 {cta(root)}'''
-    ld = {"@context": "https://schema.org", "@type": "Product", "name": p["name"], "description": p.get("desc") or p["short"], "image": p["image"],
+    ld = {"@context": "https://schema.org", "@type": "Product", "name": p["name"], "description": p.get("desc") or p["short"], "image": p["image"] or (SITE["url"] + "/assets/og.png"),
           "brand": {"@type": "Brand", "name": "Mr.Fix"}, "category": c["name"], "manufacturer": {"@type": "Organization", "name": SITE["company"]}}
     return body, ld
 
