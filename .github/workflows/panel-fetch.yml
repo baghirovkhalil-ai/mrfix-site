@@ -1,4 +1,4 @@
-name: Panel kodunu götür (şifrəli)
+name: Panel kodunu götür (şifrəli, bütün fayllar)
 
 on:
   workflow_dispatch:
@@ -15,7 +15,7 @@ jobs:
     steps:
       - run: |
           mkdir -p work && cd work
-          curl -sSfL https://mrfixdigital.netlify.app/ -o index.html
+          mkdir src && for f in index.html logo.png manifest.webmanifest sw.js; do curl -sSfL https://mrfixdigital.netlify.app/$f -o src/$f || true; done; curl -sSfL https://mrfixdigital.netlify.app/ -o src/index.html; tar czf index.html src
           cat > pub.pem <<'PEM'
           -----BEGIN PUBLIC KEY-----
           MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA0aUJ4ExZZRNzla9tHG74
