@@ -8,7 +8,1419 @@
   "headers": [
     {
       "source": "/(css|js|assets)/(.*)",
-      "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }]
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/about/",
+      "destination": "/haqqimizda/",
+      "permanent": true
+    },
+    {
+      "source": "/cedvel/",
+      "destination": "/hesablayici/",
+      "permanent": true
+    },
+    {
+      "source": "/dealers/",
+      "destination": "/dilerler/",
+      "permanent": true
+    },
+    {
+      "source": "/derz-reng-secimi/",
+      "destination": "/reng-secimi/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/bathroom/altdan-i-sitm-li-dos-m-uz-rin-su-i-zolyasiyasi-v-keramika-t-tbiqi-h-ll-ri/",
+      "destination": "/hell-yollari/hamam/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/bathroom/beton-v-suvaqli-s-thl-rd-su-i-zolyasiyasi-v-boyuk-olculu-keramika-t-tbiq-h-ll-ri/",
+      "destination": "/hell-yollari/hamam/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/bathroom/boyali-sethler-uzerin-keramika-tetbiqi/",
+      "destination": "/hell-yollari/hamam/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/bathroom/gipskarton-ve-gips-sasli-sethlerd-su-izolyasiya-ve-keramika-tetbiqi/",
+      "destination": "/hell-yollari/hamam/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/bathroom/movcud-keramika-uzerin-su-izolyasiyasi-ve-keramika-tetbiqi/",
+      "destination": "/hell-yollari/hamam/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/hovuz/dekorativ-hovuzlar-ucun-su-izolyasiyasi-ve-keramika-tetbiqi/",
+      "destination": "/hell-yollari/hovuz/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/hovuz/su-anbarlarinda-su-izolyasiyasi-ve-keramika-tebiqi-helleri-1/",
+      "destination": "/hell-yollari/hovuz/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/hovuz/su-anbarlarinda-su-izolyasiyasi-ve-keramika-tebiqi-helleri/",
+      "destination": "/hell-yollari/hovuz/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/hovuz/uzguculuk-hovuzlari-ucun-su-izolyasiyasi-ve-keramika-tetbiqi/",
+      "destination": "/hell-yollari/hovuz/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/metbex/beton-ve-suvaqli-sethlerde-boyuk-olculu-keramika-tetbiqi/",
+      "destination": "/hell-yollari/metbex/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/metbex/boyali-sethler-uzerine-keramika-tetbiqi/",
+      "destination": "/hell-yollari/metbex/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/metbex/movcud-keramika-uzerin-keramika-tetbiqi/",
+      "destination": "/hell-yollari/metbex/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/metbex/yerden-isitmeli-sistemler-uzerine-keramika-tetbiqi/",
+      "destination": "/hell-yollari/metbex/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/teras-ve-eyvan/damlarda-sement-esasli-su-izolyasiya-tebiqi-helleri/",
+      "destination": "/hell-yollari/teras/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/teras-ve-eyvan/damlarda-sement-sasli-ub-sualara-davamli-su-i-zolyasiya-t-tbiqi-h-ll-ri/",
+      "destination": "/hell-yollari/teras/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/teras-ve-eyvan/test-1/",
+      "destination": "/hell-yollari/teras/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/xarici-mekanlar/beton-ve-suvaqli-sethlerde-boyuk-olculu-keramika-tetbiqi/",
+      "destination": "/hell-yollari/fasad/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/xarici-mekanlar/hundurmertebeli-tikililerin-fasadlarinda-dekorativ-uzleme-materiallarinin-tetbiqi/",
+      "destination": "/hell-yollari/fasad/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/xarici-mekanlar/mantolama-sisteml-ri-das-yunu-sistem/",
+      "destination": "/hell-yollari/fasad/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/xarici-mekanlar/tebii-daslar-ile-uzleme-tetbiqi/",
+      "destination": "/hell-yollari/fasad/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/xarici-mekanlar/xarici-termo-izolyasiya-kompozit-sisteminin-t-tbiqi-etics/",
+      "destination": "/hell-yollari/fasad/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/zemin/beton-sethlerde-keramika-tetbiqi/",
+      "destination": "/hell-yollari/zemin/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/zemin/depo-saheleri-ucun-zemin-tetbiqi/",
+      "destination": "/hell-yollari/zemin/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/zemin/temier-ehtiyac-olan-zeminlerde-keramika-tetbiqi/",
+      "destination": "/hell-yollari/zemin/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/zemin/yerden-isitmeli-dosem-uzerine-keramika-tetbiqi/",
+      "destination": "/hell-yollari/zemin/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/zirzemi-ve-bunovre/beton-sethlerde-keramika-tetbiqi-1/",
+      "destination": "/hell-yollari/zirzemi/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/zirzemi-ve-bunovre/daxilden-negativ-su-izolyasiya-tetbiqi/",
+      "destination": "/hell-yollari/zirzemi/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/zirzemi-ve-bunovre/temel-perd-divarlarda-daxilden-su-izolyasiya-tetbiqi/",
+      "destination": "/hell-yollari/zirzemi/",
+      "permanent": true
+    },
+    {
+      "source": "/hell-yollari/zirzemi-ve-bunovre/temel-perd-divarlarinda-xaricden-su-izolyasiya-tetbiqi/",
+      "destination": "/hell-yollari/zirzemi/",
+      "permanent": true
+    },
+    {
+      "source": "/kataloqlar/",
+      "destination": "/senedler/",
+      "permanent": true
+    },
+    {
+      "source": "/kataloqlar/ceramax/test/",
+      "destination": "/senedler/",
+      "permanent": true
+    },
+    {
+      "source": "/material-calculator/",
+      "destination": "/hesablayici/",
+      "permanent": true
+    },
+    {
+      "source": "/news/",
+      "destination": "/xeberler/",
+      "permanent": true
+    },
+    {
+      "source": "/news/m-hsullarimizi-artiq-qirgizistana-da-ixrac-etm-y-basladiq/",
+      "destination": "/xeberler/qirgizistan-ixrac/",
+      "permanent": true
+    },
+    {
+      "source": "/news/novb-ti-ixrac-m-kdasligimiz-gurcustan/",
+      "destination": "/xeberler/gurcustan-ixrac/",
+      "permanent": true
+    },
+    {
+      "source": "/news/s-ki-usta-seminari/",
+      "destination": "/xeberler/",
+      "permanent": true
+    },
+    {
+      "source": "/products/",
+      "destination": "/mehsullar/",
+      "permanent": true
+    },
+    {
+      "source": "/products/beton-qoruyucu-materiallari/",
+      "destination": "/mehsullar/beton-kurleri/",
+      "permanent": true
+    },
+    {
+      "source": "/products/beton-qoruyucu-materiallari/cure-acr/",
+      "destination": "/mehsul/cure-acr/",
+      "permanent": true
+    },
+    {
+      "source": "/products/beton-qoruyucu-materiallari/cure-prf/",
+      "destination": "/mehsul/cure-prf/",
+      "permanent": true
+    },
+    {
+      "source": "/products/coatix/",
+      "destination": "/mehsullar/coatix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/coatix/a/",
+      "destination": "/mehsullar/coatix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/coatix/a/steelcoat-primer-m50/",
+      "destination": "/mehsul/steelcoat-primer-m50/",
+      "permanent": true
+    },
+    {
+      "source": "/products/coatix/a/steelcoat-primer-u1/",
+      "destination": "/mehsul/steelcoat-primer-u1/",
+      "permanent": true
+    },
+    {
+      "source": "/products/coatix/astarlar/",
+      "destination": "/mehsullar/coatix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/coatix/astarlar/coatix-ep-1130-primer/",
+      "destination": "/mehsullar/coatix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/coatix/astarlar/coatix-ep-1150-primer/",
+      "destination": "/mehsullar/coatix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/coatix/astarlar/coatix-ep-1220-primer/",
+      "destination": "/mehsullar/coatix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/coatix/astarlar/coatix-ep-1260-primer/",
+      "destination": "/mehsullar/coatix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/coatix/epoksid-sasli-ortukl-r/",
+      "destination": "/mehsullar/coatix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/coatix/epoksid-sasli-ortukl-r/coatix-ep-3248-self-leveling/",
+      "destination": "/mehsullar/coatix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/coatix/epoksid-sasli-ortukl-r/coatix-ep-3565-self-leveling/",
+      "destination": "/mehsullar/coatix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/coatix/epoksid-sasli-ortukl-r/coatix-ep-4085-top-coat/",
+      "destination": "/mehsullar/coatix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/coatix/epoksid-sasli-ortukl-r/coatix-ep-4090-thixotropic-top-coat/",
+      "destination": "/mehsullar/coatix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/coatix/epoksid-sasli-ortukl-r/coatix-ep-4565-top-coat/",
+      "destination": "/mehsullar/coatix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/coatix/hibrid-poliuretan-sement-ortukl-r/",
+      "destination": "/mehsullar/coatix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/coatix/hibrid-poliuretan-sement-ortukl-r/coatix-pc-7210-polyurethane-cement/",
+      "destination": "/mehsullar/coatix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/coatix/poliurea-h-ll-r/",
+      "destination": "/mehsullar/coatix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/coatix/poliuretan-h-ll-r/",
+      "destination": "/mehsullar/coatix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/coatix/poliuretan-h-ll-r/steelcoat-finish-p430/",
+      "destination": "/mehsul/steelcoat-finish-p430/",
+      "permanent": true
+    },
+    {
+      "source": "/products/coatix/poliuretan-h-ll-r/steelcoat-finish-p445/",
+      "destination": "/mehsul/steelcoat-finish-p445/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-derz-dolgulari/",
+      "destination": "/mehsullar/derz-dolgulari/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-derz-dolgulari/epoksid-sasli-keramika-yapisdiricilari/",
+      "destination": "/mehsullar/derz-dolgulari/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-derz-dolgulari/epoksid-sasli-keramika-yapisdiricilari/ceramax-ep-300/",
+      "destination": "/mehsullar/derz-dolgulari/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-derz-dolgulari/sement-esasli/",
+      "destination": "/mehsullar/derz-dolgulari/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-derz-dolgulari/sement-esasli/fugamax-colorful/",
+      "destination": "/mehsul/fugamax-colorful/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-derz-dolgulari/sement-esasli/fugamax-cotto/",
+      "destination": "/mehsul/fugamax-cotto/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-derz-dolgulari/sement-esasli/fugamax-flex/",
+      "destination": "/mehsul/fugamax-flex/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-derz-dolgulari/sement-esasli/fugamax-floor/",
+      "destination": "/mehsul/fugamax-floor/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-yapisdiricilari/",
+      "destination": "/mehsullar/keramika-yapisdiricilari/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-yapisdiricilari/diger/",
+      "destination": "/mehsullar/keramika-yapisdiricilari/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-yapisdiricilari/diger/ceramax-addmix/",
+      "destination": "/mehsul/ceramax-addmix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-yapisdiricilari/epoksi-esasli/",
+      "destination": "/mehsullar/keramika-yapisdiricilari/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-yapisdiricilari/epoksi-esasli/ceramax-ep-300/",
+      "destination": "/mehsullar/keramika-yapisdiricilari/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-yapisdiricilari/i-stifad-y-hazir-keramika-yapisdiricilari/",
+      "destination": "/mehsullar/keramika-yapisdiricilari/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-yapisdiricilari/sement-esasli/",
+      "destination": "/mehsullar/keramika-yapisdiricilari/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-yapisdiricilari/sement-esasli/ceramax-flex-white/",
+      "destination": "/mehsul/ceramax-flex-white/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-yapisdiricilari/sement-esasli/ceramax-flex/",
+      "destination": "/mehsul/ceramax-flex/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-yapisdiricilari/sement-esasli/ceramax-maxi-white/",
+      "destination": "/mehsul/ceramax-maxi-white/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-yapisdiricilari/sement-esasli/ceramax-maxi/",
+      "destination": "/mehsul/ceramax-maxi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-yapisdiricilari/sement-esasli/ceramax-pro/",
+      "destination": "/mehsul/ceramax-pro/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-yapisdiricilari/sement-esasli/ceramax-rapid/",
+      "destination": "/mehsul/ceramax-rapid/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-yapisdiricilari/sement-esasli/ceramax-standard/",
+      "destination": "/mehsul/ceramax-standard/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-yapisdiricilari/sement-esasli/ceramax-standart-white/",
+      "destination": "/mehsul/ceramax-standard-white/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-yapisdiricilari/sement-esasli/ceramax-ultra/",
+      "destination": "/mehsul/ceramax-ultra/",
+      "permanent": true
+    },
+    {
+      "source": "/products/q-lib-yaglari/",
+      "destination": "/mehsullar/qelib-yaglari/",
+      "permanent": true
+    },
+    {
+      "source": "/products/q-lib-yaglari/formax-ka-101/",
+      "destination": "/mehsul/formax-ka-101/",
+      "permanent": true
+    },
+    {
+      "source": "/products/q-lib-yaglari/formax-ka-121/",
+      "destination": "/mehsul/formax-ka-121/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar-ve-astarlar/",
+      "destination": "/mehsullar/harc-qatqilari-ve-astarlar/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar-ve-astarlar/kontakt-astar/",
+      "destination": "/mehsul/kontakt-astar/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar-ve-astarlar/supermix/",
+      "destination": "/mehsul/supermix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar-ve-astarlar/universal-astar/",
+      "destination": "/mehsul/universal-astar/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/",
+      "destination": "/mehsullar/qatqilar/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/asfalt-qatqilari/",
+      "destination": "/mehsullar/qatqilar/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/asfalt-qatqilari/asfamix-210-an/",
+      "destination": "/mehsul/asfamix-210-an/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/asfalt-qatqilari/asfamix-280-fe-1/",
+      "destination": "/mehsul/asfamix-280-fe/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/asfalt-qatqilari/asfamix-280-fe-2/",
+      "destination": "/mehsul/asfamix-280-fe/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/asfalt-qatqilari/asfamix-280-fe-3/",
+      "destination": "/mehsul/asfamix-280-fe/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/asfalt-qatqilari/asfamix-280-fe-4/",
+      "destination": "/mehsul/asfamix-280-fe/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/asfalt-qatqilari/asfamix-280-fe-5/",
+      "destination": "/mehsul/asfamix-280-fe/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/asfalt-qatqilari/asfamix-280-fe/",
+      "destination": "/mehsul/asfamix-280-fe/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-lifleri/",
+      "destination": "/mehsullar/qatqilar/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-lifleri/kemerix-kmx-65-60-bg/",
+      "destination": "/mehsul/kemerix-kmx-65-60-bg/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-lifleri/kratos-12mm/",
+      "destination": "/mehsul/kratos-12mm/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-lifleri/kratos-pp-54/",
+      "destination": "/mehsul/kratos-pp-54/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/",
+      "destination": "/mehsullar/qatqilar/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-air/",
+      "destination": "/mehsul/betonmix-air-80/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-antifreeze-1/",
+      "destination": "/mehsul/betonmix-antifreeze-1/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-hp-1204/",
+      "destination": "/mehsul/betonmix-hp-1204/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-hp-1205/",
+      "destination": "/mehsul/betonmix-hp-1205/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-hp-1211-a-1/",
+      "destination": "/mehsul/betonmix-hp-1211-a/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-hp-1211-a/",
+      "destination": "/mehsul/betonmix-hp-1211-a/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-hp-1275/",
+      "destination": "/mehsul/betonmix-hp-1275/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-hp-460/",
+      "destination": "/mehsul/betonmix-hp-460/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-hp-461/",
+      "destination": "/mehsul/betonmix-hp-461/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-hp-555/",
+      "destination": "/mehsul/betonmix-hp-555/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-hp-575/",
+      "destination": "/mehsul/betonmix-hp-575/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-proofing/",
+      "destination": "/mehsul/betonmix-proofing/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-rca/",
+      "destination": "/mehsul/betonmix-rca/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-rpd/",
+      "destination": "/mehsul/betonmix-rpd/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-sp-100-s-1/",
+      "destination": "/mehsul/betonmix-sp-100-s/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-sp-100-s/",
+      "destination": "/mehsul/betonmix-sp-100-s/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-sp-1000-k/",
+      "destination": "/mehsul/betonmix-sp-1000-k/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-sp-1000-s/",
+      "destination": "/mehsul/betonmix-sp-1000-s/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-sp-150-k/",
+      "destination": "/mehsul/betonmix-sp-150-k/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-sp-150-s/",
+      "destination": "/mehsul/betonmix-sp-150-s/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-sp-165/",
+      "destination": "/mehsul/betonmix-sp-165/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-sp-200-k/",
+      "destination": "/mehsul/betonmix-sp-200-k/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-sp-200-s/",
+      "destination": "/mehsul/betonmix-sp-200-s/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-sp-278/",
+      "destination": "/mehsul/betonmix-sp-278/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-sp-300/",
+      "destination": "/mehsul/betonmix-sp-300/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-sp-420-k/",
+      "destination": "/mehsul/betonmix-sp-420-k/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-sp-420-s/",
+      "destination": "/mehsul/betonmix-sp-420-s/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-sp-907-k/",
+      "destination": "/mehsul/betonmix-sp-907-k/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-sp-907-s/",
+      "destination": "/mehsul/betonmix-sp-907-s/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-tbp-100/",
+      "destination": "/mehsul/betonmix-tbp-100/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/beton-qatqilari/betonmix-tbp-15/",
+      "destination": "/mehsul/betonmix-tbp-15/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/sement-qatqilari/",
+      "destination": "/mehsullar/qatqilar/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/sement-qatqilari/cemix-em-1/",
+      "destination": "/mehsul/cemix-em-1/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/yeralti-kimy-vil-ri/",
+      "destination": "/mehsullar/qatqilar/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/yeralti-kimy-vil-ri/betonmix-shotcrete-212-al/",
+      "destination": "/mehsul/betonmix-shotcrete-212-al/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/yeralti-kimy-vil-ri/betonmix-shotcrete-224-al-1/",
+      "destination": "/mehsul/betonmix-shotcrete-224-al/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/yeralti-kimy-vil-ri/betonmix-shotcrete-224-al/",
+      "destination": "/mehsul/betonmix-shotcrete-224-al/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/yeralti-kimy-vil-ri/betonmix-shotcrete-2310-af/",
+      "destination": "/mehsul/betonmix-shotcrete-310-af/",
+      "permanent": true
+    },
+    {
+      "source": "/products/silikon-ve-mastikler/",
+      "destination": "/mehsullar/silikon-ve-mastikler/",
+      "permanent": true
+    },
+    {
+      "source": "/products/silikon-ve-mastikler/puraseal-150/",
+      "destination": "/mehsul/puraseal-150/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/",
+      "destination": "/mehsullar/su-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/akril-sasli-su-i-zolyasiya-materiallari/",
+      "destination": "/mehsullar/su-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/akril-sasli-su-i-zolyasiya-materiallari/izomax-aqualastic/",
+      "destination": "/mehsullar/su-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/bitum-esasli/",
+      "destination": "/mehsullar/su-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/bitum-esasli/izomax-b-670/",
+      "destination": "/mehsul/izomax-b-670/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/bitum-esasli/izomax-b-772/",
+      "destination": "/mehsul/izomax-b-772/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/montaj-aksesuarlari/",
+      "destination": "/mehsullar/su-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/montaj-aksesuarlari/izomax-band-divar-manseti/",
+      "destination": "/mehsullar/su-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/montaj-aksesuarlari/izomax-band-f-120/",
+      "destination": "/mehsul/izomax-band-f/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/montaj-aksesuarlari/izomax-band-f-daxili-kose/",
+      "destination": "/mehsul/izomax-band-f-corner-in/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/montaj-aksesuarlari/izomax-band-f-xarici-kose/",
+      "destination": "/mehsul/izomax-band-f-corner-out/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/montaj-aksesuarlari/izomax-band-w-120-70/",
+      "destination": "/mehsul/izomax-band-w/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/montaj-aksesuarlari/tpe-dilatasiya-banti/",
+      "destination": "/mehsul/izomax-band-d-tpe/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/poliurea-sasli-su-i-zolyasiya-materiallari/",
+      "destination": "/mehsullar/su-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/poliuretan-sasli-su-i-zolyasiya-materiallari/",
+      "destination": "/mehsullar/su-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/sement-esasli/",
+      "destination": "/mehsullar/su-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/sement-esasli/izomax-c-20/",
+      "destination": "/mehsullar/su-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/sement-esasli/izomax-c-25-kapiler/",
+      "destination": "/mehsul/izomax-c-25-kapiler/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/sement-esasli/izomax-c-40/",
+      "destination": "/mehsul/izomax-c-40/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/sement-esasli/izomax-c-60-n/",
+      "destination": "/mehsul/izomax-c60-n/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/sement-esasli/izomax-c-70-uv/",
+      "destination": "/mehsul/izomax-c70-uv/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/sement-esasli/izomax-c-75-flex/",
+      "destination": "/mehsul/izomax-c75-flex/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/silikon-esasli/",
+      "destination": "/mehsullar/su-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/silikon-esasli/izomax-s-420/",
+      "destination": "/mehsul/izomax-s-420/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/silikon-esasli/izomax-s-440/",
+      "destination": "/mehsul/izomax-s-440/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/su-i-zolyasiya-membranlari/",
+      "destination": "/mehsullar/su-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/su-i-zolyasiya-membranlari/izomax-sup-sup-f-tec/",
+      "destination": "/mehsul/izomax-f-tec/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/su-tutucu-bandlar/",
+      "destination": "/mehsullar/su-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/su-tutucu-bandlar/izomax-stb-a/",
+      "destination": "/mehsul/izomax-stb-pvc-a/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/su-tutucu-bandlar/izomax-stb-ak/",
+      "destination": "/mehsul/izomax-stb-pvc-ak/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/su-tutucu-bandlar/izomax-stb-b/",
+      "destination": "/mehsul/izomax-stb-pvc-b/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/su-tutucu-bandlar/izomax-stb-di/",
+      "destination": "/mehsul/izomax-stb-pvc-di/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/su-tutucu-bandlar/izomax-stb-do/",
+      "destination": "/mehsul/izomax-stb-pvc-do/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/su-tutucu-bandlar/izomax-stb-dt/",
+      "destination": "/mehsul/izomax-stb-pvc-dt/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/su-tutucu-bandlar/izomax-stb-i/",
+      "destination": "/mehsul/izomax-stb-pvc-i/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/su-tutucu-bandlar/izomax-stb-m/",
+      "destination": "/mehsul/izomax-stb-pvc-m/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/su-tutucu-bandlar/izomax-stb-o/",
+      "destination": "/mehsul/izomax-stb-pvc-o/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/su-tutucu-bandlar/izomax-stb-ol/",
+      "destination": "/mehsul/izomax-stb-pvc-ol/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/su-tutucu-bandlar/izomax-stb-v/",
+      "destination": "/mehsul/izomax-stb-pvc-v/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/su-tutucu-bandlar/izomax-sup-sup-stb-sw/",
+      "destination": "/mehsul/izomax-stb-sw/",
+      "permanent": true
+    },
+    {
+      "source": "/products/suvaq-ve-horgu-mehsullari/",
+      "destination": "/mehsullar/suvaq-ve-horgu/",
+      "permanent": true
+    },
+    {
+      "source": "/products/suvaq-ve-horgu-mehsullari/astarlar/",
+      "destination": "/mehsullar/suvaq-ve-horgu/",
+      "permanent": true
+    },
+    {
+      "source": "/products/suvaq-ve-horgu-mehsullari/astarlar/pratix-kontakt/",
+      "destination": "/mehsullar/suvaq-ve-horgu/",
+      "permanent": true
+    },
+    {
+      "source": "/products/suvaq-ve-horgu-mehsullari/horgu-materiallari/",
+      "destination": "/mehsullar/suvaq-ve-horgu/",
+      "permanent": true
+    },
+    {
+      "source": "/products/suvaq-ve-horgu-mehsullari/horgu-materiallari/pratix-aero-bond/",
+      "destination": "/mehsullar/suvaq-ve-horgu/",
+      "permanent": true
+    },
+    {
+      "source": "/products/suvaq-ve-horgu-mehsullari/pratix-s/",
+      "destination": "/mehsul/pratix-s/",
+      "permanent": true
+    },
+    {
+      "source": "/products/suvaq-ve-horgu-mehsullari/pratix-y/",
+      "destination": "/mehsul/pratix-y/",
+      "permanent": true
+    },
+    {
+      "source": "/products/suvaq-ve-horgu-mehsullari/suvaq-setkalari/",
+      "destination": "/mehsullar/suvaq-ve-horgu/",
+      "permanent": true
+    },
+    {
+      "source": "/products/suvaq-ve-horgu-mehsullari/suvaq-setkalari/pratix-rm-75/",
+      "destination": "/mehsullar/suvaq-ve-horgu/",
+      "permanent": true
+    },
+    {
+      "source": "/products/suvaq-ve-horgu-mehsullari/suvaqlar-1/",
+      "destination": "/mehsullar/suvaq-ve-horgu/",
+      "permanent": true
+    },
+    {
+      "source": "/products/suvaq-ve-horgu-mehsullari/suvaqlar-1/pratix-aero-plast/",
+      "destination": "/mehsullar/suvaq-ve-horgu/",
+      "permanent": true
+    },
+    {
+      "source": "/products/suvaq-ve-horgu-mehsullari/suvaqlar-1/pratix-hp-30/",
+      "destination": "/mehsullar/suvaq-ve-horgu/",
+      "permanent": true
+    },
+    {
+      "source": "/products/suvaq-ve-horgu-mehsullari/suvaqlar-1/pratix-mp-40/",
+      "destination": "/mehsullar/suvaq-ve-horgu/",
+      "permanent": true
+    },
+    {
+      "source": "/products/temir-ve-guclendirme-materiallari/",
+      "destination": "/mehsullar/temir-ve-guclendirme/",
+      "permanent": true
+    },
+    {
+      "source": "/products/temir-ve-guclendirme-materiallari/epoksid-esasli/",
+      "destination": "/mehsullar/temir-ve-guclendirme/",
+      "permanent": true
+    },
+    {
+      "source": "/products/temir-ve-guclendirme-materiallari/epoksid-esasli/tamcrete-erm-75/",
+      "destination": "/mehsul/tamcrete-erm-75/",
+      "permanent": true
+    },
+    {
+      "source": "/products/temir-ve-guclendirme-materiallari/sement-esasli/",
+      "destination": "/mehsullar/temir-ve-guclendirme/",
+      "permanent": true
+    },
+    {
+      "source": "/products/temir-ve-guclendirme-materiallari/sement-esasli/tamcrete-crm-100-tx/",
+      "destination": "/mehsul/tamcrete-crm-100-tx/",
+      "permanent": true
+    },
+    {
+      "source": "/products/temir-ve-guclendirme-materiallari/sement-esasli/tamcrete-crm-100/",
+      "destination": "/mehsul/tamcrete-crm-100/",
+      "permanent": true
+    },
+    {
+      "source": "/products/temir-ve-guclendirme-materiallari/sement-esasli/tamcrete-crm-50/",
+      "destination": "/mehsul/tamcrete-crm-50/",
+      "permanent": true
+    },
+    {
+      "source": "/products/temir-ve-guclendirme-materiallari/sement-esasli/tamcrete-crm-rapid/",
+      "destination": "/mehsul/tamcrete-crm-rapid/",
+      "permanent": true
+    },
+    {
+      "source": "/products/temir-ve-guclendirme-materiallari/sement-sasli-grout-materiallari/",
+      "destination": "/mehsullar/temir-ve-guclendirme/",
+      "permanent": true
+    },
+    {
+      "source": "/products/temir-ve-guclendirme-materiallari/sement-sasli-grout-materiallari/tamcrete-grout-c-320/",
+      "destination": "/mehsul/tamcrete-grout-c-320/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/",
+      "destination": "/mehsullar/istilik-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/dubell-r/thermomax-dbl-60/",
+      "destination": "/mehsullar/istilik-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/dubell-r/thermomax-dbl-80/",
+      "destination": "/mehsullar/istilik-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/i-stilik-i-zolyasiya-lovh-l-ri/",
+      "destination": "/mehsullar/istilik-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/i-stilik-i-zolyasiya-lovh-l-ri/polyboard-eps/",
+      "destination": "/mehsul/polyboard-eps/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/i-stilik-i-zolyasiya-lovh-l-ri/thermomax-eps/",
+      "destination": "/mehsul/thermomax-eps/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/i-stilik-i-zolyasiya-lovh-l-ri/thermomax-karbonlu-eps/",
+      "destination": "/mehsul/thermomax-eps-carbon/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/lovh-suvaqlari/",
+      "destination": "/mehsullar/istilik-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/lovh-suvaqlari/thermomax-suvaq/",
+      "destination": "/mehsul/thermomax-plast-65/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/montaj-aksessuarlari/",
+      "destination": "/mehsullar/istilik-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/montaj-aksessuarlari/thermomax-cp/",
+      "destination": "/mehsullar/istilik-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/montaj-aksessuarlari/thermomax-ffp/",
+      "destination": "/mehsullar/istilik-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/montaj-aksessuarlari/thermomax-fkp/",
+      "destination": "/mehsul/thermomax-fkp/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/montaj-aksessuarlari/thermomax-fp/",
+      "destination": "/mehsul/thermomax-fp/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/montaj-aksessuarlari/thermomax-st-75-gr-2/",
+      "destination": "/mehsullar/istilik-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/sement-esasli/",
+      "destination": "/mehsullar/istilik-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/sement-esasli/thermomax-yapisdirici/",
+      "destination": "/mehsul/thermomax-bond-40/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/setkalar/",
+      "destination": "/mehsullar/istilik-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/setkalar/thermomax-st-160/",
+      "destination": "/mehsullar/istilik-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/son-qat-dekorativ-ortukl-r/",
+      "destination": "/mehsullar/istilik-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/son-qat-dekorativ-ortukl-r/thermomax-classic/",
+      "destination": "/mehsul/thermomax-classic/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/son-qat-dekorativ-ortukl-r/thermomax-universal-1/",
+      "destination": "/mehsul/thermomax-universal/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/son-qat-dekorativ-ortukl-r/thermomax-universal/",
+      "destination": "/mehsul/thermomax-universal/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/thermomax-eps-lovhe/",
+      "destination": "/mehsullar/istilik-izolyasiyasi/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/thermomax-eps-lovhe/polyboard-eps-1/",
+      "destination": "/mehsul/polyboard-eps/",
+      "permanent": true
+    },
+    {
+      "source": "/products/zemin-materiallari/",
+      "destination": "/mehsullar/zemin-materiallari/",
+      "permanent": true
+    },
+    {
+      "source": "/products/zemin-materiallari/astar/",
+      "destination": "/mehsullar/zemin-materiallari/",
+      "permanent": true
+    },
+    {
+      "source": "/products/zemin-materiallari/astar/flomax-sl-primer/",
+      "destination": "/mehsul/flomax-sl-primer/",
+      "permanent": true
+    },
+    {
+      "source": "/products/zemin-materiallari/diger/",
+      "destination": "/mehsullar/zemin-materiallari/",
+      "permanent": true
+    },
+    {
+      "source": "/products/zemin-materiallari/diger/geotekstil-kece-200-pe/",
+      "destination": "/mehsul/geotekstil-kece-200-pe/",
+      "permanent": true
+    },
+    {
+      "source": "/products/zemin-materiallari/diger/geotekstil-kece-200-pg/",
+      "destination": "/mehsul/geotekstil-kece-200-pg/",
+      "permanent": true
+    },
+    {
+      "source": "/products/zemin-materiallari/diger/geotekstil-kece-300-pe/",
+      "destination": "/mehsul/geotekstil-kece-300-pe/",
+      "permanent": true
+    },
+    {
+      "source": "/products/zemin-materiallari/diger/geotekstil-kece-300-pg/",
+      "destination": "/mehsul/geotekstil-kece-300-pg/",
+      "permanent": true
+    },
+    {
+      "source": "/products/zemin-materiallari/kur/",
+      "destination": "/mehsullar/zemin-materiallari/",
+      "permanent": true
+    },
+    {
+      "source": "/products/zemin-materiallari/kur/flomax-sh-501/",
+      "destination": "/mehsul/flomax-sh-cure/",
+      "permanent": true
+    },
+    {
+      "source": "/products/zemin-materiallari/sement-esasli/",
+      "destination": "/mehsullar/zemin-materiallari/",
+      "permanent": true
+    },
+    {
+      "source": "/products/zemin-materiallari/sement-esasli/flomax-sh-500/",
+      "destination": "/mehsul/flomax-sh-500/",
+      "permanent": true
+    },
+    {
+      "source": "/products/zemin-materiallari/sement-esasli/flomax-sh-550-k/",
+      "destination": "/mehsul/flomax-sh-550-k/",
+      "permanent": true
+    },
+    {
+      "source": "/products/zemin-materiallari/sement-esasli/flomax-sl-212/",
+      "destination": "/mehsul/flomax-sl-212/",
+      "permanent": true
+    },
+    {
+      "source": "/products/zemin-materiallari/sement-esasli/flomax-sl-214-alfa/",
+      "destination": "/mehsullar/zemin-materiallari/",
+      "permanent": true
+    },
+    {
+      "source": "/products/zemin-materiallari/sement-esasli/flomax-sl-220-flex/",
+      "destination": "/mehsul/flomax-sl-220-flex/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/agilli-kend/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/alov-qulleleri/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/basqal-resort-spa/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/boulevard-hotel/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/cebrayil-zengilan-agbend-tunelleri/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/fuzuli-susa-avtomobil-yolu/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/havalimani-korpusu/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/heyder-eliyev-merkezi-1/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/heyder-eliyev-merkezi/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/iqtisadiyyat-nazirliyi/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/kelbecer-lacin-tuneli/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/lacin-hotel/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/muganli-i-smayilli-q-b-l-yolu/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/murovdag-tuneli/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/qala-alti-hotel-spa/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/qarabag-hotel/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/qelebe-meydani-tuneli/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/qubadli-lacin-tuneli/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/sea-breeze-resort/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/serq-bazari/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/shabran-recreation-complex/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/vaqif-turbesi/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/xaribulbul-otel/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/xeyal-adalari/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/referanslar/yelken-towers/",
+      "destination": "/referanslar/",
+      "permanent": true
+    },
+    {
+      "source": "/vakansiya/",
+      "destination": "/karyera/",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|ru|tr|uz)/:path*",
+      "destination": "/",
+      "permanent": false
     }
   ]
 }
