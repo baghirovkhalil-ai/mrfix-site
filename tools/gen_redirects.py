@@ -18,7 +18,7 @@ ALIAS = {"ceramax-standart-white": "ceramax-standard-white", "izomax-c-60-n": "i
          "izomax-band-f-120": "izomax-band-f", "izomax-band-f-daxili-kose": "izomax-band-f-corner-in", "izomax-band-f-xarici-kose": "izomax-band-f-corner-out",
          "izomax-band-w-120-70": "izomax-band-w", "tpe-dilatasiya-banti": "izomax-band-d-tpe", "thermomax-karbonlu-eps": "thermomax-eps-carbon",
          "thermomax-yapisdirici": "thermomax-bond-40", "thermomax-suvaq": "thermomax-plast-65", "betonmix-air": "betonmix-air-80",
-         "flomax-sh-501": "flomax-sh-cure", "betonmix-shotcrete-2310-af": "betonmix-shotcrete-310-af",
+         "flomax-sh-501": "flomax-sh-cure", "flomax-sl-220-primer": "flomax-sl-primer", "betonmix-shotcrete-2310-af": "betonmix-shotcrete-310-af",
          "izomax-band-divar-manseti": "izomax-band-f-collar-pipe", "thermomax-ffp": "thermomax-fpm", "thermomax-st-160": "thermomax-rm-160",
          "flomax-sl-214-alfa": "flomax-sl-therma", "izomax-c-20": "izomax-c10-rapid", "thermomax-dbl-60": "thermomax-dbl-60p", "thermomax-dbl-80": "thermomax-dbl-80m"}
 FIXED = {"/about/": "/haqqimizda/", "/cedvel/": "/hesablayici/", "/dealers/": "/dilerler/", "/derz-reng-secimi/": "/reng-secimi/",
@@ -33,7 +33,7 @@ def target(u):
         for cand in (ALIAS.get(last), last, re.sub(r"-\d$", "", last), ALIAS.get(re.sub(r"-\d$", "", last))):
             if cand and cand in NEW and len(seg) > 2: return f"/mehsul/{cand}/"
         if re.match(r"izomax-stb-[a-z]+$", last) and last.replace("stb-", "stb-pvc-") in NEW: return f"/mehsul/{last.replace('stb-', 'stb-pvc-')}/"
-        return f"/mehsullar/{CAT[seg[1]]}/"
+        return f"/mehsullar/{CAT[seg[1]]}/" if seg[1] in CAT else "/mehsullar/"
     if seg[0] == "hell-yollari" and len(seg) > 1: return f"/hell-yollari/{SOL[seg[1]]}/"
     if seg[0] == "news": return "/xeberler/"
     if seg[0] == "kataloqlar": return "/senedler/"

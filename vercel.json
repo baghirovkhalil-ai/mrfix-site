@@ -223,6 +223,41 @@
       "permanent": true
     },
     {
+      "source": "/products/beton-qatqilari/betonmix-hp-1211-a/",
+      "destination": "/mehsul/betonmix-hp-1211-a/",
+      "permanent": true
+    },
+    {
+      "source": "/products/beton-qatqilari/betonmix-hp-460/",
+      "destination": "/mehsul/betonmix-hp-460/",
+      "permanent": true
+    },
+    {
+      "source": "/products/beton-qatqilari/betonmix-rca/",
+      "destination": "/mehsul/betonmix-rca/",
+      "permanent": true
+    },
+    {
+      "source": "/products/beton-qatqilari/betonmix-shotcrete-224-al/",
+      "destination": "/mehsul/betonmix-shotcrete-224-al/",
+      "permanent": true
+    },
+    {
+      "source": "/products/beton-qatqilari/betonmix-sp-278/",
+      "destination": "/mehsul/betonmix-sp-278/",
+      "permanent": true
+    },
+    {
+      "source": "/products/beton-qatqilari/betonmix-sp-907-k/",
+      "destination": "/mehsul/betonmix-sp-907-k/",
+      "permanent": true
+    },
+    {
+      "source": "/products/beton-qatqilari/betonmix-sp-907-s/",
+      "destination": "/mehsul/betonmix-sp-907-s/",
+      "permanent": true
+    },
+    {
       "source": "/products/beton-qoruyucu-materiallari/",
       "destination": "/mehsullar/beton-kurleri/",
       "permanent": true
@@ -235,6 +270,11 @@
     {
       "source": "/products/beton-qoruyucu-materiallari/cure-prf/",
       "destination": "/mehsul/cure-prf/",
+      "permanent": true
+    },
+    {
+      "source": "/products/beton-qoruyucu-materiallari/formax-ka-101/",
+      "destination": "/mehsul/formax-ka-101/",
       "permanent": true
     },
     {
@@ -358,6 +398,16 @@
       "permanent": true
     },
     {
+      "source": "/products/kafel-ve-keramika-derz-dolgulari/fugamax-colorful/",
+      "destination": "/mehsul/fugamax-colorful/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-derz-dolgulari/fugamax-cotto/",
+      "destination": "/mehsul/fugamax-cotto/",
+      "permanent": true
+    },
+    {
       "source": "/products/kafel-ve-keramika-derz-dolgulari/sement-esasli/",
       "destination": "/mehsullar/derz-dolgulari/",
       "permanent": true
@@ -385,6 +435,26 @@
     {
       "source": "/products/kafel-ve-keramika-yapisdiricilari/",
       "destination": "/mehsullar/keramika-yapisdiricilari/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-yapisdiricilari/ceramax-flex/",
+      "destination": "/mehsul/ceramax-flex/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-yapisdiricilari/ceramax-standard/",
+      "destination": "/mehsul/ceramax-standard/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-yapisdiricilari/ceramax-standart-white/",
+      "destination": "/mehsul/ceramax-standard-white/",
+      "permanent": true
+    },
+    {
+      "source": "/products/kafel-ve-keramika-yapisdiricilari/ceramax-ultra/",
+      "destination": "/mehsul/ceramax-ultra/",
       "permanent": true
     },
     {
@@ -723,6 +793,46 @@
       "permanent": true
     },
     {
+      "source": "/products/qatqilar/csdcscs/betonmix-antifreeze-1/",
+      "destination": "/mehsul/betonmix-antifreeze-1/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/csdcscs/betonmix-hp-1204/",
+      "destination": "/mehsul/betonmix-hp-1204/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/csdcscs/betonmix-hp-1211-a/",
+      "destination": "/mehsul/betonmix-hp-1211-a/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/csdcscs/betonmix-sp-1000-k/",
+      "destination": "/mehsul/betonmix-sp-1000-k/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/csdcscs/betonmix-sp-1000-s/",
+      "destination": "/mehsul/betonmix-sp-1000-s/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/csdcscs/betonmix-sp-165/",
+      "destination": "/mehsul/betonmix-sp-165/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/csdcscs/betonmix-sp-420-k/",
+      "destination": "/mehsul/betonmix-sp-420-k/",
+      "permanent": true
+    },
+    {
+      "source": "/products/qatqilar/csdcscs/betonmix-sp-420-s/",
+      "destination": "/mehsul/betonmix-sp-420-s/",
+      "permanent": true
+    },
+    {
       "source": "/products/qatqilar/sement-qatqilari/",
       "destination": "/mehsullar/qatqilar/",
       "permanent": true
@@ -900,6 +1010,11 @@
     {
       "source": "/products/su-izolyasiya-materiallari/su-i-zolyasiya-membranlari/izomax-sup-sup-f-tec/",
       "destination": "/mehsul/izomax-f-tec/",
+      "permanent": true
+    },
+    {
+      "source": "/products/su-izolyasiya-materiallari/su-izolyasiya-materiallari/izomax-c-40/",
+      "destination": "/mehsul/izomax-c-40/",
       "permanent": true
     },
     {
@@ -1083,6 +1198,26 @@
       "permanent": true
     },
     {
+      "source": "/products/temir-ve-guclendirme-materiallari/tamcrete-crm-100-tx/",
+      "destination": "/mehsul/tamcrete-crm-100-tx/",
+      "permanent": true
+    },
+    {
+      "source": "/products/temir-ve-guclendirme-materiallari/tamcrete-crm-100/",
+      "destination": "/mehsul/tamcrete-crm-100/",
+      "permanent": true
+    },
+    {
+      "source": "/products/temir-ve-guclendirme-materiallari/tamcrete-crm-50/",
+      "destination": "/mehsul/tamcrete-crm-50/",
+      "permanent": true
+    },
+    {
+      "source": "/products/temir-ve-guclendirme-materiallari/tamcrete-erm-75/",
+      "destination": "/mehsul/tamcrete-erm-75/",
+      "permanent": true
+    },
+    {
       "source": "/products/termo-izolyasiya-materiallari/",
       "destination": "/mehsullar/istilik-izolyasiyasi/",
       "permanent": true
@@ -1158,6 +1293,11 @@
       "permanent": true
     },
     {
+      "source": "/products/termo-izolyasiya-materiallari/sement-esasli-suvaq/thermomax-suvaq/",
+      "destination": "/mehsul/thermomax-plast-65/",
+      "permanent": true
+    },
+    {
       "source": "/products/termo-izolyasiya-materiallari/sement-esasli/",
       "destination": "/mehsullar/istilik-izolyasiyasi/",
       "permanent": true
@@ -1208,6 +1348,31 @@
       "permanent": true
     },
     {
+      "source": "/products/termo-izolyasiya-materiallari/thermomax-eps-lovhe/thermomax-eps/",
+      "destination": "/mehsul/thermomax-eps/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/thermomax-eps/",
+      "destination": "/mehsul/thermomax-eps/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/thermomax-st-160/",
+      "destination": "/mehsul/thermomax-rm-160/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/thermomax-suvaq/",
+      "destination": "/mehsul/thermomax-plast-65/",
+      "permanent": true
+    },
+    {
+      "source": "/products/termo-izolyasiya-materiallari/thermomax-yapisdirici/",
+      "destination": "/mehsul/thermomax-bond-40/",
+      "permanent": true
+    },
+    {
       "source": "/products/zemin-materiallari/",
       "destination": "/mehsullar/zemin-materiallari/",
       "permanent": true
@@ -1245,6 +1410,16 @@
     {
       "source": "/products/zemin-materiallari/diger/geotekstil-kece-300-pg/",
       "destination": "/mehsul/geotekstil-kece-300-pg/",
+      "permanent": true
+    },
+    {
+      "source": "/products/zemin-materiallari/flomax-sl-212/",
+      "destination": "/mehsul/flomax-sl-212/",
+      "permanent": true
+    },
+    {
+      "source": "/products/zemin-materiallari/flomax-sl-220-primer/",
+      "destination": "/mehsul/flomax-sl-primer/",
       "permanent": true
     },
     {
