@@ -5,7 +5,7 @@ Mr.Fix statik sayt generatoru.
   python3 build.py --explicit   -> linklər .../index.html formasında (faylı birbaşa açmaq üçün)
 Məzmun: content/ qovluğu. Dizayn: static/ qovluğu.
 """
-import json, os, re, shutil, sys, html, math, datetime
+import json, os, re, shutil, sys, html, math, datetime, urllib.parse
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(BASE, "_site")
@@ -661,18 +661,28 @@ page("404.html", "Səhifə tapılmadı", "Səhifə tapılmadı.", nf, None)
 
 if os.path.exists(OUT): shutil.rmtree(OUT)
 os.makedirs(OUT)
-for sub in ("css", "js", "assets", "img"):
+for sub in ("css", "js", "assets", "img", "m"):
     src = os.path.join(BASE, "static", sub)
     if os.path.exists(src): shutil.copytree(src, os.path.join(OUT, sub))
 
 def explicit(doc):
     return re.sub(r'href="((?!https?:|mailto:|tel:|#|data:)[^"]*?/)"', lambda m: f'href="{m.group(1)}index.html"', doc).replace('href="./"', 'href="./index.html"')
 
+# mrfix.az fayllarının yerli nüsxəsi (static/m/) varsa, ona yönləndir — köhnə sayt bağlansa da şəkil və PDF-lər işləyir
+MPRE = "https://mrfix.az/site/assets/files/"
+def local_assets(doc):
+    bp = SITE.get("base_path", "/")
+    def rep(m):
+        rel = m.group(1)
+        return bp + "m/" + rel if os.path.exists(os.path.join(BASE, "static", "m", urllib.parse.unquote(rel))) else m.group(0)
+    return re.sub(re.escape(MPRE) + r'([^"\s)\]<>]+)', rep, doc)
+
 for path, doc in PAGES:
     if path == "404.html":
         bp = SITE.get("base_path", "/")
         doc = doc.replace('data-root="./"', f'data-root="{bp}"').replace('href="./', f'href="{bp}').replace('src="./', f'src="{bp}')
     if EXPLICIT: doc = explicit(doc)
+    doc = local_assets(doc)
     fp = os.path.join(OUT, path); os.makedirs(os.path.dirname(fp), exist_ok=True)
     open(fp, "w", encoding="utf-8").write(doc)
 
