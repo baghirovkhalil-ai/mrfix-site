@@ -6,7 +6,7 @@
   "type": "Otel",
   "image": "https://mrfix.az/site/assets/files/3035/4430599-1.png",
   "old": "lacin-hotel",
-  "desc": "CERAMAX ® STANDARD CERAMAX ® STANDARD WHITE CERAMAX ® FLEX IZOMAX ® C 40 IZOMAX ® C 70 UV IZOMAX ® C 75 FLEX THERMOMAX ® EPS TAMCRETE® GROUT C 320 TAMCRETE ® ERM 75 FLOMAX ® SH 500 FUGAMAX ® COLORFUL",
+  "desc": "",
   "products": [
    {
     "name": "CERAMAX® STANDARD",
@@ -64,22 +64,19 @@
   "desc": "",
   "products": [
    {
-    "name": "BETONMIX"
+    "name": "BETONMIX® HP 1275",
+    "slug": "betonmix-hp-1275"
    },
    {
-    "name": "®"
+    "name": "BETONMIX® HP 565"
    },
    {
-    "name": "HP 1275"
+    "name": "BETONMIX® HP 1000 K",
+    "slug": "betonmix-sp-1000-k"
    },
    {
-    "name": "HP 565"
-   },
-   {
-    "name": "HP 1000 K"
-   },
-   {
-    "name": "HP 1000 S"
+    "name": "BETONMIX® HP 1000 S",
+    "slug": "betonmix-sp-1000-s"
    }
   ]
  },
@@ -93,34 +90,28 @@
   "desc": "",
   "products": [
    {
-    "name": "FORMAX"
+    "name": "FORMAX® KA 121",
+    "slug": "formax-ka-121"
    },
    {
-    "name": "®"
+    "name": "CURE® PRF",
+    "slug": "cure-prf"
    },
    {
-    "name": "KA 121"
+    "name": "BETONMIX® SHOTCRETE 224 AL",
+    "slug": "betonmix-shotcrete-224-al"
    },
    {
-    "name": "CURE"
+    "name": "BETONMIX® HP 1211 A",
+    "slug": "betonmix-hp-1211-a"
    },
    {
-    "name": "PRF"
+    "name": "BETONMIX® SP 420 K",
+    "slug": "betonmix-sp-420-k"
    },
    {
-    "name": "BETONMIX"
-   },
-   {
-    "name": "SHOTCRETE 224 AL"
-   },
-   {
-    "name": "HP 1211 A"
-   },
-   {
-    "name": "SP 420 K"
-   },
-   {
-    "name": "SP 420 S"
+    "name": "BETONMIX® SP 420 S",
+    "slug": "betonmix-sp-420-s"
    }
   ]
  },
@@ -134,25 +125,24 @@
   "desc": "",
   "products": [
    {
-    "name": "BETONMIX"
+    "name": "BETONMIX® SHOTCRETE 225 AL",
+    "slug": "betonmix-shotcrete-225-al"
    },
    {
-    "name": "®"
+    "name": "BETONMIX® SP 1000 K",
+    "slug": "betonmix-sp-1000-k"
    },
    {
-    "name": "SHOTCRETE 225 AL"
+    "name": "BETONMIX® SP 1000 S",
+    "slug": "betonmix-sp-1000-s"
    },
    {
-    "name": "SP 1000 K"
+    "name": "BETONMIX® HP 1204",
+    "slug": "betonmix-hp-1204"
    },
    {
-    "name": "SP 1000 S"
-   },
-   {
-    "name": "HP 1204"
-   },
-   {
-    "name": "ANTIFREEZE 1"
+    "name": "BETONMIX® ANTIFREEZE 1",
+    "slug": "betonmix-antifreeze-1"
    }
   ]
  },
@@ -166,28 +156,22 @@
   "desc": "Kəlbəcər-Laçın avtomobil yolu başlanğıcını Kəlbəcər rayonunun Qamışlı kəndindən götürməklə işğaldan azad edilmiş Laçın rayonunun ərazisindən keçir. Bu səbəbdən yeni yol sözügedən rayonların bir çox yaşayış məntəqələri ilə yanaşı, rayon mərkəzinə və yenicə inşasına başlanılmış Laçın hava limanına qədər rahat gediş-gəlişi təmin edəcək.",
   "products": [
    {
-    "name": "BETONMIX"
+    "name": "BETONMIX® HP 1275",
+    "slug": "betonmix-hp-1275"
    },
    {
-    "name": "®"
+    "name": "BETONMIX® SHOTCRETE 224 AL",
+    "slug": "betonmix-shotcrete-224-al"
    },
    {
-    "name": "HP 1275"
+    "name": "BETONMIX® ANTIFREEZE 1",
+    "slug": "betonmix-antifreeze-1"
    },
    {
-    "name": "SHOTCRETE 224 AL"
+    "name": "IZOMAX® STB A"
    },
    {
-    "name": "ANTIFREEZE 1"
-   },
-   {
-    "name": "IZOMAX"
-   },
-   {
-    "name": "STB A"
-   },
-   {
-    "name": "STB B"
+    "name": "IZOMAX® STB B"
    }
   ]
  },
@@ -201,31 +185,24 @@
   "desc": "Əhmədbəyli-Füzuli-Şuşa avtomobil yolunun tikinti layihəsinin uzunluğu ilkin hesablamalara əsasən 101.5 km təşkil edir. Yolunun 4-6 hərəkət zolağından ibarət olması nəzərdə tutulur. 84.6 km-lik yolun ilk 48 km-i 6, 48-84.6 km-i isə 4 hərəkət zolağından ibarətdir. Müvafiq olaraq yol yatağının eni 29.5 və 21.5 metr təşkil edir. Bundan başqa, layihə üzrə relyefin imkan verdiyi ərazilərə qədər hər bir istiqamətdə əlavə geniş hərəkət hissəsinə malik 1 ehtiyat zolağın inşası da nəzərdə tutulub. Ehtiyat zolaqlarla birgə yolun 6 hərəkət zolağından ibarətdir.",
   "products": [
    {
-    "name": "BETONMIX"
+    "name": "BETONMIX® SP SHOTCRETE 224 AL",
+    "slug": "betonmix-shotcrete-224-al"
    },
    {
-    "name": "®"
+    "name": "BETONMIX® HP 460",
+    "slug": "betonmix-hp-460"
    },
    {
-    "name": "SP SHOTCRETE 224 AL"
+    "name": "FORMAX® KA 101",
+    "slug": "formax-ka-101"
    },
    {
-    "name": "HP 460"
+    "name": "BETONMIX® ANTIFREEZE 1",
+    "slug": "betonmix-antifreeze-1"
    },
    {
-    "name": "FORMAX"
-   },
-   {
-    "name": "KA 101"
-   },
-   {
-    "name": "ANTIFREEZE 1"
-   },
-   {
-    "name": "TAMCRETE"
-   },
-   {
-    "name": "ERM 75"
+    "name": "TAMCRETE® ERM 75",
+    "slug": "tamcrete-erm-75"
    }
   ]
  },
@@ -239,40 +216,32 @@
   "desc": "Xarıbülbül otel Azərbaycanın işğaldan azad olunan Dağlıq qarabağ bölgəsinin Şuşa şəhərində yerləşir. Bu otel böləgədə aparılan abadlaşdırma işləri çərçivəsində yenilənən layihələrindən biri olaraq 12 may 2021-də istifadəyə verilib.",
   "products": [
    {
-    "name": "CERAMAX"
+    "name": "CERAMAX® STANDARD",
+    "slug": "ceramax-standard"
    },
    {
-    "name": "®"
+    "name": "FLOMAX® SL 220 PRIMER",
+    "slug": "flomax-sl-primer"
    },
    {
-    "name": "STANDARD"
+    "name": "FLOMAX® SL 212",
+    "slug": "flomax-sl-212"
    },
    {
-    "name": "FLOMAX"
+    "name": "IZOMAX® C 40",
+    "slug": "izomax-c-40"
    },
    {
-    "name": "SL 220 PRIMER"
+    "name": "THERMOMAX® EPS",
+    "slug": "thermomax-eps"
    },
    {
-    "name": "SL 212"
+    "name": "THERMOMAX® SUVAQ",
+    "slug": "thermomax-plast-65"
    },
    {
-    "name": "IZOMAX"
-   },
-   {
-    "name": "C 40"
-   },
-   {
-    "name": "THERMOMAX"
-   },
-   {
-    "name": "EPS"
-   },
-   {
-    "name": "SUVAQ"
-   },
-   {
-    "name": "YAPIŞDIRICI"
+    "name": "THERMOMAX® YAPIŞDIRICI",
+    "slug": "thermomax-bond-40"
    }
   ]
  },
@@ -286,25 +255,16 @@
   "desc": "İşğaldan azad edilmiş Zəngilan rayonunun Ağalı kənd sakinləri doğma kəndlərinə qayıtdıqdan sonra “Ağıllı kənd” layihəsi çərçivəsində onlardan bir qrupu üçün kiçik təsərrüfatlar yaradılacaq. Kənd sakinlərinin məşğulluğuna və kiçik sahibkarlığa çıxışına dəstək məqsədi daşıyan layihəyə 30 nəfərin cəlb olunması nəzərdə tutulub.",
   "products": [
    {
-    "name": "CERAMAX"
+    "name": "CERAMAX® STANDARD",
+    "slug": "ceramax-standard"
    },
    {
-    "name": "®"
+    "name": "THERMOMAX® EPS",
+    "slug": "thermomax-eps"
    },
    {
-    "name": "STANDARD"
-   },
-   {
-    "name": "THERMOMAX"
-   },
-   {
-    "name": "EPS"
-   },
-   {
-    "name": "FUGAMAX"
-   },
-   {
-    "name": "COLORFUL"
+    "name": "FUGAMAX® COLORFUL",
+    "slug": "fugamax-colorful"
    }
   ]
  },
@@ -318,25 +278,16 @@
   "desc": "Molla Pənah Vaqifin muzey-məqbərə kompleksi və ya Vaqif türbəsi 1982-ci il yanvarın 14-də ulu öndər Heydər Əliyevin bilavasitə təşəbbüsü və iştirakı ilə Azərbaycanın qədim mədəniyyət mərkəzi Şuşa şəhərində şair Molla Pənah Vaqifin məzarı üzərində ucaldılmış əzəmətli məqbərənin açılışı olmuşdur. Vaqif türbəsi Şuşanın cənub-qərb tərəfində, bayram şənlikləri və cıdır yarışları təşkil edilən məşhur Cıdır düzündə, şairin həlak olduğu və dəfn edildiyi qayalı təpədə ucalır.",
   "products": [
    {
-    "name": "CERAMAX"
+    "name": "CERAMAX® FLEX WHITE",
+    "slug": "ceramax-flex-white"
    },
    {
-    "name": "®"
+    "name": "FUGAMAX® FLEX",
+    "slug": "fugamax-flex"
    },
    {
-    "name": "FLEX WHITE"
-   },
-   {
-    "name": "FUGAMAX"
-   },
-   {
-    "name": "FLEX"
-   },
-   {
-    "name": "TAMCRETE"
-   },
-   {
-    "name": "CRM 50"
+    "name": "TAMCRETE® CRM 50",
+    "slug": "tamcrete-crm-50"
    }
   ]
  },
@@ -350,19 +301,12 @@
   "desc": "1980-cı ildə inşa edilən hotelin binası 1992-ci ilin mayında Şuşa şəhərinin işğalından sonra fəaliyyəti həmin işğalçılar tərəfindən dayandırılıb və baxımsızlıqdan tamamilə yararsız vəziyyətə salınmışdı. Lakin Şuşa şəhəri müzəffər Azərbaycan Ordusunun şanlı Zəfəri nəticəsində Ermənistanın işğalından azad edildikdən sonra 2021-ci ildə Prezident İlham Əliyevin tapşırığına əsasən, hoteldə təmir-bərpa və yenidənqurma işləri həyata keçirildi. Müasir səviyyəyə çatdırılan hoteldə Şuşa şəhərinə səfər edəcək qonaqların rahatlığı üçün hər cür şərait yaradıldı.",
   "products": [
    {
-    "name": "CERAMAX"
+    "name": "CERAMAX® STANDARD",
+    "slug": "ceramax-standard"
    },
    {
-    "name": "®"
-   },
-   {
-    "name": "STANDARD"
-   },
-   {
-    "name": "THERMOMAX"
-   },
-   {
-    "name": "EPS"
+    "name": "THERMOMAX® EPS",
+    "slug": "thermomax-eps"
    }
   ]
  },
@@ -376,37 +320,32 @@
   "desc": "Murovdağ Tuneli yolu və ya Toğanalı–Kəlbəcər–İstisu avtomobil yolu Göygöl şəhərindən Kəlbəcər şəhərinə Murovdağ silsiləsindən keçərək gedən birbaşa avtomobil yolu. Avtomobil yolu Göygöl rayonunun Toğanalı kəndindən başlayıb, Kəlbəcər rayonunun İstisu qəsəbəsində bitəcək.",
   "products": [
    {
-    "name": "BETONMIX"
+    "name": "BETONMIX® HP 460",
+    "slug": "betonmix-hp-460"
    },
    {
-    "name": "®"
+    "name": "BETONMIX® HP 461",
+    "slug": "betonmix-hp-461"
    },
    {
-    "name": "HP 460"
+    "name": "BETONMIX® SHOTCRETE 224 AL",
+    "slug": "betonmix-shotcrete-224-al"
    },
    {
-    "name": "HP 461"
+    "name": "TAMCRETE® CRM 50",
+    "slug": "tamcrete-crm-50"
    },
    {
-    "name": "SHOTCRETE 224 AL"
+    "name": "TAMCRETE® CRM 100",
+    "slug": "tamcrete-crm-100"
    },
    {
-    "name": "TAMCRETE"
+    "name": "FORMAX® KA 101",
+    "slug": "formax-ka-101"
    },
    {
-    "name": "CRM 50"
-   },
-   {
-    "name": "CRM 100"
-   },
-   {
-    "name": "FORMAX"
-   },
-   {
-    "name": "KA 101"
-   },
-   {
-    "name": "ERM 75"
+    "name": "TAMCRETE® ERM 75",
+    "slug": "tamcrete-erm-75"
    }
   ]
  },
@@ -420,37 +359,24 @@
   "desc": "Tikintisinə 2016-cı ildə başlanılan bu binanın açılışı 2021-ci il mayın 29-da dövlət başçısı İlham Əliyevin iştiraki ilə baş tutub. Binanın hündürlüyü 168 metrdir, otaqların ümimi sahəsi 6500 kvadrat metrdən çoxdur.",
   "products": [
    {
-    "name": "BETONMIX"
+    "name": "BETONMIX® HP 1211 A",
+    "slug": "betonmix-hp-1211-a"
    },
    {
-    "name": "®"
+    "name": "THERMOMAX® EPS",
+    "slug": "thermomax-eps"
    },
    {
-    "name": "HP 1211 A"
+    "name": "CERAMAX® STANDARD",
+    "slug": "ceramax-standard"
    },
    {
-    "name": "THERMOMAX"
+    "name": "FUGAMAX® COLORFUL",
+    "slug": "fugamax-colorful"
    },
    {
-    "name": "EPS"
-   },
-   {
-    "name": "CERAMAX"
-   },
-   {
-    "name": "STANDARD"
-   },
-   {
-    "name": "FUGAMAX"
-   },
-   {
-    "name": "COLORFUL"
-   },
-   {
-    "name": "TAMCRETE"
-   },
-   {
-    "name": "CRM 100TX"
+    "name": "TAMCRETE® CRM 100TX",
+    "slug": "tamcrete-crm-100-tx"
    }
   ]
  },
@@ -464,13 +390,8 @@
   "desc": "",
   "products": [
    {
-    "name": "CERAMAX"
-   },
-   {
-    "name": "®"
-   },
-   {
-    "name": "FLEX WHITE"
+    "name": "CERAMAX® FLEX WHITE",
+    "slug": "ceramax-flex-white"
    }
   ]
  },
@@ -484,46 +405,35 @@
   "desc": "Sea Breeze Resort Xəzər dənizinin mənzərəli sahilində, Bakının mərkəzindən cəmi 30 dəqiqəlik məsafədə yerləşən unikal kurort kompleksidir.",
   "products": [
    {
-    "name": "CERAMAX"
+    "name": "CERAMAX® STANDARD",
+    "slug": "ceramax-standard"
    },
    {
-    "name": "®"
+    "name": "CERAMAX® STANDARD WHITE",
+    "slug": "ceramax-standard-white"
    },
    {
-    "name": "STANDARD"
+    "name": "CERAMAX® ULTRA",
+    "slug": "ceramax-ultra"
    },
    {
-    "name": "STANDARD WHITE"
+    "name": "CERAMAX® FLEX",
+    "slug": "ceramax-flex"
    },
    {
-    "name": "ULTRA"
+    "name": "FUGAMAX® COLORFUL",
+    "slug": "fugamax-colorful"
    },
    {
-    "name": "FLEX"
+    "name": "PRATIX® Y"
    },
    {
-    "name": "FUGAMAX"
+    "name": "FLOMAX® SL 212",
+    "slug": "flomax-sl-212"
    },
    {
-    "name": "COLORFUL"
-   },
-   {
-    "name": "PRATIX"
-   },
-   {
-    "name": "Y"
-   },
-   {
-    "name": "FLOMAX"
-   },
-   {
-    "name": "SL 212"
-   },
-   {
-    "name": "THERMOMAX"
-   },
-   {
-    "name": "EPS"
+    "name": "THERMOMAX® EPS",
+    "slug": "thermomax-eps"
    }
   ]
  },
@@ -541,28 +451,20 @@
     "slug": "kontakt-astar"
    },
    {
-    "name": "FUGAMAX"
+    "name": "FUGAMAX® COLORFUL",
+    "slug": "fugamax-colorful"
    },
    {
-    "name": "®"
+    "name": "FUGAMAX® COTTO",
+    "slug": "fugamax-cotto"
    },
    {
-    "name": "COLORFUL"
+    "name": "IZOMAX® C40",
+    "slug": "izomax-c-40"
    },
    {
-    "name": "COTTO"
-   },
-   {
-    "name": "IZOMAX"
-   },
-   {
-    "name": "C40"
-   },
-   {
-    "name": "THERMOMAX"
-   },
-   {
-    "name": "EPS"
+    "name": "THERMOMAX® EPS",
+    "slug": "thermomax-eps"
    }
   ]
  },
@@ -576,37 +478,28 @@
   "desc": "The Ritz-Carlton Baku Bakı şəhəri, Nəsimi rayonu, Həsən Əliyev küçəsində yerləşən, 72 mənzil və 189 ayrı otel nömrəsindən ibarət çoxmərtəbəli bina. Hündürlüyü 130 metr olan bina 33 mərtəbədən ibarətdir. Azərbaycanın 10 ən yüksək binasından biri hesab olunur.",
   "products": [
    {
-    "name": "CERAMAX"
+    "name": "CERAMAX® FLEX",
+    "slug": "ceramax-flex"
    },
    {
-    "name": "®"
+    "name": "FLOMAX® SL 212",
+    "slug": "flomax-sl-212"
    },
    {
-    "name": "FLEX"
+    "name": "FLOMAX® SL PRIMER",
+    "slug": "flomax-sl-primer"
    },
    {
-    "name": "FLOMAX"
+    "name": "BETONMIX® SP 907 K",
+    "slug": "betonmix-sp-907-k"
    },
    {
-    "name": "SL 212"
+    "name": "BETONMIX® SP 907 S",
+    "slug": "betonmix-sp-907-s"
    },
    {
-    "name": "SL PRIMER"
-   },
-   {
-    "name": "BETONMIX"
-   },
-   {
-    "name": "SP 907 K"
-   },
-   {
-    "name": "SP 907 S"
-   },
-   {
-    "name": "FUGAMAX"
-   },
-   {
-    "name": "COLORFUL"
+    "name": "FUGAMAX® COLORFUL",
+    "slug": "fugamax-colorful"
    }
   ]
  },
@@ -620,37 +513,28 @@
   "desc": "Basqal Resort & Spa İsmayıllı şəhərində yerləşən, 179 otaq və lüks nömrələrdən, üçotaqlı 4 kottec və isidilən açıq hovuzlu 1 kottecdən ibarət otel. Otelə gələn qonaqlar İsmayıllı rayonunun ərazisində çoxsaylı gəzinti, yürüş və velosiped cığırlarından yararlana bilərlər.",
   "products": [
    {
-    "name": "THERMOMAX"
+    "name": "THERMOMAX® YAPIŞDIRICI",
+    "slug": "thermomax-bond-40"
    },
    {
-    "name": "®"
+    "name": "THERMOMAX® SUVAQ",
+    "slug": "thermomax-plast-65"
    },
    {
-    "name": "YAPIŞDIRICI"
+    "name": "CERAMAX® STANDARD",
+    "slug": "ceramax-standard"
    },
    {
-    "name": "SUVAQ"
+    "name": "FUGAMAX® COLORFUL",
+    "slug": "fugamax-colorful"
    },
    {
-    "name": "CERAMAX"
+    "name": "IZOMAX® C40",
+    "slug": "izomax-c-40"
    },
    {
-    "name": "STANDARD"
-   },
-   {
-    "name": "FUGAMAX"
-   },
-   {
-    "name": "COLORFUL"
-   },
-   {
-    "name": "IZOMAX"
-   },
-   {
-    "name": "C40"
-   },
-   {
-    "name": "C70"
+    "name": "IZOMAX® C70",
+    "slug": "izomax-c70-uv"
    },
    {
     "name": "KONTAKT ASTAR",
@@ -678,19 +562,12 @@
   "desc": "Baku Marriott Hotel Azərbaycan Respublikasının paytaxtı Bakı şəhərində yerləşən beşulduzlu oteldir. Bu otel Azərbaycanın ən böyük otelidir. Oteldə 818 nömrə var. Otelin pəncərələrindən Xəzər dənizinə və Bakı bulvarına açılan mənzərəni seyr etmək mümkündür. Otaqların interyeri məşhur memarlar tərəfindən dizayn edilib.",
   "products": [
    {
-    "name": "CERAMAX"
+    "name": "CERAMAX® STANDARD WHITE",
+    "slug": "ceramax-standard-white"
    },
    {
-    "name": "®"
-   },
-   {
-    "name": "STANDARD WHITE"
-   },
-   {
-    "name": "FUGAMAX"
-   },
-   {
-    "name": "COLORFUL"
+    "name": "FUGAMAX® COLORFUL",
+    "slug": "fugamax-colorful"
    }
   ]
  },
@@ -704,34 +581,24 @@
   "desc": "Dreamland Golf Villas & Residences 330 hektar ərazidə salınmış şəhərcikdir. Buraya 66 hektarlıq golf sahəsi daxildir. Dreamland Golf Villas & Residences 234 villa və 382 mənzildən, qolf akademiyası, qolf meydançaları, qolf oteli, məktəb, supermarket, restoranlar kimi məkanlardan ibarət yüksək keyfiyyətli infrastruktura malik kiçik premium şəhərcikdir.",
   "products": [
    {
-    "name": "CERAMAX"
+    "name": "CERAMAX® STANDARD WHITE",
+    "slug": "ceramax-standard-white"
    },
    {
-    "name": "®"
+    "name": "FLOMAX® SL 212",
+    "slug": "flomax-sl-212"
    },
    {
-    "name": "STANDARD WHITE"
+    "name": "FLOMAX® SH 500",
+    "slug": "flomax-sh-500"
    },
    {
-    "name": "FLOMAX"
+    "name": "FUGAMAX® COLORFUL",
+    "slug": "fugamax-colorful"
    },
    {
-    "name": "SL 212"
-   },
-   {
-    "name": "SH 500"
-   },
-   {
-    "name": "FUGAMAX"
-   },
-   {
-    "name": "COLORFUL"
-   },
-   {
-    "name": "THERMOMAX"
-   },
-   {
-    "name": "ST 160"
+    "name": "THERMOMAX® ST 160",
+    "slug": "thermomax-rm-160"
    }
   ]
  },
@@ -745,35 +612,24 @@
   "desc": "Qalaaltı Hotel & Spa” 1978-ci ildən mövcud olan məşhur köhnə “Qalaaltı sanatoriyası”nı əvəz edən beşulduzlu sağlamlıq və kurort kompleksidir. Unikal arxitekturaya malik bu müasir kompleks 2015-ci ildə öz qapılarını açıb və texnologiyanın ən son nailiyyətləri ilə tam təchiz olunub.",
   "products": [
    {
-    "name": "CERAMAX"
+    "name": "CERAMAX® STANDARD WHITE",
+    "slug": "ceramax-standard-white"
    },
    {
-    "name": "®"
+    "name": "FUGAMAX® COLORFUL",
+    "slug": "fugamax-colorful"
    },
    {
-    "name": "STANDARD WHITE"
-   },
-   {
-    "name": "FUGAMAX"
-   },
-   {
-    "name": "COLORFUL"
-   },
-   {
-    "name": "FLOMAX"
-   },
-   {
-    "name": "SL 212"
+    "name": "FLOMAX® SL 212",
+    "slug": "flomax-sl-212"
    },
    {
     "name": "KONTAKT ASTAR",
     "slug": "kontakt-astar"
    },
    {
-    "name": "THERMOMAX"
-   },
-   {
-    "name": "ST 160"
+    "name": "THERMOMAX® ST 160",
+    "slug": "thermomax-rm-160"
    }
   ]
  },
@@ -787,19 +643,16 @@
   "desc": "Gənclik metrostansiyasının ətrafındakı Qələbə meydanı müxtəlif səviyyəli tunel tipli yol qovşağı layihəsinə 5 hərəkət zolaqlı 6 tunel tipli yol qovşağı daxildir. Tunelin ümumi uzunluğu 2512 metr, eni 8-15.5 metr, hündürlüyü 5.5 metrdir. Bu tunel 2013-cü ilin fevral ayından istismara verilib.",
   "products": [
    {
-    "name": "BETONMIX"
+    "name": "BETONMIX® HP 1211 A",
+    "slug": "betonmix-hp-1211-a"
    },
    {
-    "name": "®"
+    "name": "BETONMIX® SP 165",
+    "slug": "betonmix-sp-165"
    },
    {
-    "name": "HP 1211 A"
-   },
-   {
-    "name": "SP 165"
-   },
-   {
-    "name": "SP 278"
+    "name": "BETONMIX® SP 278",
+    "slug": "betonmix-sp-278"
    }
   ]
  },
@@ -813,13 +666,7 @@
   "desc": "Alov Qüllələri üç çoxmərtəbəli binalardan ibarət kompleksdir. Xarici görünüşü ilə bu tikinti alov dillərini xatırlatdığı üçün bu adı daşıyır. Binaların hündürlüyü 182 m-dir.",
   "products": [
    {
-    "name": "BETONMIX"
-   },
-   {
-    "name": "®"
-   },
-   {
-    "name": "HP 1106 A"
+    "name": "BETONMIX® HP 1106 A"
    }
   ]
  },
@@ -833,16 +680,11 @@
   "desc": "Azərbaycanın paytaxtı Bakı şəhərində, Heydər Əliyev prospektində inşa edilmiş araşdırma və beynəlxalq dialoq mərkəzi. Mərkəz böyük bir kompleksdən ibarət olmaqla özündə iri konqres zalı, Heydər Əliyev Muzeyi, sərgi salonları, adminstrativ ofisləri birləşdirir. Mərkəz Azərbaycanın ümumilli prezidenti Heydər Əliyevin adını daşıyır.",
   "products": [
    {
-    "name": "BETONMIX"
+    "name": "BETONMIX® HP 1106"
    },
    {
-    "name": "®"
-   },
-   {
-    "name": "HP 1106"
-   },
-   {
-    "name": "RCA"
+    "name": "BETONMIX® RCA",
+    "slug": "betonmix-rca"
    }
   ]
  },
@@ -856,19 +698,16 @@
   "desc": "Heydər Əliyev adına Beynəlxalq Hava Limanı Bakı şəhərindən 20 km şimal-şərqdə, Binə qəsəbəsində yerləşən və Qafqazda ən böyük beynəlxalq hava limanıdır.",
   "products": [
    {
-    "name": "BETONMIX"
+    "name": "BETONMIX® HP 1211 A",
+    "slug": "betonmix-hp-1211-a"
    },
    {
-    "name": "®"
+    "name": "BETONMIX® SP 165",
+    "slug": "betonmix-sp-165"
    },
    {
-    "name": "HP 1211 A"
-   },
-   {
-    "name": "SP 165"
-   },
-   {
-    "name": "SP 278"
+    "name": "BETONMIX® SP 278",
+    "slug": "betonmix-sp-278"
    }
   ]
  }
