@@ -4,6 +4,20 @@
    - Sətrə/karta toxunanda mövcud detallı pəncərə açılır */
 (function () {
   if (typeof kpSimpleV !== 'function') return;
+
+  /* Rəhbərin 12–13 noyabr qeydlərindən sonra zavod çəkilişinin təsviri (16.11.2026) */
+  try {
+    var z = KP_SHOOTS.find(function (x) { return x.id === 'zavod'; });
+    if (z) z.need = 'Tarix: 18 noyabr (çərşənbə), Sumqayıt zavodu. Bir gündə 5 video çəkilir: ' +
+      'suvaq sistemi (PRATIX HP 30 + PRATIX RM 75 setka + THERMOMAX dekorativ suvaq) → 24 noyabr; ' +
+      'usta sualları, quruma müddətləri ilə (IZOMAX Aqualastic, CERAMAX FLEX, FUGAMAX COLORFUL tətbiqi, Engin bəy kameraya danışır) → 26 noyabr; ' +
+      'yapışdırıcı test nümunələri, laboratoriya → 30 noyabr; dərz demosu → 2 dekabr; çat demosu (TAMCRETE) → 10 dekabr. ' +
+      'Əlavə: IZOMAX Aqualastic tətbiq kadrları və yekun video üçün ümumi kadrlar. ' +
+      'Rekvizit: beton–qazbeton birləşməli divar nümunəsi, PRATIX HP 30, PRATIX RM 75, THERMOMAX dekorativ suvaq, IZOMAX Aqualastic, CERAMAX FLEX, kafel nümunəsi, FUGAMAX COLORFUL, çatlı səth, TAMCRETE, laboratoriya test nümunələri. ' +
+      'Quruma gözlənilmir: hər mərhələ üçün əvvəlcədən hazırlanmış nümunələr istifadə olunur. İlk video 24 noyabr (çərşənbə axşamı) çıxır.';
+    if (KP_DEC && KP_DEC[0] && /Zavod/.test(KP_DEC[0][0])) KP_DEC[0][3] = 'Əsas fokus zavoddur. Bir gündə 5 video çəkilir, ilk video 24 noyabr (çərşənbə axşamı) çıxır. Tarix dəyişsə videolar da sürüşür.';
+  } catch (e) {}
+
   var orig = kpSimpleV;
   var MODE_KEY = 'kpBoardMode';
   var mode = 'board';
